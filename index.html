@@ -1,0 +1,154 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes"><title>Episode Forge – صانع الحلقات</title>
+<style>
+:root{--navy:#0b1630;--navy2:#13224a;--gold:#d4af37;--green:#1f8a5b;--g2:#2fbf7f;--txt:#f3ead2;--warn:#e0703a}
+*{box-sizing:border-box}body{margin:0;background:var(--navy);color:var(--txt);font-family:"Noto Naskh Arabic","Geeza Pro",Tahoma,sans-serif;padding:env(safe-area-inset-top) 10px 40px}
+h1{color:var(--gold);text-align:center;font-size:1.5em;margin:12px 0;text-shadow:2px 2px 0 #000}
+nav{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;position:sticky;top:0;background:var(--navy);padding:6px 0;z-index:5}
+nav button{flex:1 1 30%}
+button{background:var(--green);color:#fff;border:2px solid var(--gold);border-radius:6px;padding:9px 10px;font-size:15px;font-family:inherit;cursor:pointer}
+button.sec{background:var(--navy2)}button:active{transform:scale(.97)}
+section{display:none;background:var(--navy2);border:2px solid var(--gold);border-radius:8px;padding:12px;margin:10px auto;max-width:900px}section.on{display:block}
+h2{color:var(--gold);margin-top:0;font-size:1.2em}input,textarea,select{width:100%;background:#0a1226;color:var(--txt);border:1px solid var(--green);border-radius:5px;padding:8px;font-size:16px;font-family:inherit;margin:4px 0}
+textarea{min-height:70px}.row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}.row>*{flex:1}
+.ayah{border:1px solid var(--green);border-radius:6px;padding:8px;margin:8px 0;background:#0a1226}
+.ar{font-size:1.45em;line-height:2;color:#fff}.tr{direction:ltr;text-align:left;color:#b8d8c4;font-style:italic;font-size:.9em}
+.ref{color:var(--gold);font-weight:bold}.small{font-size:.85em;opacity:.85}
+table{width:100%;border-collapse:collapse;font-size:.9em}td,th{border:1px solid #2a3a66;padding:4px;text-align:center}th{color:var(--gold)}
+pre{white-space:pre-wrap;background:#0a1226;border:1px solid var(--green);padding:8px;border-radius:6px;max-height:60vh;overflow:auto;font-family:inherit;font-size:.95em}
+.warn{color:var(--warn);font-weight:bold}.ok{color:var(--g2);font-weight:bold}.ltr{direction:ltr;text-align:left}
+.lib{border-bottom:1px solid #2a3a66;padding:6px 0}
+</style></head><body>
+<h1>⚔️ Episode Forge · صانع الحلقات</h1>
+<nav><button data-t="ayat">📖 الآيات</button><button data-t="nums">🔢 الأرقام</button><button data-t="refl">✍️ التأمل</button><button data-t="gen">🎬 الحلقة</button><button data-t="uniq">🛡️ التفرّد</button><button data-t="lib">📚 المكتبة</button></nav>
+
+<section id="ayat" class="on"><h2>1. اختيار الآيات</h2>
+<div class="small">اكتب المراجع مثل: <span class="ltr">2:255, 94:5-6, 112:1-4</span> — النص العربي يُجلب فقط من api.alquran.cloud (quran-uthmani) ولا يُكتب يدويًا.</div>
+<input id="refs" class="ltr" placeholder="94:5-6, 65:2-3">
+<div class="row"><button id="fetchBtn">جلب الآيات</button><button class="sec" id="clearAyat">مسح</button></div>
+<div id="fetchMsg" class="small"></div><div id="ayatList"></div></section>
+
+<section id="nums"><h2>2. لوحة كلمات الأرقام</h2><div class="small">عدد الكلمات والحروف وقيمة الجُمَّل (الأبجد المشرقي) لكل كلمة — تُحسب من النص بعد حذف التشكيل. (ة=5، ى=10، الهمزات=1)</div>
+<div id="numsOut"></div><h2>ملاحظاتك العددية</h2><textarea id="numObs" placeholder="مثال: مجموع الآيتين = ... / تكرار كلمة العسر..."></textarea></section>
+
+<section id="refl"><h2>3. التأمل الشخصي (بالعربية)</h2>
+<label>عنوان الحلقة (اختياري)</label><input id="epTitle">
+<label>رقم الحلقة</label><input id="epNum" type="number" min="1" value="1">
+<label>الافتتاحية (Hook)</label><textarea id="hook"></textarea>
+<label>الفكرة الأولى</label><textarea id="i1"></textarea><label>الفكرة الثانية</label><textarea id="i2"></textarea><label>الفكرة الثالثة</label><textarea id="i3"></textarea>
+<label>الخلاصة العملية</label><textarea id="take"></textarea>
+<label>الوصف الإنجليزي القصير للعنوان (اختياري)</label><input id="enTheme" class="ltr" placeholder="e.g. Ease after hardship"></section>
+
+<section id="gen"><h2>4. حزمة الحلقة</h2>
+<div class="row"><button id="genBtn">⚙️ توليد الحزمة</button><button class="sec" id="saveBtn">💾 حفظ في المكتبة</button></div>
+<div class="row"><button class="sec" id="mdBtn">⬇️ .md</button><button class="sec" id="jsonBtn">⬇️ .json</button><button class="sec" id="copyAll">📋 نسخ الكل</button></div>
+<div id="stats" class="small"></div><div id="pkgOut"></div></section>
+
+<section id="uniq"><h2>5. فحص التفرّد</h2><div class="small">يقارن الحلقة الحالية بالحلقات المحفوظة: تكرار الآيات، كلمات العنوان، وتشابه النص (Jaccard).</div>
+<button id="uniqBtn">فحص</button><div id="uniqOut"></div></section>
+
+<section id="lib"><h2>6. مكتبة الحلقات</h2><div class="row"><button class="sec" id="expLib">⬇️ تصدير المكتبة</button><label class="sec" style="flex:1"><input type="file" id="impLib" accept=".json"></label></div><div id="libOut"></div></section>
+
+<script>
+const $=id=>document.getElementById(id);
+const LS={get:(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set:(k,v)=>localStorage.setItem(k,JSON.stringify(v))};
+let ayat=LS.get('ef_current_ayat',[]);let pkg=null;
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('section').forEach(s=>s.classList.remove('on'));$(b.dataset.t).classList.add('on');if(b.dataset.t==='lib')renderLib();if(b.dataset.t==='nums')renderNums();});
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function parseRefs(s){const out=[];s.split(/[,\s،]+/).filter(Boolean).forEach(p=>{const m=p.match(/^(\d{1,3}):(\d{1,3})(?:-(\d{1,3}))?$/);if(!m)return;const su=+m[1],a=+m[2],b=m[3]?+m[3]:a;if(su<1||su>114)return;for(let i=a;i<=Math.min(b,a+60);i++)out.push(su+':'+i)});return [...new Set(out)];}
+async function fetchAyah(ref){const cache=LS.get('ef_cache',{});if(cache[ref])return cache[ref];
+ const r=await fetch('https://api.alquran.cloud/v1/ayah/'+ref+'/editions/quran-uthmani,en.transliteration');const j=await r.json();
+ if(j.code!==200||!Array.isArray(j.data))throw new Error(ref+': '+(j.data||'not found'));
+ const ar=j.data.find(e=>e.edition.identifier==='quran-uthmani'),tr=j.data.find(e=>e.edition.identifier==='en.transliteration');
+ const o={ref,surah:ar.surah.number,ayah:ar.numberInSurah,surahName:ar.surah.name,surahEn:ar.surah.englishName,global:ar.number,juz:ar.juz,page:ar.page,ar:ar.text,tr:tr?tr.text:''};
+ cache[ref]=o;LS.set('ef_cache',cache);return o;}
+$('fetchBtn').onclick=async()=>{const refs=parseRefs($('refs').value);if(!refs.length){$('fetchMsg').textContent='صيغة غير صحيحة';return}
+ $('fetchMsg').textContent='جارٍ الجلب...';const errs=[];for(const r of refs){if(ayat.some(a=>a.ref===r))continue;try{ayat.push(await fetchAyah(r))}catch(e){errs.push(e.message)}}
+ ayat.sort((a,b)=>a.global-b.global);LS.set('ef_current_ayat',ayat);$('fetchMsg').innerHTML=errs.length?'<span class="warn">أخطاء: '+esc(errs.join(' | '))+'</span>':'<span class="ok">تم ✓ ('+ayat.length+' آية)</span>';renderAyat();};
+$('clearAyat').onclick=()=>{ayat=[];LS.set('ef_current_ayat',ayat);renderAyat()};
+function renderAyat(){$('ayatList').innerHTML=ayat.map((a,i)=>`<div class="ayah"><div class="ref">${esc(a.surahName)} ${a.surah}:${a.ayah} <span class="small">(جزء ${a.juz}، صفحة ${a.page})</span> <button class="sec" onclick="rmA(${i})">✕</button></div><div class="ar">${esc(a.ar)}</div><div class="tr">${esc(a.tr)}</div></div>`).join('')}
+window.rmA=i=>{ayat.splice(i,1);LS.set('ef_current_ayat',ayat);renderAyat()};
+// Abjad
+const ABJ={'ا':1,'أ':1,'إ':1,'آ':1,'ٱ':1,'ء':1,'ب':2,'ج':3,'د':4,'ه':5,'ة':5,'و':6,'ؤ':6,'ز':7,'ح':8,'ط':9,'ي':10,'ى':10,'ئ':10,'ك':20,'ل':30,'م':40,'ن':50,'س':60,'ع':70,'ف':80,'ص':90,'ق':100,'ر':200,'ش':300,'ت':400,'ث':500,'خ':600,'ذ':700,'ض':800,'ظ':900,'غ':1000};
+const strip=s=>s.replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g,'');
+function analyze(a){const words=strip(a.ar).split(/\s+/).filter(w=>[...w].some(c=>ABJ[c]));
+ const ws=words.map(w=>{const L=[...w].filter(c=>ABJ[c]);return{w,letters:L.length,abjad:L.reduce((s,c)=>s+ABJ[c],0)}});
+ const total=ws.reduce((s,x)=>s+x.abjad,0),letters=ws.reduce((s,x)=>s+x.letters,0);
+ const pat=[];const n=a.ayah;if(n%7===0)pat.push('رقم الآية من مضاعفات 7');if(n%19===0)pat.push('رقم الآية من مضاعفات 19');
+ if(isPrime(n))pat.push('رقم الآية عدد أولي');if(a.surah===n)pat.push('رقم الآية = رقم السورة');if(ws.length===n)pat.push('عدد الكلمات = رقم الآية');
+ if(total%19===0)pat.push('مجموع الجُمَّل يقبل القسمة على 19');if(total%7===0)pat.push('مجموع الجُمَّل يقبل القسمة على 7');
+ pat.push('الرقم الكلي في المصحف: '+a.global+'، مجموع (سورة+آية) = '+(a.surah+n));
+ return{ref:a.ref,words:ws.length,letters,total,ws,pat};}
+function isPrime(n){if(n<2)return false;for(let i=2;i*i<=n;i++)if(n%i===0)return false;return true}
+function renderNums(){if(!ayat.length){$('numsOut').innerHTML='<p>اجلب الآيات أولًا.</p>';return}
+ const an=ayat.map(analyze);let gw=0,gl=0,gt=0;
+ $('numsOut').innerHTML=an.map(x=>{gw+=x.words;gl+=x.letters;gt+=x.total;return `<div class="ayah"><div class="ref">${x.ref} — كلمات: ${x.words} · حروف: ${x.letters} · الجُمَّل: ${x.total}</div><table><tr><th>#</th><th>الكلمة</th><th>حروف</th><th>الجُمَّل</th></tr>${x.ws.map((w,i)=>`<tr><td>${i+1}</td><td>${esc(w.w)}</td><td>${w.letters}</td><td>${w.abjad}</td></tr>`).join('')}</table><ul>${x.pat.map(p=>'<li>'+esc(p)+'</li>').join('')}</ul></div>`}).join('')+`<p class="ref">المجموع: ${gw} كلمة · ${gl} حرفًا · الجُمَّل ${gt}</p>`;}
+// reflection persistence
+const FIELDS=['epTitle','epNum','hook','i1','i2','i3','take','enTheme','numObs'];
+const saved=LS.get('ef_fields',{});FIELDS.forEach(f=>{if(saved[f]!=null)$(f).value=saved[f];$(f).addEventListener('input',()=>{const o={};FIELDS.forEach(k=>o[k]=$(k).value);LS.set('ef_fields',o)})});
+function V(f){return $(f).value.trim()}
+const PIX='16-bit pixel art, dark dungeon, navy and gold palette, torch lighting';
+const SCENES=['A lone hooded adventurer silhouette entering a torch-lit dungeon gate','An ancient stone door engraved with golden geometric patterns slowly opening','A glowing quest scroll unrolling on a wooden table beside a candle','A pixel map revealing a winding path through dark caverns','Torches igniting one by one along a long corridor','A treasure chest emitting soft golden light','A crystal orb showing swirling stars','A quiet campfire under a dungeon skylight with falling dust','Stone tablets with glowing abstract golden runes (no text)','A heavy boulder blocking a tunnel, small light shining through a crack','The boulder crumbling as light floods in','A spiral staircase climbing toward a bright opening','An hourglass with golden sand on a pedestal','A rope bridge over a dark chasm, lanterns swaying','A garden of glowing plants growing inside a cave','Rain dripping into a stone basin, ripples of light','A locked gate with a golden key floating before it','An inventory screen with potion, key, and lantern icons','A boss shadow looming, then shrinking as a lantern brightens','A quiet library hall with endless shelves and floating dust motes','Water flowing through carved channels in a hidden sanctuary','Night sky seen through a cave mouth, crescent moon','A desert oasis at dawn beyond the dungeon exit','A level-up burst of golden particles around the silhouette','A save-point crystal pulsing gently','Footprints in sand leading out of the dungeon','Mountains at sunrise with soft pixel clouds','A star-filled sky with a single bright star','The adventurer silhouette resting under a palm tree','An open journal with a quill (no readable text)','A golden door closing softly, quest complete','Dungeon entrance at dusk, torches dimming, end card space'];
+function narrSegs(){const s=[];const h=V('hook'),t=V('take');if(h)s.push(h);[V('i1'),V('i2'),V('i3')].forEach(x=>x&&s.push(x));if(t)s.push(t);return s}
+function generate(){if(!ayat.length){alert('اجلب الآيات أولًا');return null}
+ const refs=ayat.map(a=>a.ref),an=ayat.map(analyze),num=V('epNum')||'1';const sName=ayat[0].surahName;
+ const titleAr=V('epTitle')||('سجل المغامر '+num+': كنز '+sName+' '+refs[0]);
+ const L=[];L.push('# '+titleAr,'');
+ L.push('## السيناريو العربي','','### [00:00] الافتتاحية','[RPG: شاشة "مهمة جديدة" — Quest #'+num+']');
+ L.push('«'+(V('hook')||'[اكتب الافتتاحية]')+'»','');
+ L.push('### الآيات','');
+ ayat.forEach((a,i)=>{L.push('[تلاوة مجوّدة '+a.ref+']','[RPG: بطاقة ذهبية — '+a.surahName+' '+a.ref+']','> '+a.ar,'');
+  const x=an[i];L.push('«في هذه الآية '+x.words+' كلمة و'+x.letters+' حرفًا، ومجموع حساب الجُمَّل فيها '+x.total+'.»','');});
+ const ins=[V('i1'),V('i2'),V('i3')];ins.forEach((t,i)=>{L.push('### الفكرة '+(i+1),'[RPG: Insight unlocked '+(i+1)+'/3]','«'+(t||'[اكتب الفكرة]')+'»','')});
+ if(V('numObs'))L.push('### ملاحظات عددية','[RPG: لوحة الأرقام]','«'+V('numObs')+'»','');
+ L.push('### الخلاصة','[RPG: Level Up! +XP]','«'+(V('take')||'[اكتب الخلاصة]')+'»','','[تلاوة مجوّدة '+refs[refs.length-1]+']','«اكتب في التعليقات: ما الكنز الذي وجدته في هذه الآية؟»','[RPG: Quest Complete — شاشة النهاية]','');
+ const script=L.join('\n');
+ const narr=(script.match(/«[^»]*»/g)||[]).map(s=>s.slice(1,-1)).join(' ');
+ const chars=narr.length;const words=narr.split(/\s+/).filter(Boolean).length;const narrSec=Math.round(words/120*60);
+ const recSec=ayat.length*2*12;const totalSec=narrSec+recSec;
+ const nScenes=Math.max(25,Math.min(35,Math.round(totalSec/8)));
+ const scenes=[];for(let i=0;i<nScenes;i++){let p=SCENES[i%SCENES.length];if(i>=SCENES.length)p+=', alternate angle';scenes.push((i+1)+'. '+p+', '+PIX)}
+ ayat.forEach(a=>scenes.push('★ ['+a.ref+'] Recitation card: dark navy stone panel with gold frame, empty center for Arabic text overlay, '+PIX));
+ const rpg=['Quest #'+num+' start banner','HP/XP bar shows "Sabr" & "Shukr" stats','Gold verse card for each ayah ('+refs.join(', ')+')','Number Words stat panel: words/letters/abjad','Insight unlocked 1/3, 2/3, 3/3 pop-ups','Level Up burst at takeaway','Quest Complete + subscribe as "Join the Guild"'];
+ const en=V('enTheme')||('Hidden treasure in '+ayat[0].surahEn+' '+refs[0]);
+ const titles=[titleAr,'كنز مخفي في '+sName+' | سجل المغامر '+num,'أرقام '+refs[0]+' التي لم تلاحظها','Adventurer\'s Log #'+num+': '+en,en+' | Quran Pixel Reflection'];
+ let t=0;const ch=[['0:00','الافتتاحية | Hook']];t+=25;ch.push([fmt(t),'الآيات | The Ayat']);t+=recSec+ayat.length*8;['الفكرة 1','الفكرة 2','الفكرة 3'].forEach(c=>{ch.push([fmt(t),c]);t+=Math.max(30,Math.round((narrSec-40)/3))});ch.push([fmt(t),'الخلاصة | Takeaway']);
+ const desc=[titleAr,'',en,'','الآيات: '+refs.join(' ، '),'','📍 الفصول:',...ch.map(c=>c[0]+' '+c[1]),'','📚 التفسير: [ابن كثير — '+refs.join(', ')+'] / [السعدي — تيسير الكريم الرحمن] (أضف الصفحة/الرابط)','هذا تدبّر شخصي وليس فتوى.','🎙️ التلاوة: الشيخ مشاري راشد العفاسي','#تدبر #القرآن #PixelArt'].join('\n');
+ const tags=['تدبر','القرآن الكريم','سجل المغامر',sName,'حساب الجمل','أرقام القرآن','Quran reflection','pixel art','Adventurer\'s Log','Alafasy','العفاسي',...refs.map(r=>'Quran '+r)];
+ const hashtags=['#تدبر','#القرآن','#PixelArt'];
+ const shorts=['🔢 '+refs[0]+' بالأرقام: '+an[0].words+' كلمة، الجُمَّل '+an[0].total+' — لوحة الأرقام + تلاوة الآية (30–45ث)','💡 الفكرة الأقوى: "'+(V('i1')||'الفكرة 1').slice(0,60)+'…" مع مشهد الصخرة والنور (40ث)','⚔️ Boss battle: المشكلة ← الآية ← الخلاصة "'+(V('take')||'').slice(0,50)+'" (50ث)'];
+ pkg={id:Date.now(),date:new Date().toISOString(),num,titleAr,refs,ayat,fields:Object.fromEntries(FIELDS.map(f=>[f,V(f)])),numbers:an.map(x=>({ref:x.ref,words:x.words,letters:x.letters,abjad:x.total,patterns:x.pat})),script,scenes,rpg,titles,description:desc,tags,hashtags,shorts,stats:{narrationChars:chars,narrationWords:words,narrationSec:narrSec,recitationSecEst:recSec,totalSec}};
+ renderPkg();return pkg;}
+function fmt(s){return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')}
+function toMd(p){return [p.script,'## مشاهد B-roll ('+p.scenes.length+')',...p.scenes,'','## إشارات RPG',...p.rpg.map(x=>'- '+x),'','## العناوين',...p.titles.map(x=>'- '+x),'','## الوصف','```',p.description,'```','','## الوسوم',p.tags.join(', '),'','## الهاشتاغات',p.hashtags.join(' '),'','## أفكار Shorts',...p.shorts.map(x=>'- '+x),'','## الأرقام',...p.numbers.map(n=>'- '+n.ref+': '+n.words+' كلمة، '+n.letters+' حرفًا، الجُمَّل '+n.abjad),'','## إحصاءات','- حروف السرد (لـ ElevenLabs): '+p.stats.narrationChars,'- مدة السرد التقديرية: '+fmt(p.stats.narrationSec),'- المدة الكلية التقديرية مع التلاوة: '+fmt(p.stats.totalSec)].join('\n')}
+const blk=(t,b,id)=>`<h2>${t} <button class="sec" onclick="cp('${id}')">📋</button></h2><pre id="${id}">${esc(b)}</pre>`;
+function renderPkg(){const p=pkg;$('stats').innerHTML=`حروف السرد: <b>${p.stats.narrationChars}</b> · السرد ≈ ${fmt(p.stats.narrationSec)} · مع التلاوة ≈ <b>${fmt(p.stats.totalSec)}</b>`;
+ $('pkgOut').innerHTML=blk('السيناريو',p.script,'o1')+blk('مشاهد B-roll',p.scenes.join('\n'),'o2')+blk('إشارات RPG',p.rpg.join('\n'),'o3')+blk('العناوين',p.titles.join('\n'),'o4')+blk('الوصف',p.description,'o5')+blk('الوسوم',p.tags.join(', ')+'\n'+p.hashtags.join(' '),'o6')+blk('Shorts',p.shorts.join('\n'),'o7');}
+window.cp=id=>copy($(id).textContent);
+function copy(t){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).catch(()=>{const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove()});}
+function dl(name,txt,type){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type}));a.download=name;document.body.appendChild(a);a.click();a.remove();}
+$('genBtn').onclick=generate;
+$('mdBtn').onclick=()=>{if(pkg||generate())dl('episode-'+pkg.num+'.md',toMd(pkg),'text/markdown')};
+$('jsonBtn').onclick=()=>{if(pkg||generate())dl('episode-'+pkg.num+'.json',JSON.stringify(pkg,null,2),'application/json')};
+$('copyAll').onclick=()=>{if(pkg||generate())copy(toMd(pkg))};
+$('saveBtn').onclick=()=>{if(!(pkg||generate()))return;const lib=LS.get('ef_library',[]);lib.push(pkg);LS.set('ef_library',lib);alert('تم الحفظ ✓');};
+// uniqueness
+const wset=s=>new Set(strip(s||'').toLowerCase().replace(/[^\p{L}\p{N}\s]/gu,' ').split(/\s+/).filter(w=>w.length>2));
+function jac(a,b){if(!a.size&&!b.size)return 0;let i=0;a.forEach(x=>b.has(x)&&i++);return i/(a.size+b.size-i)}
+function checkUniq(p){const lib=LS.get('ef_library',[]).filter(e=>e.id!==p.id);const out=[];
+ const sc=wset(narrSegs().join(' ')),tw=wset(p.titleAr+' '+p.titles[3]);
+ lib.forEach(e=>{const ov=p.refs.filter(r=>e.refs.includes(r));const aj=ov.length/Math.max(1,new Set([...p.refs,...e.refs]).size);
+  const ej=jac(sc,wset([e.fields.hook,e.fields.i1,e.fields.i2,e.fields.i3,e.fields.take].join(' ')));const tj=jac(tw,wset(e.titleAr+' '+(e.titles||[])[3]));
+  out.push({e,ov,aj,ej,tj,bad:aj>=.5||ej>=.35||tj>=.5});});return out;}
+$('uniqBtn').onclick=()=>{if(!(pkg||generate()))return;const r=checkUniq(pkg);if(!r.length){$('uniqOut').innerHTML='<p class="ok">لا توجد حلقات سابقة للمقارنة.</p>';return}
+ const bad=r.filter(x=>x.bad);$('uniqOut').innerHTML=(bad.length?`<p class="warn">⚠️ ${bad.length} حلقة متشابهة جدًا — غيّر الآيات أو التأمل أو العنوان.</p>`:'<p class="ok">✓ الحلقة متفرّدة بما يكفي.</p>')+
+ '<table><tr><th>الحلقة</th><th>آيات مشتركة</th><th>تشابه النص</th><th>تشابه العنوان</th></tr>'+r.map(x=>`<tr class="${x.bad?'warn':''}"><td>${esc(x.e.titleAr)}</td><td>${x.ov.join(', ')||'—'} (${Math.round(x.aj*100)}%)</td><td>${Math.round(x.ej*100)}%</td><td>${Math.round(x.tj*100)}%</td></tr>`).join('')+'</table><p class="small">الحدود: آيات ≥50%، نص ≥35%، عنوان ≥50%.</p>';};
+// library
+function renderLib(){const lib=LS.get('ef_library',[]);$('libOut').innerHTML=lib.length?lib.slice().reverse().map(e=>`<div class="lib"><b>#${esc(e.num)} ${esc(e.titleAr)}</b><div class="small">${e.refs.join(', ')} · ${e.date.slice(0,10)} · ${fmt(e.stats.totalSec)}</div><button class="sec" onclick="loadEp(${e.id})">فتح</button> <button class="sec" onclick="mdEp(${e.id})">.md</button> <button class="sec" onclick="delEp(${e.id})">حذف</button></div>`).join(''):'<p>لا توجد حلقات بعد.</p>'}
+const findEp=id=>LS.get('ef_library',[]).find(e=>e.id===id);
+window.loadEp=id=>{const e=findEp(id);ayat=e.ayat;LS.set('ef_current_ayat',ayat);FIELDS.forEach(f=>$(f).value=e.fields[f]||'');pkg=e;renderAyat();renderPkg();document.querySelector('[data-t=gen]').click()};
+window.mdEp=id=>{const e=findEp(id);dl('episode-'+e.num+'.md',toMd(e),'text/markdown')};
+window.delEp=id=>{if(!confirm('حذف؟'))return;LS.set('ef_library',LS.get('ef_library',[]).filter(e=>e.id!==id));renderLib()};
+$('expLib').onclick=()=>dl('episode-library.json',JSON.stringify(LS.get('ef_library',[]),null,2),'application/json');
+$('impLib').onchange=ev=>{const f=ev.target.files[0];if(!f)return;f.text().then(t=>{const arr=JSON.parse(t);const lib=LS.get('ef_library',[]);arr.forEach(e=>{if(!lib.some(x=>x.id===e.id))lib.push(e)});LS.set('ef_library',lib);renderLib()})};
+renderAyat();
+</script></body></html>
