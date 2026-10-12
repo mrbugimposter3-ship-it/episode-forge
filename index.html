@@ -20,8 +20,10 @@ pre{white-space:pre-wrap;background:#0a1226;border:1px solid var(--green);paddin
 .steps{display:flex;gap:3px;margin:6px 0}.steps span{flex:1;text-align:center;padding:5px 0;border-radius:4px;background:#0a1226;font-size:.8em}.steps span.on{background:var(--gold);color:#000;font-weight:bold}
 .step{display:none}.step.on{display:block}.navbtns{display:flex;gap:8px;margin-top:10px}.navbtns button{flex:1}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px}
+.ur{display:block;font-family:"Noto Nastaliq Urdu","Jameel Noori Nastaleeq","Urdu Typesetting","Alvi Nastaleeq",serif;font-size:.78em;line-height:1.9;color:#e9d9a6;font-weight:normal;direction:rtl}
+button .ur{color:#fff;opacity:.9}body.noUr .ur{display:none}#urBtn{position:absolute;top:8px;left:10px;font-size:13px;padding:5px 8px}
 </style></head><body>
-<h1>⚔️ Episode Forge · صانع الحلقات</h1>
+<button class="sec" id="urBtn">اردو</button><h1>⚔️ Episode Forge · صانع الحلقات</h1>
 <nav><button data-t="wiz">🧙 المعالج</button><button data-t="gen">🎬 الحلقة</button><button data-t="lib">📚 المكتبة</button><button data-t="help">❓ الطريقة</button><button data-t="ayat" class="sec">📖 آيات يدوية</button><button data-t="nums" class="sec">🔢 الأرقام</button><button data-t="refl" class="sec">✍️ نص حر</button><button data-t="uniq" class="sec">🛡️ التفرّد</button></nav>
 
 <section id="wiz" class="on">
@@ -155,7 +157,7 @@ function chosenText(k){const si=SLOTS.findIndex(s=>s[0]===k),op=options(SLOTS[si
 // ---- themes ----
 const THEMES=[{n:'🏰 زنزانة المشاعل',p:'torch-lit stone dungeon halls'},{n:'🏜️ صحراء النجوم',p:'desert dunes under a starry sky, ancient ruins'},{n:'🌊 كهف الينابيع',p:'underground spring cave with glowing water'},{n:'⛰️ قلعة الجبل',p:'mountain fortress with snowy peaks'},{n:'🌙 واحة الليل',p:'night oasis with crescent moon and palms'},{n:'📚 المكتبة القديمة',p:'ancient endless library with floating dust'}];
 const QUESTS=[{n:'🗝️ مهمة الكنز',c:'Treasure quest: map → chest unlock → loot = insight'},{n:'⚔️ معركة الزعيم',c:'Boss battle: shadow boss = inner struggle, ayah = power-up'},{n:'🧭 مهمة الاستكشاف',c:'Exploration: fog-of-war map reveals with each insight'},{n:'🛡️ مهمة الصبر',c:'Endurance quest: HP bar of "Sabr" refills through the episode'},{n:'🔮 مهمة الألغاز',c:'Puzzle quest: number panel solves a rune door'}];
-const RECS={custom:{n:'تسجيل مرخّص من اختياري (أدخل النسب)',c:'التلاوة: [اسم القارئ / المصدر] — مستخدمة وفق ترخيص يسمح بإعادة الاستخدام وتحقيق الدخل [رابط الترخيص]'},none:{n:'بلا تلاوة (عرض النص فقط)',c:'لا توجد تلاوة صوتية في هذه الحلقة؛ النص القرآني معروض على الشاشة.'}};
+const RECS={custom:{n:'تسجيل مرخّص من اختياري (أدخل النسب)',c:'التلاوة: [اسم القارئ / المصدر] — مستخدمة وفق ترخيص يسمح بإعادة الاستخدام وتحقيق الدخل [رابط الترخيص]'},zainal:{n:'H. Muammar Zainal Asyikin — archive.org (موسوم CC0 من الرافع)',c:'التلاوة: H. Muammar Zainal Asyikin — archive.org، موسومة CC0 (Public Domain) من قِبل الرافع [رابط صفحة archive.org] — تحقّق من الترخيص قبل النشر'},none:{n:'بلا تلاوة (عرض النص فقط)',c:'لا توجد تلاوة صوتية في هذه الحلقة؛ النص القرآني معروض على الشاشة.'}};
 function renderTheme(){$('themeList').innerHTML=THEMES.map((t,i)=>`<div class="card ${W.theme===i?'sel':''}" onclick="W.theme=${i};saveW();renderTheme()">${t.n}</div>`).join('');
  $('questList').innerHTML=QUESTS.map((t,i)=>`<div class="card ${W.quest===i?'sel':''}" onclick="W.quest=${i};saveW();renderTheme()">${t.n}</div>`).join('');
  $('recSrc').innerHTML=Object.entries(RECS).map(([k,v])=>`<option value="${k}" ${W.rec===k?'selected':''}>${v.n}</option>`).join('');
@@ -237,4 +239,13 @@ window.delEp=id=>{if(!confirm('حذف؟'))return;LS.set('ef_library',LS.get('ef_
 $('expLib').onclick=()=>dl('episode-library.json',JSON.stringify(LS.get('ef_library',[]),null,2),'application/json');
 $('impLib').onchange=ev=>{const f=ev.target.files[0];if(!f)return;f.text().then(t=>{const arr=JSON.parse(t),lib=LS.get('ef_library',[]);arr.forEach(e=>{if(!lib.some(x=>x.id===e.id))lib.push(e)});LS.set('ef_library',lib);renderLib()})};
 renderAyat();showStep();
+
+// ---- Urdu labels ----
+const UR={'دستی':0,'آيات يدوية':'دستی آیات','الافتتاحية':'آغاز','التالي':'اگلا','السابق':'پچھلا','الخطوة 1 اختر من سجلك':'مرحلہ 1: اپنے ریکارڈ سے آیات چنیں','الخطوة 2 اختر ملاحظات الأرقام':'مرحلہ 2: اعداد کے نکات چنیں','الخطوة 3 اختر الكلمات':'مرحلہ 3: الفاظ چنیں','الخطوة 4 الطابع البصري ونوع المهمة':'مرحلہ 4: بصری انداز اور مہم کی قسم','الخطوة 5 توليد':'مرحلہ 5: قسط تیار کریں','الخلاصة':'خلاصہ','الطابع البصري':'بصری انداز','العنوان':'عنوان','الفكرة 1':'پہلا نکتہ','الفكرة 2':'دوسرا نکتہ','الفكرة 3':'تیسرا نکتہ','جلب':'آیات لائیں','حذف':'حذف کریں','حزمة الحلقة':'قسط کا مکمل پیکج','رقم الحلقة':'قسط نمبر','سطر النسب يظهر في الوصف':'حوالے کی سطر (تفصیل میں دکھائی دے گی)','عنوان إنجليزي قصير':'مختصر انگریزی عنوان','فتح':'کھولیں','فحص':'جانچیں','فحص التفرد':'انفرادیت کی جانچ','كيف يعمل':'یہ کیسے کام کرتا ہے؟','لوحة كلمات الأرقام':'اعداد اور الفاظ کا پینل','مسح':'صاف کریں','مصدر التلاوة':'تلاوت کا ماخذ','مكتبة الحلقات':'اقساط کی لائبریری','ملاحظاتك العددية الإضافية':'آپ کے مزید عددی نکات','نص حر يتجاوز اختيارات المعالج إن ملئ':'آزاد متن (بھرنے پر رہنما کے انتخاب کی جگہ لے گا)','نوع المهمة':'مہم کی قسم','ولد الحلقة':'قسط تیار کریں','إعادة التوليد':'دوبارہ تیار کریں','نص حر':'آزاد متن','مثال جاهز':'تیار مثال','الطريقة':'طریقہ','.json':'JSON ڈاؤن لوڈ کریں','.md':'MD ڈاؤن لوڈ کریں','تصدير المكتبة':'لائبریری ایکسپورٹ کریں','الحلقة':'قسط','اختيار عشوائي':'بے ترتیب انتخاب','حفظ في المكتبة':'لائبریری میں محفوظ کریں','نسخ الكل':'سب کاپی کریں','المكتبة':'لائبریری','خلط كل الخيارات':'تمام انتخاب بدلیں','خلط وإعادة التوليد':'بدل کر دوبارہ تیار کریں','الأرقام':'اعداد','التفرد':'انفرادیت','المعالج':'رہنما','1 الآيات':'آیات','2 الأرقام':'اعداد','3 الكلمات':'الفاظ','4 الطابع':'انداز','5 توليد':'تیار کریں','Shorts':'شارٹس','إشارات RPG':'آر پی جی اشارے','السيناريو':'اسکرپٹ','العناوين':'عنوانات','الوسوم':'ٹیگز','الوصف':'تفصیل','مشاهد Broll':'بی رول مناظر','اردو':'اردو لیبل'};
+const urKey=el=>[...el.childNodes].filter(n=>n.nodeType===3).map(n=>n.textContent).join(' ').replace(/[^\p{L}\p{N}\s.]/gu,'').replace(/\s+/g,' ').trim();
+let urBusy=false;function applyUr(){if(urBusy)return;urBusy=true;document.querySelectorAll('button,h2,h3,label,.steps>span').forEach(el=>{if(el.querySelector(':scope>.ur'))return;const u=UR[urKey(el)];if(u){const sp=document.createElement('span');sp.className='ur';sp.lang='ur';sp.textContent=u;el.appendChild(sp)}});urBusy=false}
+function setUr(on){document.body.classList.toggle('noUr',!on);LS.set('ef_urdu',on);$('urBtn').firstChild.textContent=on?'اردو ✓':'اردو ✗'}
+$('urBtn').onclick=()=>setUr(document.body.classList.contains('noUr'));
+new MutationObserver(()=>applyUr()).observe(document.body,{childList:true,subtree:true});
+applyUr();setUr(LS.get('ef_urdu',true));
 </script></body></html>
