@@ -1,0 +1,1163 @@
+{
+  "schema": "episode-forge/daily-package@1",
+  "generatedAt": "2026-10-13T18:56:22.701Z",
+  "date": "2026-10-13",
+  "episodeNumber": 1,
+  "language": "ar",
+  "title": {
+    "ar": "47 كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ",
+    "options": [
+      "47 كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ",
+      "7923 = 19 × 417 | سرّ 5:42",
+      "سجل المغامر 1: سرّ سُورَةُ المَائـِدَةِ 5:42",
+      "كنز 5:42 | سجل المغامر 1",
+      "[EN metadata] Adventurer's Log #1: Hidden number in Al-Maaida 5:42",
+      "[EN metadata] Hidden number in Al-Maaida 5:42 | Quran Pixel Reflection"
+    ]
+  },
+  "recitation": {
+    "source": "custom",
+    "credit": "التلاوة: [اسم القارئ / المصدر] — مستخدمة وفق ترخيص يسمح بإعادة الاستخدام وتحقيق الدخل [رابط الترخيص]",
+    "secondsPerAyahEst": 12
+  },
+  "timeAnchor": {
+    "iso": "2026-10-13T18:54:29.000Z",
+    "etTime": "2:54 PM ET",
+    "window": "Dhuhr → Asr",
+    "windowAr": "بين الظهر والعصر",
+    "windowProgress": 0.8027,
+    "dayProgress": 0.3605,
+    "salahScroll": "10:76",
+    "crawlerQuranTab": {
+      "floor": 2,
+      "ref": "18:25",
+      "hourProgress": 0.9081
+    },
+    "used": "10:76",
+    "prayerHours": [
+      5,
+      12.5,
+      15.5,
+      18.5,
+      20
+    ],
+    "hookAr": "في الساعة 2:54 ظهرًا بتوقيت نيويورك بين الظهر والعصر، كان تمرير القرآن عند سورة يونس الآية 76."
+  },
+  "ayat": [
+    {
+      "ref": "5:42",
+      "surah": 5,
+      "ayah": 42,
+      "global": 711,
+      "juz": 6,
+      "page": 115,
+      "arabic": "سَمَّٰعُونَ لِلْكَذِبِ أَكَّٰلُونَ لِلسُّحْتِ ۚ فَإِن جَآءُوكَ فَٱحْكُم بَيْنَهُمْ أَوْ أَعْرِضْ عَنْهُمْ ۖ وَإِن تُعْرِضْ عَنْهُمْ فَلَن يَضُرُّوكَ شَيْـًۭٔا ۖ وَإِنْ حَكَمْتَ فَٱحْكُم بَيْنَهُم بِٱلْقِسْطِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
+      "transliteration": "Sammaa'oona lilkazibi akkaaloona lissuht; fa in jaaa'ooka fahkum bainahum aw a'rid anhum wa in tu'rid 'anhum falany-yadurrooka shai'anw wa in hakamta fahkum bainahum bilqist; innal laaha yuhibbul muqsiteen",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "6:26",
+      "surah": 6,
+      "ayah": 26,
+      "global": 815,
+      "juz": 7,
+      "page": 130,
+      "arabic": "وَهُمْ يَنْهَوْنَ عَنْهُ وَيَنْـَٔوْنَ عَنْهُ ۖ وَإِن يُهْلِكُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
+      "transliteration": "Wa hum yanhawna 'anhu wa yan'awna 'anhu wa iny yuhlikoona illaa anfusahum wa maa yash'uroon",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "10:76",
+      "surah": 10,
+      "ayah": 76,
+      "global": 1440,
+      "juz": 11,
+      "page": 217,
+      "arabic": "فَلَمَّا جَآءَهُمُ ٱلْحَقُّ مِنْ عِندِنَا قَالُوٓا۟ إِنَّ هَٰذَا لَسِحْرٌۭ مُّبِينٌۭ",
+      "transliteration": "Falammaa jaaa'ahumul haqqu min 'indinaa qaalooo inna haazaa lasihrum mubeen",
+      "source": "api.alquran.cloud quran-uthmani"
+    }
+  ],
+  "sections": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "title": "الافتتاحية (0–10ث)",
+      "startSec": 0,
+      "durationSec": 9,
+      "narration": "رقم واحد في 5:42 جعلني أتوقف: 7923 = 19 × 417. هل هذا مجرد رقم… أم دعوة للتأمل؟",
+      "recitation": [],
+      "showAyat": [],
+      "cues": [
+        "[RPG: شاشة سوداء ← رقم ذهبي يظهر حرفًا حرفًا]",
+        "[SFX: نبضة]"
+      ]
+    },
+    {
+      "id": "intro",
+      "type": "intro",
+      "title": "المهمة",
+      "startSec": 9,
+      "durationSec": 26,
+      "narration": "في الساعة 2:54 ظهرًا بتوقيت نيويورك بين الظهر والعصر، كان تمرير القرآن عند سورة يونس الآية 76. في سجلّي اليومي توقفت عند 5:42 و6:26 و10:76... ولم أستطع أن أكمل قبل أن أفهم لماذا شدّتني. لكن قبل أن أخبرك بما وجدته في هذا الرقم، دعنا نبدأ المهمة من أولها… والسرّ في آخر الحلقة.",
+      "recitation": [],
+      "showAyat": [],
+      "cues": [
+        "[RPG: 🔮 مهمة الألغاز — المهمة رقم 1]",
+        "[OPEN LOOP: صندوق كنز مقفل في زاوية الشاشة حتى النهاية]"
+      ]
+    },
+    {
+      "id": "ayat",
+      "type": "chapter",
+      "title": "الفصل 1: الآيات",
+      "startSec": 35,
+      "durationSec": 86,
+      "narration": "في 5:42: 26 كلمات، و110 حرفًا، ومجموع الجُمَّل 7923. في 6:26: 11 كلمات، و46 حرفًا، ومجموع الجُمَّل 1673. في 10:76: 10 كلمات، و38 حرفًا، ومجموع الجُمَّل 1900.",
+      "recitation": [
+        "5:42",
+        "6:26",
+        "10:76"
+      ],
+      "showAyat": [
+        "5:42",
+        "6:26",
+        "10:76"
+      ],
+      "cues": [
+        "[CHAPTER CARD: الفصل 1 — الآيات]",
+        "[RPG: بطاقة ذهبية — 5:42]",
+        "[RPG: بطاقة ذهبية — 6:26]",
+        "[RPG: بطاقة ذهبية — 10:76]",
+        "[PATTERN INTERRUPT: zoom-punch + SFX ping @ 1:25]"
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "chapter",
+      "title": "الفصل 2: الفكرة الأولى",
+      "startSec": 121,
+      "durationSec": 9,
+      "narration": "أكثر ما يلفتني أن الآية تخاطب الإنسان مباشرة. السؤال الذي أخرج به: أين أنا من هذا الخطاب اليوم؟",
+      "recitation": [],
+      "showAyat": [],
+      "cues": [
+        "[CHAPTER CARD: الفصل 2]",
+        "[RPG: فكرة مفتوحة 1/3]"
+      ]
+    },
+    {
+      "id": "numbers",
+      "type": "chapter",
+      "title": "الفصل 3: لوحة الأرقام",
+      "startSec": 130,
+      "durationSec": 53,
+      "narration": "هذه ملاحظات عددية للتأمل فقط، لا أبني عليها حكمًا ولا تفسيرًا. بنظام كلمات الأرقام، قيم كلمات 5:42 بترتيب الحروف الهجائي: 106، 79، 98، 67، 46، 56، 73، 105، 28، 44، 93، 53، 46، 93، 68، 102، 42، 53، 55، 73، 105، 75، 26، 73، 36، 150. بنظام كلمات الأرقام، قيم كلمات 6:26 بترتيب الحروف الهجائي: 77، 131، 69، 132، 69، 53، 151، 25، 108، 52، 121. بنظام كلمات الأرقام، قيم كلمات 10:76 بترتيب الحروف الهجائي: 68، 57، 51، 49، 77، 73، 26، 36، 51، 79. مجموع الجُمَّل 7923 يقبل القسمة على 19. مجموع أرقام الجُمَّل (7923) = 21. مجموع الجُمَّل 1900 يقبل القسمة على 19.",
+      "recitation": [],
+      "showAyat": [],
+      "cues": [
+        "[PATTERN INTERRUPT: سؤال على الشاشة للمشاهد]",
+        "[CHAPTER CARD: الفصل 3 — لوحة الأرقام]",
+        "[RPG: لوحة الأرقام — الجُمَّل + ترتيب الحروف + كلمات الخانات]",
+        "[OVERLAY 5:42: يجري حلول تقريبًا مال متحرك فيروس اتحادي كثيرًا سقوط دم جلسة ولادة متحرك جلسة طاقة علامات وسائط ولادة لهم اتحادي كثيرًا ألعاب مزدوج اتحادي عشرة يبدو]",
+        "[OVERLAY 6:26: قائمة قيم خطأ أسماء خطأ ولادة راسخ خطر هؤلاء موقَّع غير]",
+        "[OVERLAY 10:76: طاقة حق مدونات فطور قائمة اتحادي مزدوج عشرة مدونات حلول]"
+      ]
+    },
+    {
+      "id": "i2",
+      "type": "chapter",
+      "title": "الفصل 4: الفكرة الثانية",
+      "startSec": 183,
+      "durationSec": 12,
+      "narration": "رجعت إلى سياق سورة سُورَةُ المَائـِدَةِ حول 5:42، فوجدت أن قراءة ما قبلها وما بعدها يغيّر طريقة فهمي لها. أنصحك أن تجرّب ذلك.",
+      "recitation": [],
+      "showAyat": [],
+      "cues": [
+        "[PATTERN INTERRUPT: تغيير زاوية المشهد + chiptune sting]",
+        "[CHAPTER CARD: الفصل 4]",
+        "[RPG: فكرة مفتوحة 2/3]"
+      ]
+    },
+    {
+      "id": "midroll",
+      "type": "cta",
+      "title": "دعوة الاشتراك",
+      "startSec": 195,
+      "durationSec": 9,
+      "narration": "إن كانت هذه المغامرة تفيدك، انضم إلى النقابة بالاشتراك، فكل حلقة تبدأ من آية سجّلتها في يومي.",
+      "recitation": [],
+      "showAyat": [],
+      "cues": [
+        "[RPG: زر «انضم إلى النقابة» يلمع]"
+      ]
+    },
+    {
+      "id": "i3",
+      "type": "chapter",
+      "title": "الفصل 5: الفكرة الثالثة",
+      "startSec": 204,
+      "durationSec": 12,
+      "narration": "الكلمة الأثقل حسابًا هنا «تعرض». لا أبني على الأرقام حكمًا، لكنها تدفعني أن أقف عند هذه الكلمة وأسأل عن معناها في التفاسير المعتمدة.",
+      "recitation": [],
+      "showAyat": [],
+      "cues": [
+        "[CHAPTER CARD: الفصل 5]",
+        "[RPG: فكرة مفتوحة 3/3]"
+      ]
+    },
+    {
+      "id": "payoff",
+      "type": "payoff",
+      "title": "كشف السرّ",
+      "startSec": 216,
+      "durationSec": 25,
+      "narration": "وعدتك في البداية بسرّ الرقم. مجموع حساب الجُمَّل في 5:42 هو 7923، أي 19 × 417. لا أقول إن هذا إعجاز ولا أبني عليه حكمًا؛ هو ملاحظة جعلتني أعيد قراءة الآية ببطء، وهذا وحده كنز. وملاحظة أخرى للتأمل: مجموع حساب الجُمَّل في 10:76 هو 1900، أي 19 × 100.",
+      "recitation": [],
+      "showAyat": [],
+      "cues": [
+        "[OPEN LOOP PAYOFF: صندوق الكنز ينفتح]",
+        "[SFX: chest open]"
+      ]
+    },
+    {
+      "id": "takeaway",
+      "type": "chapter",
+      "title": "الخلاصة",
+      "startSec": 241,
+      "durationSec": 20,
+      "narration": "شاركني في التعليقات: ما الكلمة التي توقفت عندها أنت؟ ربما يكون كنزك مختلفًا عن كنزي.",
+      "recitation": [
+        "10:76"
+      ],
+      "showAyat": [
+        "10:76"
+      ],
+      "cues": [
+        "[PATTERN INTERRUPT: عداد الأرقام يدور]",
+        "[CHAPTER CARD: الخلاصة]",
+        "[RPG: ارتقاء المستوى! +خبرة]"
+      ]
+    },
+    {
+      "id": "end",
+      "type": "endscreen",
+      "title": "شاشة النهاية",
+      "startSec": 261,
+      "durationSec": 32,
+      "narration": "في الحلقة القادمة نفتح آية جديدة من سجلّ الغد… ورقمًا جديدًا. شاهدها الآن من الشاشة، واكتب لي في التعليقات: ما الكنز الذي وجدته أنت؟",
+      "recitation": [],
+      "showAyat": [],
+      "cues": [
+        "[END SCREEN 20s: الحلقة التالية + زر اشتراك]",
+        "[RPG: اكتملت المهمة]"
+      ]
+    }
+  ],
+  "recitationMarkers": [
+    {
+      "ref": "5:42",
+      "sectionId": "ayat",
+      "atSec": 35
+    },
+    {
+      "ref": "6:26",
+      "sectionId": "ayat",
+      "atSec": 59
+    },
+    {
+      "ref": "10:76",
+      "sectionId": "ayat",
+      "atSec": 83
+    },
+    {
+      "ref": "10:76",
+      "sectionId": "takeaway",
+      "atSec": 241
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "startSec": 0,
+      "durationSec": 8,
+      "sectionId": "hook",
+      "prompt": "A lone hooded adventurer silhouette entering the gate, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 2,
+      "startSec": 8,
+      "durationSec": 8,
+      "sectionId": "hook",
+      "prompt": "A save-point crystal pulsing gently, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 3,
+      "startSec": 17,
+      "durationSec": 8,
+      "sectionId": "intro",
+      "prompt": "Footprints in sand leading outward, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 4,
+      "startSec": 25,
+      "durationSec": 8,
+      "sectionId": "intro",
+      "prompt": "Mountains at sunrise with soft pixel clouds, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 5,
+      "startSec": 33,
+      "durationSec": 8,
+      "sectionId": "intro",
+      "prompt": "A star-filled sky with one bright star, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 6,
+      "startSec": 42,
+      "durationSec": 8,
+      "sectionId": "ayat",
+      "prompt": "The silhouette resting under a palm tree, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 7,
+      "startSec": 50,
+      "durationSec": 8,
+      "sectionId": "ayat",
+      "prompt": "An open journal with a quill (no readable text), setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 8,
+      "startSec": 59,
+      "durationSec": 8,
+      "sectionId": "ayat",
+      "prompt": "A golden door closing softly, quest complete, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 9,
+      "startSec": 67,
+      "durationSec": 8,
+      "sectionId": "ayat",
+      "prompt": "Entrance at dusk, torches dimming, end card space, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 10,
+      "startSec": 75,
+      "durationSec": 8,
+      "sectionId": "ayat",
+      "prompt": "A lone hooded adventurer silhouette entering the gate, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 11,
+      "startSec": 84,
+      "durationSec": 8,
+      "sectionId": "ayat",
+      "prompt": "An ancient stone door engraved with golden geometric patterns slowly opening, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 12,
+      "startSec": 92,
+      "durationSec": 8,
+      "sectionId": "ayat",
+      "prompt": "A glowing quest scroll unrolling on a wooden table beside a candle, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 13,
+      "startSec": 100,
+      "durationSec": 8,
+      "sectionId": "ayat",
+      "prompt": "A pixel map revealing a winding path, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 14,
+      "startSec": 109,
+      "durationSec": 8,
+      "sectionId": "ayat",
+      "prompt": "Torches igniting one by one along a corridor, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 15,
+      "startSec": 117,
+      "durationSec": 8,
+      "sectionId": "ayat",
+      "prompt": "A treasure chest emitting soft golden light, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 16,
+      "startSec": 126,
+      "durationSec": 8,
+      "sectionId": "i1",
+      "prompt": "A crystal orb showing swirling stars, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 17,
+      "startSec": 134,
+      "durationSec": 8,
+      "sectionId": "numbers",
+      "prompt": "A quiet campfire with falling dust in a skylight beam, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 18,
+      "startSec": 142,
+      "durationSec": 8,
+      "sectionId": "numbers",
+      "prompt": "Stone tablets with glowing abstract golden runes (no text), setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 19,
+      "startSec": 151,
+      "durationSec": 8,
+      "sectionId": "numbers",
+      "prompt": "A boulder blocking a tunnel, light through a crack, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 20,
+      "startSec": 159,
+      "durationSec": 8,
+      "sectionId": "numbers",
+      "prompt": "The boulder crumbling as light floods in, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 21,
+      "startSec": 167,
+      "durationSec": 8,
+      "sectionId": "numbers",
+      "prompt": "A spiral staircase climbing toward a bright opening, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 22,
+      "startSec": 176,
+      "durationSec": 8,
+      "sectionId": "numbers",
+      "prompt": "An hourglass with golden sand on a pedestal, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 23,
+      "startSec": 184,
+      "durationSec": 8,
+      "sectionId": "i2",
+      "prompt": "A rope bridge over a dark chasm, lanterns swaying, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 24,
+      "startSec": 193,
+      "durationSec": 8,
+      "sectionId": "i2",
+      "prompt": "Glowing plants growing inside a cave, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 25,
+      "startSec": 201,
+      "durationSec": 8,
+      "sectionId": "midroll",
+      "prompt": "Rain dripping into a stone basin, ripples of light, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 26,
+      "startSec": 209,
+      "durationSec": 8,
+      "sectionId": "i3",
+      "prompt": "A locked gate with a golden key floating before it, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 27,
+      "startSec": 218,
+      "durationSec": 8,
+      "sectionId": "payoff",
+      "prompt": "An inventory screen with potion, key, and lantern icons, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 28,
+      "startSec": 226,
+      "durationSec": 8,
+      "sectionId": "payoff",
+      "prompt": "A shadow boss shrinking as a lantern brightens, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 29,
+      "startSec": 234,
+      "durationSec": 8,
+      "sectionId": "payoff",
+      "prompt": "Endless shelves with floating dust motes, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 30,
+      "startSec": 243,
+      "durationSec": 8,
+      "sectionId": "takeaway",
+      "prompt": "Water flowing through carved channels in a hidden sanctuary, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 31,
+      "startSec": 251,
+      "durationSec": 8,
+      "sectionId": "takeaway",
+      "prompt": "Night sky through a cave mouth, crescent moon, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 32,
+      "startSec": 260,
+      "durationSec": 8,
+      "sectionId": "takeaway",
+      "prompt": "Oasis at dawn beyond the exit, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 33,
+      "startSec": 268,
+      "durationSec": 8,
+      "sectionId": "end",
+      "prompt": "A level-up burst of golden particles around the silhouette, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 34,
+      "startSec": 276,
+      "durationSec": 8,
+      "sectionId": "end",
+      "prompt": "A save-point crystal pulsing gently, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 35,
+      "startSec": 285,
+      "durationSec": 8,
+      "sectionId": "end",
+      "prompt": "Footprints in sand leading outward, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 36,
+      "startSec": 35,
+      "durationSec": 12,
+      "sectionId": "ayat",
+      "ref": "5:42",
+      "prompt": "Verse card [5:42]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 37,
+      "startSec": 35,
+      "durationSec": 12,
+      "sectionId": "ayat",
+      "ref": "6:26",
+      "prompt": "Verse card [6:26]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 38,
+      "startSec": 35,
+      "durationSec": 12,
+      "sectionId": "ayat",
+      "ref": "10:76",
+      "prompt": "Verse card [10:76]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    }
+  ],
+  "findings": [
+    {
+      "ref": "5:42",
+      "score": 5,
+      "ar": "مجموع حساب الجُمَّل في 5:42 هو 7923، أي 19 × 417",
+      "short": "7923 = 19 × 417"
+    },
+    {
+      "ref": "10:76",
+      "score": 5,
+      "ar": "مجموع حساب الجُمَّل في 10:76 هو 1900، أي 19 × 100",
+      "short": "1900 = 19 × 100"
+    },
+    {
+      "ref": "6:26",
+      "score": 4,
+      "ar": "بترتيب الحروف الهجائي (كلمات الأرقام) مجموع 6:26 هو 988، أي 19 × 52",
+      "short": "988 = 19 × 52"
+    },
+    {
+      "ref": "6:26",
+      "score": 4,
+      "ar": "مجموع الجُمَّل في 6:26 هو 1673، أي 7 × 239",
+      "short": "1673 = 7 × 239"
+    },
+    {
+      "ref": "5:42",
+      "score": 3,
+      "ar": "في 5:42 تقع الكلمات «جاءوك» و«أو» في الخانة نفسها (0) من خانات كلمات الأرقام الثماني والعشرين",
+      "short": "2 كلمات في خانة واحدة: 0"
+    },
+    {
+      "ref": "6:26",
+      "score": 3,
+      "ar": "في 6:26 تقع الكلمات «عنه» و«عنه» في الخانة نفسها (13) من خانات كلمات الأرقام الثماني والعشرين",
+      "short": "2 كلمات في خانة واحدة: 13"
+    },
+    {
+      "ref": "10:76",
+      "score": 3,
+      "ar": "بترتيب الحروف الهجائي مجموع 10:76 هو 567، أي 7 × 81",
+      "short": "567 = 7 × 81"
+    },
+    {
+      "ref": "10:76",
+      "score": 3,
+      "ar": "في 10:76 تقع الكلمات «من» و«عندنا» في الخانة نفسها (21) من خانات كلمات الأرقام الثماني والعشرين",
+      "short": "2 كلمات في خانة واحدة: 21"
+    },
+    {
+      "ref": "5:42",
+      "score": 1,
+      "ar": "أثقل كلمة حسابًا في 5:42 هي «تعرض» بقيمة 1470",
+      "short": "«تعرض» = 1470"
+    },
+    {
+      "ref": "6:26",
+      "score": 1,
+      "ar": "أثقل كلمة حسابًا في 6:26 هي «يشعرون» بقيمة 636",
+      "short": "«يشعرون» = 636"
+    },
+    {
+      "ref": "10:76",
+      "score": 1,
+      "ar": "أثقل كلمة حسابًا في 10:76 هي «هذا» بقيمة 706",
+      "short": "«هذا» = 706"
+    }
+  ],
+  "numbers": [
+    {
+      "ref": "5:42",
+      "words": 26,
+      "letters": 110,
+      "abjad": 7923,
+      "patterns": [
+        "رقم الآية 42 من مضاعفات 7",
+        "مجموع الجُمَّل 7923 يقبل القسمة على 19",
+        "مجموع أرقام الجُمَّل (7923) = 21",
+        "ترتيبها في المصحف 711، وسورة+آية = 47",
+        "أثقل كلمة حسابًا: «تعرض» = 1470"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 1845,
+        "words": [
+          {
+            "w": "سمعون",
+            "v": 106,
+            "b": 22,
+            "ar": "يجري",
+            "en": "run"
+          },
+          {
+            "w": "للكذب",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
+          },
+          {
+            "w": "أكلون",
+            "v": 98,
+            "b": 14,
+            "ar": "تقريبًا",
+            "en": "nearly"
+          },
+          {
+            "w": "للسحت",
+            "v": 67,
+            "b": 11,
+            "ar": "مال",
+            "en": "money"
+          },
+          {
+            "w": "فإن",
+            "v": 46,
+            "b": 18,
+            "ar": "متحرك",
+            "en": "moving"
+          },
+          {
+            "w": "جاءوك",
+            "v": 56,
+            "b": 0,
+            "ar": "فيروس",
+            "en": "virus"
+          },
+          {
+            "w": "فٱحكم",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "بينهم",
+            "v": 105,
+            "b": 21,
+            "ar": "كثيرًا",
+            "en": "frequently"
+          },
+          {
+            "w": "أو",
+            "v": 28,
+            "b": 0,
+            "ar": "سقوط",
+            "en": "fall"
+          },
+          {
+            "w": "أعرض",
+            "v": 44,
+            "b": 16,
+            "ar": "دم",
+            "en": "blood"
+          },
+          {
+            "w": "عنهم",
+            "v": 93,
+            "b": 9,
+            "ar": "جلسة",
+            "en": "session"
+          },
+          {
+            "w": "وإن",
+            "v": 53,
+            "b": 25,
+            "ar": "ولادة",
+            "en": "birth"
+          },
+          {
+            "w": "تعرض",
+            "v": 46,
+            "b": 18,
+            "ar": "متحرك",
+            "en": "moving"
+          },
+          {
+            "w": "عنهم",
+            "v": 93,
+            "b": 9,
+            "ar": "جلسة",
+            "en": "session"
+          },
+          {
+            "w": "فلن",
+            "v": 68,
+            "b": 12,
+            "ar": "طاقة",
+            "en": "energy"
+          },
+          {
+            "w": "يضروك",
+            "v": 102,
+            "b": 18,
+            "ar": "علامات",
+            "en": "trademarks"
+          },
+          {
+            "w": "شيا",
+            "v": 42,
+            "b": 14,
+            "ar": "وسائط",
+            "en": "multimedia"
+          },
+          {
+            "w": "وإن",
+            "v": 53,
+            "b": 25,
+            "ar": "ولادة",
+            "en": "birth"
+          },
+          {
+            "w": "حكمت",
+            "v": 55,
+            "b": 27,
+            "ar": "لهم",
+            "en": "their"
+          },
+          {
+            "w": "فٱحكم",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "بينهم",
+            "v": 105,
+            "b": 21,
+            "ar": "كثيرًا",
+            "en": "frequently"
+          },
+          {
+            "w": "بٱلقسط",
+            "v": 75,
+            "b": 19,
+            "ar": "ألعاب",
+            "en": "toys"
+          },
+          {
+            "w": "إن",
+            "v": 26,
+            "b": 26,
+            "ar": "مزدوج",
+            "en": "double"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "يحب",
+            "v": 36,
+            "b": 8,
+            "ar": "عشرة",
+            "en": "ten"
+          },
+          {
+            "w": "ٱلمقسطين",
+            "v": 150,
+            "b": 10,
+            "ar": "يبدو",
+            "en": "seem"
+          }
+        ],
+        "arabicLine": "يجري حلول تقريبًا مال متحرك فيروس اتحادي كثيرًا سقوط دم جلسة ولادة متحرك جلسة طاقة علامات وسائط ولادة لهم اتحادي كثيرًا ألعاب مزدوج اتحادي عشرة يبدو",
+        "en": "run solutions nearly money moving virus federal frequently fall blood session birth moving session energy trademarks multimedia birth their federal frequently toys double federal ten seem"
+      }
+    },
+    {
+      "ref": "6:26",
+      "words": 11,
+      "letters": 46,
+      "abjad": 1673,
+      "patterns": [
+        "مجموع الجُمَّل 1673 يقبل القسمة على 7",
+        "مجموع أرقام الجُمَّل (1673) = 17",
+        "ترتيبها في المصحف 815، وسورة+آية = 32",
+        "أثقل كلمة حسابًا: «يشعرون» = 636"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 988,
+        "words": [
+          {
+            "w": "وهم",
+            "v": 77,
+            "b": 21,
+            "ar": "قائمة",
+            "en": "menu"
+          },
+          {
+            "w": "ينهون",
+            "v": 131,
+            "b": 19,
+            "ar": "قيم",
+            "en": "values"
+          },
+          {
+            "w": "عنه",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "وينون",
+            "v": 132,
+            "b": 20,
+            "ar": "أسماء",
+            "en": "names"
+          },
+          {
+            "w": "عنه",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "وإن",
+            "v": 53,
+            "b": 25,
+            "ar": "ولادة",
+            "en": "birth"
+          },
+          {
+            "w": "يهلكون",
+            "v": 151,
+            "b": 11,
+            "ar": "راسخ",
+            "en": "established"
+          },
+          {
+            "w": "إلا",
+            "v": 25,
+            "b": 25,
+            "ar": "خطر",
+            "en": "risk"
+          },
+          {
+            "w": "أنفسهم",
+            "v": 108,
+            "b": 24,
+            "ar": "هؤلاء",
+            "en": "these"
+          },
+          {
+            "w": "وما",
+            "v": 52,
+            "b": 24,
+            "ar": "موقَّع",
+            "en": "signed"
+          },
+          {
+            "w": "يشعرون",
+            "v": 121,
+            "b": 9,
+            "ar": "غير",
+            "en": "else"
+          }
+        ],
+        "arabicLine": "قائمة قيم خطأ أسماء خطأ ولادة راسخ خطر هؤلاء موقَّع غير",
+        "en": "menu values error names error birth established risk these signed else"
+      }
+    },
+    {
+      "ref": "10:76",
+      "words": 10,
+      "letters": 38,
+      "abjad": 1900,
+      "patterns": [
+        "رقم الآية 76 من مضاعفات 19",
+        "مجموع الجُمَّل 1900 يقبل القسمة على 19",
+        "مجموع أرقام الجُمَّل (1900) = 10",
+        "ترتيبها في المصحف 1440، وسورة+آية = 86",
+        "أثقل كلمة حسابًا: «هذا» = 706"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 567,
+        "words": [
+          {
+            "w": "فلما",
+            "v": 68,
+            "b": 12,
+            "ar": "طاقة",
+            "en": "energy"
+          },
+          {
+            "w": "جاءهم",
+            "v": 57,
+            "b": 1,
+            "ar": "حق",
+            "en": "right"
+          },
+          {
+            "w": "ٱلحق",
+            "v": 51,
+            "b": 23,
+            "ar": "مدونات",
+            "en": "blogs"
+          },
+          {
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "عندنا",
+            "v": 77,
+            "b": 21,
+            "ar": "قائمة",
+            "en": "menu"
+          },
+          {
+            "w": "قالوا",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "إن",
+            "v": 26,
+            "b": 26,
+            "ar": "مزدوج",
+            "en": "double"
+          },
+          {
+            "w": "هذا",
+            "v": 36,
+            "b": 8,
+            "ar": "عشرة",
+            "en": "ten"
+          },
+          {
+            "w": "لسحر",
+            "v": 51,
+            "b": 23,
+            "ar": "مدونات",
+            "en": "blogs"
+          },
+          {
+            "w": "مبين",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
+          }
+        ],
+        "arabicLine": "طاقة حق مدونات فطور قائمة اتحادي مزدوج عشرة مدونات حلول",
+        "en": "energy right blogs breakfast menu federal double ten blogs solutions"
+      }
+    }
+  ],
+  "description": "47 كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ\n\nالآيات: 5:42 ، 6:26 ، 10:76\n\n⏱ في الساعة 2:54 ظهرًا بتوقيت نيويورك بين الظهر والعصر، كان تمرير القرآن عند سورة يونس الآية 76. (نوافذ الصلاة من تطبيق الزاحف القرآني)\n\n📍 الفصول:\n0:00 الافتتاحية (0–10ث)\n0:35 الفصل 1: الآيات\n2:01 الفصل 2: الفكرة الأولى\n2:10 الفصل 3: لوحة الأرقام\n3:03 الفصل 4: الفكرة الثانية\n3:24 الفصل 5: الفكرة الثالثة\n3:36 كشف السرّ\n4:01 الخلاصة\n\n📚 التفسير: [ابن كثير — 5:42, 6:26, 10:76] / [السعدي — تيسير الكريم الرحمن] (أضف الصفحة/الرابط)\nهذا تدبّر شخصي وليس تفسيرًا ولا فتوى. الملاحظات العددية للتأمل فقط وليست ادعاء إعجاز.\n🔢 قيم «كلمات الأرقام» محسوبة بمنطق تطبيق كلمات الأرقام: https://mrbugimposter3-ship-it.github.io/quran-number-words/\n🎙️ التلاوة: [اسم القارئ / المصدر] — مستخدمة وفق ترخيص يسمح بإعادة الاستخدام وتحقيق الدخل [رابط الترخيص]\n\n#تدبر #القرآن #فن_البكسل",
+  "tags": [
+    "تدبر",
+    "القرآن الكريم",
+    "سجل المغامر",
+    "سُورَةُ المَائـِدَةِ",
+    "حساب الجمل",
+    "أرقام القرآن",
+    "كلمات الأرقام",
+    "Quran numbers",
+    "Quran reflection",
+    "pixel art",
+    "Adventurer's Log",
+    "Quran 5:42",
+    "Quran 6:26",
+    "Quran 10:76"
+  ],
+  "hashtags": [
+    "#تدبر",
+    "#القرآن",
+    "#فن_البكسل"
+  ],
+  "shorts": [
+    {
+      "title": "7923 = 19 × 417 | 5:42 #Shorts",
+      "durationSec": 57,
+      "finding": "مجموع حساب الجُمَّل في 5:42 هو 7923، أي 19 × 417",
+      "beats": [
+        {
+          "t": 0,
+          "dur": 3,
+          "narration": "7923 = 19 × 417… هل لاحظت هذا من قبل؟",
+          "visual": "Gold number glowing on black, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 3,
+          "dur": 14,
+          "narration": "",
+          "recitation": "5:42",
+          "showAyah": "5:42",
+          "visual": "Verse card with Arabic overlay 5:42, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 17,
+          "dur": 15,
+          "narration": "مجموع حساب الجُمَّل في 5:42 هو 7923، أي 19 × 417.",
+          "visual": "Number stat panel animating; on-screen text (Arabic): 7923 = 19 × 417, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 32,
+          "dur": 15,
+          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. أكثر ما يلفتني أن الآية تخاطب الإنسان مباشرة.",
+          "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 47,
+          "dur": 10,
+          "narration": "الحلقة الكاملة على القناة… وكل يوم آية جديدة من سجلّي.",
+          "visual": "Subscribe banner; on-screen text (Arabic): انضم إلى النقابة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        }
+      ]
+    },
+    {
+      "title": "1900 = 19 × 100 | 10:76 #Shorts",
+      "durationSec": 57,
+      "finding": "مجموع حساب الجُمَّل في 10:76 هو 1900، أي 19 × 100",
+      "beats": [
+        {
+          "t": 0,
+          "dur": 3,
+          "narration": "1900 = 19 × 100… هل لاحظت هذا من قبل؟",
+          "visual": "Gold number glowing on black, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 3,
+          "dur": 14,
+          "narration": "",
+          "recitation": "10:76",
+          "showAyah": "10:76",
+          "visual": "Verse card with Arabic overlay 10:76, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 17,
+          "dur": 15,
+          "narration": "مجموع حساب الجُمَّل في 10:76 هو 1900، أي 19 × 100.",
+          "visual": "Number stat panel animating; on-screen text (Arabic): 1900 = 19 × 100, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 32,
+          "dur": 15,
+          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. رجعت إلى سياق سورة سُورَةُ المَائـِدَةِ حول 5:42، فوجدت أن قراءة ما قبلها وما بعدها يغيّر طريقة فهمي لها.",
+          "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 47,
+          "dur": 10,
+          "narration": "الحلقة الكاملة على القناة… وكل يوم آية جديدة من سجلّي.",
+          "visual": "Subscribe banner; on-screen text (Arabic): انضم إلى النقابة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        }
+      ]
+    },
+    {
+      "title": "988 = 19 × 52 | 6:26 #Shorts",
+      "durationSec": 57,
+      "finding": "بترتيب الحروف الهجائي (كلمات الأرقام) مجموع 6:26 هو 988، أي 19 × 52",
+      "beats": [
+        {
+          "t": 0,
+          "dur": 3,
+          "narration": "988 = 19 × 52… هل لاحظت هذا من قبل؟",
+          "visual": "Gold number glowing on black, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 3,
+          "dur": 14,
+          "narration": "",
+          "recitation": "6:26",
+          "showAyah": "6:26",
+          "visual": "Verse card with Arabic overlay 6:26, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 17,
+          "dur": 15,
+          "narration": "بترتيب الحروف الهجائي (كلمات الأرقام) مجموع 6:26 هو 988، أي 19 × 52.",
+          "visual": "Number stat panel animating; on-screen text (Arabic): 988 = 19 × 52, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 32,
+          "dur": 15,
+          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. الكلمة الأثقل حسابًا هنا «تعرض».",
+          "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 47,
+          "dur": 10,
+          "narration": "الحلقة الكاملة على القناة… وكل يوم آية جديدة من سجلّي.",
+          "visual": "Subscribe banner; on-screen text (Arabic): انضم إلى النقابة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "narrationChars": 1896,
+    "narrationWords": 356,
+    "narrationSec": 178,
+    "recitationSecEst": 84,
+    "totalSec": 293
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "pixelScaling": "nearest",
+    "style": "16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+  }
+}
