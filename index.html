@@ -116,9 +116,9 @@ const dsum=n=>String(n).split('').reduce((s,d)=>s+ +d,0);
 function analyze(a){const words=strip(a.ar).split(/\s+/).filter(w=>[...w].some(c=>ABJ[c]));
  const ws=words.map(w=>{const L=[...w].filter(c=>ABJ[c]);return{w,letters:L.length,abjad:L.reduce((s,c)=>s+ABJ[c],0)}});
  const total=ws.reduce((s,x)=>s+x.abjad,0),letters=ws.reduce((s,x)=>s+x.letters,0),n=a.ayah,pat=[];
- if(n%7===0)pat.push('رقم الآية '+n+' من مضاعفات 7');if(n%19===0)pat.push('رقم الآية '+n+' من مضاعفات 19');if(isPrime(n))pat.push('رقم الآية '+n+' عدد أولي');
+ if(isPrime(n))pat.push('رقم الآية '+n+' عدد أولي');
  if(a.surah===n)pat.push('رقم الآية = رقم السورة');if(ws.length===n)pat.push('عدد الكلمات = رقم الآية');
- if(total%19===0)pat.push('مجموع الجُمَّل '+total+' يقبل القسمة على 19');if(total%7===0)pat.push('مجموع الجُمَّل '+total+' يقبل القسمة على 7');if(isPrime(total))pat.push('مجموع الجُمَّل '+total+' عدد أولي');
+ if(isPrime(total))pat.push('مجموع الجُمَّل '+total+' عدد أولي');
  if(isPrime(letters))pat.push('عدد الحروف '+letters+' عدد أولي');
  pat.push('مجموع أرقام الجُمَّل ('+total+') = '+dsum(total));pat.push('ترتيبها في المصحف '+a.global+'، وسورة+آية = '+(a.surah+n));
  const big=ws.slice().sort((x,y)=>y.abjad-x.abjad)[0];if(big)pat.push('أثقل كلمة حسابًا: «'+big.w+'» = '+big.abjad);
@@ -126,7 +126,7 @@ function analyze(a){const words=strip(a.ar).split(/\s+/).filter(w=>[...w].some(c
 function renderNums(){if(!ayat.length){$('numsOut').innerHTML='<p>اختر آيات أولًا.</p>';return}let gw=0,gl=0,gt=0;
  $('numsOut').innerHTML=ayat.map(analyze).map(x=>{gw+=x.words;gl+=x.letters;gt+=x.total;return `<div class="ayah"><div class="ref">${x.ref} — كلمات ${x.words} · حروف ${x.letters} · الجُمَّل ${x.total}</div><table><tr><th>#</th><th>الكلمة</th><th>حروف</th><th>الجُمَّل</th></tr>${x.ws.map((w,i)=>`<tr><td>${i+1}</td><td>${esc(w.w)}</td><td>${w.letters}</td><td>${w.abjad}</td></tr>`).join('')}</table><ul>${x.pat.map(p=>'<li>'+esc(p)+'</li>').join('')}</ul></div>`}).join('')+`<p class="ref">المجموع: ${arN(gw,'w')} · ${arN(gl,'l')} · الجُمَّل ${gt}</p>`;}
 function allObs(){const an=ayat.map(analyze),o=[];an.forEach(x=>x.pat.forEach(p=>o.push(x.ref+': '+p)));
- if(an.length>1){const T=an.reduce((s,x)=>s+x.total,0),Wd=an.reduce((s,x)=>s+x.words,0),Lt=an.reduce((s,x)=>s+x.letters,0);o.unshift('الآيات معًا: '+arN(Wd,'w')+'، '+arN(Lt,'l')+'، الجُمَّل '+T+(T%19===0?' (يقبل القسمة على 19)':'')+(T%7===0?' (يقبل القسمة على 7)':''));}
+ if(an.length>1){const T=an.reduce((s,x)=>s+x.total,0),Wd=an.reduce((s,x)=>s+x.words,0),Lt=an.reduce((s,x)=>s+x.letters,0);o.unshift('الآيات معًا: '+arN(Wd,'w')+'، '+arN(Lt,'l')+'، الجُمَّل '+T);}
  return o;}
 function renderObs(){const o=allObs();W.obs=W.obs.filter(i=>i<o.length);$('obsList').innerHTML=o.length?o.map((t,i)=>`<div class="card ${W.obs.includes(i)?'sel':''}" onclick="togObs(${i})">${esc(t)}</div>`).join(''):'<p>اختر آيات أولًا.</p>'}
 window.togObs=i=>{const k=W.obs.indexOf(i);k>=0?W.obs.splice(k,1):W.obs.push(i);saveW();renderObs()};
@@ -202,38 +202,37 @@ const NW_L="ابتثجحخدذرزسشصضطظعغفقكلمنهوي",NW_N={"أ"
 const nwVal=w=>{let s=0;for(const c of w){const k=NW_L.indexOf(NW_N[c]||c);if(k>=0)s+=k+1}return s};
 function numberWords(a){const ws=strip(a.ar).split(/\s+/).filter(w=>nwVal(w)>0).map(w=>{const v=nwVal(w),b=v%28,list=NWB[b]||[];const e=list.length?list[v%list.length]:['',''];return{w,v,b,ar:e[1],en:e[0]}});
  return{ref:a.ref,words:ws,total:ws.reduce((s,x)=>s+x.v,0),line:ws.map(x=>x.ar).join(' '),lineEn:ws.map(x=>x.en).join(' ')}}
+// Findings = «لعبة الأرقام»: a counting game from Rafeh's tools (Forge + Number Words). Neutral wording only — no "code"/miracle framing, no multiples-of-19 claims.
 function findings(){const out=[];ayat.forEach(a=>{const x=analyze(a),nw=numberWords(a),R=a.ref;
  const add=(score,ar,short)=>out.push({ref:R,score,ar,short});
- if(x.words===a.ayah)add(6,`في الآية ${R} عدد الكلمات ${x.words} يساوي رقم الآية نفسه`,`${arN(x.words,'w')}… ورقم الآية ${a.ayah}`);
- if(x.total%19===0)add(5,`مجموع حساب الجُمَّل في ${R} هو ${x.total}، أي 19 × ${x.total/19}`,`${x.total} = 19 × ${x.total/19}`);
- if(nw.total%19===0)add(4,`بترتيب الحروف الهجائي (كلمات الأرقام) مجموع ${R} هو ${nw.total}، أي 19 × ${nw.total/19}`,`${nw.total} = 19 × ${nw.total/19}`);
- if(x.total%7===0)add(4,`مجموع الجُمَّل في ${R} هو ${x.total}، أي 7 × ${x.total/7}`,`${x.total} = 7 × ${x.total/7}`);
- if(nw.total%7===0)add(3,`بترتيب الحروف الهجائي مجموع ${R} هو ${nw.total}، أي 7 × ${nw.total/7}`,`${nw.total} = 7 × ${nw.total/7}`);
- const byB={};nw.words.forEach(w=>(byB[w.b]=byB[w.b]||[]).push(w));Object.values(byB).filter(g=>g.length>1).slice(0,1).forEach(g=>add(3,`في ${R} تقع الكلمات ${g.map(w=>'«'+w.w+'»').join(' و')} في الخانة نفسها (${g[0].b}) من خانات كلمات الأرقام الثماني والعشرين`,`${arN(g.length,'w')} في خانة واحدة: ${g[0].b}`));
- if(isPrime(x.total))add(2,`مجموع الجُمَّل في ${R} (${x.total}) عدد أولي`,`${x.total} عدد أولي`);
- if(isPrime(x.letters))add(1,`عدد حروف ${R} هو ${x.letters}، وهو عدد أولي`,`${arN(x.letters,'l')} — عدد أولي`);
- const big=x.ws.slice().sort((p,q)=>q.abjad-p.abjad)[0];if(big)add(1,`أثقل كلمة حسابًا في ${R} هي «${big.w}» بقيمة ${big.abjad}`,`«${big.w}» = ${big.abjad}`);});
- if(ayat.length>1){const T=ayat.reduce((s,a)=>s+analyze(a).total,0);if(T%19===0)out.push({ref:ayat.map(a=>a.ref).join('+'),score:5,ar:`مجموع الجُمَّل للآيات معًا ${T} = 19 × ${T/19}`,short:`${T} = 19 × ${T/19}`});}
+ if(x.words===a.ayah)add(6,`في ${R} عدد الكلمات ${x.words}، وهو رقم الآية نفسه`,`${arN(x.words,'w')}… ورقم الآية ${a.ayah}`);
+ const byB={};nw.words.forEach(w=>(byB[w.b]=byB[w.b]||[]).push(w));Object.values(byB).filter(g=>g.length>1).slice(0,1).forEach(g=>add(4,`في ${R} تلتقي الكلمات ${g.map(w=>'«'+w.w+'»').join(' و')} في الخانة نفسها (${g[0].b}) من خانات تطبيق كلمات الأرقام`,`${arN(g.length,'w')} في خانة واحدة`));
+ add(3,`عدد حروف ${R} ${arN(x.letters,'l')}، في ${arN(x.words,'w')}`,`عدد حروفها ${x.letters}`);
+ const big=x.ws.slice().sort((p,q)=>q.abjad-p.abjad)[0];if(big)add(2,`أثقل كلمة في عدّ الجُمَّل في ${R} هي «${big.w}» بقيمة ${big.abjad}`,`«${big.w}» = ${big.abjad}`);
+ add(2,`مجموع الجُمَّل في ${R} هو ${x.total}، وبترتيب الحروف في تطبيق كلمات الأرقام ${nw.total}`,`مجموعها ${x.total}`);
+ if(isPrime(x.letters))add(1,`عدد حروف ${R} (${x.letters}) عدد أولي`,`${arN(x.letters,'l')} — عدد أولي`);});
  return out.sort((p,q)=>q.score-p.score);}
+const AR_DIG=s=>String(s).replace(/[0-9]/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
 const RECIT_SEC=12;
 function buildSections(){const refs=ayat.map(a=>a.ref),an=ayat.map(analyze),nws=ayat.map(numberWords),F=findings(),top=F[0]||{ar:'',short:'',ref:refs[0]},num=nextNum(),c=ctx(),qu=QUESTS[W.quest];
  const obsAll=allObs(),obs=W.obs.map(i=>obsAll[i]).filter(Boolean);if(V('numObs'))obs.push(V('numObs'));
  const rec=W.rec!=='none',S=[];const sec=(id,type,title,o)=>S.push(Object.assign({id,type,title,narration:[],recitation:[],showAyat:[],cues:[]},o));
- sec('hook','hook','الافتتاحية (0–10ث)',{narration:[`رقم واحد في ${top.ref} جعلني أتوقف: ${top.short}. هل هذا مجرد رقم… أم دعوة للتأمل؟`],cues:['[RPG: شاشة سوداء ← رقم ذهبي يظهر حرفًا حرفًا]','[SFX: نبضة]']});
+ sec('hook','hook','الافتتاحية (0–10ث)',{narration:[`لعبة الأرقام اليوم: ${top.ref}… ${top.short}. ماذا يخبرنا العدّ حين نبطئ القراءة؟`],cues:['[RPG: شاشة سوداء ← رقم ذهبي يظهر حرفًا حرفًا]','[SFX: نبضة]']});
  sec('intro','intro','المهمة',{narration:[...(W.time?[timeHookAr()]:[]),T('hook'),'لكن قبل أن أخبرك بما وجدته في هذا الرقم، دعنا نبدأ المهمة من أولها… والسرّ في آخر الحلقة.'],cues:['[RPG: '+qu.n+' — المهمة رقم '+num+']','[OPEN LOOP: صندوق كنز مقفل في زاوية الشاشة حتى النهاية]']});
  sec('ayat','chapter','الفصل 1: الآيات',{narration:an.map((x,i)=>`في ${x.ref}: ${arN(x.words,'w')}، و${arN(x.letters,'l')}، ومجموع الجُمَّل ${x.total}.`),recitation:rec?refs:[],showAyat:refs,cues:['[CHAPTER CARD: الفصل 1 — الآيات]',...refs.map(r=>'[RPG: بطاقة ذهبية — '+r+']')]});
  sec('i1','chapter','الفصل 2: الفكرة الأولى',{narration:[T('i1')],cues:['[CHAPTER CARD: الفصل 2]','[RPG: فكرة مفتوحة 1/3]']});
- sec('numbers','chapter','الفصل 3: لوحة الأرقام',{narration:['هذه ملاحظات عددية للتأمل فقط، لا أبني عليها حكمًا ولا تفسيرًا.',...nws.map(n=>`بنظام كلمات الأرقام، قيم كلمات ${n.ref} بترتيب الحروف الهجائي: ${n.words.map(w=>w.v).join('، ')}.`),...obs.map(o=>o.replace(/^\d+:\d+: /,'')+'.')],cues:['[CHAPTER CARD: الفصل 3 — لوحة الأرقام]','[RPG: لوحة الأرقام — الجُمَّل + ترتيب الحروف + كلمات الخانات]',...nws.map(n=>'[OVERLAY '+n.ref+': '+n.line+']')]});
+ sec('numbers','chapter','الفصل 3: لوحة الأرقام',{narration:['هذه «لعبة الأرقام» من أدواتي: عدٌّ للتأمل والمتعة، لا رمز فيه ولا إعجاز، ولا أبني عليه حكمًا ولا تفسيرًا.',...nws.map(n=>`بنظام كلمات الأرقام، قيم كلمات ${n.ref} بترتيب الحروف الهجائي: ${n.words.map(w=>w.v).join('، ')}.`),...obs.map(o=>o.replace(/^\d+:\d+: /,'')+'.')],cues:['[CHAPTER CARD: الفصل 3 — لوحة الأرقام]','[RPG: لوحة الأرقام — الجُمَّل + ترتيب الحروف + كلمات الخانات]',...nws.map(n=>'[OVERLAY '+n.ref+': '+n.line+']')]});
  sec('i2','chapter','الفصل 4: الفكرة الثانية',{narration:[T('i2')],cues:['[CHAPTER CARD: الفصل 4]','[RPG: فكرة مفتوحة 2/3]']});
  sec('midroll','cta','دعوة الاشتراك',{narration:['إن كانت هذه المغامرة تفيدك، انضم إلى النقابة بالاشتراك، فكل حلقة تبدأ من آية سجّلتها في يومي.'],cues:['[RPG: زر «انضم إلى النقابة» يلمع]']});
  sec('i3','chapter','الفصل 5: الفكرة الثالثة',{narration:[T('i3')],cues:['[CHAPTER CARD: الفصل 5]','[RPG: فكرة مفتوحة 3/3]']});
- sec('payoff','payoff','كشف السرّ',{narration:[`وعدتك في البداية بسرّ الرقم. ${top.ar}.`,'لا أقول إن هذا إعجاز ولا أبني عليه حكمًا؛ هو ملاحظة جعلتني أعيد قراءة الآية ببطء، وهذا وحده كنز.',...(F[1]?[`وملاحظة أخرى للتأمل: ${F[1].ar}.`]:[])],cues:['[OPEN LOOP PAYOFF: صندوق الكنز ينفتح]','[SFX: chest open]']});
+ sec('payoff','payoff','كشف السرّ',{narration:[`وعدتك في البداية بنتيجة لعبة الأرقام. ${top.ar}.`,'هي لعبة عدّ من أدواتي، لا رمز ولا إعجاز؛ لكنها جعلتني أعيد قراءة الآية ببطء، وهذا وحده كنز.',...(F[1]?[`وفي اللعبة نفسها: ${F[1].ar}.`]:[])],cues:['[OPEN LOOP PAYOFF: صندوق الكنز ينفتح]','[SFX: chest open]']});
  sec('takeaway','chapter','الخلاصة',{narration:[T('take')],recitation:rec?[refs[refs.length-1]]:[],showAyat:[refs[refs.length-1]],cues:['[CHAPTER CARD: الخلاصة]','[RPG: ارتقاء المستوى! +خبرة]']});
  sec('end','endscreen','شاشة النهاية',{narration:['في الحلقة القادمة نفتح آية جديدة من سجلّ الغد… ورقمًا جديدًا. شاهدها الآن من الشاشة، واكتب لي في التعليقات: ما الكنز الذي وجدته أنت؟'],cues:['[END SCREEN 20s: الحلقة التالية + زر اشتراك]','[RPG: اكتملت المهمة]']});
  // timing + pattern interrupts every ~50s
  const INT=['[PATTERN INTERRUPT: zoom-punch + SFX ping]','[PATTERN INTERRUPT: سؤال على الشاشة للمشاهد]','[PATTERN INTERRUPT: تغيير زاوية المشهد + chiptune sting]','[PATTERN INTERRUPT: عداد الأرقام يدور]','[PATTERN INTERRUPT: glitch frame + سكون ثانية]'];
  let t=0,last=0,k=0;S.forEach(s=>{const w=s.narration.join(' ').split(/\s+/).filter(Boolean).length;s.startSec=Math.round(t);s.durationSec=Math.max(s.id==='hook'?8:6,Math.round(w/2)+s.recitation.length*RECIT_SEC*(s.id==='ayat'?2:1))+(s.id==='end'?20:0);
   if(s.id==='hook')s.durationSec=Math.min(s.durationSec,10);if(t-last>=45&&s.type!=='endscreen'){s.cues.unshift(INT[k++%INT.length]);last=t}for(let m=50;m<s.durationSec-10&&s.type!=='endscreen';m+=50){s.cues.push(INT[k++%INT.length].replace(']',' @ '+fmt(Math.round(t+m))+']'));last=t+m}t+=s.durationSec});
+ S.forEach(x=>{x.title=AR_DIG(x.title);x.narration=x.narration.map(AR_DIG);x.cues=x.cues.map(c=>c.replace(/^(\[[A-Z ]+(?:\d+s)?:?\s*)(.*)$/,(m,a,b)=>a+AR_DIG(b)))});
  return{S,F,top,an,nws,obs,totalSec:Math.round(t)};}
 function sectionsToScript(title,S){const L=['# '+title,'','## السيناريو العربي (مُحسَّن للاحتفاظ بالمشاهد)',''];
  S.forEach(s=>{L.push('### ['+fmt(s.startSec)+'] '+s.title);s.cues.forEach(c=>L.push(c));
@@ -245,12 +244,12 @@ function shortsScripts(F){return F.slice(0,3).map((f,i)=>{const a=ayat.find(x=>f
  {t:17,dur:15,narration:f.ar+'.',visual:'Number stat panel animating; on-screen text (Arabic): '+f.short+', '+PIX},
  {t:32,dur:15,narration:'ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. '+T(['i1','i2','i3'][i]).split(/[.!؟]/)[0]+'.',visual:'Hooded adventurer silhouette by torchlight, '+PIX},
  {t:47,dur:10,narration:'الحلقة الكاملة على القناة… وكل يوم آية جديدة من سجلّي.',visual:'Subscribe banner; on-screen text (Arabic): انضم إلى النقابة, '+PIX}];
- return{title:f.short+' | '+a.ref+' #Shorts',durationSec:57,finding:f.ar,beats}})}
+ beats.forEach(b=>{b.narration=AR_DIG(b.narration);b.visual=b.visual.replace(/(on-screen text \(Arabic\): )([^,]*)/,(m,p,q)=>p+AR_DIG(q))});return{title:AR_DIG(f.short+' | '+a.ref)+' #Shorts',durationSec:57,finding:AR_DIG(f.ar),beats}})}
 function generate(){if(!ayat.length){alert('اختر آيات أولًا');return null}
  const refs=ayat.map(a=>a.ref),num=nextNum(),sName=ayat[0].surahName,c=ctx(),th=THEMES[W.theme],qu=QUESTS[W.quest];
  const B=buildSections(),{S,F,top,an,nws,obs}=B;
  const tA=[top.short+' | سرّ '+c.R0,'سجل المغامر '+num+': سرّ '+sName+' '+c.R0,'كنز '+c.R0+' | سجل المغامر '+num,arN(c.W,'w')+'… ورقم واحد | '+sName,'مهمة '+qu.n.replace(/^\S+\s/,'')+' في '+sName];
- const titleAr=V('epTitle')||tA[W.seed%tA.length];
+ const titleAr=AR_DIG(V('epTitle')||tA[W.seed%tA.length]);
  const script=sectionsToScript(titleAr,S),narr=(script.match(/«[^»]*»/g)||[]).map(s=>s.slice(1,-1)).join(' '),chars=narr.length,words=narr.split(/\s+/).filter(Boolean).length;
  const narrSec=Math.round(words/120*60),recSec=S.reduce((s,x)=>s+x.recitation.length*RECIT_SEC*(x.id==='ayat'?2:1),0),totalSec=B.totalSec,nScenes=Math.max(25,Math.min(35,Math.round(totalSec/8)));
  const off=W.seed%SCENES.length,scenes=[],per=totalSec/nScenes;for(let i=0;i<nScenes;i++){let p=SCENES[(i+off)%SCENES.length];if(i===0)p=SCENES[0];const st=Math.round(i*per),sx=S.filter(s=>s.startSec<=st).pop();scenes.push({index:i+1,startSec:st,durationSec:Math.round(per),sectionId:sx.id,prompt:p+', setting: '+th.p+', '+PIX})}
@@ -258,10 +257,10 @@ function generate(){if(!ayat.length){alert('اختر آيات أولًا');retur
  const sceneLines=scenes.map(s=>(s.ref?'★ ':s.index+'. ')+'['+fmt(s.startSec)+'] '+s.prompt);
  const rpg=[qu.c,'0–10s: curiosity hook on number '+top.short,'Open loop: locked chest icon until payoff','Pattern interrupt every ~45–60s','Chapter cards per section','Mid-roll subscribe "Join the Guild"','End screen 20s → next episode'];
  const en=V('enTheme')||('Hidden number in '+ayat[0].surahEn+' '+c.R0);
- const titles=[titleAr,...tA.filter(t=>t!==titleAr).slice(0,3),'[EN metadata] Adventurer\'s Log #'+num+': '+en,'[EN metadata] '+en+' | Quran Pixel Reflection'];
+ const titles=[titleAr,...tA.map(AR_DIG).filter(t=>t!==titleAr).slice(0,3),'[EN metadata] Adventurer\'s Log #'+num+': '+en,'[EN metadata] '+en+' | Quran Pixel Reflection'];
  const ch=S.filter(s=>['hook','chapter','payoff'].includes(s.type)).map(s=>[fmt(s.startSec),s.title]);
  const credit=(W.credit||RECS[W.rec||'zainal'].c).trim();
- const desc=[titleAr,'','الآيات: '+refs.join(' ، '),...(W.time?['','⏱ '+timeHookAr()+' (نوافذ الصلاة من تطبيق الزاحف القرآني)']:[]),'','📍 الفصول:',...ch.map(x=>x[0]+' '+x[1]),'','📚 التفسير: [ابن كثير — '+refs.join(', ')+'] / [السعدي — تيسير الكريم الرحمن] (أضف الصفحة/الرابط)','هذا تدبّر شخصي وليس تفسيرًا ولا فتوى. الملاحظات العددية للتأمل فقط وليست ادعاء إعجاز.','🔢 قيم «كلمات الأرقام» محسوبة بمنطق تطبيق كلمات الأرقام: https://mrbugimposter3-ship-it.github.io/quran-number-words/','🎙️ '+credit,'','#تدبر #القرآن #فن_البكسل'].join('\n');
+ const desc=[titleAr,'','الآيات: '+refs.join(' ، '),...(W.time?['','⏱ '+timeHookAr()+' (نوافذ الصلاة من تطبيق الزاحف القرآني)']:[]),'','📍 الفصول:',...ch.map(x=>x[0]+' '+x[1]),'','📚 التفسير: [ابن كثير — '+refs.join(', ')+'] / [السعدي — تيسير الكريم الرحمن] (أضف الصفحة/الرابط)','هذا تدبّر شخصي وليس تفسيرًا ولا فتوى. «لعبة الأرقام» عدٌّ من أدوات القناة للتأمل، وليست رمزًا ولا إعجازًا.','🔢 قيم «كلمات الأرقام» محسوبة بمنطق تطبيق كلمات الأرقام: https://mrbugimposter3-ship-it.github.io/quran-number-words/','🎙️ '+credit,'','#تدبر #القرآن #فن_البكسل'].join('\n');
  const tags=['تدبر','القرآن الكريم','سجل المغامر',sName,'حساب الجمل','أرقام القرآن','كلمات الأرقام','Quran numbers','Quran reflection','pixel art',"Adventurer's Log",...refs.map(r=>'Quran '+r)];
  const shortsS=shortsScripts(F),shorts=shortsS.map(s=>s.title+' — '+s.beats.map(b=>'['+b.t+'s] '+(b.narration||('تلاوة '+(b.recitation||b.showAyah)))).join(' / '));
  const fields=Object.fromEntries(FIELDS.map(f=>[f,V(f)]));['hook','i1','i2','i3','take'].forEach(k=>fields[k]=T(k));fields.epTitle=titleAr;fields.epNum=num;

@@ -1,16 +1,16 @@
 {
   "schema": "episode-forge/daily-package@1",
-  "generatedAt": "2026-10-13T18:57:31.833Z",
+  "generatedAt": "2026-10-13T18:58:09.545Z",
   "date": "2026-10-13",
   "episodeNumber": 1,
   "language": "ar",
   "title": {
-    "ar": "47 كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ",
+    "ar": "٤٧ كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ",
     "options": [
-      "47 كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ",
-      "7923 = 19 × 417 | سرّ 5:42",
-      "سجل المغامر 1: سرّ سُورَةُ المَائـِدَةِ 5:42",
-      "كنز 5:42 | سجل المغامر 1",
+      "٤٧ كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ",
+      "كلمتان في خانة واحدة | سرّ ٥:٤٢",
+      "سجل المغامر ١: سرّ سُورَةُ المَائـِدَةِ ٥:٤٢",
+      "كنز ٥:٤٢ | سجل المغامر ١",
       "[EN metadata] Adventurer's Log #1: Hidden number in Al-Maaida 5:42",
       "[EN metadata] Hidden number in Al-Maaida 5:42 | Quran Pixel Reflection"
     ]
@@ -82,10 +82,10 @@
     {
       "id": "hook",
       "type": "hook",
-      "title": "الافتتاحية (0–10ث)",
+      "title": "الافتتاحية (٠–١٠ث)",
       "startSec": 0,
-      "durationSec": 9,
-      "narration": "رقم واحد في 5:42 جعلني أتوقف: 7923 = 19 × 417. هل هذا مجرد رقم… أم دعوة للتأمل؟",
+      "durationSec": 8,
+      "narration": "لعبة الأرقام اليوم: ٥:٤٢… كلمتان في خانة واحدة. ماذا يخبرنا العدّ حين نبطئ القراءة؟",
       "recitation": [],
       "showAyat": [],
       "cues": [
@@ -97,23 +97,23 @@
       "id": "intro",
       "type": "intro",
       "title": "المهمة",
-      "startSec": 9,
+      "startSec": 8,
       "durationSec": 26,
-      "narration": "في الساعة 2:54 ظهرًا بتوقيت نيويورك بين الظهر والعصر، كان تمرير القرآن عند سورة يونس الآية 76. في سجلّي اليومي توقفت عند 5:42 و6:26 و10:76... ولم أستطع أن أكمل قبل أن أفهم لماذا شدّتني. لكن قبل أن أخبرك بما وجدته في هذا الرقم، دعنا نبدأ المهمة من أولها… والسرّ في آخر الحلقة.",
+      "narration": "في الساعة ٢:٥٤ ظهرًا بتوقيت نيويورك بين الظهر والعصر، كان تمرير القرآن عند سورة يونس الآية ٧٦. في سجلّي اليومي توقفت عند ٥:٤٢ و٦:٢٦ و١٠:٧٦... ولم أستطع أن أكمل قبل أن أفهم لماذا شدّتني. لكن قبل أن أخبرك بما وجدته في هذا الرقم، دعنا نبدأ المهمة من أولها… والسرّ في آخر الحلقة.",
       "recitation": [],
       "showAyat": [],
       "cues": [
-        "[RPG: 🔮 مهمة الألغاز — المهمة رقم 1]",
+        "[RPG: 🔮 مهمة الألغاز — المهمة رقم ١]",
         "[OPEN LOOP: صندوق كنز مقفل في زاوية الشاشة حتى النهاية]"
       ]
     },
     {
       "id": "ayat",
       "type": "chapter",
-      "title": "الفصل 1: الآيات",
-      "startSec": 35,
+      "title": "الفصل ١: الآيات",
+      "startSec": 34,
       "durationSec": 86,
-      "narration": "في 5:42: 26 كلمة، و110 أحرف، ومجموع الجُمَّل 7923. في 6:26: 11 كلمة، و46 حرفًا، ومجموع الجُمَّل 1673. في 10:76: 10 كلمات، و38 حرفًا، ومجموع الجُمَّل 1900.",
+      "narration": "في ٥:٤٢: ٢٦ كلمة، و١١٠ أحرف، ومجموع الجُمَّل ٧٩٢٣. في ٦:٢٦: ١١ كلمة، و٤٦ حرفًا، ومجموع الجُمَّل ١٦٧٣. في ١٠:٧٦: ١٠ كلمات، و٣٨ حرفًا، ومجموع الجُمَّل ١٩٠٠.",
       "recitation": [
         "5:42",
         "6:26",
@@ -125,65 +125,65 @@
         "10:76"
       ],
       "cues": [
-        "[CHAPTER CARD: الفصل 1 — الآيات]",
-        "[RPG: بطاقة ذهبية — 5:42]",
-        "[RPG: بطاقة ذهبية — 6:26]",
-        "[RPG: بطاقة ذهبية — 10:76]",
-        "[PATTERN INTERRUPT: zoom-punch + SFX ping @ 1:25]"
+        "[CHAPTER CARD: الفصل ١ — الآيات]",
+        "[RPG: بطاقة ذهبية — ٥:٤٢]",
+        "[RPG: بطاقة ذهبية — ٦:٢٦]",
+        "[RPG: بطاقة ذهبية — ١٠:٧٦]",
+        "[PATTERN INTERRUPT: zoom-punch + SFX ping @ ١:٢٤]"
       ]
     },
     {
       "id": "i1",
       "type": "chapter",
-      "title": "الفصل 2: الفكرة الأولى",
-      "startSec": 121,
+      "title": "الفصل ٢: الفكرة الأولى",
+      "startSec": 120,
       "durationSec": 9,
       "narration": "أكثر ما يلفتني أن الآية تخاطب الإنسان مباشرة. السؤال الذي أخرج به: أين أنا من هذا الخطاب اليوم؟",
       "recitation": [],
       "showAyat": [],
       "cues": [
-        "[CHAPTER CARD: الفصل 2]",
-        "[RPG: فكرة مفتوحة 1/3]"
+        "[CHAPTER CARD: الفصل ٢]",
+        "[RPG: فكرة مفتوحة ١/٣]"
       ]
     },
     {
       "id": "numbers",
       "type": "chapter",
-      "title": "الفصل 3: لوحة الأرقام",
-      "startSec": 130,
-      "durationSec": 53,
-      "narration": "هذه ملاحظات عددية للتأمل فقط، لا أبني عليها حكمًا ولا تفسيرًا. بنظام كلمات الأرقام، قيم كلمات 5:42 بترتيب الحروف الهجائي: 106، 79، 98، 67، 46، 56، 73، 105، 28، 44، 93، 53، 46، 93، 68، 102، 42، 53، 55، 73، 105، 75، 26، 73، 36، 150. بنظام كلمات الأرقام، قيم كلمات 6:26 بترتيب الحروف الهجائي: 77، 131، 69، 132، 69، 53، 151، 25، 108، 52، 121. بنظام كلمات الأرقام، قيم كلمات 10:76 بترتيب الحروف الهجائي: 68، 57، 51، 49، 77، 73، 26، 36، 51، 79. مجموع الجُمَّل 7923 يقبل القسمة على 19. مجموع أرقام الجُمَّل (7923) = 21. مجموع الجُمَّل 1900 يقبل القسمة على 19.",
+      "title": "الفصل ٣: لوحة الأرقام",
+      "startSec": 129,
+      "durationSec": 56,
+      "narration": "هذه «لعبة الأرقام» من أدواتي: عدٌّ للتأمل والمتعة، لا رمز فيه ولا إعجاز، ولا أبني عليه حكمًا ولا تفسيرًا. بنظام كلمات الأرقام، قيم كلمات ٥:٤٢ بترتيب الحروف الهجائي: ١٠٦، ٧٩، ٩٨، ٦٧، ٤٦، ٥٦، ٧٣، ١٠٥، ٢٨، ٤٤، ٩٣، ٥٣، ٤٦، ٩٣، ٦٨، ١٠٢، ٤٢، ٥٣، ٥٥، ٧٣، ١٠٥، ٧٥، ٢٦، ٧٣، ٣٦، ١٥٠. بنظام كلمات الأرقام، قيم كلمات ٦:٢٦ بترتيب الحروف الهجائي: ٧٧، ١٣١، ٦٩، ١٣٢، ٦٩، ٥٣، ١٥١، ٢٥، ١٠٨، ٥٢، ١٢١. بنظام كلمات الأرقام، قيم كلمات ١٠:٧٦ بترتيب الحروف الهجائي: ٦٨، ٥٧، ٥١، ٤٩، ٧٧، ٧٣، ٢٦، ٣٦، ٥١، ٧٩. أثقل كلمة حسابًا: «تعرض» = ١٤٧٠. أثقل كلمة حسابًا: «يشعرون» = ٦٣٦. أثقل كلمة حسابًا: «هذا» = ٧٠٦.",
       "recitation": [],
       "showAyat": [],
       "cues": [
         "[PATTERN INTERRUPT: سؤال على الشاشة للمشاهد]",
-        "[CHAPTER CARD: الفصل 3 — لوحة الأرقام]",
+        "[CHAPTER CARD: الفصل ٣ — لوحة الأرقام]",
         "[RPG: لوحة الأرقام — الجُمَّل + ترتيب الحروف + كلمات الخانات]",
-        "[OVERLAY 5:42: يجري حلول تقريبًا مال متحرك فيروس اتحادي كثيرًا سقوط دم جلسة ولادة متحرك جلسة طاقة علامات وسائط ولادة لهم اتحادي كثيرًا ألعاب مزدوج اتحادي عشرة يبدو]",
-        "[OVERLAY 6:26: قائمة قيم خطأ أسماء خطأ ولادة راسخ خطر هؤلاء موقَّع غير]",
-        "[OVERLAY 10:76: طاقة حق مدونات فطور قائمة اتحادي مزدوج عشرة مدونات حلول]"
+        "[OVERLAY ٥:٤٢: يجري حلول تقريبًا مال متحرك فيروس اتحادي كثيرًا سقوط دم جلسة ولادة متحرك جلسة طاقة علامات وسائط ولادة لهم اتحادي كثيرًا ألعاب مزدوج اتحادي عشرة يبدو]",
+        "[OVERLAY ٦:٢٦: قائمة قيم خطأ أسماء خطأ ولادة راسخ خطر هؤلاء موقَّع غير]",
+        "[OVERLAY ١٠:٧٦: طاقة حق مدونات فطور قائمة اتحادي مزدوج عشرة مدونات حلول]"
       ]
     },
     {
       "id": "i2",
       "type": "chapter",
-      "title": "الفصل 4: الفكرة الثانية",
-      "startSec": 183,
+      "title": "الفصل ٤: الفكرة الثانية",
+      "startSec": 185,
       "durationSec": 12,
-      "narration": "رجعت إلى سياق سورة سُورَةُ المَائـِدَةِ حول 5:42، فوجدت أن قراءة ما قبلها وما بعدها يغيّر طريقة فهمي لها. أنصحك أن تجرّب ذلك.",
+      "narration": "رجعت إلى سياق سورة سُورَةُ المَائـِدَةِ حول ٥:٤٢، فوجدت أن قراءة ما قبلها وما بعدها يغيّر طريقة فهمي لها. أنصحك أن تجرّب ذلك.",
       "recitation": [],
       "showAyat": [],
       "cues": [
         "[PATTERN INTERRUPT: تغيير زاوية المشهد + chiptune sting]",
-        "[CHAPTER CARD: الفصل 4]",
-        "[RPG: فكرة مفتوحة 2/3]"
+        "[CHAPTER CARD: الفصل ٤]",
+        "[RPG: فكرة مفتوحة ٢/٣]"
       ]
     },
     {
       "id": "midroll",
       "type": "cta",
       "title": "دعوة الاشتراك",
-      "startSec": 195,
+      "startSec": 197,
       "durationSec": 9,
       "narration": "إن كانت هذه المغامرة تفيدك، انضم إلى النقابة بالاشتراك، فكل حلقة تبدأ من آية سجّلتها في يومي.",
       "recitation": [],
@@ -195,24 +195,24 @@
     {
       "id": "i3",
       "type": "chapter",
-      "title": "الفصل 5: الفكرة الثالثة",
-      "startSec": 204,
+      "title": "الفصل ٥: الفكرة الثالثة",
+      "startSec": 206,
       "durationSec": 12,
       "narration": "الكلمة الأثقل حسابًا هنا «تعرض». لا أبني على الأرقام حكمًا، لكنها تدفعني أن أقف عند هذه الكلمة وأسأل عن معناها في التفاسير المعتمدة.",
       "recitation": [],
       "showAyat": [],
       "cues": [
-        "[CHAPTER CARD: الفصل 5]",
-        "[RPG: فكرة مفتوحة 3/3]"
+        "[CHAPTER CARD: الفصل ٥]",
+        "[RPG: فكرة مفتوحة ٣/٣]"
       ]
     },
     {
       "id": "payoff",
       "type": "payoff",
       "title": "كشف السرّ",
-      "startSec": 216,
-      "durationSec": 25,
-      "narration": "وعدتك في البداية بسرّ الرقم. مجموع حساب الجُمَّل في 5:42 هو 7923، أي 19 × 417. لا أقول إن هذا إعجاز ولا أبني عليه حكمًا؛ هو ملاحظة جعلتني أعيد قراءة الآية ببطء، وهذا وحده كنز. وملاحظة أخرى للتأمل: مجموع حساب الجُمَّل في 10:76 هو 1900، أي 19 × 100.",
+      "startSec": 218,
+      "durationSec": 29,
+      "narration": "وعدتك في البداية بنتيجة لعبة الأرقام. في ٥:٤٢ تلتقي الكلمات «جاءوك» و«أو» في الخانة نفسها (٠) من خانات تطبيق كلمات الأرقام. هي لعبة عدّ من أدواتي، لا رمز ولا إعجاز؛ لكنها جعلتني أعيد قراءة الآية ببطء، وهذا وحده كنز. وفي اللعبة نفسها: في ٦:٢٦ تلتقي الكلمات «عنه» و«عنه» في الخانة نفسها (١٣) من خانات تطبيق كلمات الأرقام.",
       "recitation": [],
       "showAyat": [],
       "cues": [
@@ -224,7 +224,7 @@
       "id": "takeaway",
       "type": "chapter",
       "title": "الخلاصة",
-      "startSec": 241,
+      "startSec": 247,
       "durationSec": 20,
       "narration": "شاركني في التعليقات: ما الكلمة التي توقفت عندها أنت؟ ربما يكون كنزك مختلفًا عن كنزي.",
       "recitation": [
@@ -243,7 +243,7 @@
       "id": "end",
       "type": "endscreen",
       "title": "شاشة النهاية",
-      "startSec": 261,
+      "startSec": 267,
       "durationSec": 32,
       "narration": "في الحلقة القادمة نفتح آية جديدة من سجلّ الغد… ورقمًا جديدًا. شاهدها الآن من الشاشة، واكتب لي في التعليقات: ما الكنز الذي وجدته أنت؟",
       "recitation": [],
@@ -258,273 +258,273 @@
     {
       "ref": "5:42",
       "sectionId": "ayat",
-      "atSec": 35
+      "atSec": 34
     },
     {
       "ref": "6:26",
       "sectionId": "ayat",
-      "atSec": 59
+      "atSec": 58
     },
     {
       "ref": "10:76",
       "sectionId": "ayat",
-      "atSec": 83
+      "atSec": 82
     },
     {
       "ref": "10:76",
       "sectionId": "takeaway",
-      "atSec": 241
+      "atSec": 247
     }
   ],
   "scenes": [
     {
       "index": 1,
       "startSec": 0,
-      "durationSec": 8,
+      "durationSec": 9,
       "sectionId": "hook",
       "prompt": "A lone hooded adventurer silhouette entering the gate, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 2,
-      "startSec": 8,
-      "durationSec": 8,
-      "sectionId": "hook",
+      "startSec": 9,
+      "durationSec": 9,
+      "sectionId": "intro",
       "prompt": "A save-point crystal pulsing gently, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 3,
       "startSec": 17,
-      "durationSec": 8,
+      "durationSec": 9,
       "sectionId": "intro",
       "prompt": "Footprints in sand leading outward, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 4,
-      "startSec": 25,
-      "durationSec": 8,
+      "startSec": 26,
+      "durationSec": 9,
       "sectionId": "intro",
       "prompt": "Mountains at sunrise with soft pixel clouds, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 5,
-      "startSec": 33,
-      "durationSec": 8,
-      "sectionId": "intro",
+      "startSec": 34,
+      "durationSec": 9,
+      "sectionId": "ayat",
       "prompt": "A star-filled sky with one bright star, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 6,
-      "startSec": 42,
-      "durationSec": 8,
+      "startSec": 43,
+      "durationSec": 9,
       "sectionId": "ayat",
       "prompt": "The silhouette resting under a palm tree, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 7,
-      "startSec": 50,
-      "durationSec": 8,
+      "startSec": 51,
+      "durationSec": 9,
       "sectionId": "ayat",
       "prompt": "An open journal with a quill (no readable text), setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 8,
-      "startSec": 59,
-      "durationSec": 8,
+      "startSec": 60,
+      "durationSec": 9,
       "sectionId": "ayat",
       "prompt": "A golden door closing softly, quest complete, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 9,
-      "startSec": 67,
-      "durationSec": 8,
+      "startSec": 68,
+      "durationSec": 9,
       "sectionId": "ayat",
       "prompt": "Entrance at dusk, torches dimming, end card space, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 10,
-      "startSec": 75,
-      "durationSec": 8,
+      "startSec": 77,
+      "durationSec": 9,
       "sectionId": "ayat",
       "prompt": "A lone hooded adventurer silhouette entering the gate, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 11,
-      "startSec": 84,
-      "durationSec": 8,
+      "startSec": 85,
+      "durationSec": 9,
       "sectionId": "ayat",
       "prompt": "An ancient stone door engraved with golden geometric patterns slowly opening, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 12,
-      "startSec": 92,
-      "durationSec": 8,
+      "startSec": 94,
+      "durationSec": 9,
       "sectionId": "ayat",
       "prompt": "A glowing quest scroll unrolling on a wooden table beside a candle, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 13,
-      "startSec": 100,
-      "durationSec": 8,
+      "startSec": 103,
+      "durationSec": 9,
       "sectionId": "ayat",
       "prompt": "A pixel map revealing a winding path, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 14,
-      "startSec": 109,
-      "durationSec": 8,
+      "startSec": 111,
+      "durationSec": 9,
       "sectionId": "ayat",
       "prompt": "Torches igniting one by one along a corridor, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 15,
-      "startSec": 117,
-      "durationSec": 8,
-      "sectionId": "ayat",
+      "startSec": 120,
+      "durationSec": 9,
+      "sectionId": "i1",
       "prompt": "A treasure chest emitting soft golden light, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 16,
-      "startSec": 126,
-      "durationSec": 8,
+      "startSec": 128,
+      "durationSec": 9,
       "sectionId": "i1",
       "prompt": "A crystal orb showing swirling stars, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 17,
-      "startSec": 134,
-      "durationSec": 8,
+      "startSec": 137,
+      "durationSec": 9,
       "sectionId": "numbers",
       "prompt": "A quiet campfire with falling dust in a skylight beam, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 18,
-      "startSec": 142,
-      "durationSec": 8,
+      "startSec": 145,
+      "durationSec": 9,
       "sectionId": "numbers",
       "prompt": "Stone tablets with glowing abstract golden runes (no text), setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 19,
-      "startSec": 151,
-      "durationSec": 8,
+      "startSec": 154,
+      "durationSec": 9,
       "sectionId": "numbers",
       "prompt": "A boulder blocking a tunnel, light through a crack, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 20,
-      "startSec": 159,
-      "durationSec": 8,
+      "startSec": 162,
+      "durationSec": 9,
       "sectionId": "numbers",
       "prompt": "The boulder crumbling as light floods in, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 21,
-      "startSec": 167,
-      "durationSec": 8,
+      "startSec": 171,
+      "durationSec": 9,
       "sectionId": "numbers",
       "prompt": "A spiral staircase climbing toward a bright opening, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 22,
-      "startSec": 176,
-      "durationSec": 8,
+      "startSec": 179,
+      "durationSec": 9,
       "sectionId": "numbers",
       "prompt": "An hourglass with golden sand on a pedestal, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 23,
-      "startSec": 184,
-      "durationSec": 8,
+      "startSec": 188,
+      "durationSec": 9,
       "sectionId": "i2",
       "prompt": "A rope bridge over a dark chasm, lanterns swaying, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 24,
-      "startSec": 193,
-      "durationSec": 8,
+      "startSec": 196,
+      "durationSec": 9,
       "sectionId": "i2",
       "prompt": "Glowing plants growing inside a cave, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 25,
-      "startSec": 201,
-      "durationSec": 8,
+      "startSec": 205,
+      "durationSec": 9,
       "sectionId": "midroll",
       "prompt": "Rain dripping into a stone basin, ripples of light, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 26,
-      "startSec": 209,
-      "durationSec": 8,
+      "startSec": 214,
+      "durationSec": 9,
       "sectionId": "i3",
       "prompt": "A locked gate with a golden key floating before it, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 27,
-      "startSec": 218,
-      "durationSec": 8,
+      "startSec": 222,
+      "durationSec": 9,
       "sectionId": "payoff",
       "prompt": "An inventory screen with potion, key, and lantern icons, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 28,
-      "startSec": 226,
-      "durationSec": 8,
+      "startSec": 231,
+      "durationSec": 9,
       "sectionId": "payoff",
       "prompt": "A shadow boss shrinking as a lantern brightens, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 29,
-      "startSec": 234,
-      "durationSec": 8,
+      "startSec": 239,
+      "durationSec": 9,
       "sectionId": "payoff",
       "prompt": "Endless shelves with floating dust motes, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 30,
-      "startSec": 243,
-      "durationSec": 8,
+      "startSec": 248,
+      "durationSec": 9,
       "sectionId": "takeaway",
       "prompt": "Water flowing through carved channels in a hidden sanctuary, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 31,
-      "startSec": 251,
-      "durationSec": 8,
+      "startSec": 256,
+      "durationSec": 9,
       "sectionId": "takeaway",
       "prompt": "Night sky through a cave mouth, crescent moon, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 32,
-      "startSec": 260,
-      "durationSec": 8,
+      "startSec": 265,
+      "durationSec": 9,
       "sectionId": "takeaway",
       "prompt": "Oasis at dawn beyond the exit, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 33,
-      "startSec": 268,
-      "durationSec": 8,
+      "startSec": 273,
+      "durationSec": 9,
       "sectionId": "end",
       "prompt": "A level-up burst of golden particles around the silhouette, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 34,
-      "startSec": 276,
-      "durationSec": 8,
+      "startSec": 282,
+      "durationSec": 9,
       "sectionId": "end",
       "prompt": "A save-point crystal pulsing gently, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 35,
-      "startSec": 285,
-      "durationSec": 8,
+      "startSec": 290,
+      "durationSec": 9,
       "sectionId": "end",
       "prompt": "Footprints in sand leading outward, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 36,
-      "startSec": 35,
+      "startSec": 34,
       "durationSec": 12,
       "sectionId": "ayat",
       "ref": "5:42",
@@ -532,7 +532,7 @@
     },
     {
       "index": 37,
-      "startSec": 35,
+      "startSec": 34,
       "durationSec": 12,
       "sectionId": "ayat",
       "ref": "6:26",
@@ -540,7 +540,7 @@
     },
     {
       "index": 38,
-      "startSec": 35,
+      "startSec": 34,
       "durationSec": 12,
       "sectionId": "ayat",
       "ref": "10:76",
@@ -550,69 +550,75 @@
   "findings": [
     {
       "ref": "5:42",
-      "score": 5,
-      "ar": "مجموع حساب الجُمَّل في 5:42 هو 7923، أي 19 × 417",
-      "short": "7923 = 19 × 417"
-    },
-    {
-      "ref": "10:76",
-      "score": 5,
-      "ar": "مجموع حساب الجُمَّل في 10:76 هو 1900، أي 19 × 100",
-      "short": "1900 = 19 × 100"
+      "score": 4,
+      "ar": "في 5:42 تلتقي الكلمات «جاءوك» و«أو» في الخانة نفسها (0) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
     },
     {
       "ref": "6:26",
       "score": 4,
-      "ar": "بترتيب الحروف الهجائي (كلمات الأرقام) مجموع 6:26 هو 988، أي 19 × 52",
-      "short": "988 = 19 × 52"
+      "ar": "في 6:26 تلتقي الكلمات «عنه» و«عنه» في الخانة نفسها (13) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
     },
     {
-      "ref": "6:26",
+      "ref": "10:76",
       "score": 4,
-      "ar": "مجموع الجُمَّل في 6:26 هو 1673، أي 7 × 239",
-      "short": "1673 = 7 × 239"
+      "ar": "في 10:76 تلتقي الكلمات «من» و«عندنا» في الخانة نفسها (21) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
     },
     {
       "ref": "5:42",
       "score": 3,
-      "ar": "في 5:42 تقع الكلمات «جاءوك» و«أو» في الخانة نفسها (0) من خانات كلمات الأرقام الثماني والعشرين",
-      "short": "كلمتان في خانة واحدة: 0"
+      "ar": "عدد حروف 5:42 110 أحرف، في 26 كلمة",
+      "short": "عدد حروفها 110"
     },
     {
       "ref": "6:26",
       "score": 3,
-      "ar": "في 6:26 تقع الكلمات «عنه» و«عنه» في الخانة نفسها (13) من خانات كلمات الأرقام الثماني والعشرين",
-      "short": "كلمتان في خانة واحدة: 13"
+      "ar": "عدد حروف 6:26 46 حرفًا، في 11 كلمة",
+      "short": "عدد حروفها 46"
     },
     {
       "ref": "10:76",
       "score": 3,
-      "ar": "بترتيب الحروف الهجائي مجموع 10:76 هو 567، أي 7 × 81",
-      "short": "567 = 7 × 81"
-    },
-    {
-      "ref": "10:76",
-      "score": 3,
-      "ar": "في 10:76 تقع الكلمات «من» و«عندنا» في الخانة نفسها (21) من خانات كلمات الأرقام الثماني والعشرين",
-      "short": "كلمتان في خانة واحدة: 21"
+      "ar": "عدد حروف 10:76 38 حرفًا، في 10 كلمات",
+      "short": "عدد حروفها 38"
     },
     {
       "ref": "5:42",
-      "score": 1,
-      "ar": "أثقل كلمة حسابًا في 5:42 هي «تعرض» بقيمة 1470",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 5:42 هي «تعرض» بقيمة 1470",
       "short": "«تعرض» = 1470"
     },
     {
+      "ref": "5:42",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 5:42 هو 7923، وبترتيب الحروف في تطبيق كلمات الأرقام 1845",
+      "short": "مجموعها 7923"
+    },
+    {
       "ref": "6:26",
-      "score": 1,
-      "ar": "أثقل كلمة حسابًا في 6:26 هي «يشعرون» بقيمة 636",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 6:26 هي «يشعرون» بقيمة 636",
       "short": "«يشعرون» = 636"
     },
     {
+      "ref": "6:26",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 6:26 هو 1673، وبترتيب الحروف في تطبيق كلمات الأرقام 988",
+      "short": "مجموعها 1673"
+    },
+    {
       "ref": "10:76",
-      "score": 1,
-      "ar": "أثقل كلمة حسابًا في 10:76 هي «هذا» بقيمة 706",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 10:76 هي «هذا» بقيمة 706",
       "short": "«هذا» = 706"
+    },
+    {
+      "ref": "10:76",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 10:76 هو 1900، وبترتيب الحروف في تطبيق كلمات الأرقام 567",
+      "short": "مجموعها 1900"
     }
   ],
   "numbers": [
@@ -622,8 +628,6 @@
       "letters": 110,
       "abjad": 7923,
       "patterns": [
-        "رقم الآية 42 من مضاعفات 7",
-        "مجموع الجُمَّل 7923 يقبل القسمة على 19",
         "مجموع أرقام الجُمَّل (7923) = 21",
         "ترتيبها في المصحف 711، وسورة+آية = 47",
         "أثقل كلمة حسابًا: «تعرض» = 1470"
@@ -824,7 +828,6 @@
       "letters": 46,
       "abjad": 1673,
       "patterns": [
-        "مجموع الجُمَّل 1673 يقبل القسمة على 7",
         "مجموع أرقام الجُمَّل (1673) = 17",
         "ترتيبها في المصحف 815، وسورة+آية = 32",
         "أثقل كلمة حسابًا: «يشعرون» = 636"
@@ -920,8 +923,6 @@
       "letters": 38,
       "abjad": 1900,
       "patterns": [
-        "رقم الآية 76 من مضاعفات 19",
-        "مجموع الجُمَّل 1900 يقبل القسمة على 19",
         "مجموع أرقام الجُمَّل (1900) = 10",
         "ترتيبها في المصحف 1440، وسورة+آية = 86",
         "أثقل كلمة حسابًا: «هذا» = 706"
@@ -1005,7 +1006,7 @@
       }
     }
   ],
-  "description": "47 كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ\n\nالآيات: 5:42 ، 6:26 ، 10:76\n\n⏱ في الساعة 2:54 ظهرًا بتوقيت نيويورك بين الظهر والعصر، كان تمرير القرآن عند سورة يونس الآية 76. (نوافذ الصلاة من تطبيق الزاحف القرآني)\n\n📍 الفصول:\n0:00 الافتتاحية (0–10ث)\n0:35 الفصل 1: الآيات\n2:01 الفصل 2: الفكرة الأولى\n2:10 الفصل 3: لوحة الأرقام\n3:03 الفصل 4: الفكرة الثانية\n3:24 الفصل 5: الفكرة الثالثة\n3:36 كشف السرّ\n4:01 الخلاصة\n\n📚 التفسير: [ابن كثير — 5:42, 6:26, 10:76] / [السعدي — تيسير الكريم الرحمن] (أضف الصفحة/الرابط)\nهذا تدبّر شخصي وليس تفسيرًا ولا فتوى. الملاحظات العددية للتأمل فقط وليست ادعاء إعجاز.\n🔢 قيم «كلمات الأرقام» محسوبة بمنطق تطبيق كلمات الأرقام: https://mrbugimposter3-ship-it.github.io/quran-number-words/\n🎙️ التلاوة: الحاج معمر زين العاشقين (H. Muammar Zainal Asyikin) — تسجيل مُتاح للملكية العامة (CC0) على أرشيف الإنترنت: https://archive.org/details/muammar_murottal_first (السور 1–22) و https://archive.org/details/muammar_murottal_full (السور 23–114)\n\n#تدبر #القرآن #فن_البكسل",
+  "description": "٤٧ كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ\n\nالآيات: 5:42 ، 6:26 ، 10:76\n\n⏱ في الساعة 2:54 ظهرًا بتوقيت نيويورك بين الظهر والعصر، كان تمرير القرآن عند سورة يونس الآية 76. (نوافذ الصلاة من تطبيق الزاحف القرآني)\n\n📍 الفصول:\n0:00 الافتتاحية (٠–١٠ث)\n0:34 الفصل ١: الآيات\n2:00 الفصل ٢: الفكرة الأولى\n2:09 الفصل ٣: لوحة الأرقام\n3:05 الفصل ٤: الفكرة الثانية\n3:26 الفصل ٥: الفكرة الثالثة\n3:38 كشف السرّ\n4:07 الخلاصة\n\n📚 التفسير: [ابن كثير — 5:42, 6:26, 10:76] / [السعدي — تيسير الكريم الرحمن] (أضف الصفحة/الرابط)\nهذا تدبّر شخصي وليس تفسيرًا ولا فتوى. «لعبة الأرقام» عدٌّ من أدوات القناة للتأمل، وليست رمزًا ولا إعجازًا.\n🔢 قيم «كلمات الأرقام» محسوبة بمنطق تطبيق كلمات الأرقام: https://mrbugimposter3-ship-it.github.io/quran-number-words/\n🎙️ التلاوة: الحاج معمر زين العاشقين (H. Muammar Zainal Asyikin) — تسجيل مُتاح للملكية العامة (CC0) على أرشيف الإنترنت: https://archive.org/details/muammar_murottal_first (السور 1–22) و https://archive.org/details/muammar_murottal_full (السور 23–114)\n\n#تدبر #القرآن #فن_البكسل",
   "tags": [
     "تدبر",
     "القرآن الكريم",
@@ -1029,14 +1030,14 @@
   ],
   "shorts": [
     {
-      "title": "7923 = 19 × 417 | 5:42 #Shorts",
+      "title": "كلمتان في خانة واحدة | ٥:٤٢ #Shorts",
       "durationSec": 57,
-      "finding": "مجموع حساب الجُمَّل في 5:42 هو 7923، أي 19 × 417",
+      "finding": "في ٥:٤٢ تلتقي الكلمات «جاءوك» و«أو» في الخانة نفسها (٠) من خانات تطبيق كلمات الأرقام",
       "beats": [
         {
           "t": 0,
           "dur": 3,
-          "narration": "7923 = 19 × 417… هل لاحظت هذا من قبل؟",
+          "narration": "كلمتان في خانة واحدة… هل لاحظت هذا من قبل؟",
           "visual": "Gold number glowing on black, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
@@ -1050,8 +1051,8 @@
         {
           "t": 17,
           "dur": 15,
-          "narration": "مجموع حساب الجُمَّل في 5:42 هو 7923، أي 19 × 417.",
-          "visual": "Number stat panel animating; on-screen text (Arabic): 7923 = 19 × 417, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+          "narration": "في ٥:٤٢ تلتقي الكلمات «جاءوك» و«أو» في الخانة نفسها (٠) من خانات تطبيق كلمات الأرقام.",
+          "visual": "Number stat panel animating; on-screen text (Arabic): كلمتان في خانة واحدة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
           "t": 32,
@@ -1068,53 +1069,14 @@
       ]
     },
     {
-      "title": "1900 = 19 × 100 | 10:76 #Shorts",
+      "title": "كلمتان في خانة واحدة | ٦:٢٦ #Shorts",
       "durationSec": 57,
-      "finding": "مجموع حساب الجُمَّل في 10:76 هو 1900، أي 19 × 100",
+      "finding": "في ٦:٢٦ تلتقي الكلمات «عنه» و«عنه» في الخانة نفسها (١٣) من خانات تطبيق كلمات الأرقام",
       "beats": [
         {
           "t": 0,
           "dur": 3,
-          "narration": "1900 = 19 × 100… هل لاحظت هذا من قبل؟",
-          "visual": "Gold number glowing on black, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-        },
-        {
-          "t": 3,
-          "dur": 14,
-          "narration": "",
-          "recitation": "10:76",
-          "showAyah": "10:76",
-          "visual": "Verse card with Arabic overlay 10:76, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-        },
-        {
-          "t": 17,
-          "dur": 15,
-          "narration": "مجموع حساب الجُمَّل في 10:76 هو 1900، أي 19 × 100.",
-          "visual": "Number stat panel animating; on-screen text (Arabic): 1900 = 19 × 100, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-        },
-        {
-          "t": 32,
-          "dur": 15,
-          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. رجعت إلى سياق سورة سُورَةُ المَائـِدَةِ حول 5:42، فوجدت أن قراءة ما قبلها وما بعدها يغيّر طريقة فهمي لها.",
-          "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-        },
-        {
-          "t": 47,
-          "dur": 10,
-          "narration": "الحلقة الكاملة على القناة… وكل يوم آية جديدة من سجلّي.",
-          "visual": "Subscribe banner; on-screen text (Arabic): انضم إلى النقابة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-        }
-      ]
-    },
-    {
-      "title": "988 = 19 × 52 | 6:26 #Shorts",
-      "durationSec": 57,
-      "finding": "بترتيب الحروف الهجائي (كلمات الأرقام) مجموع 6:26 هو 988، أي 19 × 52",
-      "beats": [
-        {
-          "t": 0,
-          "dur": 3,
-          "narration": "988 = 19 × 52… هل لاحظت هذا من قبل؟",
+          "narration": "كلمتان في خانة واحدة… هل لاحظت هذا من قبل؟",
           "visual": "Gold number glowing on black, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
@@ -1128,8 +1090,47 @@
         {
           "t": 17,
           "dur": 15,
-          "narration": "بترتيب الحروف الهجائي (كلمات الأرقام) مجموع 6:26 هو 988، أي 19 × 52.",
-          "visual": "Number stat panel animating; on-screen text (Arabic): 988 = 19 × 52, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+          "narration": "في ٦:٢٦ تلتقي الكلمات «عنه» و«عنه» في الخانة نفسها (١٣) من خانات تطبيق كلمات الأرقام.",
+          "visual": "Number stat panel animating; on-screen text (Arabic): كلمتان في خانة واحدة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 32,
+          "dur": 15,
+          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. رجعت إلى سياق سورة سُورَةُ المَائـِدَةِ حول ٥:٤٢، فوجدت أن قراءة ما قبلها وما بعدها يغيّر طريقة فهمي لها.",
+          "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 47,
+          "dur": 10,
+          "narration": "الحلقة الكاملة على القناة… وكل يوم آية جديدة من سجلّي.",
+          "visual": "Subscribe banner; on-screen text (Arabic): انضم إلى النقابة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        }
+      ]
+    },
+    {
+      "title": "كلمتان في خانة واحدة | ١٠:٧٦ #Shorts",
+      "durationSec": 57,
+      "finding": "في ١٠:٧٦ تلتقي الكلمات «من» و«عندنا» في الخانة نفسها (٢١) من خانات تطبيق كلمات الأرقام",
+      "beats": [
+        {
+          "t": 0,
+          "dur": 3,
+          "narration": "كلمتان في خانة واحدة… هل لاحظت هذا من قبل؟",
+          "visual": "Gold number glowing on black, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 3,
+          "dur": 14,
+          "narration": "",
+          "recitation": "10:76",
+          "showAyah": "10:76",
+          "visual": "Verse card with Arabic overlay 10:76, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 17,
+          "dur": 15,
+          "narration": "في ١٠:٧٦ تلتقي الكلمات «من» و«عندنا» في الخانة نفسها (٢١) من خانات تطبيق كلمات الأرقام.",
+          "visual": "Number stat panel animating; on-screen text (Arabic): كلمتان في خانة واحدة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
           "t": 32,
@@ -1147,11 +1148,11 @@
     }
   ],
   "stats": {
-    "narrationChars": 1893,
-    "narrationWords": 356,
-    "narrationSec": 178,
+    "narrationChars": 1774,
+    "narrationWords": 326,
+    "narrationSec": 163,
     "recitationSecEst": 84,
-    "totalSec": 293
+    "totalSec": 299
   },
   "render": {
     "width": 1920,
