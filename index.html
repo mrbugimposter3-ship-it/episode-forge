@@ -64,14 +64,17 @@ button .ur{color:#fff;opacity:.9}body.noUr .ur{display:none}#urBtn{position:abso
 <section id="uniq"><h2>فحص التفرّد</h2><button id="uniqBtn">فحص</button><div id="uniqOut"></div></section>
 
 <script>
+// Arabic number–noun agreement: 1 → singular + واحد/ة, 2 → dual, 3–10 → plural (genitive), 11–99 → singular accusative, 100+ follows last two digits (x00–x02 → singular genitive).
+const AR_N={w:['كلمة','كلمتان','كلمات','كلمة','كلمة','كلمة واحدة'],l:['حرف','حرفان','أحرف','حرفًا','حرف','حرف واحد'],a:['آية','آيتان','آيات','آية','آية','آية واحدة'],m:['مرة','مرتان','مرات','مرة','مرة','مرة واحدة']};
+function arN(n,k){const f=AR_N[k];n=+n;if(n===1)return f[5];if(n===2)return f[1];const r=n%100;if(n>=100&&r<=2)return n+' '+f[4];if(r>=3&&r<=10)return n+' '+f[2];if(r>=11)return n+' '+f[3];return n+' '+f[2]}
 let LOG={date:'',items:[],status:''};
 const $=id=>document.getElementById(id);
 const LS={get:(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set:(k,v)=>localStorage.setItem(k,JSON.stringify(v))};
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const TODAY=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});
-if(localStorage.getItem('ef_day')!==JSON.stringify(TODAY)){const w=JSON.parse(localStorage.getItem('ef_wiz')||'{}');localStorage.removeItem('ef_current_ayat');localStorage.removeItem('ef_fields');localStorage.setItem('ef_wiz',JSON.stringify({step:1,obs:[],pick:{},seed:1,theme:0,quest:0,rec:w.rec||'custom',credit:w.credit}));localStorage.setItem('ef_day',JSON.stringify(TODAY));}
+if(localStorage.getItem('ef_day')!==JSON.stringify(TODAY)){const w=JSON.parse(localStorage.getItem('ef_wiz')||'{}');localStorage.removeItem('ef_current_ayat');localStorage.removeItem('ef_fields');localStorage.setItem('ef_wiz',JSON.stringify({step:1,obs:[],pick:{},seed:1,theme:0,quest:0,rec:w.rec&&w.rec!=='custom'?w.rec:'zainal',credit:w.rec&&w.rec!=='custom'?w.credit:undefined}));localStorage.setItem('ef_day',JSON.stringify(TODAY));}
 let ayat=LS.get('ef_current_ayat',[]);let pkg=null;
-let W=LS.get('ef_wiz',{step:1,obs:[],pick:{},seed:1,theme:0,quest:0,rec:'custom'});
+let W=LS.get('ef_wiz',{step:1,obs:[],pick:{},seed:1,theme:0,quest:0,rec:'zainal'});
 const saveW=()=>LS.set('ef_wiz',W);
 function tab(t){document.querySelectorAll('section').forEach(s=>s.classList.remove('on'));$(t).classList.add('on');if(t==='lib')renderLib();if(t==='nums')renderNums();}
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>tab(b.dataset.t));
@@ -83,7 +86,7 @@ async function fetchAyah(ref){const cache=LS.get('ef_cache',{});if(cache[ref])re
  const o={ref:'',surah:ar.surah.number,ayah:ar.numberInSurah,surahName:ar.surah.name,surahEn:ar.surah.englishName,global:ar.number,juz:ar.juz,page:ar.page,ar:ar.text,tr:tr?tr.text:''};
  cache[ref]=o;cache[o.surah+':'+o.ayah]=o;o.ref=o.surah+':'+o.ayah;LS.set('ef_cache',cache);return o;}
 async function addRefs(refs,msgEl){const errs=[];for(const r of refs){if(ayat.some(a=>a.ref===r))continue;try{const o={...await fetchAyah(r)};if(ayat.some(a=>a.ref===o.ref))continue;const li=LOG.items.find(x=>x.key===r||x.ref===o.ref||x.global===o.global);if(li)o.stamps=li.stamps;ayat.push(o)}catch(e){errs.push(e.message)}}
- ayat.sort((a,b)=>a.global-b.global);LS.set('ef_current_ayat',ayat);if(msgEl)msgEl.innerHTML=errs.length?'<span class="warn">تعذّر: '+esc(errs.join(' | '))+' (تحقق من الإنترنت)</span>':'<span class="ok">✓ '+ayat.length+' آية</span>';pkg=null;}
+ ayat.sort((a,b)=>a.global-b.global);LS.set('ef_current_ayat',ayat);if(msgEl)msgEl.innerHTML=errs.length?'<span class="warn">تعذّر: '+esc(errs.join(' | '))+' (تحقق من الإنترنت)</span>':'<span class="ok">✓ '+arN(ayat.length,'a')+'</span>';pkg=null;}
 function parseRefs(s){const out=[];s.split(/[,\s،]+/).filter(Boolean).forEach(p=>{const m=p.match(/^(\d{1,3}):(\d{1,3})(?:-(\d{1,3}))?$/);if(!m)return;const su=+m[1],a=+m[2],b=m[3]?+m[3]:a;if(su<1||su>114)return;for(let i=a;i<=Math.min(b,a+60);i++)out.push(su+':'+i)});return [...new Set(out)];}
 $('fetchBtn').onclick=async()=>{const r=parseRefs($('refs').value);if(!r.length){$('fetchMsg').textContent='صيغة غير صحيحة';return}$('fetchMsg').textContent='جارٍ الجلب...';await addRefs(r,$('fetchMsg'));renderAyat();renderLog()};
 $('clearAyat').onclick=()=>{ayat=[];LS.set('ef_current_ayat',ayat);renderAyat();renderLog()};
@@ -94,11 +97,11 @@ const etTimeAr=ts=>{const p=etParts(new Date(ts)),h=p.h;const per=h<5?'ليلً�
 const etDate=ts=>new Date(ts).toLocaleDateString('en-CA',{timeZone:'America/New_York'});
 // ---- log list ----
 const salahRefOf=ts=>{try{return salahAt(new Date(ts)).ref}catch(e){return ''}};
-function renderLog(){$('logInfo').innerHTML=LOG.status||(`من سجلّك <b>quran-recorder</b> (${esc(LOG.date)}): ${LOG.items.length} آية. اضغط البطاقة لإضافة آية تمرير الصلاة 🕋 في وقت التسجيل.`);
+function renderLog(){$('logInfo').innerHTML=LOG.status||(`من سجلّك <b>quran-recorder</b> (${esc(LOG.date)}): ${arN(LOG.items.length,'a')}. اضغط البطاقة لإضافة آية تمرير الصلاة 🕋 في وقت التسجيل.`);
  const c=LS.get('ef_cache',{});
  $('logList').innerHTML=LOG.items.map(it=>{const ts=it.stamps[0],sr=ts?salahRefOf(ts):'',ss=sr&&c[sr],ssel=sr&&ayat.some(a=>a.ref===sr);const k=c[it.key],lsel=ayat.some(a=>a.ref===it.ref||a.global===it.global);
   return `<div class="card ${ssel?'sel':''}" onclick="${sr?`togSalah('${sr}','${ts}')`:`togLog('${it.key}')`}">${sr?`<div><span class="ref" style="font-size:1.25em">🕋 ${sr}</span> ${ss?esc(ss.surahName):esc(CR_NAMES[+sr.split(':')[0]-1])} <span class="small">(${salahAt(new Date(ts)).nameAr})</span></div>`:''}
-  <div class="small">مسجّلة: ${k?k.ref:it.ref||('#'+it.global)}${it.global?' #'+it.global+'/6236':''} · ⏱ ${it.stamps.map(etTime).join('، ')}${it.stamps.length>1?' ('+it.stamps.length+' مرات)':''} <button class="sec" onclick="event.stopPropagation();togLog('${it.key}')">${lsel?'✓ ':''}+ المسجّلة</button>${ts?` <button class="sec" onclick="useStamp('${ts}',event)">⏱ وقت التسجيل</button>`:''}</div>${ss&&ssel?`<div class="ar">${esc(ss.ar)}</div><div class="tr">${esc(ss.tr)}</div>`:''}</div>`}).join('');}
+  <div class="small">مسجّلة: ${k?k.ref:it.ref||('#'+it.global)}${it.global?' #'+it.global+'/6236':''} · ⏱ ${it.stamps.map(etTime).join('، ')}${it.stamps.length>1?' ('+arN(it.stamps.length,'m')+')':''} <button class="sec" onclick="event.stopPropagation();togLog('${it.key}')">${lsel?'✓ ':''}+ المسجّلة</button>${ts?` <button class="sec" onclick="useStamp('${ts}',event)">⏱ وقت التسجيل</button>`:''}</div>${ss&&ssel?`<div class="ar">${esc(ss.ar)}</div><div class="tr">${esc(ss.tr)}</div>`:''}</div>`}).join('');}
 window.togSalah=async(ref,ts)=>{const i=ayat.findIndex(a=>a.ref===ref);if(i>=0){ayat.splice(i,1);LS.set('ef_current_ayat',ayat);pkg=null;renderLog();renderAyat()}else useStamp(ts)};
 window.togLog=async ref=>{const it=LOG.items.find(x=>x.key===ref)||{};const i=ayat.findIndex(a=>a.ref===ref||(it.global&&a.global===it.global));if(i>=0){ayat.splice(i,1);LS.set('ef_current_ayat',ayat);pkg=null}else{$('wizMsg').textContent='جارٍ جلب '+ref+'...';await addRefs([ref],$('wizMsg'))}renderLog();renderAyat()};
 async function addFromStamps(stamps){ayat=[];if(!stamps.length){await addRefs(['94:5','94:6'],$('wizMsg'));return}$('tsIn').value=dateToEtWall(new Date(stamps[0]));timeCalc(false);
@@ -121,9 +124,9 @@ function analyze(a){const words=strip(a.ar).split(/\s+/).filter(w=>[...w].some(c
  const big=ws.slice().sort((x,y)=>y.abjad-x.abjad)[0];if(big)pat.push('أثقل كلمة حسابًا: «'+big.w+'» = '+big.abjad);
  return{ref:a.ref,words:ws.length,letters,total,ws,pat};}
 function renderNums(){if(!ayat.length){$('numsOut').innerHTML='<p>اختر آيات أولًا.</p>';return}let gw=0,gl=0,gt=0;
- $('numsOut').innerHTML=ayat.map(analyze).map(x=>{gw+=x.words;gl+=x.letters;gt+=x.total;return `<div class="ayah"><div class="ref">${x.ref} — كلمات ${x.words} · حروف ${x.letters} · الجُمَّل ${x.total}</div><table><tr><th>#</th><th>الكلمة</th><th>حروف</th><th>الجُمَّل</th></tr>${x.ws.map((w,i)=>`<tr><td>${i+1}</td><td>${esc(w.w)}</td><td>${w.letters}</td><td>${w.abjad}</td></tr>`).join('')}</table><ul>${x.pat.map(p=>'<li>'+esc(p)+'</li>').join('')}</ul></div>`}).join('')+`<p class="ref">المجموع: ${gw} كلمة · ${gl} حرفًا · الجُمَّل ${gt}</p>`;}
+ $('numsOut').innerHTML=ayat.map(analyze).map(x=>{gw+=x.words;gl+=x.letters;gt+=x.total;return `<div class="ayah"><div class="ref">${x.ref} — كلمات ${x.words} · حروف ${x.letters} · الجُمَّل ${x.total}</div><table><tr><th>#</th><th>الكلمة</th><th>حروف</th><th>الجُمَّل</th></tr>${x.ws.map((w,i)=>`<tr><td>${i+1}</td><td>${esc(w.w)}</td><td>${w.letters}</td><td>${w.abjad}</td></tr>`).join('')}</table><ul>${x.pat.map(p=>'<li>'+esc(p)+'</li>').join('')}</ul></div>`}).join('')+`<p class="ref">المجموع: ${arN(gw,'w')} · ${arN(gl,'l')} · الجُمَّل ${gt}</p>`;}
 function allObs(){const an=ayat.map(analyze),o=[];an.forEach(x=>x.pat.forEach(p=>o.push(x.ref+': '+p)));
- if(an.length>1){const T=an.reduce((s,x)=>s+x.total,0),Wd=an.reduce((s,x)=>s+x.words,0),Lt=an.reduce((s,x)=>s+x.letters,0);o.unshift('الآيات معًا: '+Wd+' كلمة، '+Lt+' حرفًا، الجُمَّل '+T+(T%19===0?' (يقبل القسمة على 19)':'')+(T%7===0?' (يقبل القسمة على 7)':''));}
+ if(an.length>1){const T=an.reduce((s,x)=>s+x.total,0),Wd=an.reduce((s,x)=>s+x.words,0),Lt=an.reduce((s,x)=>s+x.letters,0);o.unshift('الآيات معًا: '+arN(Wd,'w')+'، '+arN(Lt,'l')+'، الجُمَّل '+T+(T%19===0?' (يقبل القسمة على 19)':'')+(T%7===0?' (يقبل القسمة على 7)':''));}
  return o;}
 function renderObs(){const o=allObs();W.obs=W.obs.filter(i=>i<o.length);$('obsList').innerHTML=o.length?o.map((t,i)=>`<div class="card ${W.obs.includes(i)?'sel':''}" onclick="togObs(${i})">${esc(t)}</div>`).join(''):'<p>اختر آيات أولًا.</p>'}
 window.togObs=i=>{const k=W.obs.indexOf(i);k>=0?W.obs.splice(k,1):W.obs.push(i);saveW();renderObs()};
@@ -134,11 +137,11 @@ function ctx(){const a=ayat[0]||{},an=ayat.map(analyze),st=ayat.flatMap(x=>x.sta
  G:a.global||0,REP:Math.max(0,...ayat.map(x=>(x.stamps||[]).length))}}
 const TPL={
 hook:[c=>`في سجلّي اليومي توقفت عند ${c.R}${c.TM?' في الساعة '+c.TM:''}... ولم أستطع أن أكمل قبل أن أفهم لماذا شدّتني.`,
-c=>`مغامرة اليوم تبدأ من الجزء ${c.J}، من سورة ${c.S}. ${c.N>1?c.N+' آيات':'آية واحدة'}، و${c.W} كلمة فقط... لكن الكنز أعمق مما يبدو.`,
+c=>`مغامرة اليوم تبدأ من الجزء ${c.J}، من سورة ${c.S}. ${arN(c.N,'a')}، و${arN(c.W,'w')} فقط... لكن الكنز أعمق مما يبدو.`,
 c=>`هل جرّبت أن تقرأ آية فتشعر أنها كُتبت لك في هذه اللحظة بالذات؟ هذا ما حدث لي مع ${c.R0}.`,
-c=>`${c.L} حرفًا. هذا كل ما تحتاجه هذه المهمة. تعال نفتح الباب معًا ونرى ماذا وراءه.`,
+c=>`${arN(c.L,'l')}. هذا كل ما تحتاجه هذه المهمة. تعال نفتح الباب معًا ونرى ماذا وراءه.`,
 c=>`في هذه الحلقة من سجل المغامر لا نقاتل وحشًا... بل نقف أمام آية ونسأل: ماذا تطلب مني أنا؟`,
-c=>c.REP>1?`سجّلت هذه الآية ${c.REP} مرات في يوم واحد. حين يتكرر التوقف عند آية، فهذه رسالة تستحق الانتباه.`:`كل آية في سجلّي لها قصة. واليوم أحكي لك قصة ${c.R0}.`],
+c=>c.REP>1?`سجّلت هذه الآية ${arN(c.REP,'m')} في يوم واحد. حين يتكرر التوقف عند آية، فهذه رسالة تستحق الانتباه.`:`كل آية في سجلّي لها قصة. واليوم أحكي لك قصة ${c.R0}.`],
 ins:[c=>`أول ما لاحظته أن هذه الكلمات قليلة العدد، لكنها تحمل وزنًا كبيرًا في القلب. ليس المهم كم نقرأ، بل كم نتوقف.`,
 c=>`حين أعدت قراءة ${c.R0} ببطء، شعرت أن كل كلمة فيها في مكانها تمامًا. وهذا يدعوني أن أراجع ترتيب أولوياتي أنا.`,
 c=>`الكلمة الأثقل حسابًا هنا «${c.BW}». لا أبني على الأرقام حكمًا، لكنها تدفعني أن أقف عند هذه الكلمة وأسأل عن معناها في التفاسير المعتمدة.`,
@@ -168,7 +171,7 @@ function chosenText(k){const si=SLOTS.findIndex(s=>s[0]===k),op=options(SLOTS[si
 // ---- themes ----
 const THEMES=[{n:'🏰 زنزانة المشاعل',p:'torch-lit stone dungeon halls'},{n:'🏜️ صحراء النجوم',p:'desert dunes under a starry sky, ancient ruins'},{n:'🌊 كهف الينابيع',p:'underground spring cave with glowing water'},{n:'⛰️ قلعة الجبل',p:'mountain fortress with snowy peaks'},{n:'🌙 واحة الليل',p:'night oasis with crescent moon and palms'},{n:'📚 المكتبة القديمة',p:'ancient endless library with floating dust'}];
 const QUESTS=[{n:'🗝️ مهمة الكنز',c:'Treasure quest: map → chest unlock → loot = insight'},{n:'⚔️ معركة الزعيم',c:'Boss battle: shadow boss = inner struggle, ayah = power-up'},{n:'🧭 مهمة الاستكشاف',c:'Exploration: fog-of-war map reveals with each insight'},{n:'🛡️ مهمة الصبر',c:'Endurance quest: HP bar of "Sabr" refills through the episode'},{n:'🔮 مهمة الألغاز',c:'Puzzle quest: number panel solves a rune door'}];
-const RECS={custom:{n:'تسجيل مرخّص من اختياري (أدخل النسب)',c:'التلاوة: [اسم القارئ / المصدر] — مستخدمة وفق ترخيص يسمح بإعادة الاستخدام وتحقيق الدخل [رابط الترخيص]'},zainal:{n:'H. Muammar Zainal Asyikin — archive.org (موسوم CC0 من الرافع)',c:'التلاوة: H. Muammar Zainal Asyikin — archive.org، موسومة CC0 (Public Domain) من قِبل الرافع [رابط صفحة archive.org] — تحقّق من الترخيص قبل النشر'},none:{n:'بلا تلاوة (عرض النص فقط)',c:'لا توجد تلاوة صوتية في هذه الحلقة؛ النص القرآني معروض على الشاشة.'}};
+const RECS={custom:{n:'تسجيل مرخّص من اختياري (أدخل النسب)',c:'التلاوة: [اسم القارئ / المصدر] — مستخدمة وفق ترخيص يسمح بإعادة الاستخدام وتحقيق الدخل [رابط الترخيص]'},zainal:{n:'H. Muammar Zainal Asyikin — archive.org (CC0) — الافتراضي',c:'التلاوة: الحاج معمر زين العاشقين (H. Muammar Zainal Asyikin) — تسجيل مُتاح للملكية العامة (CC0) على أرشيف الإنترنت: https://archive.org/details/muammar_murottal_first (السور 1–22) و https://archive.org/details/muammar_murottal_full (السور 23–114)'},none:{n:'بلا تلاوة (عرض النص فقط)',c:'لا توجد تلاوة صوتية في هذه الحلقة؛ النص القرآني معروض على الشاشة.'}};
 function renderTheme(){$('themeList').innerHTML=THEMES.map((t,i)=>`<div class="card ${W.theme===i?'sel':''}" onclick="W.theme=${i};saveW();renderTheme()">${t.n}</div>`).join('');
  $('questList').innerHTML=QUESTS.map((t,i)=>`<div class="card ${W.quest===i?'sel':''}" onclick="W.quest=${i};saveW();renderTheme()">${t.n}</div>`).join('');
  $('recSrc').innerHTML=Object.entries(RECS).map(([k,v])=>`<option value="${k}" ${W.rec===k?'selected':''}>${v.n}</option>`).join('');
@@ -201,14 +204,14 @@ function numberWords(a){const ws=strip(a.ar).split(/\s+/).filter(w=>nwVal(w)>0).
  return{ref:a.ref,words:ws,total:ws.reduce((s,x)=>s+x.v,0),line:ws.map(x=>x.ar).join(' '),lineEn:ws.map(x=>x.en).join(' ')}}
 function findings(){const out=[];ayat.forEach(a=>{const x=analyze(a),nw=numberWords(a),R=a.ref;
  const add=(score,ar,short)=>out.push({ref:R,score,ar,short});
- if(x.words===a.ayah)add(6,`في الآية ${R} عدد الكلمات ${x.words} يساوي رقم الآية نفسه`,`${x.words} كلمة… ورقم الآية ${a.ayah}`);
+ if(x.words===a.ayah)add(6,`في الآية ${R} عدد الكلمات ${x.words} يساوي رقم الآية نفسه`,`${arN(x.words,'w')}… ورقم الآية ${a.ayah}`);
  if(x.total%19===0)add(5,`مجموع حساب الجُمَّل في ${R} هو ${x.total}، أي 19 × ${x.total/19}`,`${x.total} = 19 × ${x.total/19}`);
  if(nw.total%19===0)add(4,`بترتيب الحروف الهجائي (كلمات الأرقام) مجموع ${R} هو ${nw.total}، أي 19 × ${nw.total/19}`,`${nw.total} = 19 × ${nw.total/19}`);
  if(x.total%7===0)add(4,`مجموع الجُمَّل في ${R} هو ${x.total}، أي 7 × ${x.total/7}`,`${x.total} = 7 × ${x.total/7}`);
  if(nw.total%7===0)add(3,`بترتيب الحروف الهجائي مجموع ${R} هو ${nw.total}، أي 7 × ${nw.total/7}`,`${nw.total} = 7 × ${nw.total/7}`);
- const byB={};nw.words.forEach(w=>(byB[w.b]=byB[w.b]||[]).push(w));Object.values(byB).filter(g=>g.length>1).slice(0,1).forEach(g=>add(3,`في ${R} تقع الكلمات ${g.map(w=>'«'+w.w+'»').join(' و')} في الخانة نفسها (${g[0].b}) من خانات كلمات الأرقام الثماني والعشرين`,`${g.length} كلمات في خانة واحدة: ${g[0].b}`));
+ const byB={};nw.words.forEach(w=>(byB[w.b]=byB[w.b]||[]).push(w));Object.values(byB).filter(g=>g.length>1).slice(0,1).forEach(g=>add(3,`في ${R} تقع الكلمات ${g.map(w=>'«'+w.w+'»').join(' و')} في الخانة نفسها (${g[0].b}) من خانات كلمات الأرقام الثماني والعشرين`,`${arN(g.length,'w')} في خانة واحدة: ${g[0].b}`));
  if(isPrime(x.total))add(2,`مجموع الجُمَّل في ${R} (${x.total}) عدد أولي`,`${x.total} عدد أولي`);
- if(isPrime(x.letters))add(1,`عدد حروف ${R} هو ${x.letters}، وهو عدد أولي`,`${x.letters} حرفًا — عدد أولي`);
+ if(isPrime(x.letters))add(1,`عدد حروف ${R} هو ${x.letters}، وهو عدد أولي`,`${arN(x.letters,'l')} — عدد أولي`);
  const big=x.ws.slice().sort((p,q)=>q.abjad-p.abjad)[0];if(big)add(1,`أثقل كلمة حسابًا في ${R} هي «${big.w}» بقيمة ${big.abjad}`,`«${big.w}» = ${big.abjad}`);});
  if(ayat.length>1){const T=ayat.reduce((s,a)=>s+analyze(a).total,0);if(T%19===0)out.push({ref:ayat.map(a=>a.ref).join('+'),score:5,ar:`مجموع الجُمَّل للآيات معًا ${T} = 19 × ${T/19}`,short:`${T} = 19 × ${T/19}`});}
  return out.sort((p,q)=>q.score-p.score);}
@@ -218,7 +221,7 @@ function buildSections(){const refs=ayat.map(a=>a.ref),an=ayat.map(analyze),nws=
  const rec=W.rec!=='none',S=[];const sec=(id,type,title,o)=>S.push(Object.assign({id,type,title,narration:[],recitation:[],showAyat:[],cues:[]},o));
  sec('hook','hook','الافتتاحية (0–10ث)',{narration:[`رقم واحد في ${top.ref} جعلني أتوقف: ${top.short}. هل هذا مجرد رقم… أم دعوة للتأمل؟`],cues:['[RPG: شاشة سوداء ← رقم ذهبي يظهر حرفًا حرفًا]','[SFX: نبضة]']});
  sec('intro','intro','المهمة',{narration:[...(W.time?[timeHookAr()]:[]),T('hook'),'لكن قبل أن أخبرك بما وجدته في هذا الرقم، دعنا نبدأ المهمة من أولها… والسرّ في آخر الحلقة.'],cues:['[RPG: '+qu.n+' — المهمة رقم '+num+']','[OPEN LOOP: صندوق كنز مقفل في زاوية الشاشة حتى النهاية]']});
- sec('ayat','chapter','الفصل 1: الآيات',{narration:an.map((x,i)=>`في ${x.ref}: ${x.words} كلمات، و${x.letters} حرفًا، ومجموع الجُمَّل ${x.total}.`),recitation:rec?refs:[],showAyat:refs,cues:['[CHAPTER CARD: الفصل 1 — الآيات]',...refs.map(r=>'[RPG: بطاقة ذهبية — '+r+']')]});
+ sec('ayat','chapter','الفصل 1: الآيات',{narration:an.map((x,i)=>`في ${x.ref}: ${arN(x.words,'w')}، و${arN(x.letters,'l')}، ومجموع الجُمَّل ${x.total}.`),recitation:rec?refs:[],showAyat:refs,cues:['[CHAPTER CARD: الفصل 1 — الآيات]',...refs.map(r=>'[RPG: بطاقة ذهبية — '+r+']')]});
  sec('i1','chapter','الفصل 2: الفكرة الأولى',{narration:[T('i1')],cues:['[CHAPTER CARD: الفصل 2]','[RPG: فكرة مفتوحة 1/3]']});
  sec('numbers','chapter','الفصل 3: لوحة الأرقام',{narration:['هذه ملاحظات عددية للتأمل فقط، لا أبني عليها حكمًا ولا تفسيرًا.',...nws.map(n=>`بنظام كلمات الأرقام، قيم كلمات ${n.ref} بترتيب الحروف الهجائي: ${n.words.map(w=>w.v).join('، ')}.`),...obs.map(o=>o.replace(/^\d+:\d+: /,'')+'.')],cues:['[CHAPTER CARD: الفصل 3 — لوحة الأرقام]','[RPG: لوحة الأرقام — الجُمَّل + ترتيب الحروف + كلمات الخانات]',...nws.map(n=>'[OVERLAY '+n.ref+': '+n.line+']')]});
  sec('i2','chapter','الفصل 4: الفكرة الثانية',{narration:[T('i2')],cues:['[CHAPTER CARD: الفصل 4]','[RPG: فكرة مفتوحة 2/3]']});
@@ -246,7 +249,7 @@ function shortsScripts(F){return F.slice(0,3).map((f,i)=>{const a=ayat.find(x=>f
 function generate(){if(!ayat.length){alert('اختر آيات أولًا');return null}
  const refs=ayat.map(a=>a.ref),num=nextNum(),sName=ayat[0].surahName,c=ctx(),th=THEMES[W.theme],qu=QUESTS[W.quest];
  const B=buildSections(),{S,F,top,an,nws,obs}=B;
- const tA=[top.short+' | سرّ '+c.R0,'سجل المغامر '+num+': سرّ '+sName+' '+c.R0,'كنز '+c.R0+' | سجل المغامر '+num,c.W+' كلمة… ورقم واحد | '+sName,'مهمة '+qu.n.replace(/^\S+\s/,'')+' في '+sName];
+ const tA=[top.short+' | سرّ '+c.R0,'سجل المغامر '+num+': سرّ '+sName+' '+c.R0,'كنز '+c.R0+' | سجل المغامر '+num,arN(c.W,'w')+'… ورقم واحد | '+sName,'مهمة '+qu.n.replace(/^\S+\s/,'')+' في '+sName];
  const titleAr=V('epTitle')||tA[W.seed%tA.length];
  const script=sectionsToScript(titleAr,S),narr=(script.match(/«[^»]*»/g)||[]).map(s=>s.slice(1,-1)).join(' '),chars=narr.length,words=narr.split(/\s+/).filter(Boolean).length;
  const narrSec=Math.round(words/120*60),recSec=S.reduce((s,x)=>s+x.recitation.length*RECIT_SEC*(x.id==='ayat'?2:1),0),totalSec=B.totalSec,nScenes=Math.max(25,Math.min(35,Math.round(totalSec/8)));
@@ -257,7 +260,7 @@ function generate(){if(!ayat.length){alert('اختر آيات أولًا');retur
  const en=V('enTheme')||('Hidden number in '+ayat[0].surahEn+' '+c.R0);
  const titles=[titleAr,...tA.filter(t=>t!==titleAr).slice(0,3),'[EN metadata] Adventurer\'s Log #'+num+': '+en,'[EN metadata] '+en+' | Quran Pixel Reflection'];
  const ch=S.filter(s=>['hook','chapter','payoff'].includes(s.type)).map(s=>[fmt(s.startSec),s.title]);
- const credit=(W.credit||RECS.custom.c).trim();
+ const credit=(W.credit||RECS[W.rec||'zainal'].c).trim();
  const desc=[titleAr,'','الآيات: '+refs.join(' ، '),...(W.time?['','⏱ '+timeHookAr()+' (نوافذ الصلاة من تطبيق الزاحف القرآني)']:[]),'','📍 الفصول:',...ch.map(x=>x[0]+' '+x[1]),'','📚 التفسير: [ابن كثير — '+refs.join(', ')+'] / [السعدي — تيسير الكريم الرحمن] (أضف الصفحة/الرابط)','هذا تدبّر شخصي وليس تفسيرًا ولا فتوى. الملاحظات العددية للتأمل فقط وليست ادعاء إعجاز.','🔢 قيم «كلمات الأرقام» محسوبة بمنطق تطبيق كلمات الأرقام: https://mrbugimposter3-ship-it.github.io/quran-number-words/','🎙️ '+credit,'','#تدبر #القرآن #فن_البكسل'].join('\n');
  const tags=['تدبر','القرآن الكريم','سجل المغامر',sName,'حساب الجمل','أرقام القرآن','كلمات الأرقام','Quran numbers','Quran reflection','pixel art',"Adventurer's Log",...refs.map(r=>'Quran '+r)];
  const shortsS=shortsScripts(F),shorts=shortsS.map(s=>s.title+' — '+s.beats.map(b=>'['+b.t+'s] '+(b.narration||('تلاوة '+(b.recitation||b.showAyah)))).join(' / '));
@@ -273,7 +276,7 @@ function dailyPackage(p){return{schema:'episode-forge/daily-package@1',generated
  recitationMarkers:(p.sections||[]).flatMap(s=>s.recitation.map((r,i)=>({ref:r,sectionId:s.id,atSec:s.startSec+i*RECIT_SEC*(s.id==='ayat'?2:1)}))),
  scenes:p.sceneObjs||[],findings:p.findings||[],numbers:p.numbers,description:p.description,tags:p.tags,hashtags:p.hashtags,shorts:p.shortsScripts||[],stats:p.stats,
  render:{width:1920,height:1080,fps:30,pixelScaling:'nearest',style:'16-bit pixel art, dark dungeon, navy and gold palette, torch lighting'}}}
-function toMd(p){return [p.script,'## مشاهد B-roll ('+p.scenes.length+')',...p.scenes,'','## إشارات RPG',...p.rpg.map(x=>'- '+x),'','## العناوين',...p.titles.map(x=>'- '+x),'','## الوصف','```',p.description,'```','','## الوسوم',p.tags.join(', '),'','## الهاشتاغات',p.hashtags.join(' '),'','## سكربتات Shorts (<60ث)',...(p.shortsScripts||[]).flatMap(x=>['### '+x.title,...x.beats.map(b=>'- ['+b.t+'–'+(b.t+b.dur)+'ث] '+(b.narration?'«'+b.narration+'»':'')+(b.recitation?' [تلاوة مجوّدة '+b.recitation+']':'')+' | '+b.visual)]),...(p.shortsScripts?[]:p.shorts.map(x=>'- '+x)),'','## الأرقام',...p.numbers.map(n=>'- '+n.ref+': '+n.words+' كلمة، '+n.letters+' حرفًا، الجُمَّل '+n.abjad),'','## إحصاءات','- حروف السرد (ElevenLabs): '+p.stats.narrationChars,'- مدة السرد: '+fmt(p.stats.narrationSec),'- المدة الكلية التقديرية: '+fmt(p.stats.totalSec)].join('\n')}
+function toMd(p){return [p.script,'## مشاهد B-roll ('+p.scenes.length+')',...p.scenes,'','## إشارات RPG',...p.rpg.map(x=>'- '+x),'','## العناوين',...p.titles.map(x=>'- '+x),'','## الوصف','```',p.description,'```','','## الوسوم',p.tags.join(', '),'','## الهاشتاغات',p.hashtags.join(' '),'','## سكربتات Shorts (<60ث)',...(p.shortsScripts||[]).flatMap(x=>['### '+x.title,...x.beats.map(b=>'- ['+b.t+'–'+(b.t+b.dur)+'ث] '+(b.narration?'«'+b.narration+'»':'')+(b.recitation?' [تلاوة مجوّدة '+b.recitation+']':'')+' | '+b.visual)]),...(p.shortsScripts?[]:p.shorts.map(x=>'- '+x)),'','## الأرقام',...p.numbers.map(n=>'- '+n.ref+': '+arN(n.words,'w')+'، '+arN(n.letters,'l')+'، الجُمَّل '+n.abjad),'','## إحصاءات','- حروف السرد (ElevenLabs): '+p.stats.narrationChars,'- مدة السرد: '+fmt(p.stats.narrationSec),'- المدة الكلية التقديرية: '+fmt(p.stats.totalSec)].join('\n')}
 const blk=(t,b,id)=>`<h2>${t} <button class="sec" onclick="cp('${id}')">📋</button></h2><pre id="${id}">${esc(b)}</pre>`;
 function renderPkg(){const p=pkg;$('stats').innerHTML=`حروف السرد: <b>${p.stats.narrationChars}</b> · السرد ≈ ${fmt(p.stats.narrationSec)} · الكلي ≈ <b>${fmt(p.stats.totalSec)}</b>`;
  $('pkgOut').innerHTML=blk('السيناريو',p.script,'o1')+blk('مشاهد B-roll',p.scenes.join('\n'),'o2')+blk('إشارات RPG',p.rpg.join('\n'),'o3')+blk('العناوين',p.titles.join('\n'),'o4')+blk('الوصف',p.description,'o5')+blk('الوسوم',p.tags.join(', ')+'\n'+p.hashtags.join(' '),'o6')+blk('Shorts',p.shorts.join('\n\n'),'o7')+(p.findings?blk('أقوى الملاحظات العددية',p.findings.slice(0,6).map(f=>'('+f.score+') '+f.ar).join('\n'),'o8'):'');}
@@ -343,7 +346,7 @@ function timeCalc(auto){const d=etWallToDate($('tsIn').value||dateToEtWall(new D
  <div class="small" style="margin-top:6px">🏰 تبويب القرآن في الزاحف (الطابق ${c.floor}): ${esc(CR_NAMES[c.surah-1])} ${c.ref} · ${(c.progress*100).toFixed(1)}٪ <a href="#" style="color:var(--gold)" onclick="event.preventDefault();tsAdd('${c.ref}')">إضافة</a></div></div>`;
  if(auto&&!ayat.some(a=>a.ref===s.ref))tsAdd(s.ref);}
 window.tsAdd=async ref=>{W.time&&(W.time.used=ref);saveW();if(ayat.some(a=>a.ref===ref)){renderLog();return}$('wizMsg').textContent='جارٍ جلب '+ref+'...';await addRefs([ref],$('wizMsg'));renderLog();renderAyat()};
-window.tsSurah=async sid=>{const n=CR_TR[sid].length-1;if(n>40&&!confirm('السورة فيها '+n+' آية. إضافتها كلها؟'))return;$('wizMsg').textContent='جارٍ جلب السورة '+sid+'...';
+window.tsSurah=async sid=>{const n=CR_TR[sid].length-1;if(n>40&&!confirm('السورة فيها '+arN(n,'a')+'. إضافتها كلها؟'))return;$('wizMsg').textContent='جارٍ جلب السورة '+sid+'...';
  try{const cache=LS.get('ef_cache',{});if(!cache[sid+':'+n]){const r=await fetch('https://api.alquran.cloud/v1/surah/'+sid+'/editions/quran-uthmani,en.transliteration');const j=await r.json();if(j.code!==200)throw new Error(j.data);
   const [A,Tr]=[j.data.find(e=>e.edition.identifier==='quran-uthmani'),j.data.find(e=>e.edition.identifier==='en.transliteration')];
   A.ayahs.forEach((x,i)=>{const ref=sid+':'+x.numberInSurah;cache[ref]=cache[String(x.number)]={ref,surah:sid,ayah:x.numberInSurah,surahName:A.name,surahEn:A.englishName,global:x.number,juz:x.juz,page:x.page,ar:x.text,tr:Tr?Tr.ayahs[i].text:''}});LS.set('ef_cache',cache)}
@@ -362,14 +365,14 @@ function parseLog(j,date){const m=new Map();(j.entries||[]).forEach(e=>{const g=
 async function loadLog(date,fallback){LOG={date,items:[],status:'⏳ جارٍ تحميل سجل '+date+'...'};renderLog();$('logDate').value=date;
  const ck='ef_log_'+date;let j=null;
  try{const r=await fetch(LOGBASE+date+'.json',{cache:'no-store'});if(r.ok){j=await r.json();LS.set(ck,j)}else if(r.status!==404)throw 0}catch(e){j=LS.get(ck,null);if(j)LOG.status=''}
- if(j){LOG=parseLog(j,date);if(date!==TODAY)LOG.status=`📅 سجل <b>${date}</b> (ليس اليوم): ${LOG.items.length} آية.`;if(!LOG.items.length)LOG.status=`سجل ${date} لا يحتوي آيات.`;renderLog();return true}
+ if(j){LOG=parseLog(j,date);if(date!==TODAY)LOG.status=`📅 سجل <b>${date}</b> (ليس اليوم): ${arN(LOG.items.length,'a')}.`;if(!LOG.items.length)LOG.status=`سجل ${date} لا يحتوي آيات.`;renderLog();return true}
  LOG={date,items:[],status:`<span class="warn">لا يوجد سجل لتاريخ ${date} في quran-recorder.</span> اضغط «أحدث سجل» أو اختر تاريخًا.`};renderLog();
  if(fallback)await loadLatest();return false;}
 async function latestDate(){try{const r=await fetch('https://api.github.com/repos/mrbugimposter3-ship-it/quran-recorder/contents/logs');const a=await r.json();
  const ds=a.map(x=>x.name).filter(n=>/^\d{4}-\d{2}-\d{2}\.json$/.test(n)).map(n=>n.slice(0,10)).sort();if(ds.length)return ds[ds.length-1]}catch(e){}
  for(let i=0;i<=30;i++){const d=new Date(Date.now()-i*864e5).toLocaleDateString('en-CA',{timeZone:'America/New_York'});try{const r=await fetch(LOGBASE+d+'.json',{method:'HEAD'});if(r.ok)return d}catch(e){}}throw 0;}
 async function loadLatest(){try{const d=await latestDate();
- const prev=LOG.status;await loadLog(d,false);if(d!==TODAY)LOG.status=`<span class="warn">لا يوجد سجل لليوم (${TODAY}).</span> عُرض أحدث سجل: <b>${d}</b> — ${LOG.items.length} آية.`;renderLog();}
+ const prev=LOG.status;await loadLog(d,false);if(d!==TODAY)LOG.status=`<span class="warn">لا يوجد سجل لليوم (${TODAY}).</span> عُرض أحدث سجل: <b>${d}</b> — ${arN(LOG.items.length,'a')}.`;renderLog();}
  catch(e){LOG.status+=' <span class="warn">تعذّر جلب قائمة السجلات.</span>';renderLog()}}
 $('logLoad').onclick=()=>$('logDate').value&&loadLog($('logDate').value,false);$('logLatest').onclick=loadLatest;
 async function addGlobal(inp,msg){const n=parseInt($(inp).value,10);if(!(n>=1&&n<=6236)){$(msg).innerHTML='<span class="warn">أدخل رقمًا من 1 إلى 6236</span>';return}$(msg).textContent='جارٍ جلب #'+n+'...';await addRefs([String(n)],$(msg));renderLog();renderAyat()}
