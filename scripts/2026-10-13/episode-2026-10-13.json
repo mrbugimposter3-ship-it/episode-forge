@@ -1,15 +1,15 @@
 {
   "schema": "episode-forge/daily-package@1",
-  "generatedAt": "2026-10-14T01:48:26.259Z",
+  "generatedAt": "2026-10-14T01:55:16.018Z",
   "date": "2026-10-13",
   "episodeNumber": 1,
   "language": "ar",
   "title": {
-    "ar": "٣٩ آية في يوم واحد… ما الذي يجمعها؟ | سجل المغامر",
+    "ar": "٤٠ آية في يوم واحد… ما الذي يجمعها؟ | سجل المغامر",
     "options": [
-      "٣٩ آية في يوم واحد… ما الذي يجمعها؟ | سجل المغامر",
-      "٣٩ آية من الفجر إلى الليل | لعبة الأرقام",
-      "سجلّ يوم كامل: ٣٩ آية و٣٦١ كلمة",
+      "٤٠ آية في يوم واحد… ما الذي يجمعها؟ | سجل المغامر",
+      "٤٠ آية من الفجر إلى الليل | لعبة الأرقام",
+      "سجلّ يوم كامل: ٤٠ آية و٣٦٩ كلمة",
       "كلمتان في خانة واحدة | سرّ ٩٥:٨",
       "[EN metadata] Adventurer's Log #1: Hidden number in At-Tin 95:8",
       "[EN metadata] Hidden number in At-Tin 95:8 | Quran Pixel Reflection"
@@ -472,6 +472,17 @@
       "arabic": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
       "transliteration": "Fama yu kaz zibuka b'adu bid deen",
       "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "36:49",
+      "surah": 36,
+      "ayah": 49,
+      "global": 3754,
+      "juz": 23,
+      "page": 443,
+      "arabic": "مَا يَنظُرُونَ إِلَّا صَيْحَةًۭ وَٰحِدَةًۭ تَأْخُذُهُمْ وَهُمْ يَخِصِّمُونَ",
+      "transliteration": "Maa yanzuroona illaa saihatanw waahidatan taa khuzuhum wa hum yakhissimoon",
+      "source": "api.alquran.cloud quran-uthmani"
     }
   ],
   "sections": [
@@ -481,7 +492,7 @@
       "title": "الافتتاحية (٠–١٠ث)",
       "startSec": 0,
       "durationSec": 9,
-      "narration": "لعبة الأرقام اليوم: ٩٥:٨… كلمتان في خانة واحدة. و٣٩ آية سجّلتها في يوم واحد… ما الذي يجمعها؟",
+      "narration": "لعبة الأرقام اليوم: ٩٥:٨… كلمتان في خانة واحدة. و٤٠ آية سجّلتها في يوم واحد… ما الذي يجمعها؟",
       "recitation": [],
       "showAyat": [],
       "cues": [
@@ -494,8 +505,8 @@
       "type": "intro",
       "title": "المهمة",
       "startSec": 9,
-      "durationSec": 43,
-      "narration": "هذا سجلّ يومي كاملًا: ٣٩ آية، من بين الفجر والظهر إلى بين العشاء والفجر. في سجلّي اليومي توقفت عند ٩٥:٨ و٧٦:٨ و١١٤:٦ و٦:٢٢ و٨٦:٩ و٨٦:١٠ و٤٧:٢ و٤٦:٣٥ و٢٢:٧٨ و٣٣:٧٣ و١٠٨:٢ و٨٠:١ و٨٠:١٦ و٨٠:٣٠ و٥٥:٣٩ و٥١:٤٧ و٥٩:١٦ و٦٤:٢ و٦٤:٦ و٦٤:٩ و١٠٩:٢ و١٠٦:٢ و٨٦:١ و٨٦:٢ و٨٦:٣ و٨٦:٥ و٨٦:٦ و٨٦:٧ و٨٦:٨ و٧٧:١ و٧٧:١٧ و٧٧:١٨ و٦٦:٨ و٧٠:١٧ و٨٦:١٧ و٤٧:٣٦ و٧٤:٤ و١١٣:٢ و٩٥:٧ في الساعة ٦:٤١ صباحًا بتوقيت نيويورك... ولم أستطع أن أكمل قبل أن أفهم لماذا شدّتني. وفي آخر الحلقة أكشف لك نتيجة لعبة الأرقام لهذا اليوم… فابقَ حتى النهاية.",
+      "durationSec": 44,
+      "narration": "هذا سجلّ يومي كاملًا: ٤٠ آية، من بين الفجر والظهر إلى بين العشاء والفجر. في سجلّي اليومي توقفت عند ٩٥:٨ و٧٦:٨ و١١٤:٦ و٦:٢٢ و٨٦:٩ و٨٦:١٠ و٤٧:٢ و٤٦:٣٥ و٢٢:٧٨ و٣٣:٧٣ و١٠٨:٢ و٨٠:١ و٨٠:١٦ و٨٠:٣٠ و٥٥:٣٩ و٥١:٤٧ و٥٩:١٦ و٦٤:٢ و٦٤:٦ و٦٤:٩ و١٠٩:٢ و١٠٦:٢ و٨٦:١ و٨٦:٢ و٨٦:٣ و٨٦:٥ و٨٦:٦ و٨٦:٧ و٨٦:٨ و٧٧:١ و٧٧:١٧ و٧٧:١٨ و٦٦:٨ و٧٠:١٧ و٨٦:١٧ و٤٧:٣٦ و٧٤:٤ و١١٣:٢ و٩٥:٧ و٣٦:٤٩ في الساعة ٦:٤١ صباحًا بتوقيت نيويورك... ولم أستطع أن أكمل قبل أن أفهم لماذا شدّتني. وفي آخر الحلقة أكشف لك نتيجة لعبة الأرقام لهذا اليوم… فابقَ حتى النهاية.",
       "recitation": [],
       "showAyat": [],
       "cues": [
@@ -507,7 +518,7 @@
       "id": "w0",
       "type": "chapter",
       "title": "الفصل ١: بين الفجر والظهر",
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 337,
       "narration": "في ٦:٤١ صباحًا توقفت هنا: ٤ كلمات، فاقرأها معي ببطء. عدد حروفها ٣٧ حرفًا. ما الكلمة التي تشدّك أولًا؟ سجّلتها مرتين اليوم… والوقفة المتكررة تستحق الانتباه. أثقل كلماتها في عدّ الجُمَّل «للذين» بقيمة ٨٢٠. قف عندها لحظة. بعد ١٤ دقيقة من الوقفة السابقة، عدت إلى المصحف هنا. في ٧:١٦ صباحًا توقفت هنا: ٦ كلمات، فاقرأها معي ببطء. عدد حروفها ٨٠ حرفًا. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ الأَحۡقَافِ، الجزء ٢٦. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «هذا» بقيمة ٧٠٦. قف عندها لحظة. بعد ١١ دقيقة من الوقفة السابقة، عدت إلى المصحف هنا. في ٨:٤١ صباحًا توقفت هنا: ٣ كلمات، فاقرأها معي ببطء. عدد حروفها ٢٧ حرفًا. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ عَبَسَ، الجزء ٣٠. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «غلبا» بقيمة ١٠٣٣. قف عندها لحظة. بعد ١٠ دقائق من الوقفة السابقة، عدت إلى المصحف هنا. في ١٠:٥٣ صباحًا توقفت هنا: ٥ كلمات، فاقرأها معي ببطء. عدد حروفها ٦٥ حرفًا. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ التَّغَابُنِ، الجزء ٢٨. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «وٱستغنى» بقيمة ١٥٢٧. قف عندها لحظة. بعد ١ دقيقة من الوقفة السابقة، عدت إلى المصحف هنا. في ١٢:٠٣ ظهرًا توقفت هنا: ٤ كلمات، فاقرأها معي ببطء. عدد حروفها ٢١ حرفًا. ما الكلمة التي تشدّك أولًا؟",
       "recitation": [
@@ -583,19 +594,19 @@
         "[RPG: بطاقة ذهبية — ٦٤:٩]",
         "[RPG: بطاقة ذهبية — ١٠٩:٢]",
         "[RPG: بطاقة ذهبية — ١٠٦:٢]",
-        "[PATTERN INTERRUPT: سؤال على الشاشة للمشاهد @ ١:٤٢]",
-        "[PATTERN INTERRUPT: تغيير زاوية المشهد + chiptune sting @ ٢:٣٢]",
-        "[PATTERN INTERRUPT: عداد الأرقام يدور @ ٣:٢٢]",
-        "[PATTERN INTERRUPT: glitch frame + سكون ثانية @ ٤:١٢]",
-        "[PATTERN INTERRUPT: zoom-punch + SFX ping @ ٥:٠٢]",
-        "[PATTERN INTERRUPT: سؤال على الشاشة للمشاهد @ ٥:٥٢]"
+        "[PATTERN INTERRUPT: سؤال على الشاشة للمشاهد @ ١:٤٣]",
+        "[PATTERN INTERRUPT: تغيير زاوية المشهد + chiptune sting @ ٢:٣٣]",
+        "[PATTERN INTERRUPT: عداد الأرقام يدور @ ٣:٢٣]",
+        "[PATTERN INTERRUPT: glitch frame + سكون ثانية @ ٤:١٣]",
+        "[PATTERN INTERRUPT: zoom-punch + SFX ping @ ٥:٠٣]",
+        "[PATTERN INTERRUPT: سؤال على الشاشة للمشاهد @ ٥:٥٣]"
       ]
     },
     {
       "id": "i1",
       "type": "chapter",
       "title": "وقفة: الفكرة الأولى",
-      "startSec": 389,
+      "startSec": 390,
       "durationSec": 9,
       "narration": "أكثر ما يلفتني أن الآية تخاطب الإنسان مباشرة. السؤال الذي أخرج به: أين أنا من هذا الخطاب اليوم؟",
       "recitation": [],
@@ -608,7 +619,7 @@
       "id": "w1",
       "type": "chapter",
       "title": "الفصل ٢: بين الظهر والعصر",
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 193,
       "narration": "من سورة سُورَةُ الطَّارِقِ، الجزء ٣٠. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «ٱلطارق» بقيمة ٣٤١. قف عندها لحظة. في لعبة الأرقام: مجموع الجُمَّل فيها ٧٥٨. في ١٢:٣٨ ظهرًا توقفت هنا: ٤ كلمات، فاقرأها معي ببطء. عدد حروفها ١٢ حرفًا. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ الطَّارِقِ، الجزء ٣٠. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «لقادر» بقيمة ٣٣٥. قف عندها لحظة. بعد ٦ دقائق من الوقفة السابقة، عدت إلى المصحف هنا. في ١٢:٤٥ ظهرًا توقفت هنا: ٣ كلمات، فاقرأها معي ببطء. عدد حروفها ١٧ حرفًا. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ التَّحۡرِيمِ، الجزء ٢٨. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «تدعوا» بقيمة ٤٨١. قف عندها لحظة. بعد ٩ دقائق من الوقفة السابقة، عدت إلى المصحف هنا. في ٢:٥٤ ظهرًا توقفت هنا: ١٣ كلمة، فاقرأها معي ببطء.",
       "recitation": [
@@ -660,16 +671,16 @@
         "[RPG: بطاقة ذهبية — ٧٠:١٧]",
         "[RPG: بطاقة ذهبية — ٨٦:١٧]",
         "[RPG: بطاقة ذهبية — ٤٧:٣٦]",
-        "[PATTERN INTERRUPT: عداد الأرقام يدور @ ٧:٢٨]",
-        "[PATTERN INTERRUPT: glitch frame + سكون ثانية @ ٨:١٨]",
-        "[PATTERN INTERRUPT: zoom-punch + SFX ping @ ٩:٠٨]"
+        "[PATTERN INTERRUPT: عداد الأرقام يدور @ ٧:٢٩]",
+        "[PATTERN INTERRUPT: glitch frame + سكون ثانية @ ٨:١٩]",
+        "[PATTERN INTERRUPT: zoom-punch + SFX ping @ ٩:٠٩]"
       ]
     },
     {
       "id": "w2",
       "type": "chapter",
       "title": "الفصل ٣: بين المغرب والعشاء",
-      "startSec": 591,
+      "startSec": 592,
       "durationSec": 24,
       "narration": "عدد حروفها ١٠ أحرف. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ الفَلَقِ، الجزء ٣٠. ماذا تطلب مني اليوم؟",
       "recitation": [
@@ -690,7 +701,7 @@
       "id": "midroll",
       "type": "cta",
       "title": "دعوة الاشتراك",
-      "startSec": 615,
+      "startSec": 616,
       "durationSec": 7,
       "narration": "إن كانت هذه الرحلة تفيدك، انضم إلى النقابة بالاشتراك، فكل يوم أفتح سجلًّا جديدًا.",
       "recitation": [],
@@ -704,9 +715,9 @@
       "id": "i2",
       "type": "chapter",
       "title": "وقفة: الفكرة الثانية",
-      "startSec": 622,
-      "durationSec": 9,
-      "narration": "ما يجعل التدبر مغامرة حقيقية أنك لا تعرف أين ستصل. بدأت بقراءة عابرة، وانتهيت بسؤال عن نفسي.",
+      "startSec": 623,
+      "durationSec": 12,
+      "narration": "رجعت إلى سياق سورة سُورَةُ التِّينِ حول ٩٥:٨، فوجدت أن قراءة ما قبلها وما بعدها يغيّر طريقة فهمي لها. أنصحك أن تجرّب ذلك.",
       "recitation": [],
       "showAyat": [],
       "cues": [
@@ -717,27 +728,30 @@
       "id": "w3",
       "type": "chapter",
       "title": "الفصل ٤: بين العشاء والفجر",
-      "startSec": 631,
-      "durationSec": 13,
-      "narration": "أثقل كلماتها في عدّ الجُمَّل «يكذبك» بقيمة ٧٥٢. قف عندها لحظة.",
+      "startSec": 635,
+      "durationSec": 25,
+      "narration": "أثقل كلماتها في عدّ الجُمَّل «يكذبك» بقيمة ٧٥٢. قف عندها لحظة. بعد ٨٠ دقيقة من الوقفة السابقة، عدت إلى المصحف هنا.",
       "recitation": [
-        "95:7"
+        "95:7",
+        "36:49"
       ],
       "showAyat": [
-        "95:7"
+        "95:7",
+        "36:49"
       ],
       "cues": [
-        "[CHAPTER CARD: بين العشاء والفجر — آية واحدة]",
-        "[RPG: بطاقة ذهبية — ٩٥:٧]"
+        "[CHAPTER CARD: بين العشاء والفجر — آيتان]",
+        "[RPG: بطاقة ذهبية — ٩٥:٧]",
+        "[RPG: بطاقة ذهبية — ٣٦:٤٩]"
       ]
     },
     {
       "id": "numbers",
       "type": "chapter",
       "title": "لوحة الأرقام",
-      "startSec": 644,
+      "startSec": 660,
       "durationSec": 10,
-      "narration": "هذه «لعبة الأرقام» من أدواتي: عدٌّ للتأمل والمتعة، لا رمز فيه ولا إعجاز. في اليوم كله: ٣٦١ كلمة، و١٦٠٥ أحرف.",
+      "narration": "هذه «لعبة الأرقام» من أدواتي: عدٌّ للتأمل والمتعة، لا رمز فيه ولا إعجاز. في اليوم كله: ٣٦٩ كلمة، و١٦٣٩ حرفًا.",
       "recitation": [],
       "showAyat": [],
       "cues": [
@@ -752,12 +766,13 @@
       "id": "payoff",
       "type": "payoff",
       "title": "كشف السرّ",
-      "startSec": 654,
+      "startSec": 670,
       "durationSec": 28,
       "narration": "وعدتك بنتيجة لعبة الأرقام. في ٩٥:٨ تلتقي الكلمات «ٱلله» و«ٱلحكمين» في الخانة نفسها (١٧) من خانات تطبيق كلمات الأرقام. هي لعبة عدّ من أدواتي، لا رمز ولا إعجاز؛ لكنها جعلتني أعيد قراءة الآية ببطء، وهذا وحده كنز. وفي اللعبة نفسها: في ٧٦:٨ تلتقي الكلمات «ٱلطعام» و«ويتيما» في الخانة نفسها (٢٧) من خانات تطبيق كلمات الأرقام.",
       "recitation": [],
       "showAyat": [],
       "cues": [
+        "[PATTERN INTERRUPT: تغيير زاوية المشهد + chiptune sting]",
         "[OPEN LOOP PAYOFF: صندوق الكنز ينفتح]",
         "[SFX: chest open]"
       ]
@@ -766,13 +781,12 @@
       "id": "takeaway",
       "type": "chapter",
       "title": "الخلاصة",
-      "startSec": 682,
+      "startSec": 698,
       "durationSec": 8,
       "narration": "شاركني في التعليقات: ما الكلمة التي توقفت عندها أنت؟ ربما يكون كنزك مختلفًا عن كنزي.",
       "recitation": [],
       "showAyat": [],
       "cues": [
-        "[PATTERN INTERRUPT: تغيير زاوية المشهد + chiptune sting]",
         "[CHAPTER CARD: الخلاصة]",
         "[RPG: ارتقاء المستوى! +خبرة]"
       ]
@@ -781,7 +795,7 @@
       "id": "end",
       "type": "endscreen",
       "title": "شاشة النهاية",
-      "startSec": 690,
+      "startSec": 706,
       "durationSec": 29,
       "narration": "غدًا سجلّ جديد… وآيات جديدة. شاهد الحلقة التالية من الشاشة، واكتب لي: أي آية من هذه أوقفتك؟",
       "recitation": [],
@@ -796,197 +810,202 @@
     {
       "ref": "95:8",
       "sectionId": "w0",
-      "atSec": 52
+      "atSec": 53
     },
     {
       "ref": "76:8",
       "sectionId": "w0",
-      "atSec": 65
+      "atSec": 66
     },
     {
       "ref": "114:6",
       "sectionId": "w0",
-      "atSec": 78
+      "atSec": 79
     },
     {
       "ref": "6:22",
       "sectionId": "w0",
-      "atSec": 91
+      "atSec": 92
     },
     {
       "ref": "86:9",
       "sectionId": "w0",
-      "atSec": 107
+      "atSec": 108
     },
     {
       "ref": "86:10",
       "sectionId": "w0",
-      "atSec": 120
+      "atSec": 121
     },
     {
       "ref": "47:2",
       "sectionId": "w0",
-      "atSec": 133
+      "atSec": 134
     },
     {
       "ref": "46:35",
       "sectionId": "w0",
-      "atSec": 152
+      "atSec": 153
     },
     {
       "ref": "22:78",
       "sectionId": "w0",
-      "atSec": 175
+      "atSec": 176
     },
     {
       "ref": "33:73",
       "sectionId": "w0",
-      "atSec": 211
+      "atSec": 212
     },
     {
       "ref": "108:2",
       "sectionId": "w0",
-      "atSec": 232
+      "atSec": 233
     },
     {
       "ref": "80:1",
       "sectionId": "w0",
-      "atSec": 245
+      "atSec": 246
     },
     {
       "ref": "80:16",
       "sectionId": "w0",
-      "atSec": 258
+      "atSec": 259
     },
     {
       "ref": "80:30",
       "sectionId": "w0",
-      "atSec": 271
+      "atSec": 272
     },
     {
       "ref": "55:39",
       "sectionId": "w0",
-      "atSec": 284
+      "atSec": 285
     },
     {
       "ref": "51:47",
       "sectionId": "w0",
-      "atSec": 297
+      "atSec": 298
     },
     {
       "ref": "59:16",
       "sectionId": "w0",
-      "atSec": 310
+      "atSec": 311
     },
     {
       "ref": "64:2",
       "sectionId": "w0",
-      "atSec": 327
+      "atSec": 328
     },
     {
       "ref": "64:6",
       "sectionId": "w0",
-      "atSec": 342
+      "atSec": 343
     },
     {
       "ref": "64:9",
       "sectionId": "w0",
-      "atSec": 362
+      "atSec": 363
     },
     {
       "ref": "109:2",
       "sectionId": "w0",
-      "atSec": 387
+      "atSec": 388
     },
     {
       "ref": "106:2",
       "sectionId": "w0",
-      "atSec": 400
+      "atSec": 401
     },
     {
       "ref": "86:1",
       "sectionId": "w1",
-      "atSec": 398
+      "atSec": 399
     },
     {
       "ref": "86:2",
       "sectionId": "w1",
-      "atSec": 411
+      "atSec": 412
     },
     {
       "ref": "86:3",
       "sectionId": "w1",
-      "atSec": 424
+      "atSec": 425
     },
     {
       "ref": "86:5",
       "sectionId": "w1",
-      "atSec": 437
+      "atSec": 438
     },
     {
       "ref": "86:6",
       "sectionId": "w1",
-      "atSec": 450
+      "atSec": 451
     },
     {
       "ref": "86:7",
       "sectionId": "w1",
-      "atSec": 463
+      "atSec": 464
     },
     {
       "ref": "86:8",
       "sectionId": "w1",
-      "atSec": 476
+      "atSec": 477
     },
     {
       "ref": "77:1",
       "sectionId": "w1",
-      "atSec": 489
+      "atSec": 490
     },
     {
       "ref": "77:17",
       "sectionId": "w1",
-      "atSec": 502
+      "atSec": 503
     },
     {
       "ref": "77:18",
       "sectionId": "w1",
-      "atSec": 515
+      "atSec": 516
     },
     {
       "ref": "66:8",
       "sectionId": "w1",
-      "atSec": 528
+      "atSec": 529
     },
     {
       "ref": "70:17",
       "sectionId": "w1",
-      "atSec": 563
+      "atSec": 564
     },
     {
       "ref": "86:17",
       "sectionId": "w1",
-      "atSec": 576
+      "atSec": 577
     },
     {
       "ref": "47:36",
       "sectionId": "w1",
-      "atSec": 589
+      "atSec": 590
     },
     {
       "ref": "74:4",
       "sectionId": "w2",
-      "atSec": 591
+      "atSec": 592
     },
     {
       "ref": "113:2",
       "sectionId": "w2",
-      "atSec": 604
+      "atSec": 605
     },
     {
       "ref": "95:7",
       "sectionId": "w3",
-      "atSec": 631
+      "atSec": 635
+    },
+    {
+      "ref": "36:49",
+      "sectionId": "w3",
+      "atSec": 648
     }
   ],
   "scenes": [
@@ -1002,242 +1021,242 @@
       "startSec": 21,
       "durationSec": 21,
       "sectionId": "intro",
-      "prompt": "A spiral staircase climbing toward a bright opening, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 3,
-      "startSec": 41,
-      "durationSec": 21,
-      "sectionId": "intro",
-      "prompt": "An hourglass with golden sand on a pedestal, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 4,
-      "startSec": 62,
-      "durationSec": 21,
-      "sectionId": "w0",
-      "prompt": "A rope bridge over a dark chasm, lanterns swaying, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 5,
-      "startSec": 82,
-      "durationSec": 21,
-      "sectionId": "w0",
-      "prompt": "Glowing plants growing inside a cave, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 6,
-      "startSec": 103,
-      "durationSec": 21,
-      "sectionId": "w0",
-      "prompt": "Rain dripping into a stone basin, ripples of light, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 7,
-      "startSec": 123,
-      "durationSec": 21,
-      "sectionId": "w0",
       "prompt": "A locked gate with a golden key floating before it, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 8,
-      "startSec": 144,
+      "index": 3,
+      "startSec": 42,
       "durationSec": 21,
-      "sectionId": "w0",
+      "sectionId": "intro",
       "prompt": "An inventory screen with potion, key, and lantern icons, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 9,
-      "startSec": 164,
+      "index": 4,
+      "startSec": 63,
       "durationSec": 21,
       "sectionId": "w0",
       "prompt": "A shadow boss shrinking as a lantern brightens, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 10,
-      "startSec": 185,
+      "index": 5,
+      "startSec": 84,
       "durationSec": 21,
       "sectionId": "w0",
       "prompt": "Endless shelves with floating dust motes, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 11,
-      "startSec": 205,
+      "index": 6,
+      "startSec": 105,
       "durationSec": 21,
       "sectionId": "w0",
       "prompt": "Water flowing through carved channels in a hidden sanctuary, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 12,
-      "startSec": 226,
+      "index": 7,
+      "startSec": 126,
       "durationSec": 21,
       "sectionId": "w0",
       "prompt": "Night sky through a cave mouth, crescent moon, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 13,
-      "startSec": 247,
+      "index": 8,
+      "startSec": 147,
       "durationSec": 21,
       "sectionId": "w0",
       "prompt": "Oasis at dawn beyond the exit, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 14,
-      "startSec": 267,
+      "index": 9,
+      "startSec": 168,
       "durationSec": 21,
       "sectionId": "w0",
       "prompt": "A level-up burst of golden particles around the silhouette, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 15,
-      "startSec": 288,
+      "index": 10,
+      "startSec": 189,
       "durationSec": 21,
       "sectionId": "w0",
       "prompt": "A save-point crystal pulsing gently, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 16,
-      "startSec": 308,
+      "index": 11,
+      "startSec": 210,
       "durationSec": 21,
       "sectionId": "w0",
       "prompt": "Footprints in sand leading outward, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 17,
-      "startSec": 329,
+      "index": 12,
+      "startSec": 231,
       "durationSec": 21,
       "sectionId": "w0",
       "prompt": "Mountains at sunrise with soft pixel clouds, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 18,
-      "startSec": 349,
+      "index": 13,
+      "startSec": 252,
       "durationSec": 21,
       "sectionId": "w0",
       "prompt": "A star-filled sky with one bright star, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 19,
-      "startSec": 370,
+      "index": 14,
+      "startSec": 273,
       "durationSec": 21,
       "sectionId": "w0",
       "prompt": "The silhouette resting under a palm tree, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 20,
-      "startSec": 390,
+      "index": 15,
+      "startSec": 294,
       "durationSec": 21,
-      "sectionId": "i1",
+      "sectionId": "w0",
       "prompt": "An open journal with a quill (no readable text), setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 21,
-      "startSec": 411,
+      "index": 16,
+      "startSec": 315,
       "durationSec": 21,
-      "sectionId": "w1",
+      "sectionId": "w0",
       "prompt": "A golden door closing softly, quest complete, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 22,
-      "startSec": 431,
+      "index": 17,
+      "startSec": 336,
       "durationSec": 21,
-      "sectionId": "w1",
+      "sectionId": "w0",
       "prompt": "Entrance at dusk, torches dimming, end card space, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 23,
-      "startSec": 452,
+      "index": 18,
+      "startSec": 357,
       "durationSec": 21,
-      "sectionId": "w1",
+      "sectionId": "w0",
       "prompt": "A lone hooded adventurer silhouette entering the gate, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 24,
-      "startSec": 472,
+      "index": 19,
+      "startSec": 378,
       "durationSec": 21,
-      "sectionId": "w1",
+      "sectionId": "w0",
       "prompt": "An ancient stone door engraved with golden geometric patterns slowly opening, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 25,
-      "startSec": 493,
+      "index": 20,
+      "startSec": 399,
       "durationSec": 21,
       "sectionId": "w1",
       "prompt": "A glowing quest scroll unrolling on a wooden table beside a candle, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 26,
-      "startSec": 514,
+      "index": 21,
+      "startSec": 420,
       "durationSec": 21,
       "sectionId": "w1",
       "prompt": "A pixel map revealing a winding path, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 27,
-      "startSec": 534,
+      "index": 22,
+      "startSec": 441,
       "durationSec": 21,
       "sectionId": "w1",
       "prompt": "Torches igniting one by one along a corridor, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 28,
-      "startSec": 555,
+      "index": 23,
+      "startSec": 462,
       "durationSec": 21,
       "sectionId": "w1",
       "prompt": "A treasure chest emitting soft golden light, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 29,
-      "startSec": 575,
+      "index": 24,
+      "startSec": 483,
       "durationSec": 21,
       "sectionId": "w1",
       "prompt": "A crystal orb showing swirling stars, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 30,
-      "startSec": 596,
+      "index": 25,
+      "startSec": 504,
       "durationSec": 21,
-      "sectionId": "w2",
+      "sectionId": "w1",
       "prompt": "A quiet campfire with falling dust in a skylight beam, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 31,
-      "startSec": 616,
+      "index": 26,
+      "startSec": 525,
       "durationSec": 21,
-      "sectionId": "midroll",
+      "sectionId": "w1",
       "prompt": "Stone tablets with glowing abstract golden runes (no text), setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 32,
-      "startSec": 637,
+      "index": 27,
+      "startSec": 546,
       "durationSec": 21,
-      "sectionId": "w3",
+      "sectionId": "w1",
       "prompt": "A boulder blocking a tunnel, light through a crack, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 33,
-      "startSec": 657,
+      "index": 28,
+      "startSec": 567,
       "durationSec": 21,
-      "sectionId": "payoff",
+      "sectionId": "w1",
       "prompt": "The boulder crumbling as light floods in, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 34,
-      "startSec": 678,
+      "index": 29,
+      "startSec": 588,
       "durationSec": 21,
-      "sectionId": "payoff",
+      "sectionId": "w1",
       "prompt": "A spiral staircase climbing toward a bright opening, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 35,
-      "startSec": 698,
+      "index": 30,
+      "startSec": 609,
       "durationSec": 21,
-      "sectionId": "end",
+      "sectionId": "w2",
       "prompt": "An hourglass with golden sand on a pedestal, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
+      "index": 31,
+      "startSec": 630,
+      "durationSec": 21,
+      "sectionId": "i2",
+      "prompt": "A rope bridge over a dark chasm, lanterns swaying, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 32,
+      "startSec": 651,
+      "durationSec": 21,
+      "sectionId": "w3",
+      "prompt": "Glowing plants growing inside a cave, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 33,
+      "startSec": 672,
+      "durationSec": 21,
+      "sectionId": "payoff",
+      "prompt": "Rain dripping into a stone basin, ripples of light, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 34,
+      "startSec": 693,
+      "durationSec": 21,
+      "sectionId": "payoff",
+      "prompt": "A locked gate with a golden key floating before it, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 35,
+      "startSec": 714,
+      "durationSec": 21,
+      "sectionId": "end",
+      "prompt": "An inventory screen with potion, key, and lantern icons, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
       "index": 36,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "95:8",
@@ -1245,7 +1264,7 @@
     },
     {
       "index": 37,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "76:8",
@@ -1253,7 +1272,7 @@
     },
     {
       "index": 38,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "114:6",
@@ -1261,7 +1280,7 @@
     },
     {
       "index": 39,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "6:22",
@@ -1269,7 +1288,7 @@
     },
     {
       "index": 40,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "86:9",
@@ -1277,7 +1296,7 @@
     },
     {
       "index": 41,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "86:10",
@@ -1285,7 +1304,7 @@
     },
     {
       "index": 42,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "47:2",
@@ -1293,7 +1312,7 @@
     },
     {
       "index": 43,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "46:35",
@@ -1301,7 +1320,7 @@
     },
     {
       "index": 44,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "22:78",
@@ -1309,7 +1328,7 @@
     },
     {
       "index": 45,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "33:73",
@@ -1317,7 +1336,7 @@
     },
     {
       "index": 46,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "108:2",
@@ -1325,7 +1344,7 @@
     },
     {
       "index": 47,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "80:1",
@@ -1333,7 +1352,7 @@
     },
     {
       "index": 48,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "80:16",
@@ -1341,7 +1360,7 @@
     },
     {
       "index": 49,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "80:30",
@@ -1349,7 +1368,7 @@
     },
     {
       "index": 50,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "55:39",
@@ -1357,7 +1376,7 @@
     },
     {
       "index": 51,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "51:47",
@@ -1365,7 +1384,7 @@
     },
     {
       "index": 52,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "59:16",
@@ -1373,7 +1392,7 @@
     },
     {
       "index": 53,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "64:2",
@@ -1381,7 +1400,7 @@
     },
     {
       "index": 54,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "64:6",
@@ -1389,7 +1408,7 @@
     },
     {
       "index": 55,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "64:9",
@@ -1397,7 +1416,7 @@
     },
     {
       "index": 56,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "109:2",
@@ -1405,7 +1424,7 @@
     },
     {
       "index": 57,
-      "startSec": 52,
+      "startSec": 53,
       "durationSec": 12,
       "sectionId": "w0",
       "ref": "106:2",
@@ -1413,7 +1432,7 @@
     },
     {
       "index": 58,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "86:1",
@@ -1421,7 +1440,7 @@
     },
     {
       "index": 59,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "86:2",
@@ -1429,7 +1448,7 @@
     },
     {
       "index": 60,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "86:3",
@@ -1437,7 +1456,7 @@
     },
     {
       "index": 61,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "86:5",
@@ -1445,7 +1464,7 @@
     },
     {
       "index": 62,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "86:6",
@@ -1453,7 +1472,7 @@
     },
     {
       "index": 63,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "86:7",
@@ -1461,7 +1480,7 @@
     },
     {
       "index": 64,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "86:8",
@@ -1469,7 +1488,7 @@
     },
     {
       "index": 65,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "77:1",
@@ -1477,7 +1496,7 @@
     },
     {
       "index": 66,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "77:17",
@@ -1485,7 +1504,7 @@
     },
     {
       "index": 67,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "77:18",
@@ -1493,7 +1512,7 @@
     },
     {
       "index": 68,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "66:8",
@@ -1501,7 +1520,7 @@
     },
     {
       "index": 69,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "70:17",
@@ -1509,7 +1528,7 @@
     },
     {
       "index": 70,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "86:17",
@@ -1517,7 +1536,7 @@
     },
     {
       "index": 71,
-      "startSec": 398,
+      "startSec": 399,
       "durationSec": 12,
       "sectionId": "w1",
       "ref": "47:36",
@@ -1525,7 +1544,7 @@
     },
     {
       "index": 72,
-      "startSec": 591,
+      "startSec": 592,
       "durationSec": 12,
       "sectionId": "w2",
       "ref": "74:4",
@@ -1533,7 +1552,7 @@
     },
     {
       "index": 73,
-      "startSec": 591,
+      "startSec": 592,
       "durationSec": 12,
       "sectionId": "w2",
       "ref": "113:2",
@@ -1541,11 +1560,19 @@
     },
     {
       "index": 74,
-      "startSec": 631,
+      "startSec": 635,
       "durationSec": 12,
       "sectionId": "w3",
       "ref": "95:7",
       "prompt": "Verse card [95:7]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 75,
+      "startSec": 635,
+      "durationSec": 12,
+      "sectionId": "w3",
+      "ref": "36:49",
+      "prompt": "Verse card [36:49]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     }
   ],
   "findings": [
@@ -1667,6 +1694,12 @@
       "ref": "113:2",
       "score": 4,
       "ar": "في 113:2 تلتقي الكلمات «شر» و«خلق» في الخانة نفسها (23) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "36:49",
+      "score": 4,
+      "ar": "في 36:49 تلتقي الكلمات «ما» و«إلا» في الخانة نفسها (25) من خانات تطبيق كلمات الأرقام",
       "short": "كلمتان في خانة واحدة"
     },
     {
@@ -1902,6 +1935,12 @@
       "score": 3,
       "ar": "عدد حروف 95:7 17 حرفًا، في 4 كلمات",
       "short": "عدد حروفها 17"
+    },
+    {
+      "ref": "36:49",
+      "score": 3,
+      "ar": "عدد حروف 36:49 34 حرفًا، في 8 كلمات",
+      "short": "عدد حروفها 34"
     },
     {
       "ref": "95:8",
@@ -2370,6 +2409,18 @@
       "score": 2,
       "ar": "مجموع الجُمَّل في 95:7 هو 1046، وبترتيب الحروف في تطبيق كلمات الأرقام 243",
       "short": "مجموعها 1046"
+    },
+    {
+      "ref": "36:49",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 36:49 هي «تأخذهم» بقيمة 1746",
+      "short": "«تأخذهم» = 1746"
+    },
+    {
+      "ref": "36:49",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 36:49 هو 4018، وبترتيب الحروف في تطبيق كلمات الأرقام 595",
+      "short": "مجموعها 4018"
     },
     {
       "ref": "76:8",
@@ -5697,9 +5748,83 @@
         "arabicLine": "مطعم إيجارات سقوط رسوم",
         "en": "restaurant rentals fall fees"
       }
+    },
+    {
+      "ref": "36:49",
+      "words": 8,
+      "letters": 34,
+      "abjad": 4018,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (4018) = 13",
+        "ترتيبها في المصحف 3754، وسورة+آية = 85",
+        "أثقل كلمة حسابًا: «تأخذهم» = 1746"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 595,
+        "words": [
+          {
+            "w": "ما",
+            "v": 25,
+            "b": 25,
+            "ar": "خطر",
+            "en": "risk"
+          },
+          {
+            "w": "ينظرون",
+            "v": 132,
+            "b": 20,
+            "ar": "أسماء",
+            "en": "names"
+          },
+          {
+            "w": "إلا",
+            "v": 25,
+            "b": 25,
+            "ar": "خطر",
+            "en": "risk"
+          },
+          {
+            "w": "صيحة",
+            "v": 74,
+            "b": 18,
+            "ar": "اهتمام",
+            "en": "interest"
+          },
+          {
+            "w": "وحدة",
+            "v": 67,
+            "b": 11,
+            "ar": "مال",
+            "en": "money"
+          },
+          {
+            "w": "تأخذهم",
+            "v": 70,
+            "b": 14,
+            "ar": "قواعد",
+            "en": "rules"
+          },
+          {
+            "w": "وهم",
+            "v": 77,
+            "b": 21,
+            "ar": "قائمة",
+            "en": "menu"
+          },
+          {
+            "w": "يخصمون",
+            "v": 125,
+            "b": 13,
+            "ar": "عرض",
+            "en": "bid"
+          }
+        ],
+        "arabicLine": "خطر أسماء خطر اهتمام مال قواعد قائمة عرض",
+        "en": "risk names risk interest money rules menu bid"
+      }
     }
   ],
-  "description": "٣٩ آية في يوم واحد… ما الذي يجمعها؟ | سجل المغامر\n\nالآيات: 95:8 ، 76:8 ، 114:6 ، 6:22 ، 86:9 ، 86:10 ، 47:2 ، 46:35 ، 22:78 ، 33:73 ، 108:2 ، 80:1 ، 80:16 ، 80:30 ، 55:39 ، 51:47 ، 59:16 ، 64:2 ، 64:6 ، 64:9 ، 109:2 ، 106:2 ، 86:1 ، 86:2 ، 86:3 ، 86:5 ، 86:6 ، 86:7 ، 86:8 ، 77:1 ، 77:17 ، 77:18 ، 66:8 ، 70:17 ، 86:17 ، 47:36 ، 74:4 ، 113:2 ، 95:7\n\n⏱ في الساعة 6:41 صباحًا بتوقيت نيويورك بين الفجر والظهر، كان تمرير القرآن عند سورة البقرة الآية 187. (نوافذ الصلاة من تطبيق الزاحف القرآني)\n\n📍 الفصول:\n0:00 الافتتاحية (٠–١٠ث)\n0:52 الفصل ١: بين الفجر والظهر\n6:29 وقفة: الفكرة الأولى\n6:38 الفصل ٢: بين الظهر والعصر\n9:51 الفصل ٣: بين المغرب والعشاء\n10:22 وقفة: الفكرة الثانية\n10:31 الفصل ٤: بين العشاء والفجر\n10:44 لوحة الأرقام\n10:54 كشف السرّ\n11:22 الخلاصة\n\n📚 التفسير: [ابن كثير — 95:8, 76:8, 114:6, 6:22, 86:9, 86:10, 47:2, 46:35, 22:78, 33:73, 108:2, 80:1, 80:16, 80:30, 55:39, 51:47, 59:16, 64:2, 64:6, 64:9, 109:2, 106:2, 86:1, 86:2, 86:3, 86:5, 86:6, 86:7, 86:8, 77:1, 77:17, 77:18, 66:8, 70:17, 86:17, 47:36, 74:4, 113:2, 95:7] / [السعدي — تيسير الكريم الرحمن] (أضف الصفحة/الرابط)\nهذا تدبّر شخصي وليس تفسيرًا ولا فتوى. «لعبة الأرقام» عدٌّ من أدوات القناة للتأمل، وليست رمزًا ولا إعجازًا.\n🔢 قيم «كلمات الأرقام» محسوبة بمنطق تطبيق كلمات الأرقام: https://mrbugimposter3-ship-it.github.io/quran-number-words/\n🎙️ التلاوة: الحاج معمر زين العاشقين (H. Muammar Zainal Asyikin) — تسجيل مُتاح للملكية العامة (CC0) على أرشيف الإنترنت: https://archive.org/details/muammar_murottal_first (السور 1–22) و https://archive.org/details/muammar_murottal_full (السور 23–114)\n\n#تدبر #القرآن #فن_البكسل",
+  "description": "٤٠ آية في يوم واحد… ما الذي يجمعها؟ | سجل المغامر\n\nالآيات: 95:8 ، 76:8 ، 114:6 ، 6:22 ، 86:9 ، 86:10 ، 47:2 ، 46:35 ، 22:78 ، 33:73 ، 108:2 ، 80:1 ، 80:16 ، 80:30 ، 55:39 ، 51:47 ، 59:16 ، 64:2 ، 64:6 ، 64:9 ، 109:2 ، 106:2 ، 86:1 ، 86:2 ، 86:3 ، 86:5 ، 86:6 ، 86:7 ، 86:8 ، 77:1 ، 77:17 ، 77:18 ، 66:8 ، 70:17 ، 86:17 ، 47:36 ، 74:4 ، 113:2 ، 95:7 ، 36:49\n\n⏱ في الساعة 6:41 صباحًا بتوقيت نيويورك بين الفجر والظهر، كان تمرير القرآن عند سورة البقرة الآية 187. (نوافذ الصلاة من تطبيق الزاحف القرآني)\n\n📍 الفصول:\n0:00 الافتتاحية (٠–١٠ث)\n0:53 الفصل ١: بين الفجر والظهر\n6:30 وقفة: الفكرة الأولى\n6:39 الفصل ٢: بين الظهر والعصر\n9:52 الفصل ٣: بين المغرب والعشاء\n10:23 وقفة: الفكرة الثانية\n10:35 الفصل ٤: بين العشاء والفجر\n11:00 لوحة الأرقام\n11:10 كشف السرّ\n11:38 الخلاصة\n\n📚 التفسير: [ابن كثير — 95:8, 76:8, 114:6, 6:22, 86:9, 86:10, 47:2, 46:35, 22:78, 33:73, 108:2, 80:1, 80:16, 80:30, 55:39, 51:47, 59:16, 64:2, 64:6, 64:9, 109:2, 106:2, 86:1, 86:2, 86:3, 86:5, 86:6, 86:7, 86:8, 77:1, 77:17, 77:18, 66:8, 70:17, 86:17, 47:36, 74:4, 113:2, 95:7, 36:49] / [السعدي — تيسير الكريم الرحمن] (أضف الصفحة/الرابط)\nهذا تدبّر شخصي وليس تفسيرًا ولا فتوى. «لعبة الأرقام» عدٌّ من أدوات القناة للتأمل، وليست رمزًا ولا إعجازًا.\n🔢 قيم «كلمات الأرقام» محسوبة بمنطق تطبيق كلمات الأرقام: https://mrbugimposter3-ship-it.github.io/quran-number-words/\n🎙️ التلاوة: الحاج معمر زين العاشقين (H. Muammar Zainal Asyikin) — تسجيل مُتاح للملكية العامة (CC0) على أرشيف الإنترنت: https://archive.org/details/muammar_murottal_first (السور 1–22) و https://archive.org/details/muammar_murottal_full (السور 23–114)\n\n#تدبر #القرآن #فن_البكسل",
   "tags": [
     "تدبر",
     "القرآن الكريم",
@@ -5750,7 +5875,8 @@
     "Quran 47:36",
     "Quran 74:4",
     "Quran 113:2",
-    "Quran 95:7"
+    "Quran 95:7",
+    "Quran 36:49"
   ],
   "hashtags": [
     "#تدبر",
@@ -5825,7 +5951,7 @@
         {
           "t": 32,
           "dur": 15,
-          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. ما يجعل التدبر مغامرة حقيقية أنك لا تعرف أين ستصل.",
+          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. رجعت إلى سياق سورة سُورَةُ التِّينِ حول ٩٥:٨، فوجدت أن قراءة ما قبلها وما بعدها يغيّر طريقة فهمي لها.",
           "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
@@ -5864,7 +5990,7 @@
         {
           "t": 32,
           "dur": 15,
-          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. أكثر ما يلفتني أن الآية تخاطب الإنسان مباشرة.",
+          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. أول ما لاحظته أن هذه الكلمات قليلة العدد، لكنها تحمل وزنًا كبيرًا في القلب.",
           "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
@@ -5942,7 +6068,7 @@
         {
           "t": 32,
           "dur": 15,
-          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. ما يجعل التدبر مغامرة حقيقية أنك لا تعرف أين ستصل.",
+          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. رجعت إلى سياق سورة سُورَةُ التِّينِ حول ٩٥:٨، فوجدت أن قراءة ما قبلها وما بعدها يغيّر طريقة فهمي لها.",
           "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
@@ -5955,11 +6081,11 @@
     }
   ],
   "stats": {
-    "narrationChars": 3249,
-    "narrationWords": 578,
-    "narrationSec": 289,
-    "recitationSecEst": 468,
-    "totalSec": 719
+    "narrationChars": 3338,
+    "narrationWords": 595,
+    "narrationSec": 298,
+    "recitationSecEst": 480,
+    "totalSec": 735
   },
   "render": {
     "width": 1920,
