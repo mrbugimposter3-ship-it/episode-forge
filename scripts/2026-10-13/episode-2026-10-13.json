@@ -1,18 +1,18 @@
 {
   "schema": "episode-forge/daily-package@1",
-  "generatedAt": "2026-10-13T18:58:09.545Z",
+  "generatedAt": "2026-10-14T01:48:26.259Z",
   "date": "2026-10-13",
   "episodeNumber": 1,
   "language": "ar",
   "title": {
-    "ar": "٤٧ كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ",
+    "ar": "٣٩ آية في يوم واحد… ما الذي يجمعها؟ | سجل المغامر",
     "options": [
-      "٤٧ كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ",
-      "كلمتان في خانة واحدة | سرّ ٥:٤٢",
-      "سجل المغامر ١: سرّ سُورَةُ المَائـِدَةِ ٥:٤٢",
-      "كنز ٥:٤٢ | سجل المغامر ١",
-      "[EN metadata] Adventurer's Log #1: Hidden number in Al-Maaida 5:42",
-      "[EN metadata] Hidden number in Al-Maaida 5:42 | Quran Pixel Reflection"
+      "٣٩ آية في يوم واحد… ما الذي يجمعها؟ | سجل المغامر",
+      "٣٩ آية من الفجر إلى الليل | لعبة الأرقام",
+      "سجلّ يوم كامل: ٣٩ آية و٣٦١ كلمة",
+      "كلمتان في خانة واحدة | سرّ ٩٥:٨",
+      "[EN metadata] Adventurer's Log #1: Hidden number in At-Tin 95:8",
+      "[EN metadata] Hidden number in At-Tin 95:8 | Quran Pixel Reflection"
     ]
   },
   "recitation": {
@@ -21,19 +21,19 @@
     "secondsPerAyahEst": 12
   },
   "timeAnchor": {
-    "iso": "2026-10-13T18:54:29.000Z",
-    "etTime": "2:54 PM ET",
-    "window": "Dhuhr → Asr",
-    "windowAr": "بين الظهر والعصر",
-    "windowProgress": 0.8027,
-    "dayProgress": 0.3605,
-    "salahScroll": "10:76",
+    "iso": "2026-10-13T10:41:18.000Z",
+    "etTime": "6:41 AM ET",
+    "window": "Fajr → Dhuhr",
+    "windowAr": "بين الفجر والظهر",
+    "windowProgress": 0.2251,
+    "dayProgress": 0.045,
+    "salahScroll": "2:187",
     "crawlerQuranTab": {
-      "floor": 2,
-      "ref": "18:25",
-      "hourProgress": 0.9081
+      "floor": 6,
+      "ref": "51:31",
+      "hourProgress": 0.6883
     },
-    "used": "10:76",
+    "used": null,
     "prayerHours": [
       5,
       12.5,
@@ -41,40 +41,436 @@
       18.5,
       20
     ],
-    "hookAr": "في الساعة 2:54 ظهرًا بتوقيت نيويورك بين الظهر والعصر، كان تمرير القرآن عند سورة يونس الآية 76."
+    "hookAr": "في الساعة 6:41 صباحًا بتوقيت نيويورك بين الفجر والظهر، كان تمرير القرآن عند سورة البقرة الآية 187."
   },
   "ayat": [
     {
-      "ref": "5:42",
-      "surah": 5,
-      "ayah": 42,
-      "global": 711,
-      "juz": 6,
-      "page": 115,
-      "arabic": "سَمَّٰعُونَ لِلْكَذِبِ أَكَّٰلُونَ لِلسُّحْتِ ۚ فَإِن جَآءُوكَ فَٱحْكُم بَيْنَهُمْ أَوْ أَعْرِضْ عَنْهُمْ ۖ وَإِن تُعْرِضْ عَنْهُمْ فَلَن يَضُرُّوكَ شَيْـًۭٔا ۖ وَإِنْ حَكَمْتَ فَٱحْكُم بَيْنَهُم بِٱلْقِسْطِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
-      "transliteration": "Sammaa'oona lilkazibi akkaaloona lissuht; fa in jaaa'ooka fahkum bainahum aw a'rid anhum wa in tu'rid 'anhum falany-yadurrooka shai'anw wa in hakamta fahkum bainahum bilqist; innal laaha yuhibbul muqsiteen",
+      "ref": "95:8",
+      "surah": 95,
+      "ayah": 8,
+      "global": 6106,
+      "juz": 30,
+      "page": 597,
+      "arabic": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ",
+      "transliteration": "Alai sal laahu bi-ahkamil haakimeen",
       "source": "api.alquran.cloud quran-uthmani"
     },
     {
-      "ref": "6:26",
+      "ref": "76:8",
+      "surah": 76,
+      "ayah": 8,
+      "global": 5599,
+      "juz": 29,
+      "page": 579,
+      "arabic": "وَيُطْعِمُونَ ٱلطَّعَامَ عَلَىٰ حُبِّهِۦ مِسْكِينًۭا وَيَتِيمًۭا وَأَسِيرًا",
+      "transliteration": "Wa yut''imoonat ta'aama 'alaa hubbihee miskeenanw wa yatemanw wa aseeraa",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "114:6",
+      "surah": 114,
+      "ayah": 6,
+      "global": 6236,
+      "juz": 30,
+      "page": 604,
+      "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+      "transliteration": "Minal jinnati wan naas",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "6:22",
       "surah": 6,
-      "ayah": 26,
-      "global": 815,
+      "ayah": 22,
+      "global": 811,
       "juz": 7,
       "page": 130,
-      "arabic": "وَهُمْ يَنْهَوْنَ عَنْهُ وَيَنْـَٔوْنَ عَنْهُ ۖ وَإِن يُهْلِكُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
-      "transliteration": "Wa hum yanhawna 'anhu wa yan'awna 'anhu wa iny yuhlikoona illaa anfusahum wa maa yash'uroon",
+      "arabic": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًۭا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوٓا۟ أَيْنَ شُرَكَآؤُكُمُ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
+      "transliteration": "Wa yawma nahshuruhum jamee'an summa naqoolu lillazeena ashrakooo ayna shurakaaa' ukumul lazeena kuntum taz'umoon",
       "source": "api.alquran.cloud quran-uthmani"
     },
     {
-      "ref": "10:76",
-      "surah": 10,
-      "ayah": 76,
-      "global": 1440,
-      "juz": 11,
-      "page": 217,
-      "arabic": "فَلَمَّا جَآءَهُمُ ٱلْحَقُّ مِنْ عِندِنَا قَالُوٓا۟ إِنَّ هَٰذَا لَسِحْرٌۭ مُّبِينٌۭ",
-      "transliteration": "Falammaa jaaa'ahumul haqqu min 'indinaa qaalooo inna haazaa lasihrum mubeen",
+      "ref": "86:9",
+      "surah": 86,
+      "ayah": 9,
+      "global": 5940,
+      "juz": 30,
+      "page": 591,
+      "arabic": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ",
+      "transliteration": "Yawma tublas saraaa'ir",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "86:10",
+      "surah": 86,
+      "ayah": 10,
+      "global": 5941,
+      "juz": 30,
+      "page": 591,
+      "arabic": "فَمَا لَهُۥ مِن قُوَّةٍۢ وَلَا نَاصِرٍۢ",
+      "transliteration": "Famaa lahoo min quwwatinw wa laa naasir",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "47:2",
+      "surah": 47,
+      "ayah": 2,
+      "global": 4547,
+      "juz": 26,
+      "page": 507,
+      "arabic": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَءَامَنُوا۟ بِمَا نُزِّلَ عَلَىٰ مُحَمَّدٍۢ وَهُوَ ٱلْحَقُّ مِن رَّبِّهِمْ ۙ كَفَّرَ عَنْهُمْ سَيِّـَٔاتِهِمْ وَأَصْلَحَ بَالَهُمْ",
+      "transliteration": "Wallazeena aamanoo wa 'amilus saalihaati wa aamanoo bimaa nuzzila 'alaa Muhammadinw-wa huwal haqqu mir Rabbihim kaffara 'anhum saiyiaatihim wa aslaha baalahum",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "46:35",
+      "surah": 46,
+      "ayah": 35,
+      "global": 4545,
+      "juz": 26,
+      "page": 506,
+      "arabic": "فَٱصْبِرْ كَمَا صَبَرَ أُو۟لُوا۟ ٱلْعَزْمِ مِنَ ٱلرُّسُلِ وَلَا تَسْتَعْجِل لَّهُمْ ۚ كَأَنَّهُمْ يَوْمَ يَرَوْنَ مَا يُوعَدُونَ لَمْ يَلْبَثُوٓا۟ إِلَّا سَاعَةًۭ مِّن نَّهَارٍۭ ۚ بَلَٰغٌۭ ۚ فَهَلْ يُهْلَكُ إِلَّا ٱلْقَوْمُ ٱلْفَٰسِقُونَ",
+      "transliteration": "Fasbir kamaa sabara ulul 'azmi minar Rusuli wa laa tasta'jil lahum; ka annahum Yawma yarawna maa yoo'adoona lam yalbasooo illaa saa'atam min nahaar; balaagh; fahal yuhlaku illal qawmul faasiqoon",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "22:78",
+      "surah": 22,
+      "ayah": 78,
+      "global": 2673,
+      "juz": 17,
+      "page": 341,
+      "arabic": "وَجَٰهِدُوا۟ فِى ٱللَّهِ حَقَّ جِهَادِهِۦ ۚ هُوَ ٱجْتَبَىٰكُمْ وَمَا جَعَلَ عَلَيْكُمْ فِى ٱلدِّينِ مِنْ حَرَجٍۢ ۚ مِّلَّةَ أَبِيكُمْ إِبْرَٰهِيمَ ۚ هُوَ سَمَّىٰكُمُ ٱلْمُسْلِمِينَ مِن قَبْلُ وَفِى هَٰذَا لِيَكُونَ ٱلرَّسُولُ شَهِيدًا عَلَيْكُمْ وَتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ ۚ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱعْتَصِمُوا۟ بِٱللَّهِ هُوَ مَوْلَىٰكُمْ ۖ فَنِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ",
+      "transliteration": "Wa jaahidoo fil laahi haqqa jihaadih; Huwaj tabaakum wa maa ja'ala 'alaikum fid deeni min haraj; Millata abeekum Ibraaheem; Huwa sammaakumul muslimeena min qablu wa fee haaza li yakoonar Rasoolu shaheedan 'alaikum wa takoonoo shuhadaaa'a 'alan naas; fa aqeemus salaata wa aatuz zakaata wa'tasimoo billaahi Huwa mawlaakum fani'mal mawlaa wa ni'man naseer",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "33:73",
+      "surah": 33,
+      "ayah": 73,
+      "global": 3606,
+      "juz": 22,
+      "page": 427,
+      "arabic": "لِّيُعَذِّبَ ٱللَّهُ ٱلْمُنَٰفِقِينَ وَٱلْمُنَٰفِقَٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَٰتِ وَيَتُوبَ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ۗ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۢا",
+      "transliteration": "Liyu 'azzibal laahul munaafiqeena wal munaafiqaati walmushrikeena wal mushrikaati wa yatoobal laahu 'alal mu'mineena walmu'minaat; wa kaanal laahu Ghafoorar Raheema",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "108:2",
+      "surah": 108,
+      "ayah": 2,
+      "global": 6206,
+      "juz": 30,
+      "page": 602,
+      "arabic": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+      "transliteration": "Fa salli li rabbika wanhar",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "80:1",
+      "surah": 80,
+      "ayah": 1,
+      "global": 5759,
+      "juz": 30,
+      "page": 585,
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ عَبَسَ وَتَوَلَّىٰٓ",
+      "transliteration": "'Abasa wa tawallaa.",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "80:16",
+      "surah": 80,
+      "ayah": 16,
+      "global": 5774,
+      "juz": 30,
+      "page": 585,
+      "arabic": "كِرَامٍۭ بَرَرَةٍۢ",
+      "transliteration": "Kiraamim bararah.",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "80:30",
+      "surah": 80,
+      "ayah": 30,
+      "global": 5788,
+      "juz": 30,
+      "page": 585,
+      "arabic": "وَحَدَآئِقَ غُلْبًۭا",
+      "transliteration": "Wa hadaa-iqa ghulba",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "55:39",
+      "surah": 55,
+      "ayah": 39,
+      "global": 4940,
+      "juz": 27,
+      "page": 532,
+      "arabic": "فَيَوْمَئِذٍۢ لَّا يُسْـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٌۭ وَلَا جَآنٌّۭ",
+      "transliteration": "Fa-yawma'izil laa yus'alu 'an zambiheee insunw wa laa jaann",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "51:47",
+      "surah": 51,
+      "ayah": 47,
+      "global": 4722,
+      "juz": 27,
+      "page": 522,
+      "arabic": "وَٱلسَّمَآءَ بَنَيْنَٰهَا بِأَيْي۟دٍۢ وَإِنَّا لَمُوسِعُونَ",
+      "transliteration": "Wassamaaa'a banainaa haa bi aydinw wa innaa lamoosi'oon",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "59:16",
+      "surah": 59,
+      "ayah": 16,
+      "global": 5142,
+      "juz": 28,
+      "page": 547,
+      "arabic": "كَمَثَلِ ٱلشَّيْطَٰنِ إِذْ قَالَ لِلْإِنسَٰنِ ٱكْفُرْ فَلَمَّا كَفَرَ قَالَ إِنِّى بَرِىٓءٌۭ مِّنكَ إِنِّىٓ أَخَافُ ٱللَّهَ رَبَّ ٱلْعَٰلَمِينَ",
+      "transliteration": "Kamasalish shaitaani izqaala lil insaanik fur falammaa kafara qaala innee bareee'um minka inneee akhaaful laaha rabbal 'aalameen",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "64:2",
+      "surah": 64,
+      "ayah": 2,
+      "global": 5201,
+      "juz": 28,
+      "page": 556,
+      "arabic": "هُوَ ٱلَّذِى خَلَقَكُمْ فَمِنكُمْ كَافِرٌۭ وَمِنكُم مُّؤْمِنٌۭ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "transliteration": "Huwal lazee khalaqakum faminkum kaafirunw wa min kum mu'min ; wallaahu bimaa ta'maloona Baseer",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "64:6",
+      "surah": 64,
+      "ayah": 6,
+      "global": 5205,
+      "juz": 28,
+      "page": 556,
+      "arabic": "ذَٰلِكَ بِأَنَّهُۥ كَانَت تَّأْتِيهِمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ فَقَالُوٓا۟ أَبَشَرٌۭ يَهْدُونَنَا فَكَفَرُوا۟ وَتَوَلَّوا۟ ۚ وَّٱسْتَغْنَى ٱللَّهُ ۚ وَٱللَّهُ غَنِىٌّ حَمِيدٌۭ",
+      "transliteration": "Zaalika bi annahoo kaanat taateehim Rusuluhum bilbaiyinaati faqaaloo a basharuny yahdoonanaa fakafaroo wa tawallaw; wastaghnal laah; wallaahu ghaniyyun hameed",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "64:9",
+      "surah": 64,
+      "ayah": 9,
+      "global": 5208,
+      "juz": 28,
+      "page": 556,
+      "arabic": "يَوْمَ يَجْمَعُكُمْ لِيَوْمِ ٱلْجَمْعِ ۖ ذَٰلِكَ يَوْمُ ٱلتَّغَابُنِ ۗ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَٰلِحًۭا يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُدْخِلْهُ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "transliteration": "Ywma yajma'ukum li yawmil jam'i zaalika yawmut taghaabun; wa many-yumim billaahi wa ya'mal saalihany yukaffir 'anhu sayyi aatihee wa yudkhilhu jannaatin tajree min tahtihal anhaaru khaalideena feehaaa abadaa; zaalikal fawzul 'azeem",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "109:2",
+      "surah": 109,
+      "ayah": 2,
+      "global": 6209,
+      "juz": 30,
+      "page": 603,
+      "arabic": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+      "transliteration": "Laa a'budu ma t'abudoon",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "106:2",
+      "surah": 106,
+      "ayah": 2,
+      "global": 6195,
+      "juz": 30,
+      "page": 602,
+      "arabic": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+      "transliteration": "Elaafihim rihlatash shitaa-i wass saif",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "86:1",
+      "surah": 86,
+      "ayah": 1,
+      "global": 5932,
+      "juz": 30,
+      "page": 591,
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+      "transliteration": "Wassamaaa'i wattaariq",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "86:2",
+      "surah": 86,
+      "ayah": 2,
+      "global": 5933,
+      "juz": 30,
+      "page": 591,
+      "arabic": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ",
+      "transliteration": "Wa maaa adraaka mattaariq",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "86:3",
+      "surah": 86,
+      "ayah": 3,
+      "global": 5934,
+      "juz": 30,
+      "page": 591,
+      "arabic": "ٱلنَّجْمُ ٱلثَّاقِبُ",
+      "transliteration": "Annajmus saaqib",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "86:5",
+      "surah": 86,
+      "ayah": 5,
+      "global": 5936,
+      "juz": 30,
+      "page": 591,
+      "arabic": "فَلْيَنظُرِ ٱلْإِنسَٰنُ مِمَّ خُلِقَ",
+      "transliteration": "Fal yanzuril insaanu mimma khuliq",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "86:6",
+      "surah": 86,
+      "ayah": 6,
+      "global": 5937,
+      "juz": 30,
+      "page": 591,
+      "arabic": "خُلِقَ مِن مَّآءٍۢ دَافِقٍۢ",
+      "transliteration": "Khuliqa mim maaa'in daafiq",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "86:7",
+      "surah": 86,
+      "ayah": 7,
+      "global": 5938,
+      "juz": 30,
+      "page": 591,
+      "arabic": "يَخْرُجُ مِنۢ بَيْنِ ٱلصُّلْبِ وَٱلتَّرَآئِبِ",
+      "transliteration": "Yakhruju mim bainissulbi wat taraaa'ib",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "86:8",
+      "surah": 86,
+      "ayah": 8,
+      "global": 5939,
+      "juz": 30,
+      "page": 591,
+      "arabic": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌۭ",
+      "transliteration": "Innahoo 'alaa raj'ihee laqaadir",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "77:1",
+      "surah": 77,
+      "ayah": 1,
+      "global": 5623,
+      "juz": 29,
+      "page": 580,
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْمُرْسَلَٰتِ عُرْفًۭا",
+      "transliteration": "Wal mursalaati'urfaa",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "77:17",
+      "surah": 77,
+      "ayah": 17,
+      "global": 5639,
+      "juz": 29,
+      "page": 580,
+      "arabic": "ثُمَّ نُتْبِعُهُمُ ٱلْءَاخِرِينَ",
+      "transliteration": "Summa nutbi'uhumul aakhireen",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "77:18",
+      "surah": 77,
+      "ayah": 18,
+      "global": 5640,
+      "juz": 29,
+      "page": 580,
+      "arabic": "كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
+      "transliteration": "Kazzlika naf'alu bilmujrimeen",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "66:8",
+      "surah": 66,
+      "ayah": 8,
+      "global": 5237,
+      "juz": 28,
+      "page": 561,
+      "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ تُوبُوٓا۟ إِلَى ٱللَّهِ تَوْبَةًۭ نَّصُوحًا عَسَىٰ رَبُّكُمْ أَن يُكَفِّرَ عَنكُمْ سَيِّـَٔاتِكُمْ وَيُدْخِلَكُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يَوْمَ لَا يُخْزِى ٱللَّهُ ٱلنَّبِىَّ وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ ۖ نُورُهُمْ يَسْعَىٰ بَيْنَ أَيْدِيهِمْ وَبِأَيْمَٰنِهِمْ يَقُولُونَ رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ",
+      "transliteration": "Yaaa ayyuhal lazeena aammano toobooo ilal laahi tawbatan nasoohan 'asaa rabbukum any-yukaffira 'ankum sayyi aatikum wa yudkhilakum jannaatin tajree min tahtihal anhaaru yawma laa yukhzil laahun nabiyya wallazeena aamanoo ma'ahoo nooruhum yas'aa baina aydeehim wa bi aymaanihim yaqooloona rabbanaaa atmim lanaa nooranaa waghfir lana innaka 'alaa kulli shai'in qadeer",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "70:17",
+      "surah": 70,
+      "ayah": 17,
+      "global": 5392,
+      "juz": 29,
+      "page": 569,
+      "arabic": "تَدْعُوا۟ مَنْ أَدْبَرَ وَتَوَلَّىٰ",
+      "transliteration": "Tad'oo man adbara wa tawallaa",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "86:17",
+      "surah": 86,
+      "ayah": 17,
+      "global": 5948,
+      "juz": 30,
+      "page": 591,
+      "arabic": "فَمَهِّلِ ٱلْكَٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
+      "transliteration": "Famahhilil kaafireena amhilhum ruwaidaa",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "47:36",
+      "surah": 47,
+      "ayah": 36,
+      "global": 4581,
+      "juz": 26,
+      "page": 510,
+      "arabic": "إِنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌۭ وَلَهْوٌۭ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ يُؤْتِكُمْ أُجُورَكُمْ وَلَا يَسْـَٔلْكُمْ أَمْوَٰلَكُمْ",
+      "transliteration": "Innamal hayaatud dunyaa la'ibunw wa lahw; wa in to'minoo wa tattaqoo yu'tikum ujoorakum wa laa yas'alkum amwaalakum",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "74:4",
+      "surah": 74,
+      "ayah": 4,
+      "global": 5499,
+      "juz": 29,
+      "page": 575,
+      "arabic": "وَثِيَابَكَ فَطَهِّرْ",
+      "transliteration": "Wa siyaabaka fatahhir",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "113:2",
+      "surah": 113,
+      "ayah": 2,
+      "global": 6227,
+      "juz": 30,
+      "page": 604,
+      "arabic": "مِن شَرِّ مَا خَلَقَ",
+      "transliteration": "Min sharri ma khalaq",
+      "source": "api.alquran.cloud quran-uthmani"
+    },
+    {
+      "ref": "95:7",
+      "surah": 95,
+      "ayah": 7,
+      "global": 6105,
+      "juz": 30,
+      "page": 597,
+      "arabic": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
+      "transliteration": "Fama yu kaz zibuka b'adu bid deen",
       "source": "api.alquran.cloud quran-uthmani"
     }
   ],
@@ -84,8 +480,8 @@
       "type": "hook",
       "title": "الافتتاحية (٠–١٠ث)",
       "startSec": 0,
-      "durationSec": 8,
-      "narration": "لعبة الأرقام اليوم: ٥:٤٢… كلمتان في خانة واحدة. ماذا يخبرنا العدّ حين نبطئ القراءة؟",
+      "durationSec": 9,
+      "narration": "لعبة الأرقام اليوم: ٩٥:٨… كلمتان في خانة واحدة. و٣٩ آية سجّلتها في يوم واحد… ما الذي يجمعها؟",
       "recitation": [],
       "showAyat": [],
       "cues": [
@@ -97,9 +493,9 @@
       "id": "intro",
       "type": "intro",
       "title": "المهمة",
-      "startSec": 8,
-      "durationSec": 26,
-      "narration": "في الساعة ٢:٥٤ ظهرًا بتوقيت نيويورك بين الظهر والعصر، كان تمرير القرآن عند سورة يونس الآية ٧٦. في سجلّي اليومي توقفت عند ٥:٤٢ و٦:٢٦ و١٠:٧٦... ولم أستطع أن أكمل قبل أن أفهم لماذا شدّتني. لكن قبل أن أخبرك بما وجدته في هذا الرقم، دعنا نبدأ المهمة من أولها… والسرّ في آخر الحلقة.",
+      "startSec": 9,
+      "durationSec": 43,
+      "narration": "هذا سجلّ يومي كاملًا: ٣٩ آية، من بين الفجر والظهر إلى بين العشاء والفجر. في سجلّي اليومي توقفت عند ٩٥:٨ و٧٦:٨ و١١٤:٦ و٦:٢٢ و٨٦:٩ و٨٦:١٠ و٤٧:٢ و٤٦:٣٥ و٢٢:٧٨ و٣٣:٧٣ و١٠٨:٢ و٨٠:١ و٨٠:١٦ و٨٠:٣٠ و٥٥:٣٩ و٥١:٤٧ و٥٩:١٦ و٦٤:٢ و٦٤:٦ و٦٤:٩ و١٠٩:٢ و١٠٦:٢ و٨٦:١ و٨٦:٢ و٨٦:٣ و٨٦:٥ و٨٦:٦ و٨٦:٧ و٨٦:٨ و٧٧:١ و٧٧:١٧ و٧٧:١٨ و٦٦:٨ و٧٠:١٧ و٨٦:١٧ و٤٧:٣٦ و٧٤:٤ و١١٣:٢ و٩٥:٧ في الساعة ٦:٤١ صباحًا بتوقيت نيويورك... ولم أستطع أن أكمل قبل أن أفهم لماذا شدّتني. وفي آخر الحلقة أكشف لك نتيجة لعبة الأرقام لهذا اليوم… فابقَ حتى النهاية.",
       "recitation": [],
       "showAyat": [],
       "cues": [
@@ -108,111 +504,257 @@
       ]
     },
     {
-      "id": "ayat",
+      "id": "w0",
       "type": "chapter",
-      "title": "الفصل ١: الآيات",
-      "startSec": 34,
-      "durationSec": 86,
-      "narration": "في ٥:٤٢: ٢٦ كلمة، و١١٠ أحرف، ومجموع الجُمَّل ٧٩٢٣. في ٦:٢٦: ١١ كلمة، و٤٦ حرفًا، ومجموع الجُمَّل ١٦٧٣. في ١٠:٧٦: ١٠ كلمات، و٣٨ حرفًا، ومجموع الجُمَّل ١٩٠٠.",
+      "title": "الفصل ١: بين الفجر والظهر",
+      "startSec": 52,
+      "durationSec": 337,
+      "narration": "في ٦:٤١ صباحًا توقفت هنا: ٤ كلمات، فاقرأها معي ببطء. عدد حروفها ٣٧ حرفًا. ما الكلمة التي تشدّك أولًا؟ سجّلتها مرتين اليوم… والوقفة المتكررة تستحق الانتباه. أثقل كلماتها في عدّ الجُمَّل «للذين» بقيمة ٨٢٠. قف عندها لحظة. بعد ١٤ دقيقة من الوقفة السابقة، عدت إلى المصحف هنا. في ٧:١٦ صباحًا توقفت هنا: ٦ كلمات، فاقرأها معي ببطء. عدد حروفها ٨٠ حرفًا. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ الأَحۡقَافِ، الجزء ٢٦. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «هذا» بقيمة ٧٠٦. قف عندها لحظة. بعد ١١ دقيقة من الوقفة السابقة، عدت إلى المصحف هنا. في ٨:٤١ صباحًا توقفت هنا: ٣ كلمات، فاقرأها معي ببطء. عدد حروفها ٢٧ حرفًا. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ عَبَسَ، الجزء ٣٠. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «غلبا» بقيمة ١٠٣٣. قف عندها لحظة. بعد ١٠ دقائق من الوقفة السابقة، عدت إلى المصحف هنا. في ١٠:٥٣ صباحًا توقفت هنا: ٥ كلمات، فاقرأها معي ببطء. عدد حروفها ٦٥ حرفًا. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ التَّغَابُنِ، الجزء ٢٨. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «وٱستغنى» بقيمة ١٥٢٧. قف عندها لحظة. بعد ١ دقيقة من الوقفة السابقة، عدت إلى المصحف هنا. في ١٢:٠٣ ظهرًا توقفت هنا: ٤ كلمات، فاقرأها معي ببطء. عدد حروفها ٢١ حرفًا. ما الكلمة التي تشدّك أولًا؟",
       "recitation": [
-        "5:42",
-        "6:26",
-        "10:76"
+        "95:8",
+        "76:8",
+        "114:6",
+        "6:22",
+        "86:9",
+        "86:10",
+        "47:2",
+        "46:35",
+        "22:78",
+        "33:73",
+        "108:2",
+        "80:1",
+        "80:16",
+        "80:30",
+        "55:39",
+        "51:47",
+        "59:16",
+        "64:2",
+        "64:6",
+        "64:9",
+        "109:2",
+        "106:2"
       ],
       "showAyat": [
-        "5:42",
-        "6:26",
-        "10:76"
+        "95:8",
+        "76:8",
+        "114:6",
+        "6:22",
+        "86:9",
+        "86:10",
+        "47:2",
+        "46:35",
+        "22:78",
+        "33:73",
+        "108:2",
+        "80:1",
+        "80:16",
+        "80:30",
+        "55:39",
+        "51:47",
+        "59:16",
+        "64:2",
+        "64:6",
+        "64:9",
+        "109:2",
+        "106:2"
       ],
       "cues": [
-        "[CHAPTER CARD: الفصل ١ — الآيات]",
-        "[RPG: بطاقة ذهبية — ٥:٤٢]",
-        "[RPG: بطاقة ذهبية — ٦:٢٦]",
-        "[RPG: بطاقة ذهبية — ١٠:٧٦]",
-        "[PATTERN INTERRUPT: zoom-punch + SFX ping @ ١:٢٤]"
+        "[PATTERN INTERRUPT: zoom-punch + SFX ping]",
+        "[CHAPTER CARD: بين الفجر والظهر — ٢٢ آية]",
+        "[RPG: بطاقة ذهبية — ٩٥:٨]",
+        "[RPG: بطاقة ذهبية — ٧٦:٨]",
+        "[RPG: بطاقة ذهبية — ١١٤:٦]",
+        "[RPG: بطاقة ذهبية — ٦:٢٢]",
+        "[RPG: بطاقة ذهبية — ٨٦:٩]",
+        "[RPG: بطاقة ذهبية — ٨٦:١٠]",
+        "[RPG: بطاقة ذهبية — ٤٧:٢]",
+        "[RPG: بطاقة ذهبية — ٤٦:٣٥]",
+        "[RPG: بطاقة ذهبية — ٢٢:٧٨]",
+        "[RPG: بطاقة ذهبية — ٣٣:٧٣]",
+        "[RPG: بطاقة ذهبية — ١٠٨:٢]",
+        "[RPG: بطاقة ذهبية — ٨٠:١]",
+        "[RPG: بطاقة ذهبية — ٨٠:١٦]",
+        "[RPG: بطاقة ذهبية — ٨٠:٣٠]",
+        "[RPG: بطاقة ذهبية — ٥٥:٣٩]",
+        "[RPG: بطاقة ذهبية — ٥١:٤٧]",
+        "[RPG: بطاقة ذهبية — ٥٩:١٦]",
+        "[RPG: بطاقة ذهبية — ٦٤:٢]",
+        "[RPG: بطاقة ذهبية — ٦٤:٦]",
+        "[RPG: بطاقة ذهبية — ٦٤:٩]",
+        "[RPG: بطاقة ذهبية — ١٠٩:٢]",
+        "[RPG: بطاقة ذهبية — ١٠٦:٢]",
+        "[PATTERN INTERRUPT: سؤال على الشاشة للمشاهد @ ١:٤٢]",
+        "[PATTERN INTERRUPT: تغيير زاوية المشهد + chiptune sting @ ٢:٣٢]",
+        "[PATTERN INTERRUPT: عداد الأرقام يدور @ ٣:٢٢]",
+        "[PATTERN INTERRUPT: glitch frame + سكون ثانية @ ٤:١٢]",
+        "[PATTERN INTERRUPT: zoom-punch + SFX ping @ ٥:٠٢]",
+        "[PATTERN INTERRUPT: سؤال على الشاشة للمشاهد @ ٥:٥٢]"
       ]
     },
     {
       "id": "i1",
       "type": "chapter",
-      "title": "الفصل ٢: الفكرة الأولى",
-      "startSec": 120,
+      "title": "وقفة: الفكرة الأولى",
+      "startSec": 389,
       "durationSec": 9,
       "narration": "أكثر ما يلفتني أن الآية تخاطب الإنسان مباشرة. السؤال الذي أخرج به: أين أنا من هذا الخطاب اليوم؟",
       "recitation": [],
       "showAyat": [],
       "cues": [
-        "[CHAPTER CARD: الفصل ٢]",
         "[RPG: فكرة مفتوحة ١/٣]"
       ]
     },
     {
-      "id": "numbers",
+      "id": "w1",
       "type": "chapter",
-      "title": "الفصل ٣: لوحة الأرقام",
-      "startSec": 129,
-      "durationSec": 56,
-      "narration": "هذه «لعبة الأرقام» من أدواتي: عدٌّ للتأمل والمتعة، لا رمز فيه ولا إعجاز، ولا أبني عليه حكمًا ولا تفسيرًا. بنظام كلمات الأرقام، قيم كلمات ٥:٤٢ بترتيب الحروف الهجائي: ١٠٦، ٧٩، ٩٨، ٦٧، ٤٦، ٥٦، ٧٣، ١٠٥، ٢٨، ٤٤، ٩٣، ٥٣، ٤٦، ٩٣، ٦٨، ١٠٢، ٤٢، ٥٣، ٥٥، ٧٣، ١٠٥، ٧٥، ٢٦، ٧٣، ٣٦، ١٥٠. بنظام كلمات الأرقام، قيم كلمات ٦:٢٦ بترتيب الحروف الهجائي: ٧٧، ١٣١، ٦٩، ١٣٢، ٦٩، ٥٣، ١٥١، ٢٥، ١٠٨، ٥٢، ١٢١. بنظام كلمات الأرقام، قيم كلمات ١٠:٧٦ بترتيب الحروف الهجائي: ٦٨، ٥٧، ٥١، ٤٩، ٧٧، ٧٣، ٢٦، ٣٦، ٥١، ٧٩. أثقل كلمة حسابًا: «تعرض» = ١٤٧٠. أثقل كلمة حسابًا: «يشعرون» = ٦٣٦. أثقل كلمة حسابًا: «هذا» = ٧٠٦.",
-      "recitation": [],
-      "showAyat": [],
+      "title": "الفصل ٢: بين الظهر والعصر",
+      "startSec": 398,
+      "durationSec": 193,
+      "narration": "من سورة سُورَةُ الطَّارِقِ، الجزء ٣٠. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «ٱلطارق» بقيمة ٣٤١. قف عندها لحظة. في لعبة الأرقام: مجموع الجُمَّل فيها ٧٥٨. في ١٢:٣٨ ظهرًا توقفت هنا: ٤ كلمات، فاقرأها معي ببطء. عدد حروفها ١٢ حرفًا. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ الطَّارِقِ، الجزء ٣٠. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «لقادر» بقيمة ٣٣٥. قف عندها لحظة. بعد ٦ دقائق من الوقفة السابقة، عدت إلى المصحف هنا. في ١٢:٤٥ ظهرًا توقفت هنا: ٣ كلمات، فاقرأها معي ببطء. عدد حروفها ١٧ حرفًا. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ التَّحۡرِيمِ، الجزء ٢٨. ماذا تطلب مني اليوم؟ أثقل كلماتها في عدّ الجُمَّل «تدعوا» بقيمة ٤٨١. قف عندها لحظة. بعد ٩ دقائق من الوقفة السابقة، عدت إلى المصحف هنا. في ٢:٥٤ ظهرًا توقفت هنا: ١٣ كلمة، فاقرأها معي ببطء.",
+      "recitation": [
+        "86:1",
+        "86:2",
+        "86:3",
+        "86:5",
+        "86:6",
+        "86:7",
+        "86:8",
+        "77:1",
+        "77:17",
+        "77:18",
+        "66:8",
+        "70:17",
+        "86:17",
+        "47:36"
+      ],
+      "showAyat": [
+        "86:1",
+        "86:2",
+        "86:3",
+        "86:5",
+        "86:6",
+        "86:7",
+        "86:8",
+        "77:1",
+        "77:17",
+        "77:18",
+        "66:8",
+        "70:17",
+        "86:17",
+        "47:36"
+      ],
       "cues": [
-        "[PATTERN INTERRUPT: سؤال على الشاشة للمشاهد]",
-        "[CHAPTER CARD: الفصل ٣ — لوحة الأرقام]",
-        "[RPG: لوحة الأرقام — الجُمَّل + ترتيب الحروف + كلمات الخانات]",
-        "[OVERLAY ٥:٤٢: يجري حلول تقريبًا مال متحرك فيروس اتحادي كثيرًا سقوط دم جلسة ولادة متحرك جلسة طاقة علامات وسائط ولادة لهم اتحادي كثيرًا ألعاب مزدوج اتحادي عشرة يبدو]",
-        "[OVERLAY ٦:٢٦: قائمة قيم خطأ أسماء خطأ ولادة راسخ خطر هؤلاء موقَّع غير]",
-        "[OVERLAY ١٠:٧٦: طاقة حق مدونات فطور قائمة اتحادي مزدوج عشرة مدونات حلول]"
+        "[PATTERN INTERRUPT: تغيير زاوية المشهد + chiptune sting]",
+        "[CHAPTER CARD: بين الظهر والعصر — ١٤ آية]",
+        "[RPG: بطاقة ذهبية — ٨٦:١]",
+        "[RPG: بطاقة ذهبية — ٨٦:٢]",
+        "[RPG: بطاقة ذهبية — ٨٦:٣]",
+        "[RPG: بطاقة ذهبية — ٨٦:٥]",
+        "[RPG: بطاقة ذهبية — ٨٦:٦]",
+        "[RPG: بطاقة ذهبية — ٨٦:٧]",
+        "[RPG: بطاقة ذهبية — ٨٦:٨]",
+        "[RPG: بطاقة ذهبية — ٧٧:١]",
+        "[RPG: بطاقة ذهبية — ٧٧:١٧]",
+        "[RPG: بطاقة ذهبية — ٧٧:١٨]",
+        "[RPG: بطاقة ذهبية — ٦٦:٨]",
+        "[RPG: بطاقة ذهبية — ٧٠:١٧]",
+        "[RPG: بطاقة ذهبية — ٨٦:١٧]",
+        "[RPG: بطاقة ذهبية — ٤٧:٣٦]",
+        "[PATTERN INTERRUPT: عداد الأرقام يدور @ ٧:٢٨]",
+        "[PATTERN INTERRUPT: glitch frame + سكون ثانية @ ٨:١٨]",
+        "[PATTERN INTERRUPT: zoom-punch + SFX ping @ ٩:٠٨]"
       ]
     },
     {
-      "id": "i2",
+      "id": "w2",
       "type": "chapter",
-      "title": "الفصل ٤: الفكرة الثانية",
-      "startSec": 185,
-      "durationSec": 12,
-      "narration": "رجعت إلى سياق سورة سُورَةُ المَائـِدَةِ حول ٥:٤٢، فوجدت أن قراءة ما قبلها وما بعدها يغيّر طريقة فهمي لها. أنصحك أن تجرّب ذلك.",
-      "recitation": [],
-      "showAyat": [],
+      "title": "الفصل ٣: بين المغرب والعشاء",
+      "startSec": 591,
+      "durationSec": 24,
+      "narration": "عدد حروفها ١٠ أحرف. ما الكلمة التي تشدّك أولًا؟ من سورة سُورَةُ الفَلَقِ، الجزء ٣٠. ماذا تطلب مني اليوم؟",
+      "recitation": [
+        "74:4",
+        "113:2"
+      ],
+      "showAyat": [
+        "74:4",
+        "113:2"
+      ],
       "cues": [
-        "[PATTERN INTERRUPT: تغيير زاوية المشهد + chiptune sting]",
-        "[CHAPTER CARD: الفصل ٤]",
-        "[RPG: فكرة مفتوحة ٢/٣]"
+        "[CHAPTER CARD: بين المغرب والعشاء — آيتان]",
+        "[RPG: بطاقة ذهبية — ٧٤:٤]",
+        "[RPG: بطاقة ذهبية — ١١٣:٢]"
       ]
     },
     {
       "id": "midroll",
       "type": "cta",
       "title": "دعوة الاشتراك",
-      "startSec": 197,
-      "durationSec": 9,
-      "narration": "إن كانت هذه المغامرة تفيدك، انضم إلى النقابة بالاشتراك، فكل حلقة تبدأ من آية سجّلتها في يومي.",
+      "startSec": 615,
+      "durationSec": 7,
+      "narration": "إن كانت هذه الرحلة تفيدك، انضم إلى النقابة بالاشتراك، فكل يوم أفتح سجلًّا جديدًا.",
       "recitation": [],
       "showAyat": [],
       "cues": [
+        "[PATTERN INTERRUPT: سؤال على الشاشة للمشاهد]",
         "[RPG: زر «انضم إلى النقابة» يلمع]"
       ]
     },
     {
-      "id": "i3",
+      "id": "i2",
       "type": "chapter",
-      "title": "الفصل ٥: الفكرة الثالثة",
-      "startSec": 206,
-      "durationSec": 12,
-      "narration": "الكلمة الأثقل حسابًا هنا «تعرض». لا أبني على الأرقام حكمًا، لكنها تدفعني أن أقف عند هذه الكلمة وأسأل عن معناها في التفاسير المعتمدة.",
+      "title": "وقفة: الفكرة الثانية",
+      "startSec": 622,
+      "durationSec": 9,
+      "narration": "ما يجعل التدبر مغامرة حقيقية أنك لا تعرف أين ستصل. بدأت بقراءة عابرة، وانتهيت بسؤال عن نفسي.",
       "recitation": [],
       "showAyat": [],
       "cues": [
-        "[CHAPTER CARD: الفصل ٥]",
-        "[RPG: فكرة مفتوحة ٣/٣]"
+        "[RPG: فكرة مفتوحة ٢/٣]"
+      ]
+    },
+    {
+      "id": "w3",
+      "type": "chapter",
+      "title": "الفصل ٤: بين العشاء والفجر",
+      "startSec": 631,
+      "durationSec": 13,
+      "narration": "أثقل كلماتها في عدّ الجُمَّل «يكذبك» بقيمة ٧٥٢. قف عندها لحظة.",
+      "recitation": [
+        "95:7"
+      ],
+      "showAyat": [
+        "95:7"
+      ],
+      "cues": [
+        "[CHAPTER CARD: بين العشاء والفجر — آية واحدة]",
+        "[RPG: بطاقة ذهبية — ٩٥:٧]"
+      ]
+    },
+    {
+      "id": "numbers",
+      "type": "chapter",
+      "title": "لوحة الأرقام",
+      "startSec": 644,
+      "durationSec": 10,
+      "narration": "هذه «لعبة الأرقام» من أدواتي: عدٌّ للتأمل والمتعة، لا رمز فيه ولا إعجاز. في اليوم كله: ٣٦١ كلمة، و١٦٠٥ أحرف.",
+      "recitation": [],
+      "showAyat": [],
+      "cues": [
+        "[CHAPTER CARD: لوحة الأرقام]",
+        "[RPG: لوحة الأرقام — الجُمَّل + ترتيب الحروف + كلمات الخانات]",
+        "[OVERLAY ٩٥:٨: مجموع اتحادي لهم رغم]",
+        "[OVERLAY ٧٦:٨: وردة إيجارات خطأ نار اكتشاف يصنع حلول]",
+        "[OVERLAY ١١٤:٦: فطور شعور وكلاء]"
       ]
     },
     {
       "id": "payoff",
       "type": "payoff",
       "title": "كشف السرّ",
-      "startSec": 218,
-      "durationSec": 29,
-      "narration": "وعدتك في البداية بنتيجة لعبة الأرقام. في ٥:٤٢ تلتقي الكلمات «جاءوك» و«أو» في الخانة نفسها (٠) من خانات تطبيق كلمات الأرقام. هي لعبة عدّ من أدواتي، لا رمز ولا إعجاز؛ لكنها جعلتني أعيد قراءة الآية ببطء، وهذا وحده كنز. وفي اللعبة نفسها: في ٦:٢٦ تلتقي الكلمات «عنه» و«عنه» في الخانة نفسها (١٣) من خانات تطبيق كلمات الأرقام.",
+      "startSec": 654,
+      "durationSec": 28,
+      "narration": "وعدتك بنتيجة لعبة الأرقام. في ٩٥:٨ تلتقي الكلمات «ٱلله» و«ٱلحكمين» في الخانة نفسها (١٧) من خانات تطبيق كلمات الأرقام. هي لعبة عدّ من أدواتي، لا رمز ولا إعجاز؛ لكنها جعلتني أعيد قراءة الآية ببطء، وهذا وحده كنز. وفي اللعبة نفسها: في ٧٦:٨ تلتقي الكلمات «ٱلطعام» و«ويتيما» في الخانة نفسها (٢٧) من خانات تطبيق كلمات الأرقام.",
       "recitation": [],
       "showAyat": [],
       "cues": [
@@ -224,17 +766,13 @@
       "id": "takeaway",
       "type": "chapter",
       "title": "الخلاصة",
-      "startSec": 247,
-      "durationSec": 20,
+      "startSec": 682,
+      "durationSec": 8,
       "narration": "شاركني في التعليقات: ما الكلمة التي توقفت عندها أنت؟ ربما يكون كنزك مختلفًا عن كنزي.",
-      "recitation": [
-        "10:76"
-      ],
-      "showAyat": [
-        "10:76"
-      ],
+      "recitation": [],
+      "showAyat": [],
       "cues": [
-        "[PATTERN INTERRUPT: عداد الأرقام يدور]",
+        "[PATTERN INTERRUPT: تغيير زاوية المشهد + chiptune sting]",
         "[CHAPTER CARD: الخلاصة]",
         "[RPG: ارتقاء المستوى! +خبرة]"
       ]
@@ -243,9 +781,9 @@
       "id": "end",
       "type": "endscreen",
       "title": "شاشة النهاية",
-      "startSec": 267,
-      "durationSec": 32,
-      "narration": "في الحلقة القادمة نفتح آية جديدة من سجلّ الغد… ورقمًا جديدًا. شاهدها الآن من الشاشة، واكتب لي في التعليقات: ما الكنز الذي وجدته أنت؟",
+      "startSec": 690,
+      "durationSec": 29,
+      "narration": "غدًا سجلّ جديد… وآيات جديدة. شاهد الحلقة التالية من الشاشة، واكتب لي: أي آية من هذه أوقفتك؟",
       "recitation": [],
       "showAyat": [],
       "cues": [
@@ -256,545 +794,1671 @@
   ],
   "recitationMarkers": [
     {
-      "ref": "5:42",
-      "sectionId": "ayat",
-      "atSec": 34
+      "ref": "95:8",
+      "sectionId": "w0",
+      "atSec": 52
     },
     {
-      "ref": "6:26",
-      "sectionId": "ayat",
-      "atSec": 58
+      "ref": "76:8",
+      "sectionId": "w0",
+      "atSec": 65
     },
     {
-      "ref": "10:76",
-      "sectionId": "ayat",
-      "atSec": 82
+      "ref": "114:6",
+      "sectionId": "w0",
+      "atSec": 78
     },
     {
-      "ref": "10:76",
-      "sectionId": "takeaway",
-      "atSec": 247
+      "ref": "6:22",
+      "sectionId": "w0",
+      "atSec": 91
+    },
+    {
+      "ref": "86:9",
+      "sectionId": "w0",
+      "atSec": 107
+    },
+    {
+      "ref": "86:10",
+      "sectionId": "w0",
+      "atSec": 120
+    },
+    {
+      "ref": "47:2",
+      "sectionId": "w0",
+      "atSec": 133
+    },
+    {
+      "ref": "46:35",
+      "sectionId": "w0",
+      "atSec": 152
+    },
+    {
+      "ref": "22:78",
+      "sectionId": "w0",
+      "atSec": 175
+    },
+    {
+      "ref": "33:73",
+      "sectionId": "w0",
+      "atSec": 211
+    },
+    {
+      "ref": "108:2",
+      "sectionId": "w0",
+      "atSec": 232
+    },
+    {
+      "ref": "80:1",
+      "sectionId": "w0",
+      "atSec": 245
+    },
+    {
+      "ref": "80:16",
+      "sectionId": "w0",
+      "atSec": 258
+    },
+    {
+      "ref": "80:30",
+      "sectionId": "w0",
+      "atSec": 271
+    },
+    {
+      "ref": "55:39",
+      "sectionId": "w0",
+      "atSec": 284
+    },
+    {
+      "ref": "51:47",
+      "sectionId": "w0",
+      "atSec": 297
+    },
+    {
+      "ref": "59:16",
+      "sectionId": "w0",
+      "atSec": 310
+    },
+    {
+      "ref": "64:2",
+      "sectionId": "w0",
+      "atSec": 327
+    },
+    {
+      "ref": "64:6",
+      "sectionId": "w0",
+      "atSec": 342
+    },
+    {
+      "ref": "64:9",
+      "sectionId": "w0",
+      "atSec": 362
+    },
+    {
+      "ref": "109:2",
+      "sectionId": "w0",
+      "atSec": 387
+    },
+    {
+      "ref": "106:2",
+      "sectionId": "w0",
+      "atSec": 400
+    },
+    {
+      "ref": "86:1",
+      "sectionId": "w1",
+      "atSec": 398
+    },
+    {
+      "ref": "86:2",
+      "sectionId": "w1",
+      "atSec": 411
+    },
+    {
+      "ref": "86:3",
+      "sectionId": "w1",
+      "atSec": 424
+    },
+    {
+      "ref": "86:5",
+      "sectionId": "w1",
+      "atSec": 437
+    },
+    {
+      "ref": "86:6",
+      "sectionId": "w1",
+      "atSec": 450
+    },
+    {
+      "ref": "86:7",
+      "sectionId": "w1",
+      "atSec": 463
+    },
+    {
+      "ref": "86:8",
+      "sectionId": "w1",
+      "atSec": 476
+    },
+    {
+      "ref": "77:1",
+      "sectionId": "w1",
+      "atSec": 489
+    },
+    {
+      "ref": "77:17",
+      "sectionId": "w1",
+      "atSec": 502
+    },
+    {
+      "ref": "77:18",
+      "sectionId": "w1",
+      "atSec": 515
+    },
+    {
+      "ref": "66:8",
+      "sectionId": "w1",
+      "atSec": 528
+    },
+    {
+      "ref": "70:17",
+      "sectionId": "w1",
+      "atSec": 563
+    },
+    {
+      "ref": "86:17",
+      "sectionId": "w1",
+      "atSec": 576
+    },
+    {
+      "ref": "47:36",
+      "sectionId": "w1",
+      "atSec": 589
+    },
+    {
+      "ref": "74:4",
+      "sectionId": "w2",
+      "atSec": 591
+    },
+    {
+      "ref": "113:2",
+      "sectionId": "w2",
+      "atSec": 604
+    },
+    {
+      "ref": "95:7",
+      "sectionId": "w3",
+      "atSec": 631
     }
   ],
   "scenes": [
     {
       "index": 1,
       "startSec": 0,
-      "durationSec": 9,
+      "durationSec": 21,
       "sectionId": "hook",
       "prompt": "A lone hooded adventurer silhouette entering the gate, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 2,
-      "startSec": 9,
-      "durationSec": 9,
+      "startSec": 21,
+      "durationSec": 21,
       "sectionId": "intro",
-      "prompt": "A save-point crystal pulsing gently, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 3,
-      "startSec": 17,
-      "durationSec": 9,
-      "sectionId": "intro",
-      "prompt": "Footprints in sand leading outward, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 4,
-      "startSec": 26,
-      "durationSec": 9,
-      "sectionId": "intro",
-      "prompt": "Mountains at sunrise with soft pixel clouds, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 5,
-      "startSec": 34,
-      "durationSec": 9,
-      "sectionId": "ayat",
-      "prompt": "A star-filled sky with one bright star, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 6,
-      "startSec": 43,
-      "durationSec": 9,
-      "sectionId": "ayat",
-      "prompt": "The silhouette resting under a palm tree, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 7,
-      "startSec": 51,
-      "durationSec": 9,
-      "sectionId": "ayat",
-      "prompt": "An open journal with a quill (no readable text), setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 8,
-      "startSec": 60,
-      "durationSec": 9,
-      "sectionId": "ayat",
-      "prompt": "A golden door closing softly, quest complete, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 9,
-      "startSec": 68,
-      "durationSec": 9,
-      "sectionId": "ayat",
-      "prompt": "Entrance at dusk, torches dimming, end card space, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 10,
-      "startSec": 77,
-      "durationSec": 9,
-      "sectionId": "ayat",
-      "prompt": "A lone hooded adventurer silhouette entering the gate, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 11,
-      "startSec": 85,
-      "durationSec": 9,
-      "sectionId": "ayat",
-      "prompt": "An ancient stone door engraved with golden geometric patterns slowly opening, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 12,
-      "startSec": 94,
-      "durationSec": 9,
-      "sectionId": "ayat",
-      "prompt": "A glowing quest scroll unrolling on a wooden table beside a candle, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 13,
-      "startSec": 103,
-      "durationSec": 9,
-      "sectionId": "ayat",
-      "prompt": "A pixel map revealing a winding path, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 14,
-      "startSec": 111,
-      "durationSec": 9,
-      "sectionId": "ayat",
-      "prompt": "Torches igniting one by one along a corridor, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 15,
-      "startSec": 120,
-      "durationSec": 9,
-      "sectionId": "i1",
-      "prompt": "A treasure chest emitting soft golden light, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 16,
-      "startSec": 128,
-      "durationSec": 9,
-      "sectionId": "i1",
-      "prompt": "A crystal orb showing swirling stars, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 17,
-      "startSec": 137,
-      "durationSec": 9,
-      "sectionId": "numbers",
-      "prompt": "A quiet campfire with falling dust in a skylight beam, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 18,
-      "startSec": 145,
-      "durationSec": 9,
-      "sectionId": "numbers",
-      "prompt": "Stone tablets with glowing abstract golden runes (no text), setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 19,
-      "startSec": 154,
-      "durationSec": 9,
-      "sectionId": "numbers",
-      "prompt": "A boulder blocking a tunnel, light through a crack, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 20,
-      "startSec": 162,
-      "durationSec": 9,
-      "sectionId": "numbers",
-      "prompt": "The boulder crumbling as light floods in, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
-    },
-    {
-      "index": 21,
-      "startSec": 171,
-      "durationSec": 9,
-      "sectionId": "numbers",
       "prompt": "A spiral staircase climbing toward a bright opening, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 22,
-      "startSec": 179,
-      "durationSec": 9,
-      "sectionId": "numbers",
+      "index": 3,
+      "startSec": 41,
+      "durationSec": 21,
+      "sectionId": "intro",
       "prompt": "An hourglass with golden sand on a pedestal, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 23,
-      "startSec": 188,
-      "durationSec": 9,
-      "sectionId": "i2",
+      "index": 4,
+      "startSec": 62,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "A rope bridge over a dark chasm, lanterns swaying, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 24,
-      "startSec": 196,
-      "durationSec": 9,
-      "sectionId": "i2",
+      "index": 5,
+      "startSec": 82,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "Glowing plants growing inside a cave, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 25,
-      "startSec": 205,
-      "durationSec": 9,
-      "sectionId": "midroll",
+      "index": 6,
+      "startSec": 103,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "Rain dripping into a stone basin, ripples of light, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 26,
-      "startSec": 214,
-      "durationSec": 9,
-      "sectionId": "i3",
+      "index": 7,
+      "startSec": 123,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "A locked gate with a golden key floating before it, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 27,
-      "startSec": 222,
-      "durationSec": 9,
-      "sectionId": "payoff",
+      "index": 8,
+      "startSec": 144,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "An inventory screen with potion, key, and lantern icons, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 28,
-      "startSec": 231,
-      "durationSec": 9,
-      "sectionId": "payoff",
+      "index": 9,
+      "startSec": 164,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "A shadow boss shrinking as a lantern brightens, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 29,
-      "startSec": 239,
-      "durationSec": 9,
-      "sectionId": "payoff",
+      "index": 10,
+      "startSec": 185,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "Endless shelves with floating dust motes, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 30,
-      "startSec": 248,
-      "durationSec": 9,
-      "sectionId": "takeaway",
+      "index": 11,
+      "startSec": 205,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "Water flowing through carved channels in a hidden sanctuary, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 31,
-      "startSec": 256,
-      "durationSec": 9,
-      "sectionId": "takeaway",
+      "index": 12,
+      "startSec": 226,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "Night sky through a cave mouth, crescent moon, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 32,
-      "startSec": 265,
-      "durationSec": 9,
-      "sectionId": "takeaway",
+      "index": 13,
+      "startSec": 247,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "Oasis at dawn beyond the exit, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 33,
-      "startSec": 273,
-      "durationSec": 9,
-      "sectionId": "end",
+      "index": 14,
+      "startSec": 267,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "A level-up burst of golden particles around the silhouette, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 34,
-      "startSec": 282,
-      "durationSec": 9,
-      "sectionId": "end",
+      "index": 15,
+      "startSec": 288,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "A save-point crystal pulsing gently, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
-      "index": 35,
-      "startSec": 290,
-      "durationSec": 9,
-      "sectionId": "end",
+      "index": 16,
+      "startSec": 308,
+      "durationSec": 21,
+      "sectionId": "w0",
       "prompt": "Footprints in sand leading outward, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
+      "index": 17,
+      "startSec": 329,
+      "durationSec": 21,
+      "sectionId": "w0",
+      "prompt": "Mountains at sunrise with soft pixel clouds, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 18,
+      "startSec": 349,
+      "durationSec": 21,
+      "sectionId": "w0",
+      "prompt": "A star-filled sky with one bright star, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 19,
+      "startSec": 370,
+      "durationSec": 21,
+      "sectionId": "w0",
+      "prompt": "The silhouette resting under a palm tree, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 20,
+      "startSec": 390,
+      "durationSec": 21,
+      "sectionId": "i1",
+      "prompt": "An open journal with a quill (no readable text), setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 21,
+      "startSec": 411,
+      "durationSec": 21,
+      "sectionId": "w1",
+      "prompt": "A golden door closing softly, quest complete, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 22,
+      "startSec": 431,
+      "durationSec": 21,
+      "sectionId": "w1",
+      "prompt": "Entrance at dusk, torches dimming, end card space, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 23,
+      "startSec": 452,
+      "durationSec": 21,
+      "sectionId": "w1",
+      "prompt": "A lone hooded adventurer silhouette entering the gate, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 24,
+      "startSec": 472,
+      "durationSec": 21,
+      "sectionId": "w1",
+      "prompt": "An ancient stone door engraved with golden geometric patterns slowly opening, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 25,
+      "startSec": 493,
+      "durationSec": 21,
+      "sectionId": "w1",
+      "prompt": "A glowing quest scroll unrolling on a wooden table beside a candle, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 26,
+      "startSec": 514,
+      "durationSec": 21,
+      "sectionId": "w1",
+      "prompt": "A pixel map revealing a winding path, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 27,
+      "startSec": 534,
+      "durationSec": 21,
+      "sectionId": "w1",
+      "prompt": "Torches igniting one by one along a corridor, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 28,
+      "startSec": 555,
+      "durationSec": 21,
+      "sectionId": "w1",
+      "prompt": "A treasure chest emitting soft golden light, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 29,
+      "startSec": 575,
+      "durationSec": 21,
+      "sectionId": "w1",
+      "prompt": "A crystal orb showing swirling stars, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 30,
+      "startSec": 596,
+      "durationSec": 21,
+      "sectionId": "w2",
+      "prompt": "A quiet campfire with falling dust in a skylight beam, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 31,
+      "startSec": 616,
+      "durationSec": 21,
+      "sectionId": "midroll",
+      "prompt": "Stone tablets with glowing abstract golden runes (no text), setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 32,
+      "startSec": 637,
+      "durationSec": 21,
+      "sectionId": "w3",
+      "prompt": "A boulder blocking a tunnel, light through a crack, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 33,
+      "startSec": 657,
+      "durationSec": 21,
+      "sectionId": "payoff",
+      "prompt": "The boulder crumbling as light floods in, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 34,
+      "startSec": 678,
+      "durationSec": 21,
+      "sectionId": "payoff",
+      "prompt": "A spiral staircase climbing toward a bright opening, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 35,
+      "startSec": 698,
+      "durationSec": 21,
+      "sectionId": "end",
+      "prompt": "An hourglass with golden sand on a pedestal, setting: night oasis with crescent moon and palms, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
       "index": 36,
-      "startSec": 34,
+      "startSec": 52,
       "durationSec": 12,
-      "sectionId": "ayat",
-      "ref": "5:42",
-      "prompt": "Verse card [5:42]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+      "sectionId": "w0",
+      "ref": "95:8",
+      "prompt": "Verse card [95:8]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 37,
-      "startSec": 34,
+      "startSec": 52,
       "durationSec": 12,
-      "sectionId": "ayat",
-      "ref": "6:26",
-      "prompt": "Verse card [6:26]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+      "sectionId": "w0",
+      "ref": "76:8",
+      "prompt": "Verse card [76:8]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     },
     {
       "index": 38,
-      "startSec": 34,
+      "startSec": 52,
       "durationSec": 12,
-      "sectionId": "ayat",
-      "ref": "10:76",
-      "prompt": "Verse card [10:76]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+      "sectionId": "w0",
+      "ref": "114:6",
+      "prompt": "Verse card [114:6]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 39,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "6:22",
+      "prompt": "Verse card [6:22]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 40,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "86:9",
+      "prompt": "Verse card [86:9]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 41,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "86:10",
+      "prompt": "Verse card [86:10]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 42,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "47:2",
+      "prompt": "Verse card [47:2]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 43,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "46:35",
+      "prompt": "Verse card [46:35]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 44,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "22:78",
+      "prompt": "Verse card [22:78]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 45,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "33:73",
+      "prompt": "Verse card [33:73]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 46,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "108:2",
+      "prompt": "Verse card [108:2]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 47,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "80:1",
+      "prompt": "Verse card [80:1]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 48,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "80:16",
+      "prompt": "Verse card [80:16]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 49,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "80:30",
+      "prompt": "Verse card [80:30]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 50,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "55:39",
+      "prompt": "Verse card [55:39]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 51,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "51:47",
+      "prompt": "Verse card [51:47]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 52,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "59:16",
+      "prompt": "Verse card [59:16]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 53,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "64:2",
+      "prompt": "Verse card [64:2]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 54,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "64:6",
+      "prompt": "Verse card [64:6]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 55,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "64:9",
+      "prompt": "Verse card [64:9]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 56,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "109:2",
+      "prompt": "Verse card [109:2]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 57,
+      "startSec": 52,
+      "durationSec": 12,
+      "sectionId": "w0",
+      "ref": "106:2",
+      "prompt": "Verse card [106:2]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 58,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "86:1",
+      "prompt": "Verse card [86:1]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 59,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "86:2",
+      "prompt": "Verse card [86:2]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 60,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "86:3",
+      "prompt": "Verse card [86:3]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 61,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "86:5",
+      "prompt": "Verse card [86:5]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 62,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "86:6",
+      "prompt": "Verse card [86:6]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 63,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "86:7",
+      "prompt": "Verse card [86:7]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 64,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "86:8",
+      "prompt": "Verse card [86:8]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 65,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "77:1",
+      "prompt": "Verse card [77:1]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 66,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "77:17",
+      "prompt": "Verse card [77:17]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 67,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "77:18",
+      "prompt": "Verse card [77:18]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 68,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "66:8",
+      "prompt": "Verse card [66:8]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 69,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "70:17",
+      "prompt": "Verse card [70:17]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 70,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "86:17",
+      "prompt": "Verse card [86:17]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 71,
+      "startSec": 398,
+      "durationSec": 12,
+      "sectionId": "w1",
+      "ref": "47:36",
+      "prompt": "Verse card [47:36]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 72,
+      "startSec": 591,
+      "durationSec": 12,
+      "sectionId": "w2",
+      "ref": "74:4",
+      "prompt": "Verse card [74:4]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 73,
+      "startSec": 591,
+      "durationSec": 12,
+      "sectionId": "w2",
+      "ref": "113:2",
+      "prompt": "Verse card [113:2]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+    },
+    {
+      "index": 74,
+      "startSec": 631,
+      "durationSec": 12,
+      "sectionId": "w3",
+      "ref": "95:7",
+      "prompt": "Verse card [95:7]: navy stone panel, gold frame, empty center for Arabic overlay, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
     }
   ],
   "findings": [
     {
-      "ref": "5:42",
+      "ref": "95:8",
       "score": 4,
-      "ar": "في 5:42 تلتقي الكلمات «جاءوك» و«أو» في الخانة نفسها (0) من خانات تطبيق كلمات الأرقام",
+      "ar": "في 95:8 تلتقي الكلمات «ٱلله» و«ٱلحكمين» في الخانة نفسها (17) من خانات تطبيق كلمات الأرقام",
       "short": "كلمتان في خانة واحدة"
     },
     {
-      "ref": "6:26",
+      "ref": "76:8",
       "score": 4,
-      "ar": "في 6:26 تلتقي الكلمات «عنه» و«عنه» في الخانة نفسها (13) من خانات تطبيق كلمات الأرقام",
+      "ar": "في 76:8 تلتقي الكلمات «ٱلطعام» و«ويتيما» في الخانة نفسها (27) من خانات تطبيق كلمات الأرقام",
       "short": "كلمتان في خانة واحدة"
     },
     {
-      "ref": "10:76",
+      "ref": "6:22",
       "score": 4,
-      "ar": "في 10:76 تلتقي الكلمات «من» و«عندنا» في الخانة نفسها (21) من خانات تطبيق كلمات الأرقام",
+      "ar": "في 6:22 تلتقي الكلمات «أشركوا» و«كنتم» في الخانة نفسها (18) من خانات تطبيق كلمات الأرقام",
       "short": "كلمتان في خانة واحدة"
     },
     {
-      "ref": "5:42",
+      "ref": "86:10",
+      "score": 4,
+      "ar": "في 86:10 تلتقي الكلمات «له» و«من» في الخانة نفسها (21) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "47:2",
+      "score": 4,
+      "ar": "في 47:2 تلتقي الكلمات «محمد» و«ربهم» في الخانة نفسها (6) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "46:35",
+      "score": 4,
+      "ar": "في 46:35 تلتقي الكلمات «يلبثوا» و«ساعة» في الخانة نفسها (1) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "22:78",
+      "score": 4,
+      "ar": "في 22:78 تلتقي الكلمات «ٱجتبىكم» و«ٱلدين» في الخانة نفسها (1) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "33:73",
+      "score": 4,
+      "ar": "في 33:73 تلتقي الكلمات «على» و«رحيما» في الخانة نفسها (13) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "108:2",
+      "score": 4,
+      "ar": "في 108:2 تلتقي الكلمات «فصل» و«لربك» في الخانة نفسها (1) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "55:39",
+      "score": 4,
+      "ar": "في 55:39 تلتقي الكلمات «فيومئذ» و«لا» في الخانة نفسها (24) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "59:16",
+      "score": 4,
+      "ar": "في 59:16 تلتقي الكلمات «فلما» و«رب» في الخانة نفسها (12) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "64:2",
+      "score": 4,
+      "ar": "في 64:2 تلتقي الكلمات «مؤمن» و«وٱلله» في الخانة نفسها (16) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "64:6",
+      "score": 4,
+      "ar": "في 64:6 تلتقي الكلمات «بٱلبينت» و«يهدوننا» في الخانة نفسها (0) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "64:9",
+      "score": 4,
+      "ar": "في 64:9 تلتقي الكلمات «ويدخله» و«خلدين» في الخانة نفسها (7) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "86:1",
+      "score": 4,
+      "ar": "في 86:1 تلتقي الكلمات «ٱلرحمن» و«وٱلسماء» في الخانة نفسها (5) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "77:18",
+      "score": 4,
+      "ar": "في 77:18 تلتقي الكلمات «نفعل» و«بٱلمجرمين» في الخانة نفسها (2) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "66:8",
+      "score": 4,
+      "ar": "في 66:8 تلتقي الكلمات «يأيها» و«نورهم» في الخانة نفسها (0) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "70:17",
+      "score": 4,
+      "ar": "في 70:17 تلتقي الكلمات «من» و«أدبر» في الخانة نفسها (21) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "47:36",
+      "score": 4,
+      "ar": "في 47:36 تلتقي الكلمات «إنما» و«تؤمنوا» و«ولا» في الخانة نفسها (23) من خانات تطبيق كلمات الأرقام",
+      "short": "3 كلمات في خانة واحدة"
+    },
+    {
+      "ref": "113:2",
+      "score": 4,
+      "ar": "في 113:2 تلتقي الكلمات «شر» و«خلق» في الخانة نفسها (23) من خانات تطبيق كلمات الأرقام",
+      "short": "كلمتان في خانة واحدة"
+    },
+    {
+      "ref": "95:8",
       "score": 3,
-      "ar": "عدد حروف 5:42 110 أحرف، في 26 كلمة",
-      "short": "عدد حروفها 110"
+      "ar": "عدد حروف 95:8 20 حرفًا، في 4 كلمات",
+      "short": "عدد حروفها 20"
     },
     {
-      "ref": "6:26",
+      "ref": "76:8",
       "score": 3,
-      "ar": "عدد حروف 6:26 46 حرفًا، في 11 كلمة",
-      "short": "عدد حروفها 46"
+      "ar": "عدد حروف 76:8 37 حرفًا، في 7 كلمات",
+      "short": "عدد حروفها 37"
     },
     {
-      "ref": "10:76",
+      "ref": "114:6",
       "score": 3,
-      "ar": "عدد حروف 10:76 38 حرفًا، في 10 كلمات",
-      "short": "عدد حروفها 38"
+      "ar": "عدد حروف 114:6 13 حرفًا، في 3 كلمات",
+      "short": "عدد حروفها 13"
     },
     {
-      "ref": "5:42",
-      "score": 2,
-      "ar": "أثقل كلمة في عدّ الجُمَّل في 5:42 هي «تعرض» بقيمة 1470",
-      "short": "«تعرض» = 1470"
+      "ref": "6:22",
+      "score": 3,
+      "ar": "عدد حروف 6:22 57 حرفًا، في 12 كلمة",
+      "short": "عدد حروفها 57"
     },
     {
-      "ref": "5:42",
-      "score": 2,
-      "ar": "مجموع الجُمَّل في 5:42 هو 7923، وبترتيب الحروف في تطبيق كلمات الأرقام 1845",
-      "short": "مجموعها 7923"
+      "ref": "86:9",
+      "score": 3,
+      "ar": "عدد حروف 86:9 14 حرفًا، في 3 كلمات",
+      "short": "عدد حروفها 14"
     },
     {
-      "ref": "6:26",
-      "score": 2,
-      "ar": "أثقل كلمة في عدّ الجُمَّل في 6:26 هي «يشعرون» بقيمة 636",
-      "short": "«يشعرون» = 636"
+      "ref": "86:10",
+      "score": 3,
+      "ar": "عدد حروف 86:10 17 حرفًا، في 6 كلمات",
+      "short": "عدد حروفها 17"
     },
     {
-      "ref": "6:26",
-      "score": 2,
-      "ar": "مجموع الجُمَّل في 6:26 هو 1673، وبترتيب الحروف في تطبيق كلمات الأرقام 988",
-      "short": "مجموعها 1673"
+      "ref": "47:2",
+      "score": 3,
+      "ar": "عدد حروف 47:2 80 حرفًا، في 18 كلمة",
+      "short": "عدد حروفها 80"
     },
     {
-      "ref": "10:76",
+      "ref": "46:35",
+      "score": 3,
+      "ar": "عدد حروف 46:35 106 أحرف، في 27 كلمة",
+      "short": "عدد حروفها 106"
+    },
+    {
+      "ref": "22:78",
+      "score": 3,
+      "ar": "عدد حروف 22:78 198 حرفًا، في 44 كلمة",
+      "short": "عدد حروفها 198"
+    },
+    {
+      "ref": "33:73",
+      "score": 3,
+      "ar": "عدد حروف 33:73 88 حرفًا، في 15 كلمة",
+      "short": "عدد حروفها 88"
+    },
+    {
+      "ref": "108:2",
+      "score": 3,
+      "ar": "عدد حروف 108:2 12 حرفًا، في 3 كلمات",
+      "short": "عدد حروفها 12"
+    },
+    {
+      "ref": "80:1",
+      "score": 3,
+      "ar": "عدد حروف 80:1 27 حرفًا، في 6 كلمات",
+      "short": "عدد حروفها 27"
+    },
+    {
+      "ref": "80:16",
+      "score": 3,
+      "ar": "عدد حروف 80:16 8 أحرف، في كلمتان",
+      "short": "عدد حروفها 8"
+    },
+    {
+      "ref": "80:30",
+      "score": 3,
+      "ar": "عدد حروف 80:30 10 أحرف، في كلمتان",
+      "short": "عدد حروفها 10"
+    },
+    {
+      "ref": "55:39",
+      "score": 3,
+      "ar": "عدد حروف 55:39 26 حرفًا، في 8 كلمات",
+      "short": "عدد حروفها 26"
+    },
+    {
+      "ref": "51:47",
+      "score": 3,
+      "ar": "عدد حروف 51:47 29 حرفًا، في 5 كلمات",
+      "short": "عدد حروفها 29"
+    },
+    {
+      "ref": "59:16",
+      "score": 3,
+      "ar": "عدد حروف 59:16 65 حرفًا، في 17 كلمة",
+      "short": "عدد حروفها 65"
+    },
+    {
+      "ref": "64:2",
+      "score": 3,
+      "ar": "عدد حروف 64:2 47 حرفًا، في 11 كلمة",
+      "short": "عدد حروفها 47"
+    },
+    {
+      "ref": "64:6",
+      "score": 3,
+      "ar": "عدد حروف 64:6 81 حرفًا، في 16 كلمة",
+      "short": "عدد حروفها 81"
+    },
+    {
+      "ref": "64:9",
+      "score": 3,
+      "ar": "عدد حروف 64:9 117 حرفًا، في 27 كلمة",
+      "short": "عدد حروفها 117"
+    },
+    {
+      "ref": "109:2",
+      "score": 3,
+      "ar": "عدد حروف 109:2 14 حرفًا، في 4 كلمات",
+      "short": "عدد حروفها 14"
+    },
+    {
+      "ref": "106:2",
+      "score": 3,
+      "ar": "عدد حروف 106:2 21 حرفًا، في 4 كلمات",
+      "short": "عدد حروفها 21"
+    },
+    {
+      "ref": "86:1",
+      "score": 3,
+      "ar": "عدد حروف 86:1 33 حرفًا، في 6 كلمات",
+      "short": "عدد حروفها 33"
+    },
+    {
+      "ref": "86:2",
+      "score": 3,
+      "ar": "عدد حروف 86:2 16 حرفًا، في 4 كلمات",
+      "short": "عدد حروفها 16"
+    },
+    {
+      "ref": "86:3",
+      "score": 3,
+      "ar": "عدد حروف 86:3 11 حرفًا، في كلمتان",
+      "short": "عدد حروفها 11"
+    },
+    {
+      "ref": "86:5",
+      "score": 3,
+      "ar": "عدد حروف 86:5 17 حرفًا، في 4 كلمات",
+      "short": "عدد حروفها 17"
+    },
+    {
+      "ref": "86:6",
+      "score": 3,
+      "ar": "عدد حروف 86:6 12 حرفًا، في 4 كلمات",
+      "short": "عدد حروفها 12"
+    },
+    {
+      "ref": "86:7",
+      "score": 3,
+      "ar": "عدد حروف 86:7 22 حرفًا، في 5 كلمات",
+      "short": "عدد حروفها 22"
+    },
+    {
+      "ref": "86:8",
+      "score": 3,
+      "ar": "عدد حروف 86:8 15 حرفًا، في 4 كلمات",
+      "short": "عدد حروفها 15"
+    },
+    {
+      "ref": "77:1",
+      "score": 3,
+      "ar": "عدد حروف 77:1 31 حرفًا، في 6 كلمات",
+      "short": "عدد حروفها 31"
+    },
+    {
+      "ref": "77:17",
+      "score": 3,
+      "ar": "عدد حروف 77:17 16 حرفًا، في 3 كلمات",
+      "short": "عدد حروفها 16"
+    },
+    {
+      "ref": "77:18",
+      "score": 3,
+      "ar": "عدد حروف 77:18 17 حرفًا، في 3 كلمات",
+      "short": "عدد حروفها 17"
+    },
+    {
+      "ref": "66:8",
+      "score": 3,
+      "ar": "عدد حروف 66:8 191 حرفًا، في 45 كلمة",
+      "short": "عدد حروفها 191"
+    },
+    {
+      "ref": "70:17",
+      "score": 3,
+      "ar": "عدد حروف 70:17 16 حرفًا، في 4 كلمات",
+      "short": "عدد حروفها 16"
+    },
+    {
+      "ref": "86:17",
+      "score": 3,
+      "ar": "عدد حروف 86:17 22 حرفًا، في 4 كلمات",
+      "short": "عدد حروفها 22"
+    },
+    {
+      "ref": "47:36",
+      "score": 3,
+      "ar": "عدد حروف 47:36 63 حرفًا، في 13 كلمة",
+      "short": "عدد حروفها 63"
+    },
+    {
+      "ref": "74:4",
+      "score": 3,
+      "ar": "عدد حروف 74:4 10 أحرف، في كلمتان",
+      "short": "عدد حروفها 10"
+    },
+    {
+      "ref": "113:2",
+      "score": 3,
+      "ar": "عدد حروف 113:2 9 أحرف، في 4 كلمات",
+      "short": "عدد حروفها 9"
+    },
+    {
+      "ref": "95:7",
+      "score": 3,
+      "ar": "عدد حروف 95:7 17 حرفًا، في 4 كلمات",
+      "short": "عدد حروفها 17"
+    },
+    {
+      "ref": "95:8",
       "score": 2,
-      "ar": "أثقل كلمة في عدّ الجُمَّل في 10:76 هي «هذا» بقيمة 706",
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 95:8 هي «ٱلحكمين» بقيمة 159",
+      "short": "«ٱلحكمين» = 159"
+    },
+    {
+      "ref": "95:8",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 95:8 هو 397، وبترتيب الحروف في تطبيق كلمات الأرقام 321",
+      "short": "مجموعها 397"
+    },
+    {
+      "ref": "76:8",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 76:8 هي «ويتيما» بقيمة 467",
+      "short": "«ويتيما» = 467"
+    },
+    {
+      "ref": "76:8",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 76:8 هو 1393، وبترتيب الحروف في تطبيق كلمات الأرقام 653",
+      "short": "مجموعها 1393"
+    },
+    {
+      "ref": "114:6",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 114:6 هي «وٱلناس» بقيمة 148",
+      "short": "«وٱلناس» = 148"
+    },
+    {
+      "ref": "114:6",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 114:6 هو 327، وبترتيب الحروف في تطبيق كلمات الأرقام 218",
+      "short": "مجموعها 327"
+    },
+    {
+      "ref": "6:22",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 6:22 هي «للذين» بقيمة 820",
+      "short": "«للذين» = 820"
+    },
+    {
+      "ref": "6:22",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 6:22 هو 5385، وبترتيب الحروف في تطبيق كلمات الأرقام 1033",
+      "short": "مجموعها 5385"
+    },
+    {
+      "ref": "86:9",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 86:9 هي «ٱلسرائر» بقيمة 502",
+      "short": "«ٱلسرائر» = 502"
+    },
+    {
+      "ref": "86:9",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 86:9 هو 1000، وبترتيب الحروف في تطبيق كلمات الأرقام 220",
+      "short": "مجموعها 1000"
+    },
+    {
+      "ref": "86:10",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 86:10 هي «ناصر» بقيمة 341",
+      "short": "«ناصر» = 341"
+    },
+    {
+      "ref": "86:10",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 86:10 هو 735، وبترتيب الحروف في تطبيق كلمات الأرقام 318",
+      "short": "مجموعها 735"
+    },
+    {
+      "ref": "47:2",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 47:2 هي «وٱلذين» بقيمة 797",
+      "short": "«وٱلذين» = 797"
+    },
+    {
+      "ref": "47:2",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 47:2 هو 3732، وبترتيب الحروف في تطبيق كلمات الأرقام 1333",
+      "short": "مجموعها 3732"
+    },
+    {
+      "ref": "46:35",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 46:35 هي «بلغ» بقيمة 1032",
+      "short": "«بلغ» = 1032"
+    },
+    {
+      "ref": "46:35",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 46:35 هو 5910، وبترتيب الحروف في تطبيق كلمات الأرقام 1794",
+      "short": "مجموعها 5910"
+    },
+    {
+      "ref": "22:78",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 22:78 هي «هذا» بقيمة 706",
       "short": "«هذا» = 706"
     },
     {
-      "ref": "10:76",
+      "ref": "22:78",
       "score": 2,
-      "ar": "مجموع الجُمَّل في 10:76 هو 1900، وبترتيب الحروف في تطبيق كلمات الأرقام 567",
-      "short": "مجموعها 1900"
+      "ar": "مجموع الجُمَّل في 22:78 هو 8084، وبترتيب الحروف في تطبيق كلمات الأرقام 3561",
+      "short": "مجموعها 8084"
+    },
+    {
+      "ref": "33:73",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 33:73 هي «غفورا» بقيمة 1287",
+      "short": "«غفورا» = 1287"
+    },
+    {
+      "ref": "33:73",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 33:73 هو 6689، وبترتيب الحروف في تطبيق كلمات الأرقام 1614",
+      "short": "مجموعها 6689"
+    },
+    {
+      "ref": "108:2",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 108:2 هي «وٱنحر» بقيمة 265",
+      "short": "«وٱنحر» = 265"
+    },
+    {
+      "ref": "108:2",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 108:2 هو 717، وبترتيب الحروف في تطبيق كلمات الأرقام 183",
+      "short": "مجموعها 717"
+    },
+    {
+      "ref": "80:1",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 80:1 هي «وتولى» بقيمة 452",
+      "short": "«وتولى» = 452"
+    },
+    {
+      "ref": "80:1",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 80:1 هو 1370، وبترتيب الحروف في تطبيق كلمات الأرقام 432",
+      "short": "مجموعها 1370"
+    },
+    {
+      "ref": "80:16",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 80:16 هي «بررة» بقيمة 407",
+      "short": "«بررة» = 407"
+    },
+    {
+      "ref": "80:16",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 80:16 هو 668، وبترتيب الحروف في تطبيق كلمات الأرقام 105",
+      "short": "مجموعها 668"
+    },
+    {
+      "ref": "80:30",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 80:30 هي «غلبا» بقيمة 1033",
+      "short": "«غلبا» = 1033"
+    },
+    {
+      "ref": "80:30",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 80:30 هو 1162، وبترتيب الحروف في تطبيق كلمات الأرقام 136",
+      "short": "مجموعها 1162"
+    },
+    {
+      "ref": "55:39",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 55:39 هي «فيومئذ» بقيمة 846",
+      "short": "«فيومئذ» = 846"
+    },
+    {
+      "ref": "55:39",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 55:39 هو 2056، وبترتيب الحروف في تطبيق كلمات الأرقام 448",
+      "short": "مجموعها 2056"
+    },
+    {
+      "ref": "51:47",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 51:47 هي «لموسعون» بقيمة 262",
+      "short": "«لموسعون» = 262"
+    },
+    {
+      "ref": "51:47",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 51:47 هو 604، وبترتيب الحروف في تطبيق كلمات الأرقام 473",
+      "short": "مجموعها 604"
+    },
+    {
+      "ref": "59:16",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 59:16 هي «إذ» بقيمة 701",
+      "short": "«إذ» = 701"
+    },
+    {
+      "ref": "59:16",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 59:16 هو 4552، وبترتيب الحروف في تطبيق كلمات الأرقام 1037",
+      "short": "مجموعها 4552"
+    },
+    {
+      "ref": "64:2",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 64:2 هي «خلقكم» بقيمة 790",
+      "short": "«خلقكم» = 790"
+    },
+    {
+      "ref": "64:2",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 64:2 هو 3378، وبترتيب الحروف في تطبيق كلمات الأرقام 902",
+      "short": "مجموعها 3378"
+    },
+    {
+      "ref": "64:6",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 64:6 هي «وٱستغنى» بقيمة 1527",
+      "short": "«وٱستغنى» = 1527"
+    },
+    {
+      "ref": "64:6",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 64:6 هو 7435، وبترتيب الحروف في تطبيق كلمات الأرقام 1316",
+      "short": "مجموعها 7435"
+    },
+    {
+      "ref": "64:9",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 64:9 هي «ٱلتغابن» بقيمة 1484",
+      "short": "«ٱلتغابن» = 1484"
+    },
+    {
+      "ref": "64:9",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 64:9 هو 9860، وبترتيب الحروف في تطبيق كلمات الأرقام 2015",
+      "short": "مجموعها 9860"
+    },
+    {
+      "ref": "109:2",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 109:2 هي «تعبدون» بقيمة 532",
+      "short": "«تعبدون» = 532"
+    },
+    {
+      "ref": "109:2",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 109:2 هو 681، وبترتيب الحروف في تطبيق كلمات الأرقام 161",
+      "short": "مجموعها 681"
+    },
+    {
+      "ref": "106:2",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 106:2 هي «ٱلشتاء» بقيمة 733",
+      "short": "«ٱلشتاء» = 733"
+    },
+    {
+      "ref": "106:2",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 106:2 هو 1349، وبترتيب الحروف في تطبيق كلمات الأرقام 314",
+      "short": "مجموعها 1349"
+    },
+    {
+      "ref": "86:1",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 86:1 هي «وٱلطارق» بقيمة 347",
+      "short": "«وٱلطارق» = 347"
+    },
+    {
+      "ref": "86:1",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 86:1 هو 1272، وبترتيب الحروف في تطبيق كلمات الأرقام 480",
+      "short": "مجموعها 1272"
+    },
+    {
+      "ref": "86:2",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 86:2 هي «ٱلطارق» بقيمة 341",
+      "short": "«ٱلطارق» = 341"
+    },
+    {
+      "ref": "86:2",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 86:2 هو 664، وبترتيب الحروف في تطبيق كلمات الأرقام 218",
+      "short": "مجموعها 664"
+    },
+    {
+      "ref": "86:3",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 86:3 هي «ٱلثاقب» بقيمة 634",
+      "short": "«ٱلثاقب» = 634"
+    },
+    {
+      "ref": "86:3",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 86:3 هو 758، وبترتيب الحروف في تطبيق كلمات الأرقام 130",
+      "short": "مجموعها 758"
+    },
+    {
+      "ref": "86:5",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 86:5 هي «فلينظر» بقيمة 1270",
+      "short": "«فلينظر» = 1270"
+    },
+    {
+      "ref": "86:5",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 86:5 هو 2272، وبترتيب الحروف في تطبيق كلمات الأرقام 309",
+      "short": "مجموعها 2272"
+    },
+    {
+      "ref": "86:6",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 86:6 هي «خلق» بقيمة 730",
+      "short": "«خلق» = 730"
+    },
+    {
+      "ref": "86:6",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 86:6 هو 1047، وبترتيب الحروف في تطبيق كلمات الأرقام 176",
+      "short": "مجموعها 1047"
+    },
+    {
+      "ref": "86:7",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 86:7 هي «يخرج» بقيمة 813",
+      "short": "«يخرج» = 813"
+    },
+    {
+      "ref": "86:7",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 86:7 هو 1768، وبترتيب الحروف في تطبيق كلمات الأرقام 312",
+      "short": "مجموعها 1768"
+    },
+    {
+      "ref": "86:8",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 86:8 هي «لقادر» بقيمة 335",
+      "short": "«لقادر» = 335"
+    },
+    {
+      "ref": "86:8",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 86:8 هو 779، وبترتيب الحروف في تطبيق كلمات الأرقام 243",
+      "short": "مجموعها 779"
+    },
+    {
+      "ref": "77:1",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 77:1 هي «وٱلمرسلت» بقيمة 767",
+      "short": "«وٱلمرسلت» = 767"
+    },
+    {
+      "ref": "77:1",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 77:1 هو 1904، وبترتيب الحروف في تطبيق كلمات الأرقام 464",
+      "short": "مجموعها 1904"
+    },
+    {
+      "ref": "77:17",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 77:17 هي «ٱلءاخرين» بقيمة 893",
+      "short": "«ٱلءاخرين» = 893"
+    },
+    {
+      "ref": "77:17",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 77:17 هو 2000، وبترتيب الحروف في تطبيق كلمات الأرقام 222",
+      "short": "مجموعها 2000"
+    },
+    {
+      "ref": "77:18",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 77:18 هي «كذلك» بقيمة 770",
+      "short": "«كذلك» = 770"
+    },
+    {
+      "ref": "77:18",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 77:18 هو 1376، وبترتيب الحروف في تطبيق كلمات الأرقام 304",
+      "short": "مجموعها 1376"
+    },
+    {
+      "ref": "66:8",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 66:8 هي «وٱغفر» بقيمة 1287",
+      "short": "«وٱغفر» = 1287"
+    },
+    {
+      "ref": "66:8",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 66:8 هو 12617، وبترتيب الحروف في تطبيق كلمات الأرقام 3247",
+      "short": "مجموعها 12617"
+    },
+    {
+      "ref": "70:17",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 70:17 هي «تدعوا» بقيمة 481",
+      "short": "«تدعوا» = 481"
+    },
+    {
+      "ref": "70:17",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 70:17 هو 1230، وبترتيب الحروف في تطبيق كلمات الأرقام 235",
+      "short": "مجموعها 1230"
+    },
+    {
+      "ref": "86:17",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 86:17 هي «ٱلكفرين» بقيمة 391",
+      "short": "«ٱلكفرين» = 391"
+    },
+    {
+      "ref": "86:17",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 86:17 هو 888، وبترتيب الحروف في تطبيق كلمات الأرقام 420",
+      "short": "مجموعها 888"
+    },
+    {
+      "ref": "47:36",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 47:36 هي «وتتقوا» بقيمة 913",
+      "short": "«وتتقوا» = 913"
+    },
+    {
+      "ref": "47:36",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 47:36 هو 2950، وبترتيب الحروف في تطبيق كلمات الأرقام 1110",
+      "short": "مجموعها 2950"
+    },
+    {
+      "ref": "74:4",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 74:4 هي «وثيابك» بقيمة 539",
+      "short": "«وثيابك» = 539"
+    },
+    {
+      "ref": "74:4",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 74:4 هو 833، وبترتيب الحروف في تطبيق كلمات الأرقام 156",
+      "short": "مجموعها 833"
+    },
+    {
+      "ref": "113:2",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 113:2 هي «خلق» بقيمة 730",
+      "short": "«خلق» = 730"
+    },
+    {
+      "ref": "113:2",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 113:2 هو 1361، وبترتيب الحروف في تطبيق كلمات الأرقام 148",
+      "short": "مجموعها 1361"
+    },
+    {
+      "ref": "95:7",
+      "score": 2,
+      "ar": "أثقل كلمة في عدّ الجُمَّل في 95:7 هي «يكذبك» بقيمة 752",
+      "short": "«يكذبك» = 752"
+    },
+    {
+      "ref": "95:7",
+      "score": 2,
+      "ar": "مجموع الجُمَّل في 95:7 هو 1046، وبترتيب الحروف في تطبيق كلمات الأرقام 243",
+      "short": "مجموعها 1046"
+    },
+    {
+      "ref": "76:8",
+      "score": 1,
+      "ar": "عدد حروف 76:8 (37) عدد أولي",
+      "short": "37 حرفًا — عدد أولي"
+    },
+    {
+      "ref": "114:6",
+      "score": 1,
+      "ar": "عدد حروف 114:6 (13) عدد أولي",
+      "short": "13 حرفًا — عدد أولي"
+    },
+    {
+      "ref": "86:10",
+      "score": 1,
+      "ar": "عدد حروف 86:10 (17) عدد أولي",
+      "short": "17 حرفًا — عدد أولي"
+    },
+    {
+      "ref": "51:47",
+      "score": 1,
+      "ar": "عدد حروف 51:47 (29) عدد أولي",
+      "short": "29 حرفًا — عدد أولي"
+    },
+    {
+      "ref": "64:2",
+      "score": 1,
+      "ar": "عدد حروف 64:2 (47) عدد أولي",
+      "short": "47 حرفًا — عدد أولي"
+    },
+    {
+      "ref": "86:3",
+      "score": 1,
+      "ar": "عدد حروف 86:3 (11) عدد أولي",
+      "short": "11 حرفًا — عدد أولي"
+    },
+    {
+      "ref": "86:5",
+      "score": 1,
+      "ar": "عدد حروف 86:5 (17) عدد أولي",
+      "short": "17 حرفًا — عدد أولي"
+    },
+    {
+      "ref": "77:1",
+      "score": 1,
+      "ar": "عدد حروف 77:1 (31) عدد أولي",
+      "short": "31 حرفًا — عدد أولي"
+    },
+    {
+      "ref": "77:18",
+      "score": 1,
+      "ar": "عدد حروف 77:18 (17) عدد أولي",
+      "short": "17 حرفًا — عدد أولي"
+    },
+    {
+      "ref": "66:8",
+      "score": 1,
+      "ar": "عدد حروف 66:8 (191) عدد أولي",
+      "short": "191 حرفًا — عدد أولي"
+    },
+    {
+      "ref": "95:7",
+      "score": 1,
+      "ar": "عدد حروف 95:7 (17) عدد أولي",
+      "short": "17 حرفًا — عدد أولي"
     }
   ],
   "numbers": [
     {
-      "ref": "5:42",
-      "words": 26,
-      "letters": 110,
-      "abjad": 7923,
+      "ref": "95:8",
+      "words": 4,
+      "letters": 20,
+      "abjad": 397,
       "patterns": [
-        "مجموع أرقام الجُمَّل (7923) = 21",
-        "ترتيبها في المصحف 711، وسورة+آية = 47",
-        "أثقل كلمة حسابًا: «تعرض» = 1470"
+        "مجموع الجُمَّل 397 عدد أولي",
+        "مجموع أرقام الجُمَّل (397) = 19",
+        "ترتيبها في المصحف 6106، وسورة+آية = 103",
+        "أثقل كلمة حسابًا: «ٱلحكمين» = 159"
       ],
       "numberWords": {
-        "letterOrderTotal": 1845,
+        "letterOrderTotal": 321,
         "words": [
           {
-            "w": "سمعون",
-            "v": 106,
-            "b": 22,
-            "ar": "يجري",
-            "en": "run"
-          },
-          {
-            "w": "للكذب",
-            "v": 79,
-            "b": 23,
-            "ar": "حلول",
-            "en": "solutions"
-          },
-          {
-            "w": "أكلون",
-            "v": 98,
-            "b": 14,
-            "ar": "تقريبًا",
-            "en": "nearly"
-          },
-          {
-            "w": "للسحت",
-            "v": 67,
-            "b": 11,
-            "ar": "مال",
-            "en": "money"
-          },
-          {
-            "w": "فإن",
-            "v": 46,
-            "b": 18,
-            "ar": "متحرك",
-            "en": "moving"
-          },
-          {
-            "w": "جاءوك",
-            "v": 56,
-            "b": 0,
-            "ar": "فيروس",
-            "en": "virus"
-          },
-          {
-            "w": "فٱحكم",
-            "v": 73,
-            "b": 17,
-            "ar": "اتحادي",
-            "en": "federal"
-          },
-          {
-            "w": "بينهم",
-            "v": 105,
-            "b": 21,
-            "ar": "كثيرًا",
-            "en": "frequently"
-          },
-          {
-            "w": "أو",
-            "v": 28,
-            "b": 0,
-            "ar": "سقوط",
-            "en": "fall"
-          },
-          {
-            "w": "أعرض",
-            "v": 44,
-            "b": 16,
-            "ar": "دم",
-            "en": "blood"
-          },
-          {
-            "w": "عنهم",
-            "v": 93,
-            "b": 9,
-            "ar": "جلسة",
-            "en": "session"
-          },
-          {
-            "w": "وإن",
-            "v": 53,
-            "b": 25,
-            "ar": "ولادة",
-            "en": "birth"
-          },
-          {
-            "w": "تعرض",
-            "v": 46,
-            "b": 18,
-            "ar": "متحرك",
-            "en": "moving"
-          },
-          {
-            "w": "عنهم",
-            "v": 93,
-            "b": 9,
-            "ar": "جلسة",
-            "en": "session"
-          },
-          {
-            "w": "فلن",
-            "v": 68,
-            "b": 12,
-            "ar": "طاقة",
-            "en": "energy"
-          },
-          {
-            "w": "يضروك",
-            "v": 102,
-            "b": 18,
-            "ar": "علامات",
-            "en": "trademarks"
-          },
-          {
-            "w": "شيا",
-            "v": 42,
-            "b": 14,
-            "ar": "وسائط",
-            "en": "multimedia"
-          },
-          {
-            "w": "وإن",
-            "v": 53,
-            "b": 25,
-            "ar": "ولادة",
-            "en": "birth"
-          },
-          {
-            "w": "حكمت",
-            "v": 55,
-            "b": 27,
-            "ar": "لهم",
-            "en": "their"
-          },
-          {
-            "w": "فٱحكم",
-            "v": 73,
-            "b": 17,
-            "ar": "اتحادي",
-            "en": "federal"
-          },
-          {
-            "w": "بينهم",
-            "v": 105,
-            "b": 21,
-            "ar": "كثيرًا",
-            "en": "frequently"
-          },
-          {
-            "w": "بٱلقسط",
-            "v": 75,
-            "b": 19,
-            "ar": "ألعاب",
-            "en": "toys"
-          },
-          {
-            "w": "إن",
-            "v": 26,
-            "b": 26,
-            "ar": "مزدوج",
-            "en": "double"
+            "w": "أليس",
+            "v": 64,
+            "b": 8,
+            "ar": "مجموع",
+            "en": "total"
           },
           {
             "w": "ٱلله",
@@ -804,145 +2468,417 @@
             "en": "federal"
           },
           {
-            "w": "يحب",
-            "v": 36,
-            "b": 8,
-            "ar": "عشرة",
-            "en": "ten"
+            "w": "بأحكم",
+            "v": 55,
+            "b": 27,
+            "ar": "لهم",
+            "en": "their"
           },
           {
-            "w": "ٱلمقسطين",
-            "v": 150,
-            "b": 10,
-            "ar": "يبدو",
-            "en": "seem"
+            "w": "ٱلحكمين",
+            "v": 129,
+            "b": 17,
+            "ar": "رغم",
+            "en": "though"
           }
         ],
-        "arabicLine": "يجري حلول تقريبًا مال متحرك فيروس اتحادي كثيرًا سقوط دم جلسة ولادة متحرك جلسة طاقة علامات وسائط ولادة لهم اتحادي كثيرًا ألعاب مزدوج اتحادي عشرة يبدو",
-        "en": "run solutions nearly money moving virus federal frequently fall blood session birth moving session energy trademarks multimedia birth their federal frequently toys double federal ten seem"
+        "arabicLine": "مجموع اتحادي لهم رغم",
+        "en": "total federal their though"
       }
     },
     {
-      "ref": "6:26",
-      "words": 11,
-      "letters": 46,
-      "abjad": 1673,
+      "ref": "76:8",
+      "words": 7,
+      "letters": 37,
+      "abjad": 1393,
       "patterns": [
-        "مجموع أرقام الجُمَّل (1673) = 17",
-        "ترتيبها في المصحف 815، وسورة+آية = 32",
-        "أثقل كلمة حسابًا: «يشعرون» = 636"
+        "عدد الحروف 37 عدد أولي",
+        "مجموع أرقام الجُمَّل (1393) = 16",
+        "ترتيبها في المصحف 5599، وسورة+آية = 84",
+        "أثقل كلمة حسابًا: «ويتيما» = 467"
       ],
       "numberWords": {
-        "letterOrderTotal": 988,
+        "letterOrderTotal": 653,
         "words": [
           {
-            "w": "وهم",
-            "v": 77,
+            "w": "ويطعمون",
+            "v": 165,
+            "b": 25,
+            "ar": "وردة",
+            "en": "rose"
+          },
+          {
+            "w": "ٱلطعام",
+            "v": 83,
+            "b": 27,
+            "ar": "إيجارات",
+            "en": "rentals"
+          },
+          {
+            "w": "على",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "حبه",
+            "v": 34,
+            "b": 6,
+            "ar": "نار",
+            "en": "fire"
+          },
+          {
+            "w": "مسكينا",
+            "v": 112,
+            "b": 0,
+            "ar": "اكتشاف",
+            "en": "finding"
+          },
+          {
+            "w": "ويتيما",
+            "v": 111,
+            "b": 27,
+            "ar": "يصنع",
+            "en": "make"
+          },
+          {
+            "w": "وأسيرا",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
+          }
+        ],
+        "arabicLine": "وردة إيجارات خطأ نار اكتشاف يصنع حلول",
+        "en": "rose rentals error fire finding make solutions"
+      }
+    },
+    {
+      "ref": "114:6",
+      "words": 3,
+      "letters": 13,
+      "abjad": 327,
+      "patterns": [
+        "عدد الحروف 13 عدد أولي",
+        "مجموع أرقام الجُمَّل (327) = 12",
+        "ترتيبها في المصحف 6236، وسورة+آية = 120",
+        "أثقل كلمة حسابًا: «وٱلناس» = 148"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 218,
+        "words": [
+          {
+            "w": "من",
+            "v": 49,
             "b": 21,
-            "ar": "قائمة",
-            "en": "menu"
+            "ar": "فطور",
+            "en": "breakfast"
           },
           {
-            "w": "ينهون",
-            "v": 131,
-            "b": 19,
-            "ar": "قيم",
-            "en": "values"
+            "w": "ٱلجنة",
+            "v": 80,
+            "b": 24,
+            "ar": "شعور",
+            "en": "feel"
           },
           {
-            "w": "عنه",
-            "v": 69,
-            "b": 13,
-            "ar": "خطأ",
-            "en": "error"
+            "w": "وٱلناس",
+            "v": 89,
+            "b": 5,
+            "ar": "وكلاء",
+            "en": "agents"
+          }
+        ],
+        "arabicLine": "فطور شعور وكلاء",
+        "en": "breakfast feel agents"
+      }
+    },
+    {
+      "ref": "6:22",
+      "words": 12,
+      "letters": 57,
+      "abjad": 5385,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (5385) = 21",
+        "ترتيبها في المصحف 811، وسورة+آية = 28",
+        "أثقل كلمة حسابًا: «للذين» = 820"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 1033,
+        "words": [
+          {
+            "w": "ويوم",
+            "v": 106,
+            "b": 22,
+            "ar": "يجري",
+            "en": "run"
           },
           {
-            "w": "وينون",
-            "v": 132,
+            "w": "نحشرهم",
+            "v": 104,
             "b": 20,
-            "ar": "أسماء",
-            "en": "names"
+            "ar": "شرقي",
+            "en": "eastern"
           },
           {
-            "w": "عنه",
-            "v": 69,
-            "b": 13,
-            "ar": "خطأ",
-            "en": "error"
+            "w": "جميعا",
+            "v": 76,
+            "b": 20,
+            "ar": "ملخص",
+            "en": "summary"
           },
           {
-            "w": "وإن",
-            "v": 53,
-            "b": 25,
-            "ar": "ولادة",
-            "en": "birth"
+            "w": "ثم",
+            "v": 28,
+            "b": 0,
+            "ar": "سقوط",
+            "en": "fall"
           },
           {
-            "w": "يهلكون",
-            "v": 151,
-            "b": 11,
-            "ar": "راسخ",
-            "en": "established"
+            "w": "نقول",
+            "v": 96,
+            "b": 12,
+            "ar": "معرَّف",
+            "en": "defined"
           },
           {
-            "w": "إلا",
-            "v": 25,
-            "b": 25,
-            "ar": "خطر",
-            "en": "risk"
-          },
-          {
-            "w": "أنفسهم",
+            "w": "للذين",
             "v": 108,
             "b": 24,
             "ar": "هؤلاء",
             "en": "these"
           },
           {
-            "w": "وما",
-            "v": 52,
-            "b": 24,
-            "ar": "موقَّع",
-            "en": "signed"
+            "w": "أشركوا",
+            "v": 74,
+            "b": 18,
+            "ar": "اهتمام",
+            "en": "interest"
           },
           {
-            "w": "يشعرون",
-            "v": 121,
-            "b": 9,
-            "ar": "غير",
-            "en": "else"
+            "w": "أين",
+            "v": 54,
+            "b": 26,
+            "ar": "يكون",
+            "en": "is"
+          },
+          {
+            "w": "شركاؤكم",
+            "v": 119,
+            "b": 7,
+            "ar": "طريق",
+            "en": "road"
+          },
+          {
+            "w": "ٱلذين",
+            "v": 86,
+            "b": 2,
+            "ar": "طلقة",
+            "en": "shot"
+          },
+          {
+            "w": "كنتم",
+            "v": 74,
+            "b": 18,
+            "ar": "اهتمام",
+            "en": "interest"
+          },
+          {
+            "w": "تزعمون",
+            "v": 108,
+            "b": 24,
+            "ar": "هؤلاء",
+            "en": "these"
           }
         ],
-        "arabicLine": "قائمة قيم خطأ أسماء خطأ ولادة راسخ خطر هؤلاء موقَّع غير",
-        "en": "menu values error names error birth established risk these signed else"
+        "arabicLine": "يجري شرقي ملخص سقوط معرَّف هؤلاء اهتمام يكون طريق طلقة اهتمام هؤلاء",
+        "en": "run eastern summary fall defined these interest is road shot interest these"
       }
     },
     {
-      "ref": "10:76",
-      "words": 10,
-      "letters": 38,
-      "abjad": 1900,
+      "ref": "86:9",
+      "words": 3,
+      "letters": 14,
+      "abjad": 1000,
       "patterns": [
-        "مجموع أرقام الجُمَّل (1900) = 10",
-        "ترتيبها في المصحف 1440، وسورة+آية = 86",
-        "أثقل كلمة حسابًا: «هذا» = 706"
+        "مجموع أرقام الجُمَّل (1000) = 1",
+        "ترتيبها في المصحف 5940، وسورة+آية = 95",
+        "أثقل كلمة حسابًا: «ٱلسرائر» = 502"
       ],
       "numberWords": {
-        "letterOrderTotal": 567,
+        "letterOrderTotal": 220,
         "words": [
           {
-            "w": "فلما",
-            "v": 68,
-            "b": 12,
-            "ar": "طاقة",
-            "en": "energy"
+            "w": "يوم",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
           },
           {
-            "w": "جاءهم",
-            "v": 57,
+            "w": "تبلى",
+            "v": 56,
+            "b": 0,
+            "ar": "فيروس",
+            "en": "virus"
+          },
+          {
+            "w": "ٱلسرائر",
+            "v": 85,
             "b": 1,
-            "ar": "حق",
-            "en": "right"
+            "ar": "نفسك",
+            "en": "yourself"
+          }
+        ],
+        "arabicLine": "حلول فيروس نفسك",
+        "en": "solutions virus yourself"
+      }
+    },
+    {
+      "ref": "86:10",
+      "words": 6,
+      "letters": 17,
+      "abjad": 735,
+      "patterns": [
+        "عدد الحروف 17 عدد أولي",
+        "مجموع أرقام الجُمَّل (735) = 15",
+        "ترتيبها في المصحف 5941، وسورة+آية = 96",
+        "أثقل كلمة حسابًا: «ناصر» = 341"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 318,
+        "words": [
+          {
+            "w": "فما",
+            "v": 45,
+            "b": 17,
+            "ar": "مطعم",
+            "en": "restaurant"
+          },
+          {
+            "w": "له",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "قوة",
+            "v": 74,
+            "b": 18,
+            "ar": "اهتمام",
+            "en": "interest"
+          },
+          {
+            "w": "ولا",
+            "v": 51,
+            "b": 23,
+            "ar": "مدونات",
+            "en": "blogs"
+          },
+          {
+            "w": "ناصر",
+            "v": 50,
+            "b": 22,
+            "ar": "كثير",
+            "en": "many"
+          }
+        ],
+        "arabicLine": "مطعم فطور فطور اهتمام مدونات كثير",
+        "en": "restaurant breakfast breakfast interest blogs many"
+      }
+    },
+    {
+      "ref": "47:2",
+      "words": 18,
+      "letters": 80,
+      "abjad": 3732,
+      "patterns": [
+        "رقم الآية 2 عدد أولي",
+        "مجموع أرقام الجُمَّل (3732) = 15",
+        "ترتيبها في المصحف 4547، وسورة+آية = 49",
+        "أثقل كلمة حسابًا: «وٱلذين» = 797"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 1333,
+        "words": [
+          {
+            "w": "وٱلذين",
+            "v": 113,
+            "b": 1,
+            "ar": "رجال",
+            "en": "men"
+          },
+          {
+            "w": "ءامنوا",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
+          },
+          {
+            "w": "وعملوا",
+            "v": 120,
+            "b": 8,
+            "ar": "لكل",
+            "en": "per"
+          },
+          {
+            "w": "ٱلصلحت",
+            "v": 70,
+            "b": 14,
+            "ar": "قواعد",
+            "en": "rules"
+          },
+          {
+            "w": "وءامنوا",
+            "v": 106,
+            "b": 22,
+            "ar": "يجري",
+            "en": "run"
+          },
+          {
+            "w": "بما",
+            "v": 27,
+            "b": 27,
+            "ar": "منازل",
+            "en": "homes"
+          },
+          {
+            "w": "نزل",
+            "v": 59,
+            "b": 3,
+            "ar": "صور",
+            "en": "photos"
+          },
+          {
+            "w": "على",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "محمد",
+            "v": 62,
+            "b": 6,
+            "ar": "نوع",
+            "en": "type"
+          },
+          {
+            "w": "وهو",
+            "v": 80,
+            "b": 24,
+            "ar": "شعور",
+            "en": "feel"
           },
           {
             "w": "ٱلحق",
@@ -959,25 +2895,432 @@
             "en": "breakfast"
           },
           {
-            "w": "عندنا",
+            "w": "ربهم",
+            "v": 62,
+            "b": 6,
+            "ar": "نوع",
+            "en": "type"
+          },
+          {
+            "w": "كفر",
+            "v": 52,
+            "b": 24,
+            "ar": "موقَّع",
+            "en": "signed"
+          },
+          {
+            "w": "عنهم",
+            "v": 93,
+            "b": 9,
+            "ar": "جلسة",
+            "en": "session"
+          },
+          {
+            "w": "سياتهم",
+            "v": 94,
+            "b": 10,
+            "ar": "ترقية",
+            "en": "upgrade"
+          },
+          {
+            "w": "وأصلح",
+            "v": 71,
+            "b": 15,
+            "ar": "سريع",
+            "en": "fast"
+          },
+          {
+            "w": "بالهم",
+            "v": 76,
+            "b": 20,
+            "ar": "ملخص",
+            "en": "summary"
+          }
+        ],
+        "arabicLine": "رجال حلول لكل قواعد يجري منازل صور خطأ نوع شعور مدونات فطور نوع موقَّع جلسة ترقية سريع ملخص",
+        "en": "men solutions per rules run homes photos error type feel blogs breakfast type signed session upgrade fast summary"
+      }
+    },
+    {
+      "ref": "46:35",
+      "words": 27,
+      "letters": 106,
+      "abjad": 5910,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (5910) = 15",
+        "ترتيبها في المصحف 4545، وسورة+آية = 81",
+        "أثقل كلمة حسابًا: «بلغ» = 1032"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 1794,
+        "words": [
+          {
+            "w": "فٱصبر",
+            "v": 47,
+            "b": 19,
+            "ar": "خاتمة",
+            "en": "ending"
+          },
+          {
+            "w": "كما",
+            "v": 47,
+            "b": 19,
+            "ar": "خاتمة",
+            "en": "ending"
+          },
+          {
+            "w": "صبر",
+            "v": 26,
+            "b": 26,
+            "ar": "مزدوج",
+            "en": "double"
+          },
+          {
+            "w": "أولوا",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
+          },
+          {
+            "w": "ٱلعزم",
             "v": 77,
             "b": 21,
             "ar": "قائمة",
             "en": "menu"
           },
           {
-            "w": "قالوا",
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "ٱلرسل",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "ولا",
+            "v": 51,
+            "b": 23,
+            "ar": "مدونات",
+            "en": "blogs"
+          },
+          {
+            "w": "تستعجل",
+            "v": 64,
+            "b": 8,
+            "ar": "مجموع",
+            "en": "total"
+          },
+          {
+            "w": "لهم",
             "v": 73,
             "b": 17,
             "ar": "اتحادي",
             "en": "federal"
           },
           {
-            "w": "إن",
-            "v": 26,
+            "w": "كأنهم",
+            "v": 98,
+            "b": 14,
+            "ar": "تقريبًا",
+            "en": "nearly"
+          },
+          {
+            "w": "يوم",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
+          },
+          {
+            "w": "يرون",
+            "v": 90,
+            "b": 6,
+            "ar": "إعلان",
+            "en": "advertising"
+          },
+          {
+            "w": "ما",
+            "v": 25,
+            "b": 25,
+            "ar": "خطر",
+            "en": "risk"
+          },
+          {
+            "w": "يوعدون",
+            "v": 133,
+            "b": 21,
+            "ar": "إصدارات",
+            "en": "releases"
+          },
+          {
+            "w": "لم",
+            "v": 47,
+            "b": 19,
+            "ar": "خاتمة",
+            "en": "ending"
+          },
+          {
+            "w": "يلبثوا",
+            "v": 85,
+            "b": 1,
+            "ar": "نفسك",
+            "en": "yourself"
+          },
+          {
+            "w": "إلا",
+            "v": 25,
+            "b": 25,
+            "ar": "خطر",
+            "en": "risk"
+          },
+          {
+            "w": "ساعة",
+            "v": 57,
+            "b": 1,
+            "ar": "حق",
+            "en": "right"
+          },
+          {
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "نهار",
+            "v": 62,
+            "b": 6,
+            "ar": "نوع",
+            "en": "type"
+          },
+          {
+            "w": "بلغ",
+            "v": 44,
+            "b": 16,
+            "ar": "دم",
+            "en": "blood"
+          },
+          {
+            "w": "فهل",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "يهلك",
+            "v": 99,
+            "b": 15,
+            "ar": "علوي",
+            "en": "upper"
+          },
+          {
+            "w": "إلا",
+            "v": 25,
+            "b": 25,
+            "ar": "خطر",
+            "en": "risk"
+          },
+          {
+            "w": "ٱلقوم",
+            "v": 96,
+            "b": 12,
+            "ar": "معرَّف",
+            "en": "defined"
+          },
+          {
+            "w": "ٱلفسقون",
+            "v": 129,
+            "b": 17,
+            "ar": "رغم",
+            "en": "though"
+          }
+        ],
+        "arabicLine": "خاتمة خاتمة مزدوج حلول قائمة فطور خطأ مدونات مجموع اتحادي تقريبًا حلول إعلان خطر إصدارات خاتمة نفسك خطر حق فطور نوع دم خطأ علوي خطر معرَّف رغم",
+        "en": "ending ending double solutions menu breakfast error blogs total federal nearly solutions advertising risk releases ending yourself risk right breakfast type blood error upper risk defined though"
+      }
+    },
+    {
+      "ref": "22:78",
+      "words": 44,
+      "letters": 198,
+      "abjad": 8084,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (8084) = 20",
+        "ترتيبها في المصحف 2673، وسورة+آية = 100",
+        "أثقل كلمة حسابًا: «هذا» = 706"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 3561,
+        "words": [
+          {
+            "w": "وجهدوا",
+            "v": 94,
+            "b": 10,
+            "ar": "ترقية",
+            "en": "upgrade"
+          },
+          {
+            "w": "فى",
+            "v": 48,
+            "b": 20,
+            "ar": "محرك",
+            "en": "motor"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "حق",
+            "v": 27,
+            "b": 27,
+            "ar": "منازل",
+            "en": "homes"
+          },
+          {
+            "w": "جهاده",
+            "v": 66,
+            "b": 10,
+            "ar": "ذات",
+            "en": "self"
+          },
+          {
+            "w": "هو",
+            "v": 53,
+            "b": 25,
+            "ar": "ولادة",
+            "en": "birth"
+          },
+          {
+            "w": "ٱجتبىكم",
+            "v": 85,
+            "b": 1,
+            "ar": "نفسك",
+            "en": "yourself"
+          },
+          {
+            "w": "وما",
+            "v": 52,
+            "b": 24,
+            "ar": "موقَّع",
+            "en": "signed"
+          },
+          {
+            "w": "جعل",
+            "v": 46,
+            "b": 18,
+            "ar": "متحرك",
+            "en": "moving"
+          },
+          {
+            "w": "عليكم",
+            "v": 115,
+            "b": 3,
+            "ar": "أسعار",
+            "en": "rates"
+          },
+          {
+            "w": "فى",
+            "v": 48,
+            "b": 20,
+            "ar": "محرك",
+            "en": "motor"
+          },
+          {
+            "w": "ٱلدين",
+            "v": 85,
+            "b": 1,
+            "ar": "نفسك",
+            "en": "yourself"
+          },
+          {
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "حرج",
+            "v": 21,
+            "b": 21,
+            "ar": "طرق",
+            "en": "methods"
+          },
+          {
+            "w": "ملة",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "أبيكم",
+            "v": 77,
+            "b": 21,
+            "ar": "قائمة",
+            "en": "menu"
+          },
+          {
+            "w": "إبرهيم",
+            "v": 91,
+            "b": 7,
+            "ar": "التقى",
+            "en": "met"
+          },
+          {
+            "w": "هو",
+            "v": 53,
+            "b": 25,
+            "ar": "ولادة",
+            "en": "birth"
+          },
+          {
+            "w": "سمىكم",
+            "v": 110,
             "b": 26,
-            "ar": "مزدوج",
-            "en": "double"
+            "ar": "نحن",
+            "en": "we"
+          },
+          {
+            "w": "ٱلمسلمين",
+            "v": 160,
+            "b": 20,
+            "ar": "عند",
+            "en": "at"
+          },
+          {
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "قبل",
+            "v": 46,
+            "b": 18,
+            "ar": "متحرك",
+            "en": "moving"
+          },
+          {
+            "w": "وفى",
+            "v": 75,
+            "b": 19,
+            "ar": "ألعاب",
+            "en": "toys"
           },
           {
             "w": "هذا",
@@ -987,31 +3330,2381 @@
             "en": "ten"
           },
           {
-            "w": "لسحر",
+            "w": "ليكون",
+            "v": 125,
+            "b": 13,
+            "ar": "عرض",
+            "en": "bid"
+          },
+          {
+            "w": "ٱلرسول",
+            "v": 96,
+            "b": 12,
+            "ar": "معرَّف",
+            "en": "defined"
+          },
+          {
+            "w": "شهيدا",
+            "v": 76,
+            "b": 20,
+            "ar": "ملخص",
+            "en": "summary"
+          },
+          {
+            "w": "عليكم",
+            "v": 115,
+            "b": 3,
+            "ar": "أسعار",
+            "en": "rates"
+          },
+          {
+            "w": "وتكونوا",
+            "v": 132,
+            "b": 20,
+            "ar": "أسماء",
+            "en": "names"
+          },
+          {
+            "w": "شهداء",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "على",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "ٱلناس",
+            "v": 62,
+            "b": 6,
+            "ar": "نوع",
+            "en": "type"
+          },
+          {
+            "w": "فأقيموا",
+            "v": 122,
+            "b": 10,
+            "ar": "نهائي",
+            "en": "final"
+          },
+          {
+            "w": "ٱلصلوة",
+            "v": 114,
+            "b": 2,
+            "ar": "خارج",
+            "en": "outside"
+          },
+          {
+            "w": "وءاتوا",
+            "v": 60,
+            "b": 4,
+            "ar": "يحاول",
+            "en": "try"
+          },
+          {
+            "w": "ٱلزكوة",
+            "v": 110,
+            "b": 26,
+            "ar": "نحن",
+            "en": "we"
+          },
+          {
+            "w": "وٱعتصموا",
+            "v": 115,
+            "b": 3,
+            "ar": "أسعار",
+            "en": "rates"
+          },
+          {
+            "w": "بٱلله",
+            "v": 75,
+            "b": 19,
+            "ar": "ألعاب",
+            "en": "toys"
+          },
+          {
+            "w": "هو",
+            "v": 53,
+            "b": 25,
+            "ar": "ولادة",
+            "en": "birth"
+          },
+          {
+            "w": "مولىكم",
+            "v": 148,
+            "b": 8,
+            "ar": "أدب",
+            "en": "literature"
+          },
+          {
+            "w": "فنعم",
+            "v": 87,
+            "b": 3,
+            "ar": "رسوم",
+            "en": "fees"
+          },
+          {
+            "w": "ٱلمولى",
+            "v": 126,
+            "b": 14,
+            "ar": "جولة",
+            "en": "tour"
+          },
+          {
+            "w": "ونعم",
+            "v": 94,
+            "b": 10,
+            "ar": "ترقية",
+            "en": "upgrade"
+          },
+          {
+            "w": "ٱلنصير",
+            "v": 101,
+            "b": 17,
+            "ar": "مثير",
+            "en": "interesting"
+          }
+        ],
+        "arabicLine": "ترقية محرك اتحادي منازل ذات ولادة نفسك موقَّع متحرك أسعار محرك نفسك فطور طرق اتحادي قائمة التقى ولادة نحن عند فطور متحرك ألعاب عشرة عرض معرَّف ملخص أسعار أسماء فطور خطأ نوع نهائي خارج يحاول نحن أسعار ألعاب ولادة أدب رسوم جولة ترقية مثير",
+        "en": "upgrade motor federal homes self birth yourself signed moving rates motor yourself breakfast methods federal menu met birth we at breakfast moving toys ten bid defined summary rates names breakfast error type final outside try we rates toys birth literature fees tour upgrade interesting"
+      }
+    },
+    {
+      "ref": "33:73",
+      "words": 15,
+      "letters": 88,
+      "abjad": 6689,
+      "patterns": [
+        "رقم الآية 73 عدد أولي",
+        "مجموع الجُمَّل 6689 عدد أولي",
+        "مجموع أرقام الجُمَّل (6689) = 29",
+        "ترتيبها في المصحف 3606، وسورة+آية = 106",
+        "أثقل كلمة حسابًا: «غفورا» = 1287"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 1614,
+        "words": [
+          {
+            "w": "ليعذب",
+            "v": 80,
+            "b": 24,
+            "ar": "شعور",
+            "en": "feel"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "ٱلمنفقين",
+            "v": 167,
+            "b": 27,
+            "ar": "وجد",
+            "en": "found"
+          },
+          {
+            "w": "وٱلمنفقت",
+            "v": 144,
+            "b": 4,
+            "ar": "طلبات",
+            "en": "requests"
+          },
+          {
+            "w": "وٱلمشركين",
+            "v": 173,
+            "b": 5,
+            "ar": "حدث",
+            "en": "event"
+          },
+          {
+            "w": "وٱلمشركت",
+            "v": 123,
+            "b": 11,
+            "ar": "يسار",
+            "en": "left"
+          },
+          {
+            "w": "ويتوب",
+            "v": 87,
+            "b": 3,
+            "ar": "رسوم",
+            "en": "fees"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "على",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "ٱلمؤمنين",
+            "v": 177,
+            "b": 9,
+            "ar": "ميناء",
+            "en": "port"
+          },
+          {
+            "w": "وٱلمؤمنت",
+            "v": 154,
+            "b": 14,
+            "ar": "سوف",
+            "en": "would"
+          },
+          {
+            "w": "وكان",
+            "v": 75,
+            "b": 19,
+            "ar": "ألعاب",
+            "en": "toys"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "غفورا",
+            "v": 77,
+            "b": 21,
+            "ar": "قائمة",
+            "en": "menu"
+          },
+          {
+            "w": "رحيما",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          }
+        ],
+        "arabicLine": "شعور اتحادي وجد طلبات حدث يسار رسوم اتحادي خطأ ميناء سوف ألعاب اتحادي قائمة خطأ",
+        "en": "feel federal found requests event left fees federal error port would toys federal menu error"
+      }
+    },
+    {
+      "ref": "108:2",
+      "words": 3,
+      "letters": 12,
+      "abjad": 717,
+      "patterns": [
+        "رقم الآية 2 عدد أولي",
+        "مجموع أرقام الجُمَّل (717) = 15",
+        "ترتيبها في المصحف 6206، وسورة+آية = 110",
+        "أثقل كلمة حسابًا: «وٱنحر» = 265"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 183,
+        "words": [
+          {
+            "w": "فصل",
+            "v": 57,
+            "b": 1,
+            "ar": "حق",
+            "en": "right"
+          },
+          {
+            "w": "لربك",
+            "v": 57,
+            "b": 1,
+            "ar": "حق",
+            "en": "right"
+          },
+          {
+            "w": "وٱنحر",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          }
+        ],
+        "arabicLine": "حق حق خطأ",
+        "en": "right right error"
+      }
+    },
+    {
+      "ref": "80:1",
+      "words": 6,
+      "letters": 27,
+      "abjad": 1370,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (1370) = 11",
+        "ترتيبها في المصحف 5759، وسورة+آية = 81",
+        "أثقل كلمة حسابًا: «وتولى» = 452"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 432,
+        "words": [
+          {
+            "w": "بسم",
+            "v": 38,
+            "b": 10,
+            "ar": "أستاذ",
+            "en": "professor"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "ٱلرحمن",
+            "v": 89,
+            "b": 5,
+            "ar": "وكلاء",
+            "en": "agents"
+          },
+          {
+            "w": "ٱلرحيم",
+            "v": 92,
+            "b": 8,
+            "ar": "مسطّح",
+            "en": "flat"
+          },
+          {
+            "w": "عبس",
+            "v": 32,
+            "b": 4,
+            "ar": "يوافق",
+            "en": "agree"
+          },
+          {
+            "w": "وتولى",
+            "v": 108,
+            "b": 24,
+            "ar": "هؤلاء",
+            "en": "these"
+          }
+        ],
+        "arabicLine": "أستاذ اتحادي وكلاء مسطّح يوافق هؤلاء",
+        "en": "professor federal agents flat agree these"
+      }
+    },
+    {
+      "ref": "80:16",
+      "words": 2,
+      "letters": 8,
+      "abjad": 668,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (668) = 20",
+        "ترتيبها في المصحف 5774، وسورة+آية = 96",
+        "أثقل كلمة حسابًا: «بررة» = 407"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 105,
+        "words": [
+          {
+            "w": "كرام",
+            "v": 57,
+            "b": 1,
+            "ar": "حق",
+            "en": "right"
+          },
+          {
+            "w": "بررة",
+            "v": 48,
+            "b": 20,
+            "ar": "محرك",
+            "en": "motor"
+          }
+        ],
+        "arabicLine": "حق محرك",
+        "en": "right motor"
+      }
+    },
+    {
+      "ref": "80:30",
+      "words": 2,
+      "letters": 10,
+      "abjad": 1162,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (1162) = 10",
+        "ترتيبها في المصحف 5788، وسورة+آية = 110",
+        "أثقل كلمة حسابًا: «غلبا» = 1033"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 136,
+        "words": [
+          {
+            "w": "وحدائق",
+            "v": 91,
+            "b": 7,
+            "ar": "التقى",
+            "en": "met"
+          },
+          {
+            "w": "غلبا",
+            "v": 45,
+            "b": 17,
+            "ar": "مطعم",
+            "en": "restaurant"
+          }
+        ],
+        "arabicLine": "التقى مطعم",
+        "en": "met restaurant"
+      }
+    },
+    {
+      "ref": "55:39",
+      "words": 8,
+      "letters": 26,
+      "abjad": 2056,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (2056) = 13",
+        "ترتيبها في المصحف 4940، وسورة+آية = 94",
+        "أثقل كلمة حسابًا: «فيومئذ» = 846"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 448,
+        "words": [
+          {
+            "w": "فيومئذ",
+            "v": 136,
+            "b": 24,
+            "ar": "لاحقًا",
+            "en": "later"
+          },
+          {
+            "w": "لا",
+            "v": 24,
+            "b": 24,
+            "ar": "سواء",
+            "en": "whether"
+          },
+          {
+            "w": "يسل",
+            "v": 63,
+            "b": 7,
+            "ar": "غرب",
+            "en": "west"
+          },
+          {
+            "w": "عن",
+            "v": 43,
+            "b": 15,
+            "ar": "إذن",
+            "en": "permission"
+          },
+          {
+            "w": "ذنبه",
+            "v": 62,
+            "b": 6,
+            "ar": "نوع",
+            "en": "type"
+          },
+          {
+            "w": "إنس",
+            "v": 38,
+            "b": 10,
+            "ar": "أستاذ",
+            "en": "professor"
+          },
+          {
+            "w": "ولا",
             "v": 51,
             "b": 23,
             "ar": "مدونات",
             "en": "blogs"
           },
           {
-            "w": "مبين",
+            "w": "جان",
+            "v": 31,
+            "b": 3,
+            "ar": "أدلة",
+            "en": "guides"
+          }
+        ],
+        "arabicLine": "لاحقًا سواء غرب إذن نوع أستاذ مدونات أدلة",
+        "en": "later whether west permission type professor blogs guides"
+      }
+    },
+    {
+      "ref": "51:47",
+      "words": 5,
+      "letters": 29,
+      "abjad": 604,
+      "patterns": [
+        "رقم الآية 47 عدد أولي",
+        "عدد الحروف 29 عدد أولي",
+        "مجموع أرقام الجُمَّل (604) = 10",
+        "ترتيبها في المصحف 4722، وسورة+آية = 98",
+        "أثقل كلمة حسابًا: «لموسعون» = 262"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 473,
+        "words": [
+          {
+            "w": "وٱلسماء",
+            "v": 89,
+            "b": 5,
+            "ar": "وكلاء",
+            "en": "agents"
+          },
+          {
+            "w": "بنينها",
+            "v": 107,
+            "b": 23,
+            "ar": "عناوين",
+            "en": "titles"
+          },
+          {
+            "w": "بأييد",
+            "v": 67,
+            "b": 11,
+            "ar": "مال",
+            "en": "money"
+          },
+          {
+            "w": "وإنا",
+            "v": 54,
+            "b": 26,
+            "ar": "يكون",
+            "en": "is"
+          },
+          {
+            "w": "لموسعون",
+            "v": 156,
+            "b": 16,
+            "ar": "دم",
+            "en": "blood"
+          }
+        ],
+        "arabicLine": "وكلاء عناوين مال يكون دم",
+        "en": "agents titles money is blood"
+      }
+    },
+    {
+      "ref": "59:16",
+      "words": 17,
+      "letters": 65,
+      "abjad": 4552,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (4552) = 16",
+        "ترتيبها في المصحف 5142، وسورة+آية = 75",
+        "أثقل كلمة حسابًا: «إذ» = 701"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 1037,
+        "words": [
+          {
+            "w": "كمثل",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "ٱلشيطن",
+            "v": 106,
+            "b": 22,
+            "ar": "يجري",
+            "en": "run"
+          },
+          {
+            "w": "إذ",
+            "v": 10,
+            "b": 10,
+            "ar": "هدية",
+            "en": "gift"
+          },
+          {
+            "w": "قال",
+            "v": 45,
+            "b": 17,
+            "ar": "مطعم",
+            "en": "restaurant"
+          },
+          {
+            "w": "للإنسن",
+            "v": 109,
+            "b": 25,
+            "ar": "حضري",
+            "en": "urban"
+          },
+          {
+            "w": "ٱكفر",
+            "v": 53,
+            "b": 25,
+            "ar": "ولادة",
+            "en": "birth"
+          },
+          {
+            "w": "فلما",
+            "v": 68,
+            "b": 12,
+            "ar": "طاقة",
+            "en": "energy"
+          },
+          {
+            "w": "كفر",
+            "v": 52,
+            "b": 24,
+            "ar": "موقَّع",
+            "en": "signed"
+          },
+          {
+            "w": "قال",
+            "v": 45,
+            "b": 17,
+            "ar": "مطعم",
+            "en": "restaurant"
+          },
+          {
+            "w": "إنى",
+            "v": 54,
+            "b": 26,
+            "ar": "يكون",
+            "en": "is"
+          },
+          {
+            "w": "برىء",
+            "v": 41,
+            "b": 13,
+            "ar": "والد",
+            "en": "parent"
+          },
+          {
+            "w": "منك",
+            "v": 71,
+            "b": 15,
+            "ar": "سريع",
+            "en": "fast"
+          },
+          {
+            "w": "إنى",
+            "v": 54,
+            "b": 26,
+            "ar": "يكون",
+            "en": "is"
+          },
+          {
+            "w": "أخاف",
+            "v": 29,
+            "b": 1,
+            "ar": "أخذ",
+            "en": "took"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "رب",
+            "v": 12,
+            "b": 12,
+            "ar": "حقًا",
+            "en": "really"
+          },
+          {
+            "w": "ٱلعلمين",
+            "v": 142,
+            "b": 2,
+            "ar": "حر",
+            "en": "free"
+          }
+        ],
+        "arabicLine": "اتحادي يجري هدية مطعم حضري ولادة طاقة موقَّع مطعم يكون والد سريع يكون أخذ اتحادي حقًا حر",
+        "en": "federal run gift restaurant urban birth energy signed restaurant is parent fast is took federal really free"
+      }
+    },
+    {
+      "ref": "64:2",
+      "words": 11,
+      "letters": 47,
+      "abjad": 3378,
+      "patterns": [
+        "رقم الآية 2 عدد أولي",
+        "عدد الحروف 47 عدد أولي",
+        "مجموع أرقام الجُمَّل (3378) = 21",
+        "ترتيبها في المصحف 5201، وسورة+آية = 66",
+        "أثقل كلمة حسابًا: «خلقكم» = 790"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 902,
+        "words": [
+          {
+            "w": "هو",
+            "v": 53,
+            "b": 25,
+            "ar": "ولادة",
+            "en": "birth"
+          },
+          {
+            "w": "ٱلذى",
+            "v": 61,
+            "b": 5,
+            "ar": "كائن",
+            "en": "being"
+          },
+          {
+            "w": "خلقكم",
+            "v": 97,
+            "b": 13,
+            "ar": "رتبة",
+            "en": "rank"
+          },
+          {
+            "w": "فمنكم",
+            "v": 115,
+            "b": 3,
+            "ar": "أسعار",
+            "en": "rates"
+          },
+          {
+            "w": "كافر",
+            "v": 53,
+            "b": 25,
+            "ar": "ولادة",
+            "en": "birth"
+          },
+          {
+            "w": "ومنكم",
+            "v": 122,
+            "b": 10,
+            "ar": "نهائي",
+            "en": "final"
+          },
+          {
+            "w": "مؤمن",
+            "v": 100,
+            "b": 16,
+            "ar": "دم",
+            "en": "blood"
+          },
+          {
+            "w": "وٱلله",
+            "v": 100,
+            "b": 16,
+            "ar": "دم",
+            "en": "blood"
+          },
+          {
+            "w": "بما",
+            "v": 27,
+            "b": 27,
+            "ar": "منازل",
+            "en": "homes"
+          },
+          {
+            "w": "تعملون",
+            "v": 120,
+            "b": 8,
+            "ar": "لكل",
+            "en": "per"
+          },
+          {
+            "w": "بصير",
+            "v": 54,
+            "b": 26,
+            "ar": "يكون",
+            "en": "is"
+          }
+        ],
+        "arabicLine": "ولادة كائن رتبة أسعار ولادة نهائي دم دم منازل لكل يكون",
+        "en": "birth being rank rates birth final blood blood homes per is"
+      }
+    },
+    {
+      "ref": "64:6",
+      "words": 16,
+      "letters": 81,
+      "abjad": 7435,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (7435) = 19",
+        "ترتيبها في المصحف 5205، وسورة+آية = 70",
+        "أثقل كلمة حسابًا: «وٱستغنى» = 1527"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 1316,
+        "words": [
+          {
+            "w": "ذلك",
+            "v": 54,
+            "b": 26,
+            "ar": "يكون",
+            "en": "is"
+          },
+          {
+            "w": "بأنه",
+            "v": 54,
+            "b": 26,
+            "ar": "يكون",
+            "en": "is"
+          },
+          {
+            "w": "كانت",
+            "v": 51,
+            "b": 23,
+            "ar": "مدونات",
+            "en": "blogs"
+          },
+          {
+            "w": "تأتيهم",
+            "v": 85,
+            "b": 1,
+            "ar": "نفسك",
+            "en": "yourself"
+          },
+          {
+            "w": "رسلهم",
+            "v": 95,
+            "b": 11,
+            "ar": "مسؤولية",
+            "en": "responsibility"
+          },
+          {
+            "w": "بٱلبينت",
+            "v": 84,
+            "b": 0,
+            "ar": "مذكَّر",
+            "en": "male"
+          },
+          {
+            "w": "فقالوا",
+            "v": 93,
+            "b": 9,
+            "ar": "جلسة",
+            "en": "session"
+          },
+          {
+            "w": "أبشر",
+            "v": 26,
+            "b": 26,
+            "ar": "مزدوج",
+            "en": "double"
+          },
+          {
+            "w": "يهدوننا",
+            "v": 140,
+            "b": 0,
+            "ar": "خطوة",
+            "en": "step"
+          },
+          {
+            "w": "فكفروا",
+            "v": 100,
+            "b": 16,
+            "ar": "دم",
+            "en": "blood"
+          },
+          {
+            "w": "وتولوا",
+            "v": 108,
+            "b": 24,
+            "ar": "هؤلاء",
+            "en": "these"
+          },
+          {
+            "w": "وٱستغنى",
+            "v": 115,
+            "b": 3,
+            "ar": "أسعار",
+            "en": "rates"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "وٱلله",
+            "v": 100,
+            "b": 16,
+            "ar": "دم",
+            "en": "blood"
+          },
+          {
+            "w": "غنى",
+            "v": 72,
+            "b": 16,
+            "ar": "نموذج",
+            "en": "model"
+          },
+          {
+            "w": "حميد",
+            "v": 66,
+            "b": 10,
+            "ar": "ذات",
+            "en": "self"
+          }
+        ],
+        "arabicLine": "يكون يكون مدونات نفسك مسؤولية مذكَّر جلسة مزدوج خطوة دم هؤلاء أسعار اتحادي دم نموذج ذات",
+        "en": "is is blogs yourself responsibility male session double step blood these rates federal blood model self"
+      }
+    },
+    {
+      "ref": "64:9",
+      "words": 27,
+      "letters": 117,
+      "abjad": 9860,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (9860) = 23",
+        "ترتيبها في المصحف 5208، وسورة+آية = 73",
+        "أثقل كلمة حسابًا: «ٱلتغابن» = 1484"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 2015,
+        "words": [
+          {
+            "w": "يوم",
             "v": 79,
             "b": 23,
             "ar": "حلول",
             "en": "solutions"
+          },
+          {
+            "w": "يجمعكم",
+            "v": 121,
+            "b": 9,
+            "ar": "غير",
+            "en": "else"
+          },
+          {
+            "w": "ليوم",
+            "v": 102,
+            "b": 18,
+            "ar": "علامات",
+            "en": "trademarks"
+          },
+          {
+            "w": "ٱلجمع",
+            "v": 71,
+            "b": 15,
+            "ar": "سريع",
+            "en": "fast"
+          },
+          {
+            "w": "ذلك",
+            "v": 54,
+            "b": 26,
+            "ar": "يكون",
+            "en": "is"
+          },
+          {
+            "w": "يوم",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
+          },
+          {
+            "w": "ٱلتغابن",
+            "v": 74,
+            "b": 18,
+            "ar": "اهتمام",
+            "en": "interest"
+          },
+          {
+            "w": "ومن",
+            "v": 76,
+            "b": 20,
+            "ar": "ملخص",
+            "en": "summary"
+          },
+          {
+            "w": "يؤمن",
+            "v": 104,
+            "b": 20,
+            "ar": "شرقي",
+            "en": "eastern"
+          },
+          {
+            "w": "بٱلله",
+            "v": 75,
+            "b": 19,
+            "ar": "ألعاب",
+            "en": "toys"
+          },
+          {
+            "w": "ويعمل",
+            "v": 120,
+            "b": 8,
+            "ar": "لكل",
+            "en": "per"
+          },
+          {
+            "w": "صلحا",
+            "v": 44,
+            "b": 16,
+            "ar": "دم",
+            "en": "blood"
+          },
+          {
+            "w": "يكفر",
+            "v": 80,
+            "b": 24,
+            "ar": "شعور",
+            "en": "feel"
+          },
+          {
+            "w": "عنه",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "سياته",
+            "v": 70,
+            "b": 14,
+            "ar": "قواعد",
+            "en": "rules"
+          },
+          {
+            "w": "ويدخله",
+            "v": 119,
+            "b": 7,
+            "ar": "طريق",
+            "en": "road"
+          },
+          {
+            "w": "جنت",
+            "v": 33,
+            "b": 5,
+            "ar": "نمط",
+            "en": "mode"
+          },
+          {
+            "w": "تجرى",
+            "v": 46,
+            "b": 18,
+            "ar": "متحرك",
+            "en": "moving"
+          },
+          {
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "تحتها",
+            "v": 39,
+            "b": 11,
+            "ar": "مشارك",
+            "en": "involved"
+          },
+          {
+            "w": "ٱلأنهر",
+            "v": 86,
+            "b": 2,
+            "ar": "طلقة",
+            "en": "shot"
+          },
+          {
+            "w": "خلدين",
+            "v": 91,
+            "b": 7,
+            "ar": "التقى",
+            "en": "met"
+          },
+          {
+            "w": "فيها",
+            "v": 75,
+            "b": 19,
+            "ar": "ألعاب",
+            "en": "toys"
+          },
+          {
+            "w": "أبدا",
+            "v": 12,
+            "b": 12,
+            "ar": "حقًا",
+            "en": "really"
+          },
+          {
+            "w": "ذلك",
+            "v": 54,
+            "b": 26,
+            "ar": "يكون",
+            "en": "is"
+          },
+          {
+            "w": "ٱلفوز",
+            "v": 82,
+            "b": 26,
+            "ar": "يؤمن",
+            "en": "believe"
+          },
+          {
+            "w": "ٱلعظيم",
+            "v": 111,
+            "b": 27,
+            "ar": "يصنع",
+            "en": "make"
           }
         ],
-        "arabicLine": "طاقة حق مدونات فطور قائمة اتحادي مزدوج عشرة مدونات حلول",
-        "en": "energy right blogs breakfast menu federal double ten blogs solutions"
+        "arabicLine": "حلول غير علامات سريع يكون حلول اهتمام ملخص شرقي ألعاب لكل دم شعور خطأ قواعد طريق نمط متحرك فطور مشارك طلقة التقى ألعاب حقًا يكون يؤمن يصنع",
+        "en": "solutions else trademarks fast is solutions interest summary eastern toys per blood feel error rules road mode moving breakfast involved shot met toys really is believe make"
+      }
+    },
+    {
+      "ref": "109:2",
+      "words": 4,
+      "letters": 14,
+      "abjad": 681,
+      "patterns": [
+        "رقم الآية 2 عدد أولي",
+        "مجموع أرقام الجُمَّل (681) = 15",
+        "ترتيبها في المصحف 6209، وسورة+آية = 111",
+        "أثقل كلمة حسابًا: «تعبدون» = 532"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 161,
+        "words": [
+          {
+            "w": "لا",
+            "v": 24,
+            "b": 24,
+            "ar": "سواء",
+            "en": "whether"
+          },
+          {
+            "w": "أعبد",
+            "v": 29,
+            "b": 1,
+            "ar": "أخذ",
+            "en": "took"
+          },
+          {
+            "w": "ما",
+            "v": 25,
+            "b": 25,
+            "ar": "خطر",
+            "en": "risk"
+          },
+          {
+            "w": "تعبدون",
+            "v": 83,
+            "b": 27,
+            "ar": "إيجارات",
+            "en": "rentals"
+          }
+        ],
+        "arabicLine": "سواء أخذ خطر إيجارات",
+        "en": "whether took risk rentals"
+      }
+    },
+    {
+      "ref": "106:2",
+      "words": 4,
+      "letters": 21,
+      "abjad": 1349,
+      "patterns": [
+        "رقم الآية 2 عدد أولي",
+        "مجموع أرقام الجُمَّل (1349) = 17",
+        "ترتيبها في المصحف 6195، وسورة+آية = 108",
+        "أثقل كلمة حسابًا: «ٱلشتاء» = 733"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 314,
+        "words": [
+          {
+            "w": "إلفهم",
+            "v": 94,
+            "b": 10,
+            "ar": "ترقية",
+            "en": "upgrade"
+          },
+          {
+            "w": "رحلة",
+            "v": 65,
+            "b": 9,
+            "ar": "أزرق",
+            "en": "blue"
+          },
+          {
+            "w": "ٱلشتاء",
+            "v": 42,
+            "b": 14,
+            "ar": "وسائط",
+            "en": "multimedia"
+          },
+          {
+            "w": "وٱلصيف",
+            "v": 113,
+            "b": 1,
+            "ar": "رجال",
+            "en": "men"
+          }
+        ],
+        "arabicLine": "ترقية أزرق وسائط رجال",
+        "en": "upgrade blue multimedia men"
+      }
+    },
+    {
+      "ref": "86:1",
+      "words": 6,
+      "letters": 33,
+      "abjad": 1272,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (1272) = 12",
+        "ترتيبها في المصحف 5932، وسورة+آية = 87",
+        "أثقل كلمة حسابًا: «وٱلطارق» = 347"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 480,
+        "words": [
+          {
+            "w": "بسم",
+            "v": 38,
+            "b": 10,
+            "ar": "أستاذ",
+            "en": "professor"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "ٱلرحمن",
+            "v": 89,
+            "b": 5,
+            "ar": "وكلاء",
+            "en": "agents"
+          },
+          {
+            "w": "ٱلرحيم",
+            "v": 92,
+            "b": 8,
+            "ar": "مسطّح",
+            "en": "flat"
+          },
+          {
+            "w": "وٱلسماء",
+            "v": 89,
+            "b": 5,
+            "ar": "وكلاء",
+            "en": "agents"
+          },
+          {
+            "w": "وٱلطارق",
+            "v": 99,
+            "b": 15,
+            "ar": "علوي",
+            "en": "upper"
+          }
+        ],
+        "arabicLine": "أستاذ اتحادي وكلاء مسطّح وكلاء علوي",
+        "en": "professor federal agents flat agents upper"
+      }
+    },
+    {
+      "ref": "86:2",
+      "words": 4,
+      "letters": 16,
+      "abjad": 664,
+      "patterns": [
+        "رقم الآية 2 عدد أولي",
+        "مجموع أرقام الجُمَّل (664) = 16",
+        "ترتيبها في المصحف 5933، وسورة+آية = 88",
+        "أثقل كلمة حسابًا: «ٱلطارق» = 341"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 218,
+        "words": [
+          {
+            "w": "وما",
+            "v": 52,
+            "b": 24,
+            "ar": "موقَّع",
+            "en": "signed"
+          },
+          {
+            "w": "أدرىك",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "ما",
+            "v": 25,
+            "b": 25,
+            "ar": "خطر",
+            "en": "risk"
+          },
+          {
+            "w": "ٱلطارق",
+            "v": 72,
+            "b": 16,
+            "ar": "نموذج",
+            "en": "model"
+          }
+        ],
+        "arabicLine": "موقَّع خطأ خطر نموذج",
+        "en": "signed error risk model"
+      }
+    },
+    {
+      "ref": "86:3",
+      "words": 2,
+      "letters": 11,
+      "abjad": 758,
+      "patterns": [
+        "رقم الآية 3 عدد أولي",
+        "عدد الحروف 11 عدد أولي",
+        "مجموع أرقام الجُمَّل (758) = 20",
+        "ترتيبها في المصحف 5934، وسورة+آية = 89",
+        "أثقل كلمة حسابًا: «ٱلثاقب» = 634"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 130,
+        "words": [
+          {
+            "w": "ٱلنجم",
+            "v": 78,
+            "b": 22,
+            "ar": "مدفوعات",
+            "en": "payments"
+          },
+          {
+            "w": "ٱلثاقب",
+            "v": 52,
+            "b": 24,
+            "ar": "موقَّع",
+            "en": "signed"
+          }
+        ],
+        "arabicLine": "مدفوعات موقَّع",
+        "en": "payments signed"
+      }
+    },
+    {
+      "ref": "86:5",
+      "words": 4,
+      "letters": 17,
+      "abjad": 2272,
+      "patterns": [
+        "رقم الآية 5 عدد أولي",
+        "عدد الحروف 17 عدد أولي",
+        "مجموع أرقام الجُمَّل (2272) = 13",
+        "ترتيبها في المصحف 5936، وسورة+آية = 91",
+        "أثقل كلمة حسابًا: «فلينظر» = 1270"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 309,
+        "words": [
+          {
+            "w": "فلينظر",
+            "v": 123,
+            "b": 11,
+            "ar": "يسار",
+            "en": "left"
+          },
+          {
+            "w": "ٱلإنسن",
+            "v": 87,
+            "b": 3,
+            "ar": "رسوم",
+            "en": "fees"
+          },
+          {
+            "w": "مم",
+            "v": 48,
+            "b": 20,
+            "ar": "محرك",
+            "en": "motor"
+          },
+          {
+            "w": "خلق",
+            "v": 51,
+            "b": 23,
+            "ar": "مدونات",
+            "en": "blogs"
+          }
+        ],
+        "arabicLine": "يسار رسوم محرك مدونات",
+        "en": "left fees motor blogs"
+      }
+    },
+    {
+      "ref": "86:6",
+      "words": 4,
+      "letters": 12,
+      "abjad": 1047,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (1047) = 12",
+        "ترتيبها في المصحف 5937، وسورة+آية = 92",
+        "أثقل كلمة حسابًا: «خلق» = 730"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 176,
+        "words": [
+          {
+            "w": "خلق",
+            "v": 51,
+            "b": 23,
+            "ar": "مدونات",
+            "en": "blogs"
+          },
+          {
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "ماء",
+            "v": 26,
+            "b": 26,
+            "ar": "مزدوج",
+            "en": "double"
+          },
+          {
+            "w": "دافق",
+            "v": 50,
+            "b": 22,
+            "ar": "كثير",
+            "en": "many"
+          }
+        ],
+        "arabicLine": "مدونات فطور مزدوج كثير",
+        "en": "blogs breakfast double many"
+      }
+    },
+    {
+      "ref": "86:7",
+      "words": 5,
+      "letters": 22,
+      "abjad": 1768,
+      "patterns": [
+        "رقم الآية 7 عدد أولي",
+        "مجموع أرقام الجُمَّل (1768) = 22",
+        "ترتيبها في المصحف 5938، وسورة+آية = 93",
+        "أثقل كلمة حسابًا: «يخرج» = 813"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 312,
+        "words": [
+          {
+            "w": "يخرج",
+            "v": 50,
+            "b": 22,
+            "ar": "كثير",
+            "en": "many"
+          },
+          {
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "بين",
+            "v": 55,
+            "b": 27,
+            "ar": "لهم",
+            "en": "their"
+          },
+          {
+            "w": "ٱلصلب",
+            "v": 63,
+            "b": 7,
+            "ar": "غرب",
+            "en": "west"
+          },
+          {
+            "w": "وٱلترائب",
+            "v": 95,
+            "b": 11,
+            "ar": "مسؤولية",
+            "en": "responsibility"
+          }
+        ],
+        "arabicLine": "كثير فطور لهم غرب مسؤولية",
+        "en": "many breakfast their west responsibility"
+      }
+    },
+    {
+      "ref": "86:8",
+      "words": 4,
+      "letters": 15,
+      "abjad": 779,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (779) = 23",
+        "ترتيبها في المصحف 5939، وسورة+آية = 94",
+        "أثقل كلمة حسابًا: «لقادر» = 335"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 243,
+        "words": [
+          {
+            "w": "إنه",
+            "v": 52,
+            "b": 24,
+            "ar": "موقَّع",
+            "en": "signed"
+          },
+          {
+            "w": "على",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "رجعه",
+            "v": 59,
+            "b": 3,
+            "ar": "صور",
+            "en": "photos"
+          },
+          {
+            "w": "لقادر",
+            "v": 63,
+            "b": 7,
+            "ar": "غرب",
+            "en": "west"
+          }
+        ],
+        "arabicLine": "موقَّع خطأ صور غرب",
+        "en": "signed error photos west"
+      }
+    },
+    {
+      "ref": "77:1",
+      "words": 6,
+      "letters": 31,
+      "abjad": 1904,
+      "patterns": [
+        "عدد الحروف 31 عدد أولي",
+        "مجموع أرقام الجُمَّل (1904) = 14",
+        "ترتيبها في المصحف 5623، وسورة+آية = 78",
+        "أثقل كلمة حسابًا: «وٱلمرسلت» = 767"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 464,
+        "words": [
+          {
+            "w": "بسم",
+            "v": 38,
+            "b": 10,
+            "ar": "أستاذ",
+            "en": "professor"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "ٱلرحمن",
+            "v": 89,
+            "b": 5,
+            "ar": "وكلاء",
+            "en": "agents"
+          },
+          {
+            "w": "ٱلرحيم",
+            "v": 92,
+            "b": 8,
+            "ar": "مسطّح",
+            "en": "flat"
+          },
+          {
+            "w": "وٱلمرسلت",
+            "v": 123,
+            "b": 11,
+            "ar": "يسار",
+            "en": "left"
+          },
+          {
+            "w": "عرفا",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          }
+        ],
+        "arabicLine": "أستاذ اتحادي وكلاء مسطّح يسار فطور",
+        "en": "professor federal agents flat left breakfast"
+      }
+    },
+    {
+      "ref": "77:17",
+      "words": 3,
+      "letters": 16,
+      "abjad": 2000,
+      "patterns": [
+        "رقم الآية 17 عدد أولي",
+        "مجموع أرقام الجُمَّل (2000) = 2",
+        "ترتيبها في المصحف 5639، وسورة+آية = 94",
+        "أثقل كلمة حسابًا: «ٱلءاخرين» = 893"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 222,
+        "words": [
+          {
+            "w": "ثم",
+            "v": 28,
+            "b": 0,
+            "ar": "سقوط",
+            "en": "fall"
+          },
+          {
+            "w": "نتبعهم",
+            "v": 98,
+            "b": 14,
+            "ar": "تقريبًا",
+            "en": "nearly"
+          },
+          {
+            "w": "ٱلءاخرين",
+            "v": 96,
+            "b": 12,
+            "ar": "معرَّف",
+            "en": "defined"
+          }
+        ],
+        "arabicLine": "سقوط تقريبًا معرَّف",
+        "en": "fall nearly defined"
+      }
+    },
+    {
+      "ref": "77:18",
+      "words": 3,
+      "letters": 17,
+      "abjad": 1376,
+      "patterns": [
+        "عدد الحروف 17 عدد أولي",
+        "مجموع أرقام الجُمَّل (1376) = 17",
+        "ترتيبها في المصحف 5640، وسورة+آية = 95",
+        "أثقل كلمة حسابًا: «كذلك» = 770"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 304,
+        "words": [
+          {
+            "w": "كذلك",
+            "v": 76,
+            "b": 20,
+            "ar": "ملخص",
+            "en": "summary"
+          },
+          {
+            "w": "نفعل",
+            "v": 86,
+            "b": 2,
+            "ar": "طلقة",
+            "en": "shot"
+          },
+          {
+            "w": "بٱلمجرمين",
+            "v": 142,
+            "b": 2,
+            "ar": "حر",
+            "en": "free"
+          }
+        ],
+        "arabicLine": "ملخص طلقة حر",
+        "en": "summary shot free"
+      }
+    },
+    {
+      "ref": "66:8",
+      "words": 45,
+      "letters": 191,
+      "abjad": 12617,
+      "patterns": [
+        "عدد الحروف 191 عدد أولي",
+        "مجموع أرقام الجُمَّل (12617) = 17",
+        "ترتيبها في المصحف 5237، وسورة+آية = 74",
+        "أثقل كلمة حسابًا: «وٱغفر» = 1287"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 3247,
+        "words": [
+          {
+            "w": "يأيها",
+            "v": 84,
+            "b": 0,
+            "ar": "مذكَّر",
+            "en": "male"
+          },
+          {
+            "w": "ٱلذين",
+            "v": 86,
+            "b": 2,
+            "ar": "طلقة",
+            "en": "shot"
+          },
+          {
+            "w": "ءامنوا",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
+          },
+          {
+            "w": "توبوا",
+            "v": 60,
+            "b": 4,
+            "ar": "يحاول",
+            "en": "try"
+          },
+          {
+            "w": "إلى",
+            "v": 52,
+            "b": 24,
+            "ar": "موقَّع",
+            "en": "signed"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "توبة",
+            "v": 58,
+            "b": 2,
+            "ar": "كامل",
+            "en": "whole"
+          },
+          {
+            "w": "نصوحا",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "عسى",
+            "v": 58,
+            "b": 2,
+            "ar": "كامل",
+            "en": "whole"
+          },
+          {
+            "w": "ربكم",
+            "v": 58,
+            "b": 2,
+            "ar": "كامل",
+            "en": "whole"
+          },
+          {
+            "w": "أن",
+            "v": 26,
+            "b": 26,
+            "ar": "مزدوج",
+            "en": "double"
+          },
+          {
+            "w": "يكفر",
+            "v": 80,
+            "b": 24,
+            "ar": "شعور",
+            "en": "feel"
+          },
+          {
+            "w": "عنكم",
+            "v": 89,
+            "b": 5,
+            "ar": "وكلاء",
+            "en": "agents"
+          },
+          {
+            "w": "سياتكم",
+            "v": 90,
+            "b": 6,
+            "ar": "إعلان",
+            "en": "advertising"
+          },
+          {
+            "w": "ويدخلكم",
+            "v": 139,
+            "b": 27,
+            "ar": "صباح",
+            "en": "morning"
+          },
+          {
+            "w": "جنت",
+            "v": 33,
+            "b": 5,
+            "ar": "نمط",
+            "en": "mode"
+          },
+          {
+            "w": "تجرى",
+            "v": 46,
+            "b": 18,
+            "ar": "متحرك",
+            "en": "moving"
+          },
+          {
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "تحتها",
+            "v": 39,
+            "b": 11,
+            "ar": "مشارك",
+            "en": "involved"
+          },
+          {
+            "w": "ٱلأنهر",
+            "v": 86,
+            "b": 2,
+            "ar": "طلقة",
+            "en": "shot"
+          },
+          {
+            "w": "يوم",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
+          },
+          {
+            "w": "لا",
+            "v": 24,
+            "b": 24,
+            "ar": "سواء",
+            "en": "whether"
+          },
+          {
+            "w": "يخزى",
+            "v": 74,
+            "b": 18,
+            "ar": "اهتمام",
+            "en": "interest"
+          },
+          {
+            "w": "ٱلله",
+            "v": 73,
+            "b": 17,
+            "ar": "اتحادي",
+            "en": "federal"
+          },
+          {
+            "w": "ٱلنبى",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
+          },
+          {
+            "w": "وٱلذين",
+            "v": 113,
+            "b": 1,
+            "ar": "رجال",
+            "en": "men"
+          },
+          {
+            "w": "ءامنوا",
+            "v": 79,
+            "b": 23,
+            "ar": "حلول",
+            "en": "solutions"
+          },
+          {
+            "w": "معه",
+            "v": 68,
+            "b": 12,
+            "ar": "طاقة",
+            "en": "energy"
+          },
+          {
+            "w": "نورهم",
+            "v": 112,
+            "b": 0,
+            "ar": "اكتشاف",
+            "en": "finding"
+          },
+          {
+            "w": "يسعى",
+            "v": 86,
+            "b": 2,
+            "ar": "طلقة",
+            "en": "shot"
+          },
+          {
+            "w": "بين",
+            "v": 55,
+            "b": 27,
+            "ar": "لهم",
+            "en": "their"
+          },
+          {
+            "w": "أيديهم",
+            "v": 115,
+            "b": 3,
+            "ar": "أسعار",
+            "en": "rates"
+          },
+          {
+            "w": "وبأيمنهم",
+            "v": 157,
+            "b": 17,
+            "ar": "يستمع",
+            "en": "listen"
+          },
+          {
+            "w": "يقولون",
+            "v": 151,
+            "b": 11,
+            "ar": "راسخ",
+            "en": "established"
+          },
+          {
+            "w": "ربنا",
+            "v": 38,
+            "b": 10,
+            "ar": "أستاذ",
+            "en": "professor"
+          },
+          {
+            "w": "أتمم",
+            "v": 52,
+            "b": 24,
+            "ar": "موقَّع",
+            "en": "signed"
+          },
+          {
+            "w": "لنا",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "نورنا",
+            "v": 88,
+            "b": 4,
+            "ar": "هدف",
+            "en": "goal"
+          },
+          {
+            "w": "وٱغفر",
+            "v": 77,
+            "b": 21,
+            "ar": "قائمة",
+            "en": "menu"
+          },
+          {
+            "w": "لنا",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "إنك",
+            "v": 48,
+            "b": 20,
+            "ar": "محرك",
+            "en": "motor"
+          },
+          {
+            "w": "على",
+            "v": 69,
+            "b": 13,
+            "ar": "خطأ",
+            "en": "error"
+          },
+          {
+            "w": "كل",
+            "v": 45,
+            "b": 17,
+            "ar": "مطعم",
+            "en": "restaurant"
+          },
+          {
+            "w": "شىء",
+            "v": 42,
+            "b": 14,
+            "ar": "وسائط",
+            "en": "multimedia"
+          },
+          {
+            "w": "قدير",
+            "v": 67,
+            "b": 11,
+            "ar": "مال",
+            "en": "money"
+          }
+        ],
+        "arabicLine": "مذكَّر طلقة حلول يحاول موقَّع اتحادي كامل اتحادي كامل كامل مزدوج شعور وكلاء إعلان صباح نمط متحرك فطور مشارك طلقة حلول سواء اهتمام اتحادي حلول رجال حلول طاقة اكتشاف طلقة لهم أسعار يستمع راسخ أستاذ موقَّع فطور هدف قائمة فطور محرك خطأ مطعم وسائط مال",
+        "en": "male shot solutions try signed federal whole federal whole whole double feel agents advertising morning mode moving breakfast involved shot solutions whether interest federal solutions men solutions energy finding shot their rates listen established professor signed breakfast goal menu breakfast motor error restaurant multimedia money"
+      }
+    },
+    {
+      "ref": "70:17",
+      "words": 4,
+      "letters": 16,
+      "abjad": 1230,
+      "patterns": [
+        "رقم الآية 17 عدد أولي",
+        "مجموع أرقام الجُمَّل (1230) = 6",
+        "ترتيبها في المصحف 5392، وسورة+آية = 87",
+        "أثقل كلمة حسابًا: «تدعوا» = 481"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 235,
+        "words": [
+          {
+            "w": "تدعوا",
+            "v": 57,
+            "b": 1,
+            "ar": "حق",
+            "en": "right"
+          },
+          {
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "أدبر",
+            "v": 21,
+            "b": 21,
+            "ar": "طرق",
+            "en": "methods"
+          },
+          {
+            "w": "وتولى",
+            "v": 108,
+            "b": 24,
+            "ar": "هؤلاء",
+            "en": "these"
+          }
+        ],
+        "arabicLine": "حق فطور طرق هؤلاء",
+        "en": "right breakfast methods these"
+      }
+    },
+    {
+      "ref": "86:17",
+      "words": 4,
+      "letters": 22,
+      "abjad": 888,
+      "patterns": [
+        "رقم الآية 17 عدد أولي",
+        "مجموع أرقام الجُمَّل (888) = 24",
+        "ترتيبها في المصحف 5948، وسورة+آية = 103",
+        "أثقل كلمة حسابًا: «ٱلكفرين» = 391"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 420,
+        "words": [
+          {
+            "w": "فمهل",
+            "v": 93,
+            "b": 9,
+            "ar": "جلسة",
+            "en": "session"
+          },
+          {
+            "w": "ٱلكفرين",
+            "v": 129,
+            "b": 17,
+            "ar": "رغم",
+            "en": "though"
+          },
+          {
+            "w": "أمهلهم",
+            "v": 124,
+            "b": 12,
+            "ar": "فرد",
+            "en": "individual"
+          },
+          {
+            "w": "رويدا",
+            "v": 74,
+            "b": 18,
+            "ar": "اهتمام",
+            "en": "interest"
+          }
+        ],
+        "arabicLine": "جلسة رغم فرد اهتمام",
+        "en": "session though individual interest"
+      }
+    },
+    {
+      "ref": "47:36",
+      "words": 13,
+      "letters": 63,
+      "abjad": 2950,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (2950) = 16",
+        "ترتيبها في المصحف 4581، وسورة+آية = 83",
+        "أثقل كلمة حسابًا: «وتتقوا» = 913"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 1110,
+        "words": [
+          {
+            "w": "إنما",
+            "v": 51,
+            "b": 23,
+            "ar": "مدونات",
+            "en": "blogs"
+          },
+          {
+            "w": "ٱلحيوة",
+            "v": 111,
+            "b": 27,
+            "ar": "يصنع",
+            "en": "make"
+          },
+          {
+            "w": "ٱلدنيا",
+            "v": 86,
+            "b": 2,
+            "ar": "طلقة",
+            "en": "shot"
+          },
+          {
+            "w": "لعب",
+            "v": 43,
+            "b": 15,
+            "ar": "إذن",
+            "en": "permission"
+          },
+          {
+            "w": "ولهو",
+            "v": 103,
+            "b": 19,
+            "ar": "مضحك",
+            "en": "funny"
+          },
+          {
+            "w": "وإن",
+            "v": 53,
+            "b": 25,
+            "ar": "ولادة",
+            "en": "birth"
+          },
+          {
+            "w": "تؤمنوا",
+            "v": 107,
+            "b": 23,
+            "ar": "عناوين",
+            "en": "titles"
+          },
+          {
+            "w": "وتتقوا",
+            "v": 82,
+            "b": 26,
+            "ar": "يؤمن",
+            "en": "believe"
+          },
+          {
+            "w": "يؤتكم",
+            "v": 104,
+            "b": 20,
+            "ar": "شرقي",
+            "en": "eastern"
+          },
+          {
+            "w": "أجوركم",
+            "v": 89,
+            "b": 5,
+            "ar": "وكلاء",
+            "en": "agents"
+          },
+          {
+            "w": "ولا",
+            "v": 51,
+            "b": 23,
+            "ar": "مدونات",
+            "en": "blogs"
+          },
+          {
+            "w": "يسلكم",
+            "v": 109,
+            "b": 25,
+            "ar": "حضري",
+            "en": "urban"
+          },
+          {
+            "w": "أمولكم",
+            "v": 121,
+            "b": 9,
+            "ar": "غير",
+            "en": "else"
+          }
+        ],
+        "arabicLine": "مدونات يصنع طلقة إذن مضحك ولادة عناوين يؤمن شرقي وكلاء مدونات حضري غير",
+        "en": "blogs make shot permission funny birth titles believe eastern agents blogs urban else"
+      }
+    },
+    {
+      "ref": "74:4",
+      "words": 2,
+      "letters": 10,
+      "abjad": 833,
+      "patterns": [
+        "مجموع أرقام الجُمَّل (833) = 14",
+        "ترتيبها في المصحف 5499، وسورة+آية = 78",
+        "أثقل كلمة حسابًا: «وثيابك» = 539"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 156,
+        "words": [
+          {
+            "w": "وثيابك",
+            "v": 84,
+            "b": 0,
+            "ar": "مذكَّر",
+            "en": "male"
+          },
+          {
+            "w": "فطهر",
+            "v": 72,
+            "b": 16,
+            "ar": "نموذج",
+            "en": "model"
+          }
+        ],
+        "arabicLine": "مذكَّر نموذج",
+        "en": "male model"
+      }
+    },
+    {
+      "ref": "113:2",
+      "words": 4,
+      "letters": 9,
+      "abjad": 1361,
+      "patterns": [
+        "رقم الآية 2 عدد أولي",
+        "مجموع الجُمَّل 1361 عدد أولي",
+        "مجموع أرقام الجُمَّل (1361) = 11",
+        "ترتيبها في المصحف 6227، وسورة+آية = 115",
+        "أثقل كلمة حسابًا: «خلق» = 730"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 148,
+        "words": [
+          {
+            "w": "من",
+            "v": 49,
+            "b": 21,
+            "ar": "فطور",
+            "en": "breakfast"
+          },
+          {
+            "w": "شر",
+            "v": 23,
+            "b": 23,
+            "ar": "مدعوم",
+            "en": "powered"
+          },
+          {
+            "w": "ما",
+            "v": 25,
+            "b": 25,
+            "ar": "خطر",
+            "en": "risk"
+          },
+          {
+            "w": "خلق",
+            "v": 51,
+            "b": 23,
+            "ar": "مدونات",
+            "en": "blogs"
+          }
+        ],
+        "arabicLine": "فطور مدعوم خطر مدونات",
+        "en": "breakfast powered risk blogs"
+      }
+    },
+    {
+      "ref": "95:7",
+      "words": 4,
+      "letters": 17,
+      "abjad": 1046,
+      "patterns": [
+        "رقم الآية 7 عدد أولي",
+        "عدد الحروف 17 عدد أولي",
+        "مجموع أرقام الجُمَّل (1046) = 11",
+        "ترتيبها في المصحف 6105، وسورة+آية = 102",
+        "أثقل كلمة حسابًا: «يكذبك» = 752"
+      ],
+      "numberWords": {
+        "letterOrderTotal": 243,
+        "words": [
+          {
+            "w": "فما",
+            "v": 45,
+            "b": 17,
+            "ar": "مطعم",
+            "en": "restaurant"
+          },
+          {
+            "w": "يكذبك",
+            "v": 83,
+            "b": 27,
+            "ar": "إيجارات",
+            "en": "rentals"
+          },
+          {
+            "w": "بعد",
+            "v": 28,
+            "b": 0,
+            "ar": "سقوط",
+            "en": "fall"
+          },
+          {
+            "w": "بٱلدين",
+            "v": 87,
+            "b": 3,
+            "ar": "رسوم",
+            "en": "fees"
+          }
+        ],
+        "arabicLine": "مطعم إيجارات سقوط رسوم",
+        "en": "restaurant rentals fall fees"
       }
     }
   ],
-  "description": "٤٧ كلمة… ورقم واحد | سُورَةُ المَائـِدَةِ\n\nالآيات: 5:42 ، 6:26 ، 10:76\n\n⏱ في الساعة 2:54 ظهرًا بتوقيت نيويورك بين الظهر والعصر، كان تمرير القرآن عند سورة يونس الآية 76. (نوافذ الصلاة من تطبيق الزاحف القرآني)\n\n📍 الفصول:\n0:00 الافتتاحية (٠–١٠ث)\n0:34 الفصل ١: الآيات\n2:00 الفصل ٢: الفكرة الأولى\n2:09 الفصل ٣: لوحة الأرقام\n3:05 الفصل ٤: الفكرة الثانية\n3:26 الفصل ٥: الفكرة الثالثة\n3:38 كشف السرّ\n4:07 الخلاصة\n\n📚 التفسير: [ابن كثير — 5:42, 6:26, 10:76] / [السعدي — تيسير الكريم الرحمن] (أضف الصفحة/الرابط)\nهذا تدبّر شخصي وليس تفسيرًا ولا فتوى. «لعبة الأرقام» عدٌّ من أدوات القناة للتأمل، وليست رمزًا ولا إعجازًا.\n🔢 قيم «كلمات الأرقام» محسوبة بمنطق تطبيق كلمات الأرقام: https://mrbugimposter3-ship-it.github.io/quran-number-words/\n🎙️ التلاوة: الحاج معمر زين العاشقين (H. Muammar Zainal Asyikin) — تسجيل مُتاح للملكية العامة (CC0) على أرشيف الإنترنت: https://archive.org/details/muammar_murottal_first (السور 1–22) و https://archive.org/details/muammar_murottal_full (السور 23–114)\n\n#تدبر #القرآن #فن_البكسل",
+  "description": "٣٩ آية في يوم واحد… ما الذي يجمعها؟ | سجل المغامر\n\nالآيات: 95:8 ، 76:8 ، 114:6 ، 6:22 ، 86:9 ، 86:10 ، 47:2 ، 46:35 ، 22:78 ، 33:73 ، 108:2 ، 80:1 ، 80:16 ، 80:30 ، 55:39 ، 51:47 ، 59:16 ، 64:2 ، 64:6 ، 64:9 ، 109:2 ، 106:2 ، 86:1 ، 86:2 ، 86:3 ، 86:5 ، 86:6 ، 86:7 ، 86:8 ، 77:1 ، 77:17 ، 77:18 ، 66:8 ، 70:17 ، 86:17 ، 47:36 ، 74:4 ، 113:2 ، 95:7\n\n⏱ في الساعة 6:41 صباحًا بتوقيت نيويورك بين الفجر والظهر، كان تمرير القرآن عند سورة البقرة الآية 187. (نوافذ الصلاة من تطبيق الزاحف القرآني)\n\n📍 الفصول:\n0:00 الافتتاحية (٠–١٠ث)\n0:52 الفصل ١: بين الفجر والظهر\n6:29 وقفة: الفكرة الأولى\n6:38 الفصل ٢: بين الظهر والعصر\n9:51 الفصل ٣: بين المغرب والعشاء\n10:22 وقفة: الفكرة الثانية\n10:31 الفصل ٤: بين العشاء والفجر\n10:44 لوحة الأرقام\n10:54 كشف السرّ\n11:22 الخلاصة\n\n📚 التفسير: [ابن كثير — 95:8, 76:8, 114:6, 6:22, 86:9, 86:10, 47:2, 46:35, 22:78, 33:73, 108:2, 80:1, 80:16, 80:30, 55:39, 51:47, 59:16, 64:2, 64:6, 64:9, 109:2, 106:2, 86:1, 86:2, 86:3, 86:5, 86:6, 86:7, 86:8, 77:1, 77:17, 77:18, 66:8, 70:17, 86:17, 47:36, 74:4, 113:2, 95:7] / [السعدي — تيسير الكريم الرحمن] (أضف الصفحة/الرابط)\nهذا تدبّر شخصي وليس تفسيرًا ولا فتوى. «لعبة الأرقام» عدٌّ من أدوات القناة للتأمل، وليست رمزًا ولا إعجازًا.\n🔢 قيم «كلمات الأرقام» محسوبة بمنطق تطبيق كلمات الأرقام: https://mrbugimposter3-ship-it.github.io/quran-number-words/\n🎙️ التلاوة: الحاج معمر زين العاشقين (H. Muammar Zainal Asyikin) — تسجيل مُتاح للملكية العامة (CC0) على أرشيف الإنترنت: https://archive.org/details/muammar_murottal_first (السور 1–22) و https://archive.org/details/muammar_murottal_full (السور 23–114)\n\n#تدبر #القرآن #فن_البكسل",
   "tags": [
     "تدبر",
     "القرآن الكريم",
     "سجل المغامر",
-    "سُورَةُ المَائـِدَةِ",
+    "سُورَةُ التِّينِ",
     "حساب الجمل",
     "أرقام القرآن",
     "كلمات الأرقام",
@@ -1019,9 +5712,45 @@
     "Quran reflection",
     "pixel art",
     "Adventurer's Log",
-    "Quran 5:42",
-    "Quran 6:26",
-    "Quran 10:76"
+    "Quran 95:8",
+    "Quran 76:8",
+    "Quran 114:6",
+    "Quran 6:22",
+    "Quran 86:9",
+    "Quran 86:10",
+    "Quran 47:2",
+    "Quran 46:35",
+    "Quran 22:78",
+    "Quran 33:73",
+    "Quran 108:2",
+    "Quran 80:1",
+    "Quran 80:16",
+    "Quran 80:30",
+    "Quran 55:39",
+    "Quran 51:47",
+    "Quran 59:16",
+    "Quran 64:2",
+    "Quran 64:6",
+    "Quran 64:9",
+    "Quran 109:2",
+    "Quran 106:2",
+    "Quran 86:1",
+    "Quran 86:2",
+    "Quran 86:3",
+    "Quran 86:5",
+    "Quran 86:6",
+    "Quran 86:7",
+    "Quran 86:8",
+    "Quran 77:1",
+    "Quran 77:17",
+    "Quran 77:18",
+    "Quran 66:8",
+    "Quran 70:17",
+    "Quran 86:17",
+    "Quran 47:36",
+    "Quran 74:4",
+    "Quran 113:2",
+    "Quran 95:7"
   ],
   "hashtags": [
     "#تدبر",
@@ -1030,9 +5759,9 @@
   ],
   "shorts": [
     {
-      "title": "كلمتان في خانة واحدة | ٥:٤٢ #Shorts",
+      "title": "كلمتان في خانة واحدة | ٩٥:٨ #Shorts",
       "durationSec": 57,
-      "finding": "في ٥:٤٢ تلتقي الكلمات «جاءوك» و«أو» في الخانة نفسها (٠) من خانات تطبيق كلمات الأرقام",
+      "finding": "في ٩٥:٨ تلتقي الكلمات «ٱلله» و«ٱلحكمين» في الخانة نفسها (١٧) من خانات تطبيق كلمات الأرقام",
       "beats": [
         {
           "t": 0,
@@ -1044,14 +5773,14 @@
           "t": 3,
           "dur": 14,
           "narration": "",
-          "recitation": "5:42",
-          "showAyah": "5:42",
-          "visual": "Verse card with Arabic overlay 5:42, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+          "recitation": "95:8",
+          "showAyah": "95:8",
+          "visual": "Verse card with Arabic overlay 95:8, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
           "t": 17,
           "dur": 15,
-          "narration": "في ٥:٤٢ تلتقي الكلمات «جاءوك» و«أو» في الخانة نفسها (٠) من خانات تطبيق كلمات الأرقام.",
+          "narration": "في ٩٥:٨ تلتقي الكلمات «ٱلله» و«ٱلحكمين» في الخانة نفسها (١٧) من خانات تطبيق كلمات الأرقام.",
           "visual": "Number stat panel animating; on-screen text (Arabic): كلمتان في خانة واحدة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
@@ -1069,34 +5798,34 @@
       ]
     },
     {
-      "title": "كلمتان في خانة واحدة | ٦:٢٦ #Shorts",
+      "title": "٣ كلمات في خانة واحدة | ٤٧:٣٦ #Shorts",
       "durationSec": 57,
-      "finding": "في ٦:٢٦ تلتقي الكلمات «عنه» و«عنه» في الخانة نفسها (١٣) من خانات تطبيق كلمات الأرقام",
+      "finding": "في ٤٧:٣٦ تلتقي الكلمات «إنما» و«تؤمنوا» و«ولا» في الخانة نفسها (٢٣) من خانات تطبيق كلمات الأرقام",
       "beats": [
         {
           "t": 0,
           "dur": 3,
-          "narration": "كلمتان في خانة واحدة… هل لاحظت هذا من قبل؟",
+          "narration": "٣ كلمات في خانة واحدة… هل لاحظت هذا من قبل؟",
           "visual": "Gold number glowing on black, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
           "t": 3,
           "dur": 14,
           "narration": "",
-          "recitation": "6:26",
-          "showAyah": "6:26",
-          "visual": "Verse card with Arabic overlay 6:26, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+          "recitation": "47:36",
+          "showAyah": "47:36",
+          "visual": "Verse card with Arabic overlay 47:36, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
           "t": 17,
           "dur": 15,
-          "narration": "في ٦:٢٦ تلتقي الكلمات «عنه» و«عنه» في الخانة نفسها (١٣) من خانات تطبيق كلمات الأرقام.",
-          "visual": "Number stat panel animating; on-screen text (Arabic): كلمتان في خانة واحدة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+          "narration": "في ٤٧:٣٦ تلتقي الكلمات «إنما» و«تؤمنوا» و«ولا» في الخانة نفسها (٢٣) من خانات تطبيق كلمات الأرقام.",
+          "visual": "Number stat panel animating; on-screen text (Arabic): ٣ كلمات في خانة واحدة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
           "t": 32,
           "dur": 15,
-          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. رجعت إلى سياق سورة سُورَةُ المَائـِدَةِ حول ٥:٤٢، فوجدت أن قراءة ما قبلها وما بعدها يغيّر طريقة فهمي لها.",
+          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. ما يجعل التدبر مغامرة حقيقية أنك لا تعرف أين ستصل.",
           "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
@@ -1108,34 +5837,112 @@
       ]
     },
     {
-      "title": "كلمتان في خانة واحدة | ١٠:٧٦ #Shorts",
+      "title": "عدد حروفها ٣٧ | ٧٦:٨ #Shorts",
       "durationSec": 57,
-      "finding": "في ١٠:٧٦ تلتقي الكلمات «من» و«عندنا» في الخانة نفسها (٢١) من خانات تطبيق كلمات الأرقام",
+      "finding": "عدد حروف ٧٦:٨ ٣٧ حرفًا، في ٧ كلمات",
       "beats": [
         {
           "t": 0,
           "dur": 3,
-          "narration": "كلمتان في خانة واحدة… هل لاحظت هذا من قبل؟",
+          "narration": "عدد حروفها ٣٧… هل لاحظت هذا من قبل؟",
           "visual": "Gold number glowing on black, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
           "t": 3,
           "dur": 14,
           "narration": "",
-          "recitation": "10:76",
-          "showAyah": "10:76",
-          "visual": "Verse card with Arabic overlay 10:76, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+          "recitation": "76:8",
+          "showAyah": "76:8",
+          "visual": "Verse card with Arabic overlay 76:8, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
           "t": 17,
           "dur": 15,
-          "narration": "في ١٠:٧٦ تلتقي الكلمات «من» و«عندنا» في الخانة نفسها (٢١) من خانات تطبيق كلمات الأرقام.",
-          "visual": "Number stat panel animating; on-screen text (Arabic): كلمتان في خانة واحدة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+          "narration": "عدد حروف ٧٦:٨ ٣٧ حرفًا، في ٧ كلمات.",
+          "visual": "Number stat panel animating; on-screen text (Arabic): عدد حروفها ٣٧, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
           "t": 32,
           "dur": 15,
-          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. الكلمة الأثقل حسابًا هنا «تعرض».",
+          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. أكثر ما يلفتني أن الآية تخاطب الإنسان مباشرة.",
+          "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 47,
+          "dur": 10,
+          "narration": "الحلقة الكاملة على القناة… وكل يوم آية جديدة من سجلّي.",
+          "visual": "Subscribe banner; on-screen text (Arabic): انضم إلى النقابة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        }
+      ]
+    },
+    {
+      "title": "«وٱلناس» = ١٤٨ | ١١٤:٦ #Shorts",
+      "durationSec": 57,
+      "finding": "أثقل كلمة في عدّ الجُمَّل في ١١٤:٦ هي «وٱلناس» بقيمة ١٤٨",
+      "beats": [
+        {
+          "t": 0,
+          "dur": 3,
+          "narration": "«وٱلناس» = ١٤٨… هل لاحظت هذا من قبل؟",
+          "visual": "Gold number glowing on black, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 3,
+          "dur": 14,
+          "narration": "",
+          "recitation": "114:6",
+          "showAyah": "114:6",
+          "visual": "Verse card with Arabic overlay 114:6, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 17,
+          "dur": 15,
+          "narration": "أثقل كلمة في عدّ الجُمَّل في ١١٤:٦ هي «وٱلناس» بقيمة ١٤٨.",
+          "visual": "Number stat panel animating; on-screen text (Arabic): «وٱلناس» = ١٤٨, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 32,
+          "dur": 15,
+          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. أكثر ما يلفتني أن الآية تخاطب الإنسان مباشرة.",
+          "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 47,
+          "dur": 10,
+          "narration": "الحلقة الكاملة على القناة… وكل يوم آية جديدة من سجلّي.",
+          "visual": "Subscribe banner; on-screen text (Arabic): انضم إلى النقابة, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        }
+      ]
+    },
+    {
+      "title": "مجموعها ٥٣٨٥ | ٦:٢٢ #Shorts",
+      "durationSec": 57,
+      "finding": "مجموع الجُمَّل في ٦:٢٢ هو ٥٣٨٥، وبترتيب الحروف في تطبيق كلمات الأرقام ١٠٣٣",
+      "beats": [
+        {
+          "t": 0,
+          "dur": 3,
+          "narration": "مجموعها ٥٣٨٥… هل لاحظت هذا من قبل؟",
+          "visual": "Gold number glowing on black, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 3,
+          "dur": 14,
+          "narration": "",
+          "recitation": "6:22",
+          "showAyah": "6:22",
+          "visual": "Verse card with Arabic overlay 6:22, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 17,
+          "dur": 15,
+          "narration": "مجموع الجُمَّل في ٦:٢٢ هو ٥٣٨٥، وبترتيب الحروف في تطبيق كلمات الأرقام ١٠٣٣.",
+          "visual": "Number stat panel animating; on-screen text (Arabic): مجموعها ٥٣٨٥, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
+        },
+        {
+          "t": 32,
+          "dur": 15,
+          "narration": "ملاحظة للتأمل فقط، لكنها جعلتني أقرأ الآية ببطء. ما يجعل التدبر مغامرة حقيقية أنك لا تعرف أين ستصل.",
           "visual": "Hooded adventurer silhouette by torchlight, 16-bit pixel art, dark dungeon, navy and gold palette, torch lighting"
         },
         {
@@ -1148,11 +5955,11 @@
     }
   ],
   "stats": {
-    "narrationChars": 1774,
-    "narrationWords": 326,
-    "narrationSec": 163,
-    "recitationSecEst": 84,
-    "totalSec": 299
+    "narrationChars": 3249,
+    "narrationWords": 578,
+    "narrationSec": 289,
+    "recitationSecEst": 468,
+    "totalSec": 719
   },
   "render": {
     "width": 1920,
