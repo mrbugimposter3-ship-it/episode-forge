@@ -1,0 +1,1776 @@
+{
+ "form": "14 lines, ABAB CDCD EFEF GG (form only; no Shakespeare text)",
+ "sonnets": [
+  {
+   "theme": "القيامة والبعث",
+   "surahs": [
+    75,
+    81,
+    82,
+    84,
+    99,
+    101,
+    56,
+    69
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "56:26",
+     "surah": "سُورَةُ الوَاقِعَةِ",
+     "ar": "إِلَّا قِيلًۭا سَلَٰمًۭا سَلَٰمًۭا",
+     "tr": "Illaa qeelan salaaman salaamaa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "56:74",
+     "surah": "سُورَةُ الوَاقِعَةِ",
+     "ar": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+     "tr": "Fasabbih bismi Rabbikal 'azeem",
+     "syllables": 10,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "A",
+     "ref": "75:32",
+     "surah": "سُورَةُ القِيَامَةِ",
+     "ar": "وَلَٰكِن كَذَّبَ وَتَوَلَّىٰ",
+     "tr": "Wa laakin kazzaba wa tawalla",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "81:28",
+     "surah": "سُورَةُ التَّكۡوِيرِ",
+     "ar": "لِمَن شَآءَ مِنكُمْ أَن يَسْتَقِيمَ",
+     "tr": "Liman shaaa'a minkum ai yastaqeem",
+     "syllables": 10,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "C",
+     "ref": "56:21",
+     "surah": "سُورَةُ الوَاقِعَةِ",
+     "ar": "وَلَحْمِ طَيْرٍۢ مِّمَّا يَشْتَهُونَ",
+     "tr": "Wa lahmi tairim mimmaa yashtahoon",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "D",
+     "ref": "69:8",
+     "surah": "سُورَةُ الحَاقَّةِ",
+     "ar": "فَهَلْ تَرَىٰ لَهُم مِّنۢ بَاقِيَةٍۢ",
+     "tr": "Fahal taraa lahum mim baaqiyah",
+     "syllables": 10,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "C",
+     "ref": "56:24",
+     "surah": "سُورَةُ الوَاقِعَةِ",
+     "ar": "جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ",
+     "tr": "Jazaaa'am bimaa kaanoo ya'maloon",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "D",
+     "ref": "69:21",
+     "surah": "سُورَةُ الحَاقَّةِ",
+     "ar": "فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ",
+     "tr": "Fahuwa fee 'eeshatir raadiyah",
+     "syllables": 10,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "E",
+     "ref": "81:8",
+     "surah": "سُورَةُ التَّكۡوِيرِ",
+     "ar": "وَإِذَا ٱلْمَوْءُۥدَةُ سُئِلَتْ",
+     "tr": "Wa izal maw'oodatu su'ilat",
+     "syllables": 10,
+     "rhyme": "ت"
+    },
+    {
+     "scheme": "F",
+     "ref": "56:2",
+     "surah": "سُورَةُ الوَاقِعَةِ",
+     "ar": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+     "tr": "Laisa liwaq'atihaa kaazibah",
+     "syllables": 10,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "E",
+     "ref": "82:2",
+     "surah": "سُورَةُ الانفِطَارِ",
+     "ar": "وَإِذَا ٱلْكَوَاكِبُ ٱنتَثَرَتْ",
+     "tr": "Wa izal kawaakibun tasarat",
+     "syllables": 10,
+     "rhyme": "ت"
+    },
+    {
+     "scheme": "F",
+     "ref": "56:33",
+     "surah": "سُورَةُ الوَاقِعَةِ",
+     "ar": "لَّا مَقْطُوعَةٍۢ وَلَا مَمْنُوعَةٍۢ",
+     "tr": "Laa maqtoo'atinw wa laa mamnoo'ah",
+     "syllables": 10,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "G",
+     "ref": "75:9",
+     "surah": "سُورَةُ القِيَامَةِ",
+     "ar": "وَجُمِعَ ٱلشَّمْسُ وَٱلْقَمَرُ",
+     "tr": "Wa jumi'ash shamusu wal qamar",
+     "syllables": 10,
+     "rhyme": "ر"
+    },
+    {
+     "scheme": "G",
+     "ref": "75:7",
+     "surah": "سُورَةُ القِيَامَةِ",
+     "ar": "فَإِذَا بَرِقَ ٱلْبَصَرُ",
+     "tr": "Fa izaa bariqal basar",
+     "syllables": 8,
+     "rhyme": "ر"
+    }
+   ]
+  },
+  {
+   "theme": "السماء والقسم الكوني",
+   "surahs": [
+    85,
+    86,
+    91,
+    92,
+    93,
+    89,
+    77,
+    79
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "77:25",
+     "surah": "سُورَةُ المُرۡسَلَاتِ",
+     "ar": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا",
+     "tr": "Alam naj'alil arda kifaataa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "77:17",
+     "surah": "سُورَةُ المُرۡسَلَاتِ",
+     "ar": "ثُمَّ نُتْبِعُهُمُ ٱلْءَاخِرِينَ",
+     "tr": "Summa nutbi'uhumul aakhireen",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "A",
+     "ref": "79:39",
+     "surah": "سُورَةُ النَّازِعَاتِ",
+     "ar": "فَإِنَّ ٱلْجَحِيمَ هِىَ ٱلْمَأْوَىٰ",
+     "tr": "Fa innal jaheema hiyal maawaa.",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "77:18",
+     "surah": "سُورَةُ المُرۡسَلَاتِ",
+     "ar": "كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
+     "tr": "Kazzlika naf'alu bilmujrimeen",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "C",
+     "ref": "93:9",
+     "surah": "سُورَةُ الضُّحَىٰ",
+     "ar": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+     "tr": "Fa am mal yateema fala taqhar",
+     "syllables": 10,
+     "rhyme": "ر"
+    },
+    {
+     "scheme": "D",
+     "ref": "85:12",
+     "surah": "سُورَةُ البُرُوجِ",
+     "ar": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
+     "tr": "Inna batsha Rabbika lashadeed",
+     "syllables": 10,
+     "rhyme": "ī/ūد"
+    },
+    {
+     "scheme": "C",
+     "ref": "93:10",
+     "surah": "سُورَةُ الضُّحَىٰ",
+     "ar": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+     "tr": "Wa am mas saa-ila fala tanhar",
+     "syllables": 10,
+     "rhyme": "ر"
+    },
+    {
+     "scheme": "D",
+     "ref": "85:13",
+     "surah": "سُورَةُ البُرُوجِ",
+     "ar": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
+     "tr": "Innahoo Huwa yubdi'u wa yu'eed",
+     "syllables": 11,
+     "rhyme": "ī/ūد"
+    },
+    {
+     "scheme": "E",
+     "ref": "79:11",
+     "surah": "سُورَةُ النَّازِعَاتِ",
+     "ar": "أَءِذَا كُنَّا عِظَٰمًۭا نَّخِرَةًۭ",
+     "tr": "Aizaa kunna 'izaa man-nakhirah",
+     "syllables": 10,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "F",
+     "ref": "89:11",
+     "surah": "سُورَةُ الفَجۡرِ",
+     "ar": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ",
+     "tr": "Allazeena taghaw fil bilaad",
+     "syllables": 9,
+     "rhyme": "āد"
+    },
+    {
+     "scheme": "E",
+     "ref": "79:8",
+     "surah": "سُورَةُ النَّازِعَاتِ",
+     "ar": "قُلُوبٌۭ يَوْمَئِذٍۢ وَاجِفَةٌ",
+     "tr": "Quloobuny-yau maaiziw-waaji-fa",
+     "syllables": 9,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "F",
+     "ref": "89:14",
+     "surah": "سُورَةُ الفَجۡرِ",
+     "ar": "إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ",
+     "tr": "Inna Rabbaka labil mirsaad",
+     "syllables": 9,
+     "rhyme": "āد"
+    },
+    {
+     "scheme": "G",
+     "ref": "77:8",
+     "surah": "سُورَةُ المُرۡسَلَاتِ",
+     "ar": "فَإِذَا ٱلنُّجُومُ طُمِسَتْ",
+     "tr": "Fa izam nujoomu tumisat",
+     "syllables": 9,
+     "rhyme": "ت"
+    },
+    {
+     "scheme": "G",
+     "ref": "77:9",
+     "surah": "سُورَةُ المُرۡسَلَاتِ",
+     "ar": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ",
+     "tr": "Wa izas samaaa'u furijat",
+     "syllables": 9,
+     "rhyme": "ت"
+    }
+   ]
+  },
+  {
+   "theme": "الجنة ونعيمها",
+   "surahs": [
+    55,
+    56,
+    76,
+    83,
+    88
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "55:5",
+     "surah": "سُورَةُ الرَّحۡمَٰن",
+     "ar": "ٱلشَّمْسُ وَٱلْقَمَرُ بِحُسْبَانٍۢ",
+     "tr": "Ashshamsu walqamaru bihusbaan",
+     "syllables": 10,
+     "rhyme": "āن"
+    },
+    {
+     "scheme": "B",
+     "ref": "56:96",
+     "surah": "سُورَةُ الوَاقِعَةِ",
+     "ar": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+     "tr": "Fasabbih bismi rabbikal 'azeem",
+     "syllables": 10,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "A",
+     "ref": "55:6",
+     "surah": "سُورَةُ الرَّحۡمَٰن",
+     "ar": "وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ",
+     "tr": "Wannajmu washshajaru yasjudan",
+     "syllables": 10,
+     "rhyme": "āن"
+    },
+    {
+     "scheme": "B",
+     "ref": "83:16",
+     "surah": "سُورَةُ المُطَفِّفِينَ",
+     "ar": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ",
+     "tr": "Summa innahum lasaa lul jaheem",
+     "syllables": 10,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "C",
+     "ref": "88:2",
+     "surah": "سُورَةُ الغَاشِيَةِ",
+     "ar": "وُجُوهٌۭ يَوْمَئِذٍ خَٰشِعَةٌ",
+     "tr": "Wujoohuny yawma 'izin khaashi'ah",
+     "syllables": 10,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "D",
+     "ref": "56:84",
+     "surah": "سُورَةُ الوَاقِعَةِ",
+     "ar": "وَأَنتُمْ حِينَئِذٍۢ تَنظُرُونَ",
+     "tr": "Wa antum heena'izin tanzuroon",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "C",
+     "ref": "88:8",
+     "surah": "سُورَةُ الغَاشِيَةِ",
+     "ar": "وُجُوهٌۭ يَوْمَئِذٍۢ نَّاعِمَةٌۭ",
+     "tr": "Wujoohuny yawma 'izin naa'imah",
+     "syllables": 10,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "D",
+     "ref": "56:14",
+     "surah": "سُورَةُ الوَاقِعَةِ",
+     "ar": "وَقَلِيلٌۭ مِّنَ ٱلْءَاخِرِينَ",
+     "tr": "Wa qaleelum minal aa khireen",
+     "syllables": 9,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "E",
+     "ref": "88:1",
+     "surah": "سُورَةُ الغَاشِيَةِ",
+     "ar": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ",
+     "tr": "Hal ataaka hadeesul ghaashiyah",
+     "syllables": 10,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "F",
+     "ref": "88:20",
+     "surah": "سُورَةُ الغَاشِيَةِ",
+     "ar": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+     "tr": "Wa ilal ardi kaifa sutihat",
+     "syllables": 10,
+     "rhyme": "ت"
+    },
+    {
+     "scheme": "E",
+     "ref": "88:11",
+     "surah": "سُورَةُ الغَاشِيَةِ",
+     "ar": "لَّا تَسْمَعُ فِيهَا لَٰغِيَةًۭ",
+     "tr": "Laa tasma'u feehaa laaghiyah",
+     "syllables": 9,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "F",
+     "ref": "88:18",
+     "surah": "سُورَةُ الغَاشِيَةِ",
+     "ar": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
+     "tr": "Wa ilas samaaa'i kaifa rufi'at",
+     "syllables": 11,
+     "rhyme": "ت"
+    },
+    {
+     "scheme": "G",
+     "ref": "56:4",
+     "surah": "سُورَةُ الوَاقِعَةِ",
+     "ar": "إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّۭا",
+     "tr": "Izaa rujjatil ardu rajjaa",
+     "syllables": 9,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "G",
+     "ref": "56:5",
+     "surah": "سُورَةُ الوَاقِعَةِ",
+     "ar": "وَبُسَّتِ ٱلْجِبَالُ بَسًّۭا",
+     "tr": "Wa bussatil jibaalu bassaa",
+     "syllables": 9,
+     "rhyme": "ā(alif)"
+    }
+   ]
+  },
+  {
+   "theme": "النار والإنذار",
+   "surahs": [
+    67,
+    104,
+    111,
+    102,
+    74,
+    70
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "70:6",
+     "surah": "سُورَةُ المَعَارِجِ",
+     "ar": "إِنَّهُمْ يَرَوْنَهُۥ بَعِيدًۭا",
+     "tr": "Inaahum yarawnahoo ba'eedaa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "74:43",
+     "surah": "سُورَةُ المُدَّثِّرِ",
+     "ar": "قَالُوا۟ لَمْ نَكُ مِنَ ٱلْمُصَلِّينَ",
+     "tr": "Qaaloo lam naku minal musalleen",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "A",
+     "ref": "70:17",
+     "surah": "سُورَةُ المَعَارِجِ",
+     "ar": "تَدْعُوا۟ مَنْ أَدْبَرَ وَتَوَلَّىٰ",
+     "tr": "Tad'oo man adbara wa tawallaa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "70:35",
+     "surah": "سُورَةُ المَعَارِجِ",
+     "ar": "أُو۟لَٰٓئِكَ فِى جَنَّٰتٍۢ مُّكْرَمُونَ",
+     "tr": "Ulaaa'ika fee jannaatim mukramoon",
+     "syllables": 11,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "C",
+     "ref": "74:10",
+     "surah": "سُورَةُ المُدَّثِّرِ",
+     "ar": "عَلَى ٱلْكَٰفِرِينَ غَيْرُ يَسِيرٍۢ",
+     "tr": "'Alal kaafireena ghayru yaseer",
+     "syllables": 10,
+     "rhyme": "ī/ūر"
+    },
+    {
+     "scheme": "D",
+     "ref": "111:4",
+     "surah": "سُورَةُ المَسَدِ",
+     "ar": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+     "tr": "Wam ra-atuh hamma latal-hatab",
+     "syllables": 10,
+     "rhyme": "ب"
+    },
+    {
+     "scheme": "C",
+     "ref": "74:8",
+     "surah": "سُورَةُ المُدَّثِّرِ",
+     "ar": "فَإِذَا نُقِرَ فِى ٱلنَّاقُورِ",
+     "tr": "Fa izaa nuqira fin naaqoor",
+     "syllables": 9,
+     "rhyme": "ī/ūر"
+    },
+    {
+     "scheme": "D",
+     "ref": "111:1",
+     "surah": "سُورَةُ المَسَدِ",
+     "ar": "تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+     "tr": "Tab bat yadaa abee Lahabinw-wa tabb",
+     "syllables": 11,
+     "rhyme": "ب"
+    },
+    {
+     "scheme": "E",
+     "ref": "70:12",
+     "surah": "سُورَةُ المَعَارِجِ",
+     "ar": "وَصَٰحِبَتِهِۦ وَأَخِيهِ",
+     "tr": "Wa saahibatihee wa akheeh",
+     "syllables": 9,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "F",
+     "ref": "74:18",
+     "surah": "سُورَةُ المُدَّثِّرِ",
+     "ar": "إِنَّهُۥ فَكَّرَ وَقَدَّرَ",
+     "tr": "Innahoo fakkara wa qaddar",
+     "syllables": 9,
+     "rhyme": "ر"
+    },
+    {
+     "scheme": "E",
+     "ref": "70:13",
+     "surah": "سُورَةُ المَعَارِجِ",
+     "ar": "وَفَصِيلَتِهِ ٱلَّتِى تُـْٔوِيهِ",
+     "tr": "Wa faseelathil latee tu'weeh",
+     "syllables": 9,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "F",
+     "ref": "74:20",
+     "surah": "سُورَةُ المُدَّثِّرِ",
+     "ar": "ثُمَّ قُتِلَ كَيْفَ قَدَّرَ",
+     "tr": "Summa qutila kaifa qaddar",
+     "syllables": 9,
+     "rhyme": "ر"
+    },
+    {
+     "scheme": "G",
+     "ref": "70:2",
+     "surah": "سُورَةُ المَعَارِجِ",
+     "ar": "لِّلْكَٰفِرِينَ لَيْسَ لَهُۥ دَافِعٌۭ",
+     "tr": "Lilkaafireen laisa lahoo daafi'",
+     "syllables": 10,
+     "rhyme": "ع"
+    },
+    {
+     "scheme": "G",
+     "ref": "70:1",
+     "surah": "سُورَةُ المَعَارِجِ",
+     "ar": "سَأَلَ سَآئِلٌۢ بِعَذَابٍۢ وَاقِعٍۢ",
+     "tr": "Sa ala saaa'ilum bi'azaa binw-waaqi'",
+     "syllables": 12,
+     "rhyme": "ع"
+    }
+   ]
+  },
+  {
+   "theme": "الرحمة والهداية",
+   "surahs": [
+    1,
+    93,
+    94,
+    96,
+    97,
+    108,
+    110,
+    112,
+    113,
+    114
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "93:7",
+     "surah": "سُورَةُ الضُّحَىٰ",
+     "ar": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ",
+     "tr": "Wa wa jadaka daal lan fahada",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "97:2",
+     "surah": "سُورَةُ القَدۡرِ",
+     "ar": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+     "tr": "Wa maa adraaka ma lailatul qadr",
+     "syllables": 10,
+     "rhyme": "ر"
+    },
+    {
+     "scheme": "A",
+     "ref": "96:6",
+     "surah": "سُورَةُ العَلَقِ",
+     "ar": "كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ",
+     "tr": "Kallaa innal insaana layatghaa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "108:3",
+     "surah": "سُورَةُ الكَوۡثَرِ",
+     "ar": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+     "tr": "Inna shani-aka huwal abtar",
+     "syllables": 10,
+     "rhyme": "ر"
+    },
+    {
+     "scheme": "C",
+     "ref": "96:5",
+     "surah": "سُورَةُ العَلَقِ",
+     "ar": "عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ",
+     "tr": "'Al lamal insaana ma lam y'alam",
+     "syllables": 10,
+     "rhyme": "م"
+    },
+    {
+     "scheme": "D",
+     "ref": "1:1",
+     "surah": "سُورَةُ ٱلْفَاتِحَةِ",
+     "ar": "﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+     "tr": "Bismillaahir Rahmaanir Raheem",
+     "syllables": 9,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "C",
+     "ref": "96:4",
+     "surah": "سُورَةُ العَلَقِ",
+     "ar": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+     "tr": "Al lazee 'allama bil qalam",
+     "syllables": 9,
+     "rhyme": "م"
+    },
+    {
+     "scheme": "D",
+     "ref": "1:6",
+     "surah": "سُورَةُ ٱلْفَاتِحَةِ",
+     "ar": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+     "tr": "Ihdinas-Siraatal-Mustaqeem",
+     "syllables": 9,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "E",
+     "ref": "96:19",
+     "surah": "سُورَةُ العَلَقِ",
+     "ar": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+     "tr": "Kalla; la tuti'hu wasjud waqtarib",
+     "syllables": 11,
+     "rhyme": "ب"
+    },
+    {
+     "scheme": "F",
+     "ref": "112:4",
+     "surah": "سُورَةُ الإِخۡلَاصِ",
+     "ar": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+     "tr": "Wa lam yakul-lahu kufuwan ahad",
+     "syllables": 11,
+     "rhyme": "د"
+    },
+    {
+     "scheme": "E",
+     "ref": "113:3",
+     "surah": "سُورَةُ الفَلَقِ",
+     "ar": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+     "tr": "Wa min sharri ghasiqin iza waqab",
+     "syllables": 11,
+     "rhyme": "ب"
+    },
+    {
+     "scheme": "F",
+     "ref": "113:4",
+     "surah": "سُورَةُ الفَلَقِ",
+     "ar": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+     "tr": "Wa min sharrin-naffaa-thaati fil 'uqad",
+     "syllables": 11,
+     "rhyme": "د"
+    },
+    {
+     "scheme": "G",
+     "ref": "96:1",
+     "surah": "سُورَةُ العَلَقِ",
+     "ar": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+     "tr": "Iqra bismi rab bikal lazee khalaq",
+     "syllables": 11,
+     "rhyme": "ق"
+    },
+    {
+     "scheme": "G",
+     "ref": "96:2",
+     "surah": "سُورَةُ العَلَقِ",
+     "ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ",
+     "tr": "Khalaqal insaana min 'alaq",
+     "syllables": 9,
+     "rhyme": "ق"
+    }
+   ]
+  },
+  {
+   "theme": "قصص الأنبياء",
+   "surahs": [
+    26,
+    37,
+    54,
+    71
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "26:58",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "وَكُنُوزٍۢ وَمَقَامٍۢ كَرِيمٍۢ",
+     "tr": "Wa kunoozinw wa ma qaamin kareem",
+     "syllables": 10,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "B",
+     "ref": "26:2",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْمُبِينِ",
+     "tr": "Tilka Aayaatul Kitaabil Mubeen",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "A",
+     "ref": "26:182",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ",
+     "tr": "Wa zinoo bilqistaasil mustaqeem",
+     "syllables": 10,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "B",
+     "ref": "26:55",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "وَإِنَّهُمْ لَنَا لَغَآئِظُونَ",
+     "tr": "Wa innahum lanaa laghaaa'izoon",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "C",
+     "ref": "54:33",
+     "surah": "سُورَةُ القَمَرِ",
+     "ar": "كَذَّبَتْ قَوْمُ لُوطٍۭ بِٱلنُّذُرِ",
+     "tr": "Kazzabat qawmu lootim binnuzur",
+     "syllables": 10,
+     "rhyme": "ر"
+    },
+    {
+     "scheme": "D",
+     "ref": "71:8",
+     "surah": "سُورَةُ نُوحٍ",
+     "ar": "ثُمَّ إِنِّى دَعَوْتُهُمْ جِهَارًۭا",
+     "tr": "Summa innee da'aw tuhum jihaara",
+     "syllables": 11,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "C",
+     "ref": "54:16",
+     "surah": "سُورَةُ القَمَرِ",
+     "ar": "فَكَيْفَ كَانَ عَذَابِى وَنُذُرِ",
+     "tr": "Fakaifa kaana 'azaabee wa nuzur",
+     "syllables": 11,
+     "rhyme": "ر"
+    },
+    {
+     "scheme": "D",
+     "ref": "71:14",
+     "surah": "سُورَةُ نُوحٍ",
+     "ar": "وَقَدْ خَلَقَكُمْ أَطْوَارًا",
+     "tr": "Wa qad khalaqakum at waaraa",
+     "syllables": 9,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "E",
+     "ref": "37:4",
+     "surah": "سُورَةُ الصَّافَّاتِ",
+     "ar": "إِنَّ إِلَٰهَكُمْ لَوَٰحِدٌۭ",
+     "tr": "Inna Illaahakum la Waahid",
+     "syllables": 9,
+     "rhyme": "د"
+    },
+    {
+     "scheme": "F",
+     "ref": "26:17",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "أَنْ أَرْسِلْ مَعَنَا بَنِىٓ إِسْرَٰٓءِيلَ",
+     "tr": "An arsil ma'anaa Baneee Israaa'eel",
+     "syllables": 11,
+     "rhyme": "ī/ūل"
+    },
+    {
+     "scheme": "E",
+     "ref": "37:7",
+     "surah": "سُورَةُ الصَّافَّاتِ",
+     "ar": "وَحِفْظًۭا مِّن كُلِّ شَيْطَٰنٍۢ مَّارِدٍۢ",
+     "tr": "Wa hifzam min kulli Shaitaanim maarid",
+     "syllables": 11,
+     "rhyme": "د"
+    },
+    {
+     "scheme": "F",
+     "ref": "26:59",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "كَذَٰلِكَ وَأَوْرَثْنَٰهَا بَنِىٓ إِسْرَٰٓءِيلَ",
+     "tr": "Kazaalika wa awrasnaahaa Baneee Israaa'eel",
+     "syllables": 14,
+     "rhyme": "ī/ūل"
+    },
+    {
+     "scheme": "G",
+     "ref": "26:218",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "ٱلَّذِى يَرَىٰكَ حِينَ تَقُومُ",
+     "tr": "Allazee yaraaka heena taqoom",
+     "syllables": 10,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "G",
+     "ref": "26:220",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+     "tr": "Innahoo Huwas Samee'ul 'Aleem",
+     "syllables": 10,
+     "rhyme": "ī/ūm"
+    }
+   ]
+  },
+  {
+   "theme": "الليل والقيام",
+   "surahs": [
+    73,
+    74,
+    76,
+    17,
+    51
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "51:12",
+     "surah": "سُورَةُ الذَّارِيَاتِ",
+     "ar": "يَسْـَٔلُونَ أَيَّانَ يَوْمُ ٱلدِّينِ",
+     "tr": "Yas'aloona ayyaana yawmud Deen",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "B",
+     "ref": "74:11",
+     "surah": "سُورَةُ المُدَّثِّرِ",
+     "ar": "ذَرْنِى وَمَنْ خَلَقْتُ وَحِيدًۭا",
+     "tr": "Zamee wa man khalaqtu waheedaa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "A",
+     "ref": "51:13",
+     "surah": "سُورَةُ الذَّارِيَاتِ",
+     "ar": "يَوْمَ هُمْ عَلَى ٱلنَّارِ يُفْتَنُونَ",
+     "tr": "Yawma hum 'alan naari yuftanoon",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "B",
+     "ref": "17:50",
+     "surah": "سُورَةُ الإِسۡرَاءِ",
+     "ar": "۞ قُلْ كُونُوا۟ حِجَارَةً أَوْ حَدِيدًا",
+     "tr": "Qul koonoo jijaaratan aw hadeedaa",
+     "syllables": 11,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "C",
+     "ref": "74:38",
+     "surah": "سُورَةُ المُدَّثِّرِ",
+     "ar": "كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ رَهِينَةٌ",
+     "tr": "Kullu nafsim bim kasabat raheenah",
+     "syllables": 11,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "D",
+     "ref": "74:25",
+     "surah": "سُورَةُ المُدَّثِّرِ",
+     "ar": "إِنْ هَٰذَآ إِلَّا قَوْلُ ٱلْبَشَرِ",
+     "tr": "In haazaaa illaa qawlul bashar",
+     "syllables": 9,
+     "rhyme": "ر"
+    },
+    {
+     "scheme": "C",
+     "ref": "74:50",
+     "surah": "سُورَةُ المُدَّثِّرِ",
+     "ar": "كَأَنَّهُمْ حُمُرٌۭ مُّسْتَنفِرَةٌۭ",
+     "tr": "Ka annahum humurum mustanfirah",
+     "syllables": 11,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "D",
+     "ref": "74:4",
+     "surah": "سُورَةُ المُدَّثِّرِ",
+     "ar": "وَثِيَابَكَ فَطَهِّرْ",
+     "tr": "Wa siyaabaka fatahhir",
+     "syllables": 8,
+     "rhyme": "ر"
+    },
+    {
+     "scheme": "E",
+     "ref": "51:7",
+     "surah": "سُورَةُ الذَّارِيَاتِ",
+     "ar": "وَٱلسَّمَآءِ ذَاتِ ٱلْحُبُكِ",
+     "tr": "Wassamaaa'i zaatil hubuk",
+     "syllables": 8,
+     "rhyme": "ك"
+    },
+    {
+     "scheme": "F",
+     "ref": "51:54",
+     "surah": "سُورَةُ الذَّارِيَاتِ",
+     "ar": "فَتَوَلَّ عَنْهُمْ فَمَآ أَنتَ بِمَلُومٍۢ",
+     "tr": "Fatawalla 'anhum famaaa anta bimaloom",
+     "syllables": 13,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "E",
+     "ref": "51:9",
+     "surah": "سُورَةُ الذَّارِيَاتِ",
+     "ar": "يُؤْفَكُ عَنْهُ مَنْ أُفِكَ",
+     "tr": "Yu'faku 'anhu man ufik",
+     "syllables": 8,
+     "rhyme": "ك"
+    },
+    {
+     "scheme": "F",
+     "ref": "51:19",
+     "surah": "سُورَةُ الذَّارِيَاتِ",
+     "ar": "وَفِىٓ أَمْوَٰلِهِمْ حَقٌّۭ لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+     "tr": "Wa feee amwaalihim haqqul lissaaa'ili walmahroom",
+     "syllables": 15,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "G",
+     "ref": "51:18",
+     "surah": "سُورَةُ الذَّارِيَاتِ",
+     "ar": "وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ",
+     "tr": "Wa bilashaari hum yastaghfiroon",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "G",
+     "ref": "51:11",
+     "surah": "سُورَةُ الذَّارِيَاتِ",
+     "ar": "ٱلَّذِينَ هُمْ فِى غَمْرَةٍۢ سَاهُونَ",
+     "tr": "Allazeena hum fee ghamratin saahoon",
+     "syllables": 11,
+     "rhyme": "ī/ūn"
+    }
+   ]
+  },
+  {
+   "theme": "آيات الخلق والطبيعة",
+   "surahs": [
+    16,
+    30,
+    36,
+    50,
+    80,
+    78
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "78:6",
+     "surah": "سُورَةُ النَّبَإِ",
+     "ar": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ مِهَٰدًۭا",
+     "tr": "Alam naj'alil arda mihaa da",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "80:17",
+     "surah": "سُورَةُ عَبَسَ",
+     "ar": "قُتِلَ ٱلْإِنسَٰنُ مَآ أَكْفَرَهُۥ",
+     "tr": "Qutilal-insanu maa akfarah.",
+     "syllables": 10,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "A",
+     "ref": "78:9",
+     "surah": "سُورَةُ النَّبَإِ",
+     "ar": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًۭا",
+     "tr": "Waja'alnan naumakum subata",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "80:21",
+     "surah": "سُورَةُ عَبَسَ",
+     "ar": "ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ",
+     "tr": "Thumma amatahu fa-aqbarah",
+     "syllables": 10,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "C",
+     "ref": "78:3",
+     "surah": "سُورَةُ النَّبَإِ",
+     "ar": "ٱلَّذِى هُمْ فِيهِ مُخْتَلِفُونَ",
+     "tr": "Allazi hum feehi mukh talifoon",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "D",
+     "ref": "80:34",
+     "surah": "سُورَةُ عَبَسَ",
+     "ar": "يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ",
+     "tr": "Yauma yafir-rul mar-u min akheeh",
+     "syllables": 10,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "C",
+     "ref": "36:3",
+     "surah": "سُورَةُ يسٓ",
+     "ar": "إِنَّكَ لَمِنَ ٱلْمُرْسَلِينَ",
+     "tr": "Innaka laminal mursaleen",
+     "syllables": 9,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "D",
+     "ref": "80:36",
+     "surah": "سُورَةُ عَبَسَ",
+     "ar": "وَصَٰحِبَتِهِۦ وَبَنِيهِ",
+     "tr": "Wa sahi batihee wa baneeh.",
+     "syllables": 9,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "E",
+     "ref": "36:58",
+     "surah": "سُورَةُ يسٓ",
+     "ar": "سَلَٰمٌۭ قَوْلًۭا مِّن رَّبٍّۢ رَّحِيمٍۢ",
+     "tr": "Salaamun qawlam mir Rabbir Raheem",
+     "syllables": 10,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "F",
+     "ref": "50:25",
+     "surah": "سُورَةُ قٓ",
+     "ar": "مَّنَّاعٍۢ لِّلْخَيْرِ مُعْتَدٍۢ مُّرِيبٍ",
+     "tr": "Mannaa'il lilkhayri mu'tadim mureeb",
+     "syllables": 11,
+     "rhyme": "ī/ūب"
+    },
+    {
+     "scheme": "E",
+     "ref": "36:4",
+     "surah": "سُورَةُ يسٓ",
+     "ar": "عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ",
+     "tr": "'Alaa Siraatim Mustaqeem",
+     "syllables": 8,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "F",
+     "ref": "50:8",
+     "surah": "سُورَةُ قٓ",
+     "ar": "تَبْصِرَةًۭ وَذِكْرَىٰ لِكُلِّ عَبْدٍۢ مُّنِيبٍۢ",
+     "tr": "Tabsiratanw wa zikraa likulli 'abdim muneeb",
+     "syllables": 14,
+     "rhyme": "ī/ūب"
+    },
+    {
+     "scheme": "G",
+     "ref": "50:1",
+     "surah": "سُورَةُ قٓ",
+     "ar": "قٓ ۚ وَٱلْقُرْءَانِ ٱلْمَجِيدِ",
+     "tr": "Qaaaf; wal Qur aanil Majeed",
+     "syllables": 7,
+     "rhyme": "ī/ūد"
+    },
+    {
+     "scheme": "G",
+     "ref": "50:10",
+     "surah": "سُورَةُ قٓ",
+     "ar": "وَٱلنَّخْلَ بَاسِقَٰتٍۢ لَّهَا طَلْعٌۭ نَّضِيدٌۭ",
+     "tr": "Wannakhla baasiqaatil laha tal'un nadeed",
+     "syllables": 13,
+     "rhyme": "ī/ūد"
+    }
+   ]
+  },
+  {
+   "theme": "موسى وفرعون",
+   "surahs": [
+    20,
+    26,
+    28,
+    79
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "20:3",
+     "surah": "سُورَةُ طه",
+     "ar": "إِلَّا تَذْكِرَةًۭ لِّمَن يَخْشَىٰ",
+     "tr": "Illaa tazkiratal limany yakshaa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "26:56",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "وَإِنَّا لَجَمِيعٌ حَٰذِرُونَ",
+     "tr": "Wa innaa lajamee'un haaziroon",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "A",
+     "ref": "20:5",
+     "surah": "سُورَةُ طه",
+     "ar": "ٱلرَّحْمَٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ",
+     "tr": "Ar-Rahmaanu 'alal 'Arshis tawaa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "26:73",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "أَوْ يَنفَعُونَكُمْ أَوْ يَضُرُّونَ",
+     "tr": "Aw yanfa'oonakum aw yadurroon",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "C",
+     "ref": "26:37",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "يَأْتُوكَ بِكُلِّ سَحَّارٍ عَلِيمٍۢ",
+     "tr": "Yaatooka bikulli sah haarin 'aleem",
+     "syllables": 11,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "D",
+     "ref": "20:27",
+     "surah": "سُورَةُ طه",
+     "ar": "وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى",
+     "tr": "Wahlul 'uqdatam milli saanee",
+     "syllables": 9,
+     "rhyme": "ي"
+    },
+    {
+     "scheme": "C",
+     "ref": "26:69",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "وَٱتْلُ عَلَيْهِمْ نَبَأَ إِبْرَٰهِيمَ",
+     "tr": "Watlu 'alaihim naba-a Ibraaheem",
+     "syllables": 11,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "D",
+     "ref": "20:29",
+     "surah": "سُورَةُ طه",
+     "ar": "وَٱجْعَل لِّى وَزِيرًۭا مِّنْ أَهْلِى",
+     "tr": "Waj'al lee wazeeram min ahlee",
+     "syllables": 9,
+     "rhyme": "ي"
+    },
+    {
+     "scheme": "E",
+     "ref": "79:6",
+     "surah": "سُورَةُ النَّازِعَاتِ",
+     "ar": "يَوْمَ تَرْجُفُ ٱلرَّاجِفَةُ",
+     "tr": "Yawma tarjufur raajifa",
+     "syllables": 8,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "F",
+     "ref": "20:9",
+     "surah": "سُورَةُ طه",
+     "ar": "وَهَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+     "tr": "Wa hal ataaka hadeesu Moosa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "E",
+     "ref": "79:12",
+     "surah": "سُورَةُ النَّازِعَاتِ",
+     "ar": "قَالُوا۟ تِلْكَ إِذًۭا كَرَّةٌ خَاسِرَةٌۭ",
+     "tr": "Qaalu tilka izan karratun khaasirah.",
+     "syllables": 12,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "F",
+     "ref": "20:35",
+     "surah": "سُورَةُ طه",
+     "ar": "إِنَّكَ كُنتَ بِنَا بَصِيرًۭا",
+     "tr": "Innaka kunta binaa baseeraa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "G",
+     "ref": "26:80",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "وَإِذَا مَرِضْتُ فَهُوَ يَشْفِينِ",
+     "tr": "Wa izaa mardtu fahuwa yashfeen",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "G",
+     "ref": "26:87",
+     "surah": "سُورَةُ الشُّعَرَاءِ",
+     "ar": "وَلَا تُخْزِنِى يَوْمَ يُبْعَثُونَ",
+     "tr": "Wa laa tukhzinee Yawma yub'asoon",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    }
+   ]
+  },
+  {
+   "theme": "الصبر والتوكل",
+   "surahs": [
+    103,
+    65,
+    94,
+    12,
+    39
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "94:5",
+     "surah": "سُورَةُ الشَّرۡحِ",
+     "ar": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+     "tr": "Fa inna ma'al usri yusra",
+     "syllables": 9,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "12:16",
+     "surah": "سُورَةُ يُوسُفَ",
+     "ar": "وَجَآءُوٓ أَبَاهُمْ عِشَآءًۭ يَبْكُونَ",
+     "tr": "Wa jaaa'ooo abaahum 'ishaaa 'any yabkoon",
+     "syllables": 11,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "A",
+     "ref": "94:6",
+     "surah": "سُورَةُ الشَّرۡحِ",
+     "ar": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا",
+     "tr": "Inna ma'al 'usri yusra",
+     "syllables": 8,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "39:66",
+     "surah": "سُورَةُ الزُّمَرِ",
+     "ar": "بَلِ ٱللَّهَ فَٱعْبُدْ وَكُن مِّنَ ٱلشَّٰكِرِينَ",
+     "tr": "Balil laahha fa'bud wa kum minash shaakireen",
+     "syllables": 13,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "C",
+     "ref": "94:7",
+     "surah": "سُورَةُ الشَّرۡحِ",
+     "ar": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+     "tr": "Fa iza faragh ta fansab",
+     "syllables": 8,
+     "rhyme": "ب"
+    },
+    {
+     "scheme": "D",
+     "ref": "94:1",
+     "surah": "سُورَةُ الشَّرۡحِ",
+     "ar": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+     "tr": "Alam nashrah laka sadrak",
+     "syllables": 8,
+     "rhyme": "ك"
+    },
+    {
+     "scheme": "C",
+     "ref": "94:8",
+     "surah": "سُورَةُ الشَّرۡحِ",
+     "ar": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+     "tr": "Wa ilaa rabbika far ghab",
+     "syllables": 8,
+     "rhyme": "ب"
+    },
+    {
+     "scheme": "D",
+     "ref": "94:2",
+     "surah": "سُورَةُ الشَّرۡحِ",
+     "ar": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+     "tr": "Wa wa d'ana 'anka wizrak",
+     "syllables": 8,
+     "rhyme": "ك"
+    },
+    {
+     "scheme": "E",
+     "ref": "39:1",
+     "surah": "سُورَةُ الزُّمَرِ",
+     "ar": "تَنزِيلُ ٱلْكِتَٰبِ مِنَ ٱللَّهِ ٱلْعَزِيزِ ٱلْحَكِيمِ",
+     "tr": "Tanzeelul Kitaabi minal laahil 'Azeezil Hakeem",
+     "syllables": 15,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "F",
+     "ref": "12:1",
+     "surah": "سُورَةُ يُوسُفَ",
+     "ar": "الٓر ۚ تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْمُبِينِ",
+     "tr": "Alif-Laaam-Raa; tilka Aayaatul Kitaabil Mubeen",
+     "syllables": 14,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "E",
+     "ref": "12:95",
+     "surah": "سُورَةُ يُوسُفَ",
+     "ar": "قَالُوا۟ تَٱللَّهِ إِنَّكَ لَفِى ضَلَٰلِكَ ٱلْقَدِيمِ",
+     "tr": "Qaaloo tallaahi innaka lafee dalaalikal qadeem",
+     "syllables": 16,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "F",
+     "ref": "12:71",
+     "surah": "سُورَةُ يُوسُفَ",
+     "ar": "قَالُوا۟ وَأَقْبَلُوا۟ عَلَيْهِم مَّاذَا تَفْقِدُونَ",
+     "tr": "Qaaloo wa aqbaloo 'alaihim maazaa tafqidoon",
+     "syllables": 14,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "G",
+     "ref": "94:3",
+     "surah": "سُورَةُ الشَّرۡحِ",
+     "ar": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+     "tr": "Allazee anqada zahrak",
+     "syllables": 8,
+     "rhyme": "ك"
+    },
+    {
+     "scheme": "G",
+     "ref": "94:4",
+     "surah": "سُورَةُ الشَّرۡحِ",
+     "ar": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+     "tr": "Wa raf 'ana laka zikrak",
+     "syllables": 8,
+     "rhyme": "ك"
+    }
+   ]
+  },
+  {
+   "theme": "الطاغين وعاقبتهم",
+   "surahs": [
+    89,
+    105,
+    106,
+    91,
+    69
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "69:36",
+     "surah": "سُورَةُ الحَاقَّةِ",
+     "ar": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍۢ",
+     "tr": "Wa laa ta'aamun illaa min ghisleen",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "B",
+     "ref": "105:2",
+     "surah": "سُورَةُ الفِيلِ",
+     "ar": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ",
+     "tr": "Alam yaj'al kai dahum fee tad leel",
+     "syllables": 10,
+     "rhyme": "ī/ūل"
+    },
+    {
+     "scheme": "A",
+     "ref": "69:37",
+     "surah": "سُورَةُ الحَاقَّةِ",
+     "ar": "لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَٰطِـُٔونَ",
+     "tr": "Laa yaakuluhooo illal khati'oon",
+     "syllables": 10,
+     "rhyme": "ī/ūn"
+    },
+    {
+     "scheme": "B",
+     "ref": "105:5",
+     "surah": "سُورَةُ الفِيلِ",
+     "ar": "فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ",
+     "tr": "Faja 'alahum ka'asfim m'akool",
+     "syllables": 10,
+     "rhyme": "ī/ūل"
+    },
+    {
+     "scheme": "C",
+     "ref": "91:11",
+     "surah": "سُورَةُ الشَّمۡسِ",
+     "ar": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+     "tr": "Kazzabat Samoodu bi taghwaahaaa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "D",
+     "ref": "89:17",
+     "surah": "سُورَةُ الفَجۡرِ",
+     "ar": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+     "tr": "Kalla bal laa tukrimooo nal yateem",
+     "syllables": 10,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "C",
+     "ref": "89:20",
+     "surah": "سُورَةُ الفَجۡرِ",
+     "ar": "وَتُحِبُّونَ ٱلْمَالَ حُبًّۭا جَمًّۭا",
+     "tr": "Wa tuhibboonal maala hubban jammaa",
+     "syllables": 11,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "D",
+     "ref": "69:40",
+     "surah": "سُورَةُ الحَاقَّةِ",
+     "ar": "إِنَّهُۥ لَقَوْلُ رَسُولٍۢ كَرِيمٍۢ",
+     "tr": "Innahoo laqawlu Rasoolin kareem",
+     "syllables": 11,
+     "rhyme": "ī/ūm"
+    },
+    {
+     "scheme": "E",
+     "ref": "69:27",
+     "surah": "سُورَةُ الحَاقَّةِ",
+     "ar": "يَٰلَيْتَهَا كَانَتِ ٱلْقَاضِيَةَ",
+     "tr": "Yaa laitahaa kaanatil qaadiyah",
+     "syllables": 10,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "F",
+     "ref": "89:27",
+     "surah": "سُورَةُ الفَجۡرِ",
+     "ar": "يَٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
+     "tr": "Yaaa ayyatuhan nafsul mutma 'innah",
+     "syllables": 11,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "E",
+     "ref": "69:26",
+     "surah": "سُورَةُ الحَاقَّةِ",
+     "ar": "وَلَمْ أَدْرِ مَا حِسَابِيَهْ",
+     "tr": "Wa lam adri maa hisaabiyah",
+     "syllables": 9,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "F",
+     "ref": "69:3",
+     "surah": "سُورَةُ الحَاقَّةِ",
+     "ar": "وَمَآ أَدْرَىٰكَ مَا ٱلْحَآقَّةُ",
+     "tr": "Wa maaa adraaka mal haaaqqah",
+     "syllables": 8,
+     "rhyme": "ه"
+    },
+    {
+     "scheme": "G",
+     "ref": "89:8",
+     "surah": "سُورَةُ الفَجۡرِ",
+     "ar": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ",
+     "tr": "Allatee lam yukhlaq misluhaa fil bilaad",
+     "syllables": 12,
+     "rhyme": "āد"
+    },
+    {
+     "scheme": "G",
+     "ref": "89:12",
+     "surah": "سُورَةُ الفَجۡرِ",
+     "ar": "فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ",
+     "tr": "Fa aksaroo feehal fasaad",
+     "syllables": 8,
+     "rhyme": "āد"
+    }
+   ]
+  },
+  {
+   "theme": "الذكر والشكر",
+   "surahs": [
+    55,
+    87,
+    96,
+    62,
+    63
+   ],
+   "lines": [
+    {
+     "scheme": "A",
+     "ref": "87:5",
+     "surah": "سُورَةُ الأَعۡلَىٰ",
+     "ar": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
+     "tr": "Faja'alahoo ghusaaa'an ahwaa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "55:12",
+     "surah": "سُورَةُ الرَّحۡمَٰن",
+     "ar": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ",
+     "tr": "Walhabbu zul 'asfi war Raihaanu",
+     "syllables": 10,
+     "rhyme": "āن"
+    },
+    {
+     "scheme": "A",
+     "ref": "87:9",
+     "surah": "سُورَةُ الأَعۡلَىٰ",
+     "ar": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+     "tr": "Fazakkir in nafa'atizzikraa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "B",
+     "ref": "55:66",
+     "surah": "سُورَةُ الرَّحۡمَٰن",
+     "ar": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
+     "tr": "Feehimaa 'aynaani nad daakhataan",
+     "syllables": 10,
+     "rhyme": "āن"
+    },
+    {
+     "scheme": "C",
+     "ref": "55:10",
+     "surah": "سُورَةُ الرَّحۡمَٰن",
+     "ar": "وَٱلْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
+     "tr": "Wal arda wada'ahaa lilanaame",
+     "syllables": 11,
+     "rhyme": "āم"
+    },
+    {
+     "scheme": "D",
+     "ref": "87:1",
+     "surah": "سُورَةُ الأَعۡلَىٰ",
+     "ar": "سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+     "tr": "Sabbihisma Rabbikal A'laa",
+     "syllables": 9,
+     "rhyme": "ي"
+    },
+    {
+     "scheme": "C",
+     "ref": "55:72",
+     "surah": "سُورَةُ الرَّحۡمَٰن",
+     "ar": "حُورٌۭ مَّقْصُورَٰتٌۭ فِى ٱلْخِيَامِ",
+     "tr": "Hoorum maqsooraatun fil khiyaam",
+     "syllables": 9,
+     "rhyme": "āم"
+    },
+    {
+     "scheme": "D",
+     "ref": "87:11",
+     "surah": "سُورَةُ الأَعۡلَىٰ",
+     "ar": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
+     "tr": "Wa yatajannabuhal ashqaa",
+     "syllables": 9,
+     "rhyme": "ي"
+    },
+    {
+     "scheme": "E",
+     "ref": "96:16",
+     "surah": "سُورَةُ العَلَقِ",
+     "ar": "نَاصِيَةٍۢ كَٰذِبَةٍ خَاطِئَةٍۢ",
+     "tr": "Nasiyatin kazi batin khaatiyah",
+     "syllables": 11,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "F",
+     "ref": "55:15",
+     "surah": "سُورَةُ الرَّحۡمَٰن",
+     "ar": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍۢ مِّن نَّارٍۢ",
+     "tr": "Wa khalaqal jaaan mim maarijim min naar",
+     "syllables": 11,
+     "rhyme": "āر"
+    },
+    {
+     "scheme": "E",
+     "ref": "96:18",
+     "surah": "سُورَةُ العَلَقِ",
+     "ar": "سَنَدْعُ ٱلزَّبَانِيَةَ",
+     "tr": "Sanad 'uz zabaaniyah",
+     "syllables": 7,
+     "rhyme": "ī/ūه"
+    },
+    {
+     "scheme": "F",
+     "ref": "55:14",
+     "surah": "سُورَةُ الرَّحۡمَٰن",
+     "ar": "خَلَقَ ٱلْإِنسَٰنَ مِن صَلْصَٰلٍۢ كَٱلْفَخَّارِ",
+     "tr": "Khalaqal insaana min salsaalin kalfakhkhaari",
+     "syllables": 14,
+     "rhyme": "āر"
+    },
+    {
+     "scheme": "G",
+     "ref": "87:16",
+     "surah": "سُورَةُ الأَعۡلَىٰ",
+     "ar": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+     "tr": "Bal tu'siroonal hayaatad dunyaa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    },
+    {
+     "scheme": "G",
+     "ref": "87:17",
+     "surah": "سُورَةُ الأَعۡلَىٰ",
+     "ar": "وَٱلْءَاخِرَةُ خَيْرٌۭ وَأَبْقَىٰٓ",
+     "tr": "Wal Aakhiratu khairunw wa abqaa",
+     "syllables": 10,
+     "rhyme": "ā(alif)"
+    }
+   ]
+  }
+ ],
+ "example_classification": [
+  {
+   "refs": [
+    "105:1",
+    "105:2",
+    "1:7"
+   ],
+   "rhyme": [
+    "ī/ūل",
+    "ī/ūل",
+    "ī/ūn"
+   ],
+   "open": [
+    "الم تر",
+    "الم يجعل",
+    "صراط الذين"
+   ],
+   "type": "near-rhyme (same long-vowel family)"
+  },
+  {
+   "refs": [
+    "75:1",
+    "90:1"
+   ],
+   "rhyme": [
+    "ه",
+    "د"
+   ],
+   "open": [
+    "لا اقسم",
+    "لا اقسم"
+   ],
+   "type": "opening-match"
+  },
+  {
+   "refs": [
+    "73:1",
+    "74:1"
+   ],
+   "rhyme": [
+    "ل",
+    "ر"
+   ],
+   "open": [
+    "ياايها المزمل",
+    "ياايها المدثر"
+   ],
+   "type": "opening-match"
+  },
+  {
+   "refs": [
+    "2:3",
+    "2:4",
+    "2:6"
+   ],
+   "rhyme": [
+    "ī/ūn",
+    "ī/ūn",
+    "ī/ūn"
+   ],
+   "open": [
+    "الذين يومنون",
+    "والذين يومنون",
+    "ان الذين"
+   ],
+   "type": "ending-rhyme"
+  },
+  {
+   "refs": [
+    "107:5",
+    "107:6",
+    "114:5"
+   ],
+   "rhyme": [
+    "ī/ūn",
+    "ī/ūn",
+    "āس"
+   ],
+   "open": [
+    "الذين هم",
+    "الذين هم",
+    "الذي يوسوس"
+   ],
+   "type": "mixed: partial rhyme pairs + bridge ayah"
+  },
+  {
+   "refs": [
+    "85:1",
+    "86:1",
+    "84:1"
+   ],
+   "rhyme": [
+    "ī/ūج",
+    "ق",
+    "ت"
+   ],
+   "open": [
+    "والسماء ذات",
+    "والسماء والطارق",
+    "اذا السماء"
+   ],
+   "type": "mixed: partial rhyme pairs + bridge ayah"
+  }
+ ]
+}
